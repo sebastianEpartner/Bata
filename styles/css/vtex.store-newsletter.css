@@ -1,0 +1,31 @@
+.newsletterForm{
+    width: 536px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.emailInputContainer{
+    width: 100%;
+    border: 1px solid white;
+}
+.emailInputContainer :global(.vtex-input-prefix__group ){
+    border: 0;
+    border-radius: 0;
+}
+.emailInputContainer :global(.vtex-styleguide-9-x-input){
+    border-radius: 0;
+    background: transparent;
+}
+@media (max-width: 600px) {
+    .newsletterForm{
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+    .formSubmitContainer{
+        margin-top: 10px;
+    }
+    .formSubmitContainer :global(.vtex-button){
+        width: 100%;
+    }
+}

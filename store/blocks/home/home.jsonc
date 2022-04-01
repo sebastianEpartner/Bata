@@ -1,0 +1,124 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#demo",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "flex-layout.row#sliderCategorias",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "flex-layout.row#mosaico",
+      "info-card#home",
+      "rich-text#titulo-tabbers",
+      "tab-layout#tabsCatego",
+      "flex-layout.row#tresBanners",
+      "rich-text#NUESTRAS-MARCAS",
+      "flex-layout.row#marcasHome",
+      "rich-text#shelf-title-vitrina2",
+      "list-context.product-list#vitrina2"
+    ]
+  },
+
+  // primer sllider en el home ---------------------
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+  // primer vitrina -----------------------------------
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Promociones del mes",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  // info de producto --------------------------------------
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://batanew.vteximg.com.br/arquivos/infocard.png",
+      "subhead":"Conoce lo nuevo que Bata trae para ti en este mes.",
+      "mobileImageUrl":"https://batanew.vteximg.com.br/arquivos/infocard-mobile.png",
+      "headline": "PUMA RS-2K",
+      "callToActionText": "AGREGAR PRODUCTO",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+  // vitrina numero 2
+  "rich-text#shelf-title-vitrina2": {
+    "props": {
+      "text": "## Titulo de seccion de vitrinas importante",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "list-context.product-list#vitrina2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products-vitrina2"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products-vitrina2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  }
+
+}

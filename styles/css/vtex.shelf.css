@@ -1,0 +1,12 @@
+.title {
+    display: none;
+}
+.container {
+    padding: 0;
+}
+:global(.vtex-flex-layout-0-x-flexRow--productCartButton){
+    display: none;
+}
+:global(.vtex-slider-0-x-dotsContainer ){
+    display: none;
+}

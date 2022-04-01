@@ -1,0 +1,629 @@
+{
+    "vtex.menu@2.x:submenu#category-mujer": {
+        "props": {
+            "blockClass":"menu-submenu",
+            "width": "100%"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#category-mujer"
+        ]
+    },
+    "vtex.menu@2.x:menu#category-mujer": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "flex-layout.row#rowCategory-mujer"
+        ]
+    },
+    // fila menu mujer 
+    "flex-layout.row#rowCategory-mujer": {
+        "props":{
+            "blockClass":"row-principal"
+        },
+        "children": [
+            "flex-layout.col#columna-1-mujer",
+            "flex-layout.col#columna-2-mujer",
+            "flex-layout.col#columna-3-mujer",
+            "flex-layout.col#columna-4-mujer",
+            "flex-layout.col#columna-5-mujer",
+            "flex-layout.col#columna-6-mujer"
+        ]
+    },
+    // Columna 1
+    "flex-layout.col#columna-1-mujer": {
+        "props": {
+            "width":"20%",
+            "blockClass":["columna-category","columna-1"]
+        },
+        "children":[
+            "menu-item#category-mujer-Destacados",
+            "menu-item#category-mujer-lanzamientoss",
+            "menu-item#category-mujer-vendidos",
+            "menu-item#category-mujer-precios",
+            "menu-item#category-mujer-tarjetas"
+        ]
+    },
+    // items Columna 1 mujer
+    "menu-item#category-mujer-Destacados": {
+        "props": {
+            "id": "menu-item-category-mujer-Destacados",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"Titulos-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Destacados",
+            "text": "Destacados"
+            }
+        }
+    },
+    "menu-item#category-mujer-lanzamientoss": {
+        "props": {
+            "id": "menu-item-category-mujer-lanzamientos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "¡últimos lanzamientos!",
+            "text": "¡últimos lanzamientos!"
+            }
+        }
+    },
+    "menu-item#category-mujer-vendidos": {
+        "props": {
+            "id": "menu-item-category-mujer-vendidos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/accessories/",
+            "noFollow": false,
+            "tagTitle": "¡Los más vendidos!",
+            "text": "¡Los más vendidos!"
+            }
+        }
+    },
+    "menu-item#category-mujer-precios": {
+        "props": {
+            "id": "menu-item-category-mujer-precio",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Precios irresistibles",
+            "text": "Precios irresistibles"
+            }
+        }
+    },
+    "menu-item#category-mujer-tarjetas": {
+        "props": {
+            "id": "menu-item-category-mujer-precio",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items-destacado",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Tarjetas de regalos",
+            "text": "Tarjetas de regalos"
+            }
+        }
+    },
+    // Columna 2 ****************----------------------------------------
+    "flex-layout.col#columna-2-mujer": {
+        "props": {
+            "width":"16%",
+            "blockClass":["columna-category","columna-2"]
+        },
+        "children":[
+            "menu-item#category-mujer-zapatos",
+            "menu-item#category-mujer-tenis",
+            "menu-item#category-mujer-botas",
+            "menu-item#category-mujer-botines",
+            "menu-item#category-mujer-baletas",
+            "menu-item#category-mujer-tenis-depo",
+            "menu-item#category-mujer-sandalias",
+            "menu-item#category-mujer-chanclas",
+            "menu-item#category-mujer-mocasines"
+        ]
+    },
+    // items Columna 2 mujer
+    "menu-item#category-mujer-zapatos": {
+        "props": {
+            "id": "menu-item-category-mujer-zapatos",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"Titulos-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Zapatos",
+            "text": "Zapatos"
+            }
+        }
+    },
+    "menu-item#category-mujer-tenis": {
+        "props": {
+            "id": "menu-item-category-mujer-tenis",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Tenis moda",
+            "text": "Tenis moda"
+            }
+        }
+    },
+    "menu-item#category-mujer-botas": {
+        "props": {
+            "id": "menu-item-category-mujer-botas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/accessories/",
+            "noFollow": false,
+            "tagTitle": "Botas",
+            "text": "Botas"
+            }
+        }
+    },
+    "menu-item#category-mujer-botines": {
+        "props": {
+            "id": "menu-item-category-mujer-botines",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Botines",
+            "text": "Botines"
+            }
+        }
+    },
+    "menu-item#category-mujer-baletas": {
+        "props": {
+            "id": "menu-item-category-mujer-baletas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Baletas",
+            "text": "Baletas"
+            }
+        }
+    },
+    "menu-item#category-mujer-tenis-depo": {
+        "props": {
+            "id": "menu-item-category-mujer-tenis-depo",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Tenis deportivos",
+            "text": "Tenis deportivos"
+            }
+        }
+    },
+    "menu-item#category-mujer-sandalias": {
+        "props": {
+            "id": "menu-item-category-mujer-sandallias",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Sandalias",
+            "text": "Sandalias"
+            }
+        }
+    },
+    "menu-item#category-mujer-chanclas": {
+        "props": {
+            "id": "menu-item-category-mujer-chanclas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Chanclas",
+            "text": "Chanclas"
+            }
+        }
+    },
+    "menu-item#category-mujer-mocasines": {
+        "props": {
+            "id": "menu-item-category-mujer-mocasines",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Mocasines",
+            "text": "Mocasines"
+            }
+        }
+    },
+    // Columna 3 ****************----------------------------------------
+    "flex-layout.col#columna-3-mujer": {
+        "props": {
+            "width":"16%",
+            "blockClass":["columna-category","columna-3"]
+        },
+        "children":[
+            "menu-item#category-mujer-acce",
+            "menu-item#category-mujer-billeteras",
+            "menu-item#category-mujer-bolsos",
+            "menu-item#category-mujer-cintu",
+            "menu-item#category-mujer-medias",
+            "menu-item#category-mujer-morrales",
+            "menu-item#category-mujer-protectives"
+        ]
+    },
+    // items Columna 3 mujer
+    "menu-item#category-mujer-acce": {
+        "props": {
+            "id": "menu-item-category-mujer-acce",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"Titulos-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Accesorios",
+            "text": "Accesorios"
+            }
+        }
+    },
+    "menu-item#category-mujer-billeteras": {
+        "props": {
+            "id": "menu-item-category-mujer-billeteras",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Billeteras",
+            "text": "Billeteras"
+            }
+        }
+    },
+    "menu-item#category-mujer-bolsos": {
+        "props": {
+            "id": "menu-item-category-mujer-bolsos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/accessories/",
+            "noFollow": false,
+            "tagTitle": "Bolsos",
+            "text": "Bolsos"
+            }
+        }
+    },
+    "menu-item#category-mujer-cintu": {
+        "props": {
+            "id": "menu-item-category-mujer-cintu",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Cinturones",
+            "text": "Cinturones"
+            }
+        }
+    },
+    "menu-item#category-mujer-medias": {
+        "props": {
+            "id": "menu-item-category-mujer-medias",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Medias",
+            "text": "Medias"
+            }
+        }
+    },
+    "menu-item#category-mujer-morrales": {
+        "props": {
+            "id": "menu-item-category-mujer-morrale",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Morrales",
+            "text": "Morrales"
+            }
+        }
+    },
+    "menu-item#category-mujer-protectives": {
+        "props": {
+            "id": "menu-item-category-mujer-protectives",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Protectives",
+            "text": "Protectives"
+            }
+        }
+    },
+    // Columna 4 ****************----------------------------------------
+    "flex-layout.col#columna-4-mujer": {
+        "props": {
+            "width":"16%",
+            "blockClass":["columna-category","columna-4"]
+        },
+        "children":[
+            "menu-item#category-mujer-marcas",
+            "menu-item#category-mujer-bata-aquarella",
+            "menu-item#category-mujer-bata",
+            "menu-item#category-mujer-vbata-comfit",
+            "menu-item#category-mujer-bata-red",
+            "menu-item#category-mujer-Power",
+            "menu-item#category-mujer-xti",
+            "menu-item#category-mujer-sandak"
+        ]
+    },
+    // items Columna 3 mujer
+    "menu-item#category-mujer-marcas": {
+        "props": {
+            "id": "menu-item-category-mujer-marcas",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"Titulos-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Marcas",
+            "text": "Marcas"
+            }
+        }
+    },
+    "menu-item#category-mujer-bata-aquarella": {
+        "props": {
+            "id": "menu-item-category-mujer-aquarella",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/accessories/",
+            "noFollow": false,
+            "tagTitle": "Aquarella",
+            "text": "Aquarella"
+            }
+        }
+    },
+    "menu-item#category-mujer-bata": {
+        "props": {
+            "id": "menu-item-category-mujer-bata",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Bata",
+            "text": "Bata"
+            }
+        }
+    },
+    "menu-item#category-mujer-vbata-comfit": {
+        "props": {
+            "id": "menu-item-category-mujer-vbata-comfit",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Bata comfit",
+            "text": "Bata comfit"
+            }
+        }
+    },
+    "menu-item#category-mujer-bata-red": {
+        "props": {
+            "id": "menu-item-category-mujer-bata",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Bata red label",
+            "text": "Bata red label"
+            }
+        }
+    },
+    "menu-item#category-mujer-wein": {
+        "props": {
+            "id": "menu-item-category-mujer-wein",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Weinbrenner",
+            "text": "Weinbrenner"
+            }
+        }
+    },
+    "menu-item#category-mujer-xti": {
+        "props": {
+            "id": "menu-item-category-mujer-xti",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "XTI",
+            "text": "XTI"
+            }
+        }
+    },
+    "menu-item#category-mujer-Power": {
+        "props": {
+            "id": "menu-item-category-mujer-power",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Power",
+            "text": "Power"
+            }
+        }
+    },
+    "menu-item#category-mujer-sandak": {
+        "props": {
+            "id": "menu-item-category-mujer-verlon",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Sandak",
+            "text": "Sandak"
+            }
+        }
+    },
+    "menu-item#category-mujer-ns": {
+        "props": {
+            "id": "menu-item-category-mujer-ns",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/mujer---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "North Start",
+            "text": "North Start"
+            }
+        }
+    },
+    // Imagenes menu mujer
+    "flex-layout.col#columna-5-mujer": {
+        "props": {
+            "width":"14%",
+            "blockClass":["columna-category","columna-5"]
+        },
+        "children":[
+            "image#imagen-menu-mujer-1"
+        ]
+    },
+    "image#imagen-menu-mujer-1": {
+        "props": {
+            "blockClass":"imagen-Menu-1",
+            "src": "https://bataco.vteximg.com.br/arquivos/250x250mujer-1709.jpg"
+        }
+    },
+    "flex-layout.col#columna-6-mujer": {
+        "props": {
+            "width":"14%",
+            "blockClass":["columna-category","columna-6"]
+        },
+        "children":[
+            "image#imagen-menu-mujer-2"
+        ]
+    },
+    "image#imagen-menu-mujer-2": {
+        "props": {
+            "blockClass":"imagen-Menu-1",
+            "src": "https://bataco.vteximg.com.br/arquivos/250x250mujer-1709.jpg"
+        }
+    }
+}

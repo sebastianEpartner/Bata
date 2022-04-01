@@ -1,0 +1,28 @@
+.openIconContainer{
+    padding: 0;
+}
+.cartIcon{
+    display: none;
+}
+.minicartIconContainer::before {
+    content: "";
+    background: url(https://batanew.vtexassets.com/arquivos/carritonew.png) no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+.minicartWrapperContainer {
+    justify-content: center;
+}
+.minicartQuantityBadgeDefault {
+    top: -7px;
+    right: 2px;
+    font-size: 7px;
+    height: 7px;
+    background: #2A2A2A;
+    width: 7px;
+}
+.minicartProductListContainer--rowProduct {
+    min-height: 227px !important;
+}

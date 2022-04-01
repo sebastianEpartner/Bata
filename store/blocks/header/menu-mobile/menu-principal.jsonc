@@ -1,0 +1,246 @@
+{
+    // menu principal ITEMS
+    // menu hombre
+    "disclosure-layout#hombre": {
+        "children": ["disclosure-trigger#hombre","disclosure-content#hombre"],
+        "props": {
+        "blockClass": "subMneusM"
+        }
+    },
+    "disclosure-trigger#hombre": {
+        "children": ["menu-item#category-pricipal-hombre-m"],
+        "props": {
+            "blockClass": "subMneusMTrigger"
+        }
+    },
+    "disclosure-content#hombre": {
+        "children": ["disclosure-trigger#hombre","flex-layout.row#hombre"],
+        "props": {
+        "blockClass": "subMneusMContent"
+        }
+    },
+    // tirgger sub menu
+    "menu-item#category-pricipal-hombre-m": {
+        "props": {
+            "id": "menu-item-category--pricipal-hombre",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-principal"],
+            "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Hombre",
+            "text": "Hombre"
+            }
+        }
+    } ,
+    // menu mujer
+    "disclosure-layout#mujer": {
+        "children": ["disclosure-trigger#mujer","disclosure-content#mujer"],
+        "props": {
+          "blockClass": "subMneusM"
+        }
+    },
+    "disclosure-trigger#mujer": {
+        "children": ["menu-item#category-pricipal-mujer-m"],
+        "props": {
+          "blockClass": "subMneusMTrigger"
+        }
+    },
+    "disclosure-content#mujer": {
+        "children": ["disclosure-trigger#mujer","flex-layout.row#mujer"],
+        "props": {
+          "blockClass": "subMneusMContent"
+        }
+    },
+    // tirgger sub menu
+    "menu-item#category-pricipal-mujer-m": {
+        "props": {
+            "id": "menu-item-category--pricipal-mujer",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-principal"],
+            "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Mujer",
+            "text": "Mujer"
+            }
+        }
+    } ,
+    // menu niños ***************-----------
+    "disclosure-layout#ninos": {
+        "children": ["disclosure-trigger#ninos","disclosure-content#ninos"],
+        "props": {
+            "blockClass": "subMneusM"
+        }
+    },
+    "disclosure-trigger#ninos": {
+        "children": ["menu-item#category-pricipal-ninos-m"],
+        "props": {
+            "blockClass": "subMneusMTrigger"
+        }
+    },
+    "disclosure-content#ninos": {
+        "children": ["disclosure-trigger#ninos","flex-layout.row#ninos"],
+        "props": {
+            "blockClass": "subMneusMContent"
+        }
+    },
+    // tirgger sub menu
+    "menu-item#category-pricipal-ninos-m": {
+        "props": {
+            "id": "menu-item-category--ninos-mujer",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-principal"],
+            "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Niños",
+            "text": "Niños"
+            }
+        }
+    } ,
+    // menu marcas ***************-----------
+    "disclosure-layout#marcas": {
+        "children": ["disclosure-trigger#marcas","disclosure-content#marcas"],
+        "props": {
+            "blockClass": "subMneusM"
+        }
+    },
+    "disclosure-trigger#marcas": {
+        "children": ["menu-item#category-pricipal-marcas-m"],
+        "props": {
+            "blockClass": "subMneusMTrigger"
+        }
+    },
+    "disclosure-content#marcas": {
+        "children": ["disclosure-trigger#marcas","flex-layout.row#marcas"],
+        "props": {
+            "blockClass": "subMneusMContent"
+        }
+    },
+    // tirgger sub menu
+    "menu-item#category-pricipal-marcas-m": {
+        "props": {
+            "id": "menu-item-category--marcas-mujer",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-principal"],
+            "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Marcas",
+            "text": "Marcas"
+            }
+        }
+    } ,
+    // Links en el menu -------------*********************
+    "menu-item#category-pricipal-ofertas": {
+        "props": {
+            "id": "menu-item-category--pricipal-ofertas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-destcados","ofertas"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Oferta",
+            "text": "ofertas"
+            }
+        }
+    } ,
+    "menu-item#category-pricipal-cuenta": {
+        "props": {
+            "id": "menu-item-category--pricipal-cuenta",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-destcados","cuenta"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Mi cuenta",
+            "text": "Mi cuenta"
+            }
+        }
+    } ,
+    "menu-item#category-pricipal-tiendas": {
+        "props": {
+            "id": "menu-item-category--pricipal-tiendas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-destcados",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Buscar Tiendas",
+            "text": "Buscar Tiendas"
+            }
+        }
+    },
+    "menu-item#category-pricipal-pedidos": {
+        "props": {
+            "id": "menu-item-category--pricipal-pedidos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-destcados",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Seguimiento de pedidos",
+            "text": "Seguimiento de pedidos"
+            }
+        }
+    },
+    // slider en el menu
+    "list-context.image-list#menuSlider": {
+        "children": ["slider-layout#menuSlider"],
+        "props": {
+          "height": 320,
+          "images": [
+            {
+              "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+              "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+            },
+            {
+              "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+              "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+            },
+            {
+              "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+              "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+            },
+            {
+              "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+              "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+            }
+          ]
+        }
+      },
+      "slider-layout#menuSlider": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 2,
+            "tablet": 2,
+            "phone": 2
+          },
+          "infinite": true,
+          "showNavigationArrows": "always",
+          "blockClass": "carousel"
+        }
+      }
+
+}

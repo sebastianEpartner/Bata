@@ -1,0 +1,164 @@
+.skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
+  border-radius: 50%;
+}
+
+.container :global(.vtex-modal-layout-0-x-triggerContainer) {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+
+.container:hover :global(.vtex-modal-layout-0-x-triggerContainer) {
+  opacity: 1;
+}
+
+@media screen and (max-width: 40em) {
+  .container :global(.vtex-modal-layout-0-x-triggerContainer) {
+    display: none;
+  }
+}
+
+.nameContainer {
+  justify-content: flex-start;
+  padding-top: 0;
+  padding-bottom: 0 !important;
+  height: 63px!important;
+}
+
+.brandName {
+  font-weight: 300;
+  font-size: 13px;
+  color: #2E2E2E;
+}
+
+.container {
+  text-align: start;
+}
+
+.imageContainer {
+  text-align: center;
+}
+
+.image {
+  border-radius: 0.25rem;
+}
+.image {
+  border-radius: 5px 5px 0 0;
+  border-bottom: 1px solid #eeee;
+  height: 100% !important;
+}
+.SKUSelectorContainer {
+  position: absolute;
+  bottom: 33%;
+  width: 100%;
+}
+.productBrandContainer{
+  text-align: left;
+  color: #808080;
+  font-size: 10px;
+  margin-bottom: 9px;
+}
+.productNameContainer {
+  text-align: left;
+}
+:global(.vtex-store-components-3-x-skuSelectorOptionsList ){
+  justify-content: center;
+}
+:global(.vtex-store-components-3-x-skuSelectorTextContainer){
+  text-align: center;
+}
+.element {
+  position: relative;
+}
+.valueWrapper:global(.vtex-store-components-3-x-skuSelectorItemTextValue){
+  font-size: 12px;
+  padding: 11px;
+}
+.skuSelectorItem :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+  border-radius: 0;
+}
+.skuSelectorItem--selected :global(.vtex-store-components-3-x-skuSelectorInternalBox){
+  background: red;
+  color: white;
+}
+.skuSelectorItem--selected :global(.vtex-store-components-3-x-valueWrapper ){
+  color: white;
+}
+.frameAround{
+  border: 0;
+}
+.element  :global(.vtex-button){
+  background: white;
+  border: 2px solid #2A2A2A;
+  transition: 400ms all;
+}
+.element  :global(.vtex-button):hover{
+  background: #2A2A2A;
+  border: 0;
+
+}
+.element  :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonText){
+  color: white;
+}
+:global(.vtex-flex-layout-0-x-flexRow--productCartButton){
+  opacity: 0;
+  visibility: hidden;
+}
+.element:hover :global(.vtex-flex-layout-0-x-flexRow--productCartButton){
+  opacity: 1;
+  visibility: visible;
+}
+.containerNormal {
+  max-width: 100% !important;
+}
+.imageStackContainer {
+  width: 100%;
+  background: white;
+}
+.skuSelectorContainer {
+  top: 46%;
+  z-index: 99999;
+  transition: 400ms all;
+  opacity: 0;
+  visibility: hidden;
+}
+.element:hover .skuSelectorContainer{
+  opacity: 1;
+  visibility: visible;
+}
+@media (max-width: 600px) {
+  .nameContainer {
+    overflow: hidden;
+    height: 60px!important;
+  }
+  .SKUSelectorContainer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  .skuSelectorContainer {
+    top: 46%;
+    z-index: 99999;
+    transition: 400ms all;
+    opacity: 1;
+    visibility: visible;
+  }
+  .image {
+    max-height: 194px !important;
+    max-width: 163px !important;
+  }
+  .productBrand {
+    font-size: 14px;
+    font-weight: 200;
+  }
+  .skuSelectorContainer {
+    height: 74px;
+    overflow: hidden;
+  }
+  .productBrandContainer{
+    background: white;
+  }
+  .productBrandName{
+    color: #808080;
+    font-size: 12px;
+  }
+}

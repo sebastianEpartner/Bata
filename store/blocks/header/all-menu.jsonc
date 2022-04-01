@@ -1,0 +1,125 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "blockClass":"MenuDesk",
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#NUEVO",
+      "menu-item#category-mujer",
+      "menu-item#hombre",
+      "menu-item#ninos",
+      "menu-item#marcas",
+      "menu-item#ofertas"
+    ]
+  },
+  "menu-item#NUEVO": {
+    "props": {
+      "id": "menu-item-NUEVO",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "NUEVO",
+        "text": "NUEVO"
+      }
+    }
+  },
+  // Segundo item menu principal
+  "menu-item#category-mujer": {
+    "props": {
+      "id": "menu-item-category-mujer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Mujer",
+        "text": "Mujer"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-mujer"
+    ]
+  },
+  // Tercer item menu principal
+  "menu-item#hombre": {
+    "props": {
+      "id": "menu-item-custom-hombre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"item-pricipal",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "hombre",
+        "text": "hombre"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-hombre"
+    ]
+  },
+  // Cuarte menu item principal
+  "menu-item#ninos": {
+    "props": {
+      "id": "menu-item-custom-nino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"item-pricipal",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Niños",
+        "text": "Niños"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-ninos"
+    ]
+  },
+  "menu-item#marcas": {
+    "props": {
+      "id": "menu-item-custom-nino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"item-pricipal",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Marcas",
+        "text": "Marcas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-marcas"
+    ]
+  },
+  "menu-item#ofertas": {
+    "props": {
+      "id": "menu-item-custom-nino",
+      "type": "custom",
+      "iconId": null,
+      "blockClass":["Ofertas","item-pricipal"],
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Ofertas",
+        "text": "Ofertas"
+      }
+    }
+  }
+}

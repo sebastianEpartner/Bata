@@ -1,0 +1,239 @@
+.flexRowContent--menu-link,
+.flexRowContent--main-header {
+  padding: 0 0.5rem;
+}
+
+@media screen and (min-width: 40em) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 1rem;
+  }
+}
+@media screen and (min-width: 80rem) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 0.25rem;
+  }
+}
+
+.flexRowContent--menu-link {
+  background-color: #03044e;
+  color: #fff;
+}
+.flexColChild--column1Footer {
+  height: 56px !important;
+}
+
+.flexRowContent--main-header {
+  background-color: white;
+  padding: 0 20px;
+}
+
+.flexRowContent--main-header-mobile {
+  align-items: center;
+  padding: 0.625rem 0.5rem;
+  background-color: white;
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+  color: #727273;
+  font-size: 14px;
+}
+.flexRow--deals {
+  background-color: #a7afbd;
+  padding: 14px 0px;
+}
+
+.flexRow--deals .stretchChildrenWidth {
+  align-items: center;
+}
+
+.flexRow--deals .flexCol {
+  align-items: center;
+}
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexRow--quickviewMainRow {
+  display: flex;
+  max-height: 100%;
+}
+
+.flexColChild--quickviewDetails:first-child {
+  overflow-y: auto;
+  height: 66% !important;
+  overflow-x: hidden;
+}
+
+.flexColChild--quickviewDetails:last-child {
+  height: 34% !important;
+}
+
+.flexRow--addToCartRow {
+  padding-bottom: 1rem;
+}
+/* estilos slider de categorias */
+.flexRowContent--sliderRowCategorias .stretchChildrenWidth:first-child{
+  width: 100% !important;
+}
+.flexRowContent--sliderRowCategorias .stretchChildrenWidth:last-child{
+  position: absolute;
+  height: 100%;
+  background:#E60000;
+  right: 20px;
+  width: 25% !important;
+}
+.flexRowContent--sliderRowCategorias {
+  position: relative;
+  margin: 30px 0;
+  padding: 0 20px;
+}
+.flexRowContent--mosaicoHome {
+  margin: 40px 0 ;
+  padding: 0 20px;
+}
+/* baner tres imagenes */
+.flexRowContent--bannnersTres {
+  padding: 0 20px;
+  margin: 40px 0;
+}
+.flexRowContent--bannnersTres .stretchChildrenWidth{
+  margin: 30px 10px;
+}
+:global(.vtex-store-components-3-x-imageElement--banner-item-tres){
+  width: 100%;
+}
+/* Width de todos los elementos en el header main */
+/* .flexRowContent--main-header .stretchChildrenWidth:first-child{
+  width: 15% !important;
+}
+.flexRowContent--main-header .stretchChildrenWidth:nth-child(2n){
+  width: 50% !important;
+}
+.flexRowContent--main-header .stretchChildrenWidth:nth-child(3n){
+  width: 15% !important;
+}
+.flexRowContent--main-header .stretchChildrenWidth:nth-child(4n){
+  width: 2% !important;
+}
+.flexRowContent--main-header .stretchChildrenWidth:nth-child(5n){
+  width: 2% !important;
+}
+.flexRowContent--main-header .stretchChildrenWidth:nth-child(6n){
+  width: 2% !important;
+}
+.flexRowContent--main-header .stretchChildrenWidth:nth-child(7n){
+  width: 2% !important;
+} */
+.flexRow--row-principal .flexRowContent--row-principal .stretchChildrenWidth{
+  width: auto !important;
+}
+.flexColChild--filtroContent:first-child {
+  height: 78px !important;
+}
+.flexRowContent--newsletter {
+  padding: 40px 30px;
+}
+.flexRow--newsletter{
+  background: #2A2A2A;
+}
+.flexRowContent--menu-row {
+  padding: 30px 20px;
+}
+.flexRowContent--menu-row .stretchChildrenWidth:first-child{
+  margin-right: 45px;
+}
+.flexRowContent--menu-row .stretchChildrenWidth{
+  margin-right: 0px;
+}
+.flexRowContent--rowTittle .stretchChildrenWidth:first-child{
+  justify-content: flex-start;
+}
+.flexRowContent--rowTittle {
+  height: 37px;
+}
+/* estilos hover para el texto sobre imagen
+  slider categorias
+*/
+.flexCol--imagenesCategorias  {
+  position: relative;
+  margin: 8px;
+}
+.flexColChild--imagenesCategorias:last-child{
+  position: absolute;
+  width: 100%;
+  top: 32%;
+  height: 50px !important;
+  transition: 400ms all;
+  opacity: 0;
+}
+.flexCol--imagenesCategorias:hover .flexColChild--imagenesCategorias:last-child{
+  opacity: 1;
+}
+.flexCol--productinfo  {
+  padding: 5px 20px 8px 20px;
+}
+.flexRow--productInfo{
+  background: white;
+}
+.flexRow--productCartButton{
+  background: white;
+  padding: 3px 20px;
+}
+/* marcas mosaico */
+.flexRow--marcas-home{
+  padding: 0 20px;
+  margin-bottom: 40px;
+  background: white;
+}
+.flexRowContent--pre-header {
+  justify-content: center;
+}
+.flexRowContent--pre-header .stretchChildrenWidth{
+  width: auto !important;
+  margin: 0 20px;
+}
+.flexRowContent--cantidad-precio .flexCol  {
+  margin: 0;
+}
+/* estilos mobile */
+@media (max-width: 600px) {
+  .flexRowContent--sliderRowCategorias {
+    padding: 0;
+  }
+  .flexRowContent--sliderRowCategorias .stretchChildrenWidth:last-child {
+    display: none;
+  }
+  .flexCol--productinfo {
+    padding: 0 5px;
+  }
+  .flexRow--productCartButton {
+    opacity: 1 !important;
+    visibility: visible !important;
+    padding: 0;
+  }
+}

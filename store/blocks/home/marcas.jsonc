@@ -1,0 +1,138 @@
+{
+    "rich-text#NUESTRAS-MARCAS": {
+        "props": {
+          "text": "## NUESTRAS MARCAS",
+          "blockClass": "marcas-tittle"
+        }
+    },
+    "flex-layout.row#marcasHome": {
+        "props": {
+            "blockClass": "marcas-home"
+        },
+        "children": [
+            "flex-layout.col#marcasHomeColumn"
+        ]
+    },
+    "flex-layout.col#marcasHomeColumn":{
+        "props":{
+            "blockClass":[
+                "columnas-Marcas"
+            ]
+        },
+        "children":[
+            "list-context.image-list#marcas-0",
+            "list-context.image-list#marcas-1"
+        ]
+    },
+    "list-context.image-list#marcas-0": {
+        "children": ["slider-layout#marcas-images-2"],
+        "props": {
+            "images": [
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/bata.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/bata.png",
+                    "link":{
+                        "url":"/"
+                    }
+                },
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/bataComfit.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/bataComfit.png",
+                    "link":{
+                        "url":"/"
+                    }
+                },
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/verlonIO.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/verlonIO.png",
+                    "link":{
+                        "url":"/"
+                    }
+                },
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/diney.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/diney.png",
+                    "link":{
+                        "url":"/"
+                    }
+                },
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/weinnbrenner.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/weinnbrenner.png",
+                    "link":{
+                        "url":"/"
+                    }
+                }
+            ]
+        }
+    },
+    "list-context.image-list#marcas-1": {
+        "children": ["slider-layout#marcas-images-2"],
+        "props": {
+            "images": [
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/powerIO.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/powerIO.png",
+                    "link":{
+                        "url":"/"
+                    }
+                },
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/ns.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/ns.png",
+                    "link":{
+                        "url":"/"
+                    }
+                },
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/sandakIO.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/sandakIO.png",
+                    "link":{
+                        "url":"/"
+                    }
+                },
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/marvel.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/marvel.png",
+                    "link":{
+                        "url":"/"
+                    }
+                },
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/puma.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/puma.png",
+                    "link":{
+                        "url":"/"
+                    }
+                },
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/Marca5.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/Marca45.png",
+                    "link":{
+                        "url":"/"
+                    }
+                },
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/bata-industrials.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/bata-industrials.png",
+                    "link":{
+                        "url":"/"
+                    }
+                }
+            ]
+        }
+    },
+    "slider-layout#marcas-images-2": {
+        "props": {
+            "itemsPerPage": {
+            "desktop": 5,
+            "tablet": 5,
+            "phone": 4
+            },
+            "infinite": true,
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "blockClass": "marcas"
+        }
+    }
+}

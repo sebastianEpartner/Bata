@@ -1,0 +1,40 @@
+{
+    // contenedor de los tres banners
+    "flex-layout.row#tresBanners": {
+        "props": {
+            "blockClass": "bannnersTres"
+        },
+        "children": [
+            "image#banner-1",
+            "image#banner-2",
+            "image#banner-3"
+        ]
+    },
+    "image#banner-1": {
+        "props": {
+            "blockClass":["banner-item-tres"],
+            "src": "https://batanew.vteximg.com.br/arquivos/banner1.png",
+            "link":{
+                "url":"/"
+            }
+        }
+    },
+    "image#banner-2": {
+        "props": {
+            "blockClass":["banner-item-tres"],
+            "src": "https://batanew.vteximg.com.br/arquivos/banner2.png",
+            "link":{
+                "url":"/"
+            }
+        }
+    },
+    "image#banner-3": {
+        "props": {
+            "blockClass":["banner-item-tres"],
+            "src": "https://batanew.vteximg.com.br/arquivos/banner3.png",
+            "link":{
+                "url":"/"
+            }
+        }
+    }  
+}

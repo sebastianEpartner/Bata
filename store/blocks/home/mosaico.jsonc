@@ -1,0 +1,97 @@
+{
+    "flex-layout.row#mosaico": {
+        "props": {
+            "blockClass": "mosaicoHome"
+        },
+        "children": [
+            "flex-layout.col#mosaicoizquierdo",
+            "flex-layout.col#mosaicoDerecho"
+        ]
+    },
+    // columan izquierda 
+    "flex-layout.col#mosaicoizquierdo":{
+        "props":{
+            "width":"30%",
+            "blockClass":["columnaMosaico","bannerIzquierdo"]
+        },
+        "children":[
+            "image#bannerIzquierdo"
+        ]
+    },
+    "image#bannerIzquierdo": {
+        "props": {
+            "blockClass":["bannerIzquierdoLateral","banner-item"],
+            "src": "https://batanew.vteximg.com.br/arquivos/MossaicolateralIzquierdo.png",
+            "link":{
+                "url":"/"
+            }
+        }
+    }, 
+    // Columna derechas
+    "flex-layout.col#mosaicoDerecho":{
+        "props":{
+            "width":"70%",
+            "blockClass":["columnaMosaico","columnaDerecho"]
+        },
+        "children":[
+            "flex-layout.row#Mosaicofila1",
+            "flex-layout.row#Mosaicofila2"
+        ]
+    },
+    // fila 1 -----------------------------------------
+    "flex-layout.row#Mosaicofila1": {
+        "props": {
+            "blockClass": "mosaicoHome-fila"
+        },
+        "children": [
+            "image#bannerFila1-1",
+            "image#bannerFila1-2"
+        ]
+    },
+    "image#bannerFila1-1": {
+        "props": {
+            "blockClass":"banner-item",
+            "src": "https://batanew.vteximg.com.br/arquivos/mosaicofila-1-1.png",
+            "link":{
+                "url":"/"
+            }
+        }
+    }, 
+    "image#bannerFila1-2": {
+        "props": {
+            "blockClass":"banner-item",
+            "src": "https://batanew.vteximg.com.br/arquivos/mosaicofila-1-2.png",
+            "link":{
+                "url":"/"
+            }
+        }
+    },
+    // fila 2 -------------------------------------------
+    "flex-layout.row#Mosaicofila2": {
+        "props": {
+            "blockClass": "mosaicoHome-fila"
+        },
+        "children": [
+            "image#bannerFila1-3",
+            "image#bannerFila1-4"
+        ]
+    },
+    "image#bannerFila1-3": {
+        "props": {
+            "blockClass":"banner-item",
+            "src": "https://batanew.vteximg.com.br/arquivos/mosaicofila-2-1.png",
+            "link":{
+                "url":"/"
+            }
+        }
+    }, 
+    "image#bannerFila1-4": {
+        "props": {
+            "blockClass":"banner-item",
+            "src": "https://batanew.vteximg.com.br/arquivos/mosaicofila-2-2.png",
+            "link":{
+                "url":"/"
+            }
+        }
+    }
+}

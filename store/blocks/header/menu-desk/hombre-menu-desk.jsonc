@@ -1,0 +1,614 @@
+{
+    "vtex.menu@2.x:submenu#category-hombre": {
+        "props": {
+            "blockClass":"menu-submenu",
+            "width": "100%"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#category-hombre"
+        ]
+    },
+    "vtex.menu@2.x:menu#category-hombre": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "flex-layout.row#rowCategory-hombre"
+        ]
+    },
+    // fila menu hombre 
+    "flex-layout.row#rowCategory-hombre": {
+        "props":{
+            "blockClass":"row-principal"
+        },
+        "children": [
+            "flex-layout.col#columna-1-hombre",
+            "flex-layout.col#columna-2-hombre",
+            "flex-layout.col#columna-3-hombre",
+            "flex-layout.col#columna-4-hombre",
+            "flex-layout.col#columna-5-hombre",
+            "flex-layout.col#columna-6-hombre"
+        ]
+    },
+    // Columna 1
+    "flex-layout.col#columna-1-hombre": {
+        "props": {
+            "width":"20%",
+            "blockClass":["columna-category","columna-1"]
+        },
+        "children":[
+            "menu-item#category-apparel-Destacados",
+            "menu-item#category-apparel-lanzamientoss",
+            "menu-item#category-apparel-vendidos",
+            "menu-item#category-apparel-precios",
+            "menu-item#category-apparel-tarjetas"
+        ]
+    },
+    // items Columna 1 hombre
+    "menu-item#category-apparel-Destacados": {
+        "props": {
+            "id": "menu-item-category-apparel-Destacados",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"Titulos-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Destacados",
+            "text": "Destacados"
+            }
+        }
+    },
+    "menu-item#category-apparel-lanzamientoss": {
+        "props": {
+            "id": "menu-item-category-apparel-lanzamientos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "¡últimos lanzamientos!",
+            "text": "¡últimos lanzamientos!"
+            }
+        }
+    },
+    "menu-item#category-apparel-vendidos": {
+        "props": {
+            "id": "menu-item-category-apparel-vendidos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/accessories/",
+            "noFollow": false,
+            "tagTitle": "¡Los más vendidos!",
+            "text": "¡Los más vendidos!"
+            }
+        }
+    },
+    "menu-item#category-apparel-precios": {
+        "props": {
+            "id": "menu-item-category-apparel-precio",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Precios irresistibles",
+            "text": "Precios irresistibles"
+            }
+        }
+    },
+    "menu-item#category-apparel-tarjetas": {
+        "props": {
+            "id": "menu-item-category-apparel-precio",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items-destacado",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Tarjetas de regalos",
+            "text": "Tarjetas de regalos"
+            }
+        }
+    },
+    // Columna 2 ****************----------------------------------------
+    "flex-layout.col#columna-2-hombre": {
+        "props": {
+            "width":"16%",
+            "blockClass":["columna-category","columna-2"]
+        },
+        "children":[
+            "menu-item#category-apparel-zapatos",
+            "menu-item#category-apparel-tenis",
+            "menu-item#category-apparel-mocasines",
+            "menu-item#category-apparel-tenis-depo",
+            "menu-item#category-apparel-canvas",
+            "menu-item#category-apparel-sandalias",
+            "menu-item#category-apparel-Botas",
+            "menu-item#category-apparel-zapatos-formales"
+        ]
+    },
+    // items Columna 2 mujer
+    "menu-item#category-apparel-zapatos": {
+        "props": {
+            "id": "menu-item-category-apparel-zapatos",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"Titulos-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Zapatos",
+            "text": "Zapatos"
+            }
+        }
+    },
+    "menu-item#category-apparel-tenis": {
+        "props": {
+            "id": "menu-item-category-apparel-tenis",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Tenis casuales",
+            "text": "Tenis casuales"
+            }
+        }
+    },
+    "menu-item#category-apparel-mocasines": {
+        "props": {
+            "id": "menu-item-category-apparel-mocasines",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/accessories/",
+            "noFollow": false,
+            "tagTitle": "Mocasines",
+            "text": "Mocasines"
+            }
+        }
+    },
+    "menu-item#category-apparel-tenis-depo": {
+        "props": {
+            "id": "menu-item-category-apparel-tenis-depo",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Tenis deportivos",
+            "text": "Tenis deportivos"
+            }
+        }
+    },
+    "menu-item#category-apparel-canvas": {
+        "props": {
+            "id": "menu-item-category-apparel-canva",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Canvas",
+            "text": "Canvas"
+            }
+        }
+    },
+    "menu-item#category-apparel-sandalias": {
+        "props": {
+            "id": "menu-item-category-apparel-sandallias",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Sandalias",
+            "text": "Sandalias"
+            }
+        }
+    },
+    "menu-item#category-apparel-Botas": {
+        "props": {
+            "id": "menu-item-category-apparel-botas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Botas",
+            "text": "Botas"
+            }
+        }
+    },
+    "menu-item#category-apparel-zapatos-formales": {
+        "props": {
+            "id": "menu-item-category-apparel-zapatos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Zapatos formales",
+            "text": "Zapatos formales"
+            }
+        }
+    },
+    // Columna 3 ****************----------------------------------------
+    "flex-layout.col#columna-3-hombre": {
+        "props": {
+            "width":"16%",
+            "blockClass":["columna-category","columna-3"]
+        },
+        "children":[
+            "menu-item#category-apparel-acce",
+            "menu-item#category-apparel-billeteras",
+            "menu-item#category-apparel-bolsos",
+            "menu-item#category-apparel-cintu",
+            "menu-item#category-apparel-medias",
+            "menu-item#category-apparel-morrales",
+            "menu-item#category-apparel-protectives"
+        ]
+    },
+    // items Columna 3 hombre
+    "menu-item#category-apparel-acce": {
+        "props": {
+            "id": "menu-item-category-apparel-acce",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"Titulos-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Accesorios",
+            "text": "Accesorios"
+            }
+        }
+    },
+    "menu-item#category-apparel-billeteras": {
+        "props": {
+            "id": "menu-item-category-apparel-billeteras",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Billeteras",
+            "text": "Billeteras"
+            }
+        }
+    },
+    "menu-item#category-apparel-bolsos": {
+        "props": {
+            "id": "menu-item-category-apparel-bolsos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/accessories/",
+            "noFollow": false,
+            "tagTitle": "Bolsos",
+            "text": "Bolsos"
+            }
+        }
+    },
+    "menu-item#category-apparel-cintu": {
+        "props": {
+            "id": "menu-item-category-apparel-cintu",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Cinturones",
+            "text": "Cinturones"
+            }
+        }
+    },
+    "menu-item#category-apparel-medias": {
+        "props": {
+            "id": "menu-item-category-apparel-medias",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Medias",
+            "text": "Medias"
+            }
+        }
+    },
+    "menu-item#category-apparel-morrales": {
+        "props": {
+            "id": "menu-item-category-apparel-morrale",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Morrales",
+            "text": "Morrales"
+            }
+        }
+    },
+    "menu-item#category-apparel-protectives": {
+        "props": {
+            "id": "menu-item-category-apparel-protectives",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Protectives",
+            "text": "Protectives"
+            }
+        }
+    },
+    // Columna 4 ****************----------------------------------------
+    "flex-layout.col#columna-4-hombre": {
+        "props": {
+            "width":"16%",
+            "blockClass":["columna-category","columna-4"]
+        },
+        "children":[
+            "menu-item#category-apparel-marcas",
+            "menu-item#category-apparel-bata",
+            "menu-item#category-apparel-bata-industrials",
+            "menu-item#category-apparel-bata-red",
+            "menu-item#category-apparel-bg",
+            "menu-item#category-apparel-wein",
+            "menu-item#category-apparel-xti",
+            "menu-item#category-apparel-Power",
+            "menu-item#category-apparel-Verlon",
+            "menu-item#category-apparel-ns"
+        ]
+    },
+    // items Columna 3 hombre
+    "menu-item#category-apparel-marcas": {
+        "props": {
+            "id": "menu-item-category-apparel-marcas",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"Titulos-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Marcas",
+            "text": "Marcas"
+            }
+        }
+    },
+    "menu-item#category-apparel-bata": {
+        "props": {
+            "id": "menu-item-category-apparel-bata",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Bata",
+            "text": "Bata"
+            }
+        }
+    },
+    "menu-item#category-apparel-bata-industrials": {
+        "props": {
+            "id": "menu-item-category-apparel-bata",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/accessories/",
+            "noFollow": false,
+            "tagTitle": "Bata Industrials",
+            "text": "Bata Indsutrials"
+            }
+        }
+    },
+    "menu-item#category-apparel-bata-red": {
+        "props": {
+            "id": "menu-item-category-apparel-bata",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Bata red label",
+            "text": "Bata red label"
+            }
+        }
+    },
+    "menu-item#category-apparel-bg": {
+        "props": {
+            "id": "menu-item-category-apparel-bg",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Bubblegummers",
+            "text": "Bubblegummers"
+            }
+        }
+    },
+    "menu-item#category-apparel-wein": {
+        "props": {
+            "id": "menu-item-category-apparel-wein",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Weinbrenner",
+            "text": "Weinbrenner"
+            }
+        }
+    },
+    "menu-item#category-apparel-xti": {
+        "props": {
+            "id": "menu-item-category-apparel-xti",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "XTI",
+            "text": "XTI"
+            }
+        }
+    },
+    "menu-item#category-apparel-Power": {
+        "props": {
+            "id": "menu-item-category-apparel-power",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Power",
+            "text": "Power"
+            }
+        }
+    },
+    "menu-item#category-apparel-Verlon": {
+        "props": {
+            "id": "menu-item-category-apparel-verlon",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Verlon",
+            "text": "Verlon"
+            }
+        }
+    },
+    "menu-item#category-apparel-ns": {
+        "props": {
+            "id": "menu-item-category-apparel-ns",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "North Start",
+            "text": "North Start"
+            }
+        }
+    },
+    // Imagenes menu hombre
+    "flex-layout.col#columna-5-hombre": {
+        "props": {
+            "width":"14%",
+            "blockClass":["columna-category","columna-5"]
+        },
+        "children":[
+            "image#imagen-menu-hombre-1"
+        ]
+    },
+    "image#imagen-menu-hombre-1": {
+        "props": {
+            "blockClass":"imagen-Menu-1",
+            "src": "https://bataco.vteximg.com.br/arquivos/250x250hombre-1709.jpg"
+        }
+    },
+    "flex-layout.col#columna-6-hombre": {
+        "props": {
+            "width":"14%",
+            "blockClass":["columna-category","columna-6"]
+        },
+        "children":[
+            "image#imagen-menu-hombre-2"
+        ]
+    },
+    "image#imagen-menu-hombre-2": {
+        "props": {
+            "blockClass":"imagen-Menu-1",
+            "src": "https://bataco.vteximg.com.br/arquivos/250x250hombre-1709.jpg"
+        }
+    }
+}

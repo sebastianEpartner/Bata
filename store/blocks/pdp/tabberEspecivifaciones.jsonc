@@ -1,0 +1,78 @@
+{
+    "tab-layout#product": {
+        "children": [
+          "tab-list#product",
+          "tab-content#product"
+        ],
+          "props": {
+            "blockClass": "product",
+            "defaultActiveTabId": "product1"
+          }
+    },
+    "tab-list#product":{
+        "children":[
+            "tab-list.item#product1",
+            "tab-list.item#product2"
+        ]
+    },
+    "tab-list.item#product1":{
+        "props":{
+        "tabId": "product2",
+        "label": "Información de producto",
+        "blockClass": "descript"
+        }
+    },
+    "tab-list.item#product2":{
+        "props":{
+        "tabId": "product1",
+        "label": "Materiales utilizados",
+        "blockClass": "detail"
+        }
+    },
+    //contenido de los tabbers
+    "tab-content#product":{
+        "children":[
+        "tab-content.item#product1",
+        "tab-content.item#product2"
+        ],
+        "props": {
+        "blocblockClass": "productContent"
+        }
+    },
+    //contenido del tabber 1
+    "tab-content.item#product1": {
+        "children": [
+        "flex-layout.row#product1"
+        ],
+        "props": {
+        "tabId": "product2"
+        }
+    },
+    "flex-layout.row#product1":{
+        "children": [
+            "product-specification-group#table"
+        ],
+        "props":{
+        "tabId": "product2",
+        "blockClass": "InformacionDos"
+        }
+    },
+    //Contenido del segundo tabber
+    "tab-content.item#product2": {
+        "children": [
+        "flex-layout.row#product2"
+        ],
+        "props": {
+            "tabId": "product1"
+        }
+    },
+    "flex-layout.row#product2":{
+        "children": [
+            "product-specification-group#table"
+        ],
+        "props":{
+        "tabId": "product1",
+        "blockClass": "informacionTabDos"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.homeIcon{
+    display: none;
+}
+.homeLink::before{
+    content: "Home";
+    font-size: 12px;
+    text-decoration: underline;
+}
+.link {
+    font-size: 12px !important;
+    text-decoration: underline;
+}
+@media (max-width: 600px) {
+    .container {
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+
+}

@@ -1,0 +1,11 @@
+.openIconContainer::before{
+    content:"" ;
+    background: url(/arquivos/menuOpen.png) no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 30px;
+    height: 26px;
+}
+.menuIcon{
+    display: none;
+}

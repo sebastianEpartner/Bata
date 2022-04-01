@@ -1,0 +1,25 @@
+{
+    "flex-layout.row#marcas":{
+        "props":{
+            "blockClass":"subMenu-Items"
+        },
+        "children":[
+            "menu-item#category-pricipal-marcas-m-1"
+        ]
+    },
+    "menu-item#category-pricipal-marcas-m-1": {
+        "props": {
+            "id": "menu-item-category--pricipal-hombre",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-principal"],
+            "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Hombre",
+            "text": "Hombre"
+            }
+        }
+    }
+}

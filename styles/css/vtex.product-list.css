@@ -1,0 +1,30 @@
+
+.quantitySelectorContainer--cantidadBox {
+    max-width: 100%;
+}
+.inputContainer {
+    width: 49px;
+    font-size: 15px;
+    border: 0;
+}
+.quantitySelectorButton--cantidadBox {
+    border: 0;
+    background: white;
+    color: #363636 !important;
+    font-weight: 400;
+    font-size: 15px;
+}
+.price{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.productBrandName {
+    display: none;
+}
+.minicartSummary--rowProduct {
+    padding: 0;
+}

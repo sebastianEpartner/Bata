@@ -1,0 +1,618 @@
+{
+  "vtex.menu@2.x:menu#contact": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#contact",
+      "menu-item#quienes",
+      "menu-item#cnuestroCalzado",
+      "menu-item#todosobrepies",
+      "menu-item#legales",
+      "menu-item#tratamiento"
+    ]
+  },
+  "menu-item#contact": {
+    "props": {
+      "id": "menu-item-news",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"tittle-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Contáctenos",
+        "text": "Contáctenos"
+      }
+    }
+  },
+  "menu-item#quienes": {
+    "props": {
+      "id": "menu-item-quienes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"footer-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Quiénes somos",
+        "text": "Quiénes somos"
+      }
+    }
+  },
+  "menu-item#cnuestroCalzado": {
+    "props": {
+      "id": "menu-item-calzado",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"footer-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Nuestro calzado",
+        "text": "Nuestro calzado"
+      }
+    }
+  },
+  "menu-item#todosobrepies": {
+    "props": {
+      "id": "menu-item-pies",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"footer-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Todo sobre pies",
+        "text": "Todo sobre pies"
+      }
+    }
+  },
+  "menu-item#legales": {
+    "props": {
+      "id": "menu-item-legales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"footer-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Aviso legal",
+        "text": "Aviso legal"
+      }
+    }
+  },
+  "menu-item#tratamiento": {
+    "props": {
+      "id": "menu-item-tratamiento",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"footer-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Política de tratamiento de datos",
+        "text": "Política de tratamiento de datos"
+      }
+    }
+  },
+  // segunda columna
+  "vtex.menu@2.x:menu#footer-info": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#info",
+      "menu-item#frecuentes",
+      "menu-item#condiciones",
+      "menu-item#bata-club"
+    ]
+  },
+
+  "menu-item#info": {
+    "props": {
+      "id": "menu-item-info",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"tittle-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/smartphones",
+        "noFollow": true,
+        "tagTitle": "Informacón",
+        "text": "Información"
+      }
+    }
+  },
+
+  "menu-item#frecuentes": {
+    "props": {
+      "id": "menu-item-frecuente",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"footer-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/videogames",
+        "noFollow": true,
+        "tagTitle": "Preguntas frecuentes",
+        "text": "Preguntas frecuentes"
+      }
+    }
+  },
+
+  "menu-item#condiciones": {
+    "props": {
+      "id": "menu-item-condiciones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"footer-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/tvs",
+        "noFollow": true,
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+  "menu-item#bata-club": {
+    "props": {
+      "id": "menu-item-bata",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"footer-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/tvs",
+        "noFollow": true,
+        "tagTitle": "Bata club",
+        "text": "Bata club"
+      }
+    }
+  },
+  "menu-item#bata-faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"footer-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/tvs",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  // COLUMNA TRES
+  "vtex.menu@2.x:menu#footer-bags": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#Categorias",
+      "menu-item#category1",
+      "menu-item#category2",
+      "menu-item#category3",
+      "menu-item#category4",
+      "menu-item#category5"
+    ]
+  },
+
+  "menu-item#Categorias": {
+    "props": {
+      "id": "menu-item-bags",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"tittle-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/d",
+        "noFollow": true,
+        "tagTitle": "Nuestras categorías",
+        "text": "Nuestras categorías"
+      }
+    }
+  },
+
+  "menu-item#category1": {
+    "props": {
+      "id": "menu-item-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"footer-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/backpacks",
+        "noFollow": true,
+        "tagTitle": "Categoría 1",
+        "text": "Categoría 1"
+      }
+    }
+  },
+
+  "menu-item#category2": {
+    "props": {
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"footer-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/backpacks",
+        "noFollow": true,
+        "tagTitle": "Categoría 2",
+        "text": "Categoría 2"
+      }
+    }
+  },
+  "menu-item#category3": {
+    "props": {
+      "id": "menu-item-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"footer-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/backpacks",
+        "noFollow": true,
+        "tagTitle": "Categoría 3",
+        "text": "Categoría 3"
+      }
+    }
+  },
+  "menu-item#category4": {
+    "props": {
+      "id": "menu-item-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"footer-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/backpacks",
+        "noFollow": true,
+        "tagTitle": "Categoría 4",
+        "text": "Categoría 4"
+      }
+    }
+  },
+  "menu-item#category5": {
+    "props": {
+      "id": "menu-item-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"footer-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/backpacks",
+        "noFollow": true,
+        "tagTitle": "Categoría 5",
+        "text": "Categoría 5"
+      }
+    }
+  },
+  // COLUMNA cuatro
+  "vtex.menu@2.x:menu#footer-service": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#service",
+      "menu-item#pedidos",
+      "menu-item#contactenos",
+      "menu-item#compromiso",
+      "menu-item#telefono"
+    ]
+  },
+
+  "menu-item#service": {
+    "props": {
+      "id": "menu-item-service",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"tittle-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/d",
+        "noFollow": true,
+        "tagTitle": "Servicio al cliente",
+        "text": "Servicio al cliente"
+      }
+    }
+  },
+
+  "menu-item#pedidos": {
+    "props": {
+      "id": "menu-item-pedidos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"footer-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/backpacks",
+        "noFollow": true,
+        "tagTitle": "Seguimiento de pedidos",
+        "text": "Seguimiento de pedidos"
+      }
+    }
+  },
+
+  "menu-item#contactenos": {
+    "props": {
+      "id": "menu-item-contact",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"footer-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/backpacks",
+        "noFollow": true,
+        "tagTitle": "Contáctenos",
+        "text": "Contáctenos"
+      }
+    }
+  },
+  "menu-item#compromiso": {
+    "props": {
+      "id": "menu-item-compromiso",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"footer-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/backpacks",
+        "noFollow": true,
+        "tagTitle": "Nuestro compromiso",
+        "text": "Nuestro compromiso"
+      }
+    }
+  },
+  "menu-item#telefono": {
+    "props": {
+      "id": "menu-item-telefono",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"footer-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/backpacks",
+        "noFollow": true,
+        "tagTitle": "(+57) 6 8982498 Ext.1520",
+        "text": "(+57) 6 8982498 Ext.1520"
+      }
+    }
+  },
+
+  // menu mobile
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#contactenos-mobile",
+      "menu-item#informacion-mobile",
+      "menu-item#servicio-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#footer-clothing": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#clothing",
+      "menu-item#quienes",
+      "menu-item#cnuestroCalzado",
+      "menu-item#todosobrepies",
+      "menu-item#legales",
+      "menu-item#tratamiento"
+    ]
+  },
+  "menu-item#clothing": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"tittle-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+  "menu-item#contactenos-mobile": {
+    "props": {
+      "id": "menu-item-category-contactenos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"tittle-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Contáctenos",
+        "text": "Contáctenos"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
+  },
+  "vtex.menu@2.x:submenu.accordion#clothing": {
+    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#clothing-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#quienes",
+      "menu-item#cnuestroCalzado",
+      "menu-item#todosobrepies",
+      "menu-item#legales",
+      "menu-item#tratamiento"
+    ]
+  },
+  "menu-item#informacion-mobile": {
+    "props":{
+      "id": "menu-item-category-info",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"tittle-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Información",
+        "text": "Información"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#informacion"]
+  },
+  "vtex.menu@2.x:submenu.accordion#informacion": {
+    "children": ["vtex.menu@2.x:menu#footer-informacion-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-informacion-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#pregunta",
+      "menu-item#bataM",
+      "menu-item#condicionesM",
+      "menu-item#faq"
+    ]
+  },
+  "menu-item#pregunta": {
+    "props": {
+      "id": "menu-item-category-preguntas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"footer-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Preguntas Frecuentes",
+        "text": "Preguntas Frecuentes"
+      }
+    }
+  },
+  "menu-item#bataM": {
+    "props": {
+      "id": "menu-item-category-bata",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"footer-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Bata club",
+        "text": "Bata club"
+      }
+    }
+  },
+  "menu-item#condicionesM": {
+    "props": {
+      "id": "menu-item-category-condiciones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"footer-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Terminos y condiciones",
+        "text": "Terminos y condiciones"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-category-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"footer-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  // Servicio al cliente
+  "menu-item#servicio-mobile": {
+    "props": {
+      "id": "menu-item-category-servicio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"tittle-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Servicio al cliente",
+        "text": "Servicio al cliente"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#servicio"]
+  },
+  "vtex.menu@2.x:submenu.accordion#servicio": {
+    "children": ["vtex.menu@2.x:menu#footer-servicio-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-servicio-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#pedidos",
+      "menu-item#contactenos",
+      "menu-item#compromiso",
+      "menu-item#telefono"
+    ]
+  }
+}

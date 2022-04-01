@@ -1,0 +1,254 @@
+{
+    // titulo tabbers 
+    "rich-text#titulo-tabbers": {
+        "props": {
+          "text": "## Titulo de seccion de vitrinas importante",
+          "blockClass": ["shelfTitle","tabbersTitulo"]
+        }
+    },
+    //Tap producto
+    "tab-layout#tabsCatego": {
+        "children": [
+          "responsive-layout.desktop",
+          "responsive-layout.mobile#categoruiasMobile",
+          "tab-content#tabsCatego"
+        ],
+        "props": {
+            "blockClass": "home",
+            "defaultActiveTabId": "home2"
+        }
+    },
+    // ttabbers para desktop
+    "responsive-layout.desktop": {
+        "children": ["tab-list#tabsCatego"]
+    },
+    // Tabbers para mobile
+    "responsive-layout.mobile#categoruiasMobile": {
+        "children": ["tab-list#tabsCategoM"]
+    },
+    //tabbers slider para mobile
+    "slider-layout#categoriasSliderTab": {
+        "props": {
+          "height": 720,
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 4,
+            "phone": 2
+          },
+          "infinite": true,
+          "blockClass": "categoriasCarousel",
+          "showPaginationDots":"true",
+          "showNavigationArrows": "never"
+        },
+        "children": [
+            "tab-list.item#tabsCatego1",
+            "tab-list.item#tabsCatego2",
+            "tab-list.item#tabsCatego3",
+            "tab-list.item#tabsCatego4",
+            "tab-list.item#tabsCatego5"
+        ]
+    },
+    "tab-list#tabsCategoM":{
+        "children":[
+            "slider-layout#categoriasSliderTab"
+        ],
+        "props":{
+            "blockClass": "tabbersCategory"
+        }
+    },
+    // items tabbers
+    "tab-list#tabsCatego":{
+        "children":[
+            "tab-list.item#tabsCatego1",
+            "tab-list.item#tabsCatego2",
+            "tab-list.item#tabsCatego3",
+            "tab-list.item#tabsCatego4",
+            "tab-list.item#tabsCatego5"
+        ],
+        "props":{
+            "blockClass": "tabbersCategory"
+        }
+    },
+    "tab-list.item#tabsCatego1":{
+        "props":{
+            "id": "tab1",
+            "tabId": "home2",
+            "label": "Categoria 1"
+        }
+    },
+    "tab-list.item#tabsCatego2":{
+        "props":{
+            "id": "tab2",
+            "tabId": "home3",
+            "label": "Categoria 2"
+        }
+    },
+    "tab-list.item#tabsCatego3":{
+        "props":{
+            "id": "tab3",
+            "tabId": "home4",
+            "label": "Categoria 3"
+        }
+    },
+    "tab-list.item#tabsCatego4":{
+        "props":{
+            "id": "tab4",
+            "tabId": "home5",
+            "label": "Categoria 4"
+        }
+    },
+    "tab-list.item#tabsCatego5":{
+        "props":{
+            "id": "tab5",
+            "tabId": "home6",
+            "label": "Categoria 5"
+        }
+    },
+
+    // contenido de los tabbers
+    "tab-content#tabsCatego":{
+        "children":[
+            "tab-content.item#tabsCatego1",
+            "tab-content.item#tabsCatego2",
+            "tab-content.item#tabsCatego3",
+            "tab-content.item#tabsCatego4",
+            "tab-content.item#tabsCatego5"
+        ]
+    },
+    "tab-content.item#tabsCatego1": {
+        "children": [
+            "list-context.product-list#demo1-1"
+        ],
+        "props": {
+            "tabId": "home2",
+            "blockClass": "tabbersVitrina"
+        }
+    },
+    "tab-content.item#tabsCatego2": {
+        "children": [
+            "list-context.product-list#demo2"
+        ],
+        "props": {
+            "tabId": "home3",
+            "blockClass": "tabbersVitrina"
+        }
+    },
+    "tab-content.item#tabsCatego3": {
+        "children": [
+            "list-context.product-list#demo3"
+        ],
+        "props": {
+            "tabId": "home4", 
+            "blockClass": "tabbersVitrina"
+        }
+    },
+    "tab-content.item#tabsCatego4": {
+        "children": [
+            "list-context.product-list#demo4"
+        ],
+        "props": {
+            "tabId": "home5", 
+            "blockClass": "tabbersVitrina"
+        }
+    },
+    "tab-content.item#tabsCatego5": {
+        "children": [
+            "list-context.product-list#demo5"
+        ],
+        "props": {
+            "tabId": "home6", 
+            "blockClass": "tabbersVitrina"
+        }
+    },
+    "list-context.product-list#demo1-1": {
+        "blocks": ["product-summary.shelf"],
+        "children": ["slider-layout#demo-products-1"]
+      },
+      "slider-layout#demo-products-1": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf",
+          "showPaginationDots":"false",
+          "showNavigationArrows": "always"
+        }
+    },
+     
+    "list-context.product-list#demo2": {
+        "blocks": ["product-summary.shelf"],
+        "children": ["slider-layout#demo-products-2"]
+      },
+      "slider-layout#demo-products-2": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf",
+          "showPaginationDots":"false",
+          "showNavigationArrows": "always"
+        }
+    },
+    "list-context.product-list#demo3": {
+        "blocks": ["product-summary.shelf"],
+        "children": ["slider-layout#demo-products-3"]
+      },
+      "slider-layout#demo-products-3": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf",
+          "showPaginationDots":"false",
+          "showNavigationArrows": "always"
+        }
+    },
+    "list-context.product-list#demo4": {
+        "blocks": ["product-summary.shelf"],
+        "children": ["slider-layout#demo-products-4"]
+    },
+    "slider-layout#demo-products-4": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf",
+          "showPaginationDots":"false",
+          "showNavigationArrows": "always"
+        }
+    },
+    "list-context.product-list#demo5": {
+        "blocks": ["product-summary.shelf"],
+        "children": ["slider-layout#demo-products-5"]
+    },
+    "slider-layout#demo-products-5": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf",
+          "showPaginationDots":"false",
+          "showNavigationArrows": "always"
+        }
+    }
+}

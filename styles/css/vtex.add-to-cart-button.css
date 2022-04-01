@@ -1,0 +1,13 @@
+.buttonText{
+    color: #2A2A2A;
+    font-weight: bold;
+}
+@media (max-width: 600px) {
+    .buttonText{
+        font-size:0;
+    }
+    .buttonText::before{
+        content: "COMPRAR AHORA";
+        font-size:13px;
+    }
+}

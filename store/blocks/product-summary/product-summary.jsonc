@@ -1,0 +1,112 @@
+{
+  "product-summary.shelf": {
+    "children": [
+      "stack-layout#prodsum",
+      "product-summary-sku-selector",
+      "flex-layout.row#productInfo",
+      "flex-layout.row#buttonAddcart"
+    ]
+  },
+  "flex-layout.col#productRating": {
+    "props": {
+      "blockClass": "productRating"
+    },
+    "children": ["product-rating-inline"]
+  },
+  "flex-layout.row#productInfo": {
+    "props": {
+      "blockClass": "productInfo"
+    },
+    "children": ["flex-layout.col#productinfo"]
+  },
+  "flex-layout.col#productinfo": {
+    "props": {
+      "blockClass": "productinfo"
+    },
+    "children": [
+      "product-summary-name",
+      "product-summary-brand",
+      "product-list-price#summary",
+      "flex-layout.row#selling-price-savings"
+    ]
+  },
+  // add to cart button
+  "flex-layout.row#buttonAddcart": {
+    "props": {
+      "blockClass": "productCartButton"
+    },
+    "children": ["add-to-cart-button"]
+  },
+  "stack-layout#prodsum": {
+    "children": [
+      "product-summary-image#shelf",
+      // "vtex.product-highlights@2.x:product-highlights#collection",
+      "modal-trigger#quickview" // Check quickview.jsonc
+    ]
+  },
+  "sku-selector#vitrina":{
+    "props":{
+      "blockClass":"vitrinaSelector"
+    }
+  },
+  "product-summary-image#shelf": {
+    "props": {
+      "showBadge": true,
+      "aspectRatio": "1:1"
+    }
+  },
+
+  "vtex.product-highlights@2.x:product-highlights#collection": {
+    "props": {
+      "type": "collection"
+    },
+    "children": ["product-highlight-wrapper"]
+  },
+  "product-highlight-wrapper": {
+    "props": {
+      "blockClass": "collection"
+    },
+    "children": ["product-highlight-text"]
+  },
+  "product-highlight-text": {
+    "props": {
+      "message": "{highlightName}"
+    }
+  },
+
+  "product-list-price#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  "flex-layout.row#selling-price-savings": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 4,
+      "blockClass":"precio"
+    },
+    "children": [
+      "product-selling-price#summary"
+    ]
+  },
+  "product-installments#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  "product-selling-price#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  "product-price-savings#summary": {
+    "props": {
+      "markers": [
+        "discount"
+      ],
+      "blockClass": "summary"
+    }
+  }
+}

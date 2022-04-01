@@ -1,0 +1,260 @@
+{
+    "flex-layout.row#sliderCategorias": {
+        "props": {
+            "blockClass": "sliderRowCategorias"
+        },
+        "children": ["slider-layout#marcas-images","rich-text#verAll"]
+    },
+    "slider-layout#marcas-images": {
+        "props": {
+            "itemsPerPage": {
+            "desktop": 6,
+            "tablet": 5,
+            "phone": 3
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "mobileOnly",
+            "blockClass": "marcas-carousel",
+            "navigationStep":"1"
+        },
+        "children":["flex-layout.col#categoriaHombre","flex-layout.col#categoriaMujer","flex-layout.col#categorianinos","flex-layout.col#categoriacalzado","flex-layout.col#categoriabata","flex-layout.col#categoriabatared","flex-layout.col#categoriabataLabel"]
+    },
+    "rich-text#verAll": {
+        "props": {
+          "text": "## Ver todas las categorias",
+          "blockClass": "categoriasTittle"
+        }
+    },
+    // imagenes de cateogiras por columna imagen-texto 
+    "flex-layout.col#categoriaHombre":{
+        "props":{
+            "blockClass":["imagenesCategorias"]
+        },
+        "children":[
+            "image#hombre",
+            "rich-text#hombre-tittle",
+            "rich-text#hombre-tittle-hover"
+        ]
+    },
+    "image#hombre": {
+        "props": {
+            "blockClass":["img-category-salider-item"],
+            "src": "https://batanew.vteximg.com.br/arquivos/gombres.png",
+            "link":{
+                "url":"/"
+            }
+        }
+    },
+    "rich-text#hombre-tittle": {
+        "props": {
+          "text": "[Hombre](/)",
+          "blockClass": "categoria-titulo"
+        }
+    },
+    // Imagen para el hover
+    "rich-text#hombre-tittle-hover": {
+        "props": {
+            "text": "[Hombre](/)",
+          "blockClass": ["categoria-titulo","hover-tittle"]
+        }
+    },
+    // categoria mujeres
+    "flex-layout.col#categoriaMujer":{
+        "props":{
+            "blockClass":["imagenesCategorias"]
+        },
+        "children":[
+            "image#mujer",
+            "rich-text#mujer-tittle",
+            "rich-text#mujer-tittle-hover"
+        ]
+    },
+    "image#mujer": {
+        "props": {
+            "blockClass":["img-category-salider-item"],
+            "src": "https://batanew.vteximg.com.br/arquivos/gombres.png",
+            "link":{
+                "url":"/"
+            }
+        }
+    },
+    "rich-text#mujer-tittle": {
+        "props": {
+          "text": "[Mujeres](/)",
+          "blockClass": "categoria-titulo"
+        }
+    },
+    // Imagen para el hover
+    "rich-text#mujer-tittle-hover": {
+        "props": {
+            "text": "[Mujeres](/)",
+            "blockClass": ["categoria-titulo","hover-tittle"]
+        }
+    },
+    // categoria ninños
+    "flex-layout.col#categorianinos":{
+        "props":{
+            "blockClass":["imagenesCategorias"]
+        },
+        "children":[
+            "image#ninos",
+            "rich-text#ninos-tittle",
+            "rich-text#ninos-tittle-hover"
+        ]
+    },
+    "image#ninos": {
+        "props": {
+            "blockClass":["img-category-salider-item"],
+            "src": "https://batanew.vteximg.com.br/arquivos/Ninos.png",
+            "link":{
+                "url":"/"
+            }
+        }
+    },
+    "rich-text#ninos-tittle": {
+        "props": {
+          "text": "[Niños](/)",
+          "blockClass": "categoria-titulo"
+        }
+    },
+    // Imagen para el hover
+    "rich-text#ninos-tittle-hover": {
+        "props": {
+            "text": "[Niños](/)",
+            "blockClass": ["categoria-titulo","hover-tittle"]
+        }
+    },
+    // categoria calzado --------------------------
+    "flex-layout.col#categoriacalzado":{
+        "props":{
+            "blockClass":["imagenesCategorias"]
+        },
+        "children":[
+            "image#calzado",
+            "rich-text#calzado-tittle",
+            "rich-text#calzado-tittle-hover"
+        ]
+    },
+    "image#calzado": {
+        "props": {
+            "blockClass":["img-category-salider-item"],
+            "src": "https://batanew.vteximg.com.br/arquivos/calzado.png",
+            "link":{
+                "url":"/"
+            }
+        }
+    },
+    "rich-text#calzado-tittle": {
+        "props": {
+          "text": "[Calzado](/)",
+          "blockClass": ["categoria-titulo"]  
+        }
+    },
+    // Imagen para el hover
+    "rich-text#calzado-tittle-hover": {
+        "props": {
+            "text": "[Calzado](/)",
+            "blockClass": ["categoria-titulo","hover-tittle"]
+        }
+    },
+    // categoria BATA --------------------------
+    "flex-layout.col#categoriabata":{
+        "props":{
+            "blockClass":["imagenesCategorias"]
+        },
+        "children":[
+            "image#bata",
+            "rich-text#bata-tittle",
+            "rich-text#bata-tittle-hover"
+        ]
+    },
+    "image#bata": {
+        "props": {
+            "blockClass":["img-category-salider-item"],
+            "src": "https://batanew.vteximg.com.br/arquivos/calzado.png",
+            "link":{
+                "url":"/"
+            }
+        }
+    },
+    "rich-text#bata-tittle": {
+        "props": {
+          "text": "[Bata](/)",
+          "blockClass": "categoria-titulo"
+        }
+    },
+    // Imagen para el hover
+    "rich-text#bata-tittle-hover": {
+        "props": {
+            "text": "[Bata](/)",
+            "blockClass": ["categoria-titulo","hover-tittle"]
+        }
+    },
+    // categoria BATA RED--------------------------
+    "flex-layout.col#categoriabatared":{
+        "props":{
+            "blockClass":["imagenesCategorias"]
+        },
+        "children":[
+            "image#batared",
+            "rich-text#batared-tittle",
+            "rich-text#batared-tittle-hover"
+        ]
+    },
+    "image#batared": {
+        "props": {
+            "blockClass":["img-category-salider-item"],
+            "src": "https://batanew.vteximg.com.br/arquivos/calzado.png",
+            "link":{
+                "url":"/"
+            }
+        }
+    },
+    "rich-text#batared-tittle": {
+        "props": {
+          "text": "[Bata](/)",
+          "blockClass": "categoria-titulo"
+        }
+    },
+    // Imagen para el hover
+    "rich-text#batared-tittle-hover": {
+        "props": {
+            "text": "[Bata](/)",
+            "blockClass": ["categoria-titulo","hover-tittle"]
+        }
+    },
+    // categoria BATA label--------------------------
+    "flex-layout.col#categoriabataLabel":{
+        "props":{
+            "blockClass":["imagenesCategorias"]
+        },
+        "children":[
+            "image#bataLabel",
+            "rich-text#bataLabel-tittle",
+            "rich-text#bataLabel-tittle-hover"
+        ]
+    },
+    "image#bataLabel": {
+        "props": {
+            "blockClass":["img-category-salider-item"],
+            "src": "https://batanew.vteximg.com.br/arquivos/calzado.png",
+            "link":{
+                "url":"/"
+            }
+        }
+    },
+    "rich-text#bataLabel-tittle": {
+        "props": {
+          "text": "[Bata](/)",
+          "blockClass": "categoria-titulo"
+        }
+    },
+    // Imagen para el hover
+    "rich-text#bataLabel-tittle-hover": {
+        "props": {
+            "text": "[Bata](/)",
+            "blockClass": ["categoria-titulo","hover-tittle"]
+        }
+    }
+}

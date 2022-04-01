@@ -1,0 +1,626 @@
+{
+    "vtex.menu@2.x:submenu#category-ninos": {
+        "props": {
+            "blockClass":"menu-submenu",
+            "width": "100%"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#category-ninos"
+        ]
+    },
+    "vtex.menu@2.x:menu#category-ninos": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "flex-layout.row#rowCategory-ninos"
+        ]
+    },
+    // fila menu ninos 
+    "flex-layout.row#rowCategory-ninos": {
+        "props":{
+            "blockClass":"row-principal"
+        },
+        "children": [
+            "flex-layout.col#columna-1-ninos",
+            "flex-layout.col#columna-2-ninos",
+            "flex-layout.col#columna-3-ninos",
+            "flex-layout.col#columna-4-ninos",
+            "flex-layout.col#columna-5-ninos",
+            "flex-layout.col#columna-6-ninos"
+        ]
+    },
+    // Columna 1
+    "flex-layout.col#columna-1-ninos": {
+        "props": {
+            "width":"20%",
+            "blockClass":["columna-category","columna-1"]
+        },
+        "children":[
+            "menu-item#category-ninos-Destacados",
+            "menu-item#category-ninos-lanzamientoss",
+            "menu-item#category-ninos-vendidos",
+            "menu-item#category-ninos-precios",
+            "menu-item#category-ninos-tarjetas"
+        ]
+    },
+    // items Columna 1 ninos
+    "menu-item#category-ninos-Destacados": {
+        "props": {
+            "id": "menu-item-category-ninos-Destacados",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"Titulos-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Destacados",
+            "text": "Destacados"
+            }
+        }
+    },
+    "menu-item#category-ninos-lanzamientoss": {
+        "props": {
+            "id": "menu-item-category-ninos-lanzamientos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "¡últimos lanzamientos!",
+            "text": "¡últimos lanzamientos!"
+            }
+        }
+    },
+    "menu-item#category-ninos-vendidos": {
+        "props": {
+            "id": "menu-item-category-ninos-vendidos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/accessories/",
+            "noFollow": false,
+            "tagTitle": "¡Los más vendidos!",
+            "text": "¡Los más vendidos!"
+            }
+        }
+    },
+    "menu-item#category-ninos-precios": {
+        "props": {
+            "id": "menu-item-category-ninos-precio",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Precios irresistibles",
+            "text": "Precios irresistibles"
+            }
+        }
+    },
+    "menu-item#category-ninos-tarjetas": {
+        "props": {
+            "id": "menu-item-category-ninos-precio",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items-destacado",
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Tarjetas de regalos",
+            "text": "Tarjetas de regalos"
+            }
+        }
+    },
+    // Columna 2 ****************----------------------------------------
+    "flex-layout.col#columna-2-ninos": {
+        "props": {
+            "width":"16%",
+            "blockClass":["columna-category","columna-2"]
+        },
+        "children":[
+            "menu-item#category-ninos-nina",
+            "menu-item#category-nino-preca",
+            "menu-item#category-ninos-primeros-pasos",
+            "menu-item#category-ninos-caminadores",
+            "menu-item#category-ninos-junior",
+            "menu-item#category-ninos-tenis-ropa-nina"
+        ]
+    },
+    // items Columna 2 ninos
+    "menu-item#category-ninos-nina": {
+        "props": {
+            "id": "menu-item-category-ninos-nina",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"Titulos-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Niña",
+            "text": "Niña"
+            }
+        }
+    },
+    "menu-item#category-nino-preca": {
+        "props": {
+            "id": "menu-item-category-ninos-preca",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Precaminadora",
+            "text": "Precaminadora"
+            }
+        }
+    },
+    "menu-item#category-ninos-primeros-pasos": {
+        "props": {
+            "id": "menu-item-category-ninos-primeros-pasos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/accessories/",
+            "noFollow": false,
+            "tagTitle": "Primeros Pasos",
+            "text": "Primeros Pasos"
+            }
+        }
+    },
+    "menu-item#category-ninos-caminadores": {
+        "props": {
+            "id": "menu-item-category-ninos-caminadores",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Caminadores",
+            "text": "Caminadores"
+            }
+        }
+    },
+    "menu-item#category-ninos-junior": {
+        "props": {
+            "id": "menu-item-category-ninos-junior",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Junior",
+            "text": "Junior"
+            }
+        }
+    },
+    "menu-item#category-ninos-tenis-ropa-nina": {
+        "props": {
+            "id": "menu-item-category-ninos-tenis-ropa-nina",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Ropa Niña",
+            "text": "Ropa Niña"
+            }
+        }
+    },
+    // Columna 3 ****************----------------------------------------
+    "flex-layout.col#columna-3-ninos": {
+        "props": {
+            "width":"16%",
+            "blockClass":["columna-category","columna-3"]
+        },
+        "children":[
+            "menu-item#category-ninos-nino",
+            "menu-item#category-ninos-precaminadores-nino",
+            "menu-item#category-ninos-primeros-pasos-nino",
+            "menu-item#category-ninos-caminadores-nino",
+            "menu-item#category-ninos-junior-nino",
+            "menu-item#category-ninos-ropa-nino"
+        ]
+    },
+    // items Columna 3 ninos
+    "menu-item#category-ninos-nino": {
+        "props": {
+            "id": "menu-item-category-ninos-nino",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"Titulos-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Niño",
+            "text": "Niño"
+            }
+        }
+    },
+    "menu-item#category-ninos-precaminadores-nino": {
+        "props": {
+            "id": "menu-item-category-ninos-precaminadores-nino",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Precaminadores",
+            "text": "Precaminadore"
+            }
+        }
+    },
+    "menu-item#category-ninos-primeros-pasos-nino": {
+        "props": {
+            "id": "menu-item-category-ninos-primeros",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/accessories/",
+            "noFollow": false,
+            "tagTitle": "Primeros Pasos",
+            "text": "Primeros pasos"
+            }
+        }
+    },
+    "menu-item#category-ninos-caminadores-nino": {
+        "props": {
+            "id": "menu-item-category-ninos-cami",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Caminadores",
+            "text": "Caminadores"
+            }
+        }
+    },
+    "menu-item#category-ninos-junior-nino": {
+        "props": {
+            "id": "menu-item-category-ninos-junior-nino",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Junior",
+            "text": "Junior"
+            }
+        }
+    },
+    "menu-item#category-ninos-ropa-nino": {
+        "props": {
+            "id": "menu-item-category-ninos-ropa",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Ropa Niño",
+            "text": "Ropa Niño"
+            }
+        }
+    },
+    // Columna 4  ****************----------------------------------------
+    "flex-layout.col#columna-4-ninos": {
+        "props": {
+            "width":"16%",
+            "blockClass":["columna-category","columna-3"]
+        },
+        "children":[
+            "menu-item#category-ninos-acces",
+            "menu-item#category-ninos-basicos",
+            "menu-item#category-ninos-primeros-carteras",
+            "menu-item#category-ninos-medias",
+            "menu-item#category-ninos-morrales",
+            "menu-item#category-ninos-protectives"
+        ]
+    },
+    // items Columna 4 ninos
+    "menu-item#category-ninos-acces": {
+        "props": {
+            "id": "menu-item-category-ninos-acces",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"Titulos-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Accesorios",
+            "text": "Accesorios"
+            }
+        }
+    },
+    "menu-item#category-ninos-basicos": {
+        "props": {
+            "id": "menu-item-category-ninos-basicos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Basicos",
+            "text": "Basicos"
+            }
+        }
+    },
+    "menu-item#category-ninos-primeros-carteras": {
+        "props": {
+            "id": "menu-item-category-ninos-carteras",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/accessories/",
+            "noFollow": false,
+            "tagTitle": "Carteras",
+            "text": "Carteras"
+            }
+        }
+    },
+    "menu-item#category-ninos-medias": {
+        "props": {
+            "id": "menu-item-category-ninos-medias",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Medias",
+            "text": "Medias"
+            }
+        }
+    },
+    "menu-item#category-ninos-morrales": {
+        "props": {
+            "id": "menu-item-category-ninos-morrales",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Morrales",
+            "text": "Morrales"
+            }
+        }
+    },
+    "menu-item#category-ninos-protectives": {
+        "props": {
+            "id": "menu-item-category-ninos-protectives",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Protectives",
+            "text": "Protectives"
+            }
+        }
+    },
+    // Columna 5 ****************----------------------------------------
+    "flex-layout.col#columna-5-ninos": {
+        "props": {
+            "width":"16%",
+            "blockClass":["columna-category","columna-5"]
+        },
+        "children":[
+            "menu-item#category-ninos-marcas",
+            "menu-item#category-ninos-baby-bubbles",
+            "menu-item#category-ninos-bata",
+            "menu-item#category-ninos-bg",
+            "menu-item#category-ninos-disney",
+            "menu-item#category-ninos-marvel",
+            "menu-item#category-ninos-sandak",
+            "menu-item#category-ninos-verlon"
+        ]
+    },
+    // items Columna 5 ninos
+    "menu-item#category-ninos-marcas": {
+        "props": {
+            "id": "menu-item-category-ninos-marcas",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"Titulos-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Marcas",
+            "text": "Marcas"
+            }
+        }
+    },
+    "menu-item#category-ninos-baby-bubbles": {
+        "props": {
+            "id": "menu-item-category-ninos-baby",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/accessories/",
+            "noFollow": false,
+            "tagTitle": "Baby bubbles",
+            "text": "Baby bubbles"
+            }
+        }
+    },
+    "menu-item#category-ninos-bata": {
+        "props": {
+            "id": "menu-item-category-ninos-bata",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Bata",
+            "text": "Bata"
+            }
+        }
+    },
+    "menu-item#category-ninos-bg": {
+        "props": {
+            "id": "menu-item-category-ninos-bg",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Bubblegummers",
+            "text": "Bubblegummers"
+            }
+        }
+    },
+    "menu-item#category-ninos-disney": {
+        "props": {
+            "id": "menu-item-category-disney",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Disney",
+            "text": "Disney"
+            }
+        }
+    },
+    "menu-item#category-ninos-marvel": {
+        "props": {
+            "id": "menu-item-category-ninos-marvel",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Marvel",
+            "text": "Marvel"
+            }
+        }
+    },
+    "menu-item#category-ninos-sandak": {
+        "props": {
+            "id": "menu-item-category-ninos-sandak",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Sandak",
+            "text": "Sandak"
+            }
+        }
+    },
+    "menu-item#category-ninos-verlon": {
+        "props": {
+            "id": "menu-item-category-ninos-verlon",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/ninos---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Verlon",
+            "text": "Verlon"
+            }
+        }
+    },
+    // Imagenes menu ninos
+    "flex-layout.col#columna-6-ninos": {
+        "props": {
+            "width":"14%",
+            "blockClass":["columna-category","columna-6"]
+        },
+        "children":[
+            "image#imagen-menu-ninos-2"
+        ]
+    },
+    "image#imagen-menu-ninos-2": {
+        "props": {
+            "blockClass":"imagen-Menu-1",
+            "src": "https://bataco.vteximg.com.br/arquivos/250x250nino-1709.jpg"
+        }
+    }
+}

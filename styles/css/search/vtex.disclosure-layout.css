@@ -1,0 +1,56 @@
+/* estilos para los filtros en desktop */
+.content--filtroContent--visible {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    height: 100%;
+}
+:global(.vtex-flex-layout-0-x-flexCol--filtroContent){
+    width: 30%;
+    background: white;
+    padding: 40px 20px;
+}
+.trigger {
+    background: transparent;
+    border: 0;
+    padding: 0;
+}
+.trigger--fitroTrigger2--visible{
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+.trigger--fitroTrigger2--visible::after{
+    content: "+";
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    position: absolute;
+    right: 0;
+    transform: rotate(45deg);
+    top: -4px;
+}
+.trigger--fitroTrigger {
+    padding: 0 20px;
+    width: 149px !important;
+    border: 1px solid;
+    position: relative;
+    cursor: pointer;
+}
+.trigger--fitroTrigger :global(.vtex-rich-text-0-x-paragraph){
+    text-transform: uppercase;
+}
+.trigger--fitroTrigger::after{
+    content: "";
+    background: url(/arquivos/flechaAbajoFiltros.png)no-repeat;
+    background-size: 100%;
+    width: 11px;
+    height: 8px;
+    display: block;
+    position: absolute;
+    top: 12px;
+    right: 14px;
+}
+

@@ -1,0 +1,87 @@
+.sliderLayoutContainer {
+  justify-content: center;
+}
+.sliderLayoutContainer--carousel {
+  background-color: #F0F0F0;
+}
+
+.sliderTrackContainer {
+  max-width: 1520px;
+}
+
+.paginationDotsContainer {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 96rem;
+}
+
+.slide--shelf {
+  margin-bottom: 25px;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+.paginationDot {
+  border-radius: 0;
+  height: 2px !important;
+}
+.paginationDot--isActive {
+  width: 23px !important;
+  background: #E60000;
+}
+/* padding en las vitrinas */
+.sliderLayoutContainer--shelf{
+  padding: 0 20px !important;
+}
+/* Cambio de las flechas de lso sliders y vitrinas */
+.caretIcon {
+  display: none;
+}
+.sliderLeftArrow::before {
+  content: "";
+  background: url(https://batanew.vteximg.com.br/arquivos/flecha-izquierda.png)no-repeat;
+  background-size: 100%!important;
+  display: block;
+  width: 39px;
+  height: 39px;
+  transition: all 40ms;
+  transition: 400ms all;
+}
+.sliderRightArrow::before {
+  content: "";
+  background: url(https://batanew.vteximg.com.br/arquivos/flecha-derecha.png)no-repeat;
+  background-size: 100%!important;
+  display: block;
+  width: 39px;
+  height: 39px;
+  margin-top: 0;
+  transition: all 40ms;
+  margin-right: 5px;
+  transition: 400ms all;
+}
+.sliderLeftArrow:hover::before {
+  background: url(https://batanew.vteximg.com.br/arquivos/flecha-izquierdaHover.png)no-repeat;
+}
+.sliderRightArrow:hover::before {
+  background: url(https://batanew.vteximg.com.br/arquivos/flecha--derechaHover.png)no-repeat;
+}
+/* flechas del slider en vitrinas */
+.sliderLeftArrow--shelf {
+  top: -13%;
+  left: 88%;
+  width: 65px;
+}
+.sliderRightArrow--shelf {
+  top: -13%;
+  right: 16px;
+}
+
+@media (max-width: 600px) {
+  .sliderLeftArrow--shelf {
+    left: 63%;
+  }
+}

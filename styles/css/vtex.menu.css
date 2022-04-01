@@ -1,0 +1,55 @@
+.styledLinkContent {
+    font-family: 'Mulish';
+    font-weight: 700;    
+    text-transform: uppercase;
+    color: black;
+    font-size: 13px;
+}
+.styledLinkContent--Ofertas {
+    color: red;
+}
+.styledLinkContent--item-pricipal {
+    letter-spacing: 0.05em;
+}
+.styledLinkContent--menu-items {
+    font-weight: 400;
+    text-transform: initial;
+}
+.submenu--menu-submenu .menuContainerNav{
+    width: 100%;
+    padding: 0 170px;
+}
+.menuContainerNav--MenuDesk .styledLinkContainer {
+    margin: 0 27px;
+}
+.menuContainer--MenuDesk {
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+.styledLinkContent--tittle-footer {
+    font-weight: 700;
+    text-transform: initial;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.styledLinkContent--footer-item  {
+    margin-bottom: 20px;
+    font-weight: 400;
+    text-transform: initial;
+}
+@media (max-width: 600px) {
+    .styledLinkContent--tittle-footer {
+        justify-content: center;
+    }
+    .menuItem--tittle-footer {
+        border: 1px solid;
+        margin: 10px 0;
+    }
+    .styledLinkContent--tittle-footer {
+        margin-bottom: 0;
+    }
+    .styledLinkContainer--tittle-footer {
+        padding: 15px 0;
+    }
+    
+}

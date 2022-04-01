@@ -1,0 +1,189 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#1-desktop",
+      "sticky-layout#header-desktop"
+    ]
+  },
+  // Pre header
+  "flex-layout.row#1-desktop": {
+    "children": [
+      "rich-text#pre-header",
+      "rich-text#pre-header-1",
+      "rich-text#pre-header-2",
+      "rich-text#pre-header-3",
+      "rich-text#pre-header-4"
+    ],
+    "props": {
+      "blockClass":"pre-header",
+      "fullWidth": "true"
+    }
+  },
+  "rich-text#pre-header": {
+    "props": {
+      "text": "Pago contra entrega",
+      "blockClass": "pre-header-items"
+    }
+  },
+  "rich-text#pre-header-1": {
+    "props": {
+      "text": "Envios a toda Colombia",
+      "blockClass": "pre-header-items"
+    }
+  },
+  "rich-text#pre-header-2": {
+    "props": {
+      "text": "Solicita tu cambio en linea",
+      "blockClass": "pre-header-items"
+    }
+  },
+  "rich-text#pre-header-3": {
+    "props": {
+      "text": "60 días de garantia",
+      "blockClass": "pre-header-items"
+    }
+  },
+  "rich-text#pre-header-4": {
+    "props": {
+      "text": "Envío gratis por compras superiores a $100.000",
+      "blockClass": "pre-header-items"
+    }
+  },
+  // Espacio
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  // Header
+  "sticky-layout#header-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#header-desktop"]
+  },
+  "flex-layout.row#header-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#category-menu",
+      "flex-layout.col#search-bar",
+      "login",
+      "image#favvoritos",
+      "image#tiendasBata",
+      "minicart.v2"
+    ]
+  },
+  // Logo Header
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "width":"7%",
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "width":"65%",
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+  "flex-layout.col#search-bar": {
+    "props": {
+      "width":"15%",
+      "verticalAlign": "middle"
+    },
+    "children": ["search-bar"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://batanew.vteximg.com.br/arquivos/bataLogo.png",
+      "width": "180"
+    }
+  },
+  "image#favvoritos": {
+    "props": {
+        "blockClass":["extrella"],
+        "src": "https://batanew.vteximg.com.br/arquivos/newestrella.png",
+        "link":{
+            "url":"/"
+        }
+    }
+  },
+  "image#tiendasBata": {
+    "props": {
+        "blockClass":["favoritos"],
+        "src": "https://batanew.vteximg.com.br/arquivos/tiendasnewnew.png",
+        "link":{
+            "url":"/"
+        }
+    }
+  },
+
+  // Menu Mobile *****************-----------------------
+  "header-layout.mobile": {
+    "children": ["sticky-layout#1-mobile"]
+  },
+  "sticky-layout#1-mobile": {
+    "children": ["flex-layout.row#1-mobile"]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+
+  // Menu principal mobile
+  "menu#drawer": {
+    "children": [
+      "disclosure-layout#hombre",
+      "disclosure-layout#mujer",
+      "disclosure-layout#ninos",
+      "disclosure-layout#marcas",
+      "menu-item#category-pricipal-ofertas",
+      "menu-item#category-pricipal-cuenta",
+      "menu-item#category-pricipal-tiendas",
+      "menu-item#category-pricipal-pedidos",
+      "list-context.image-list#menuSlider"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://batanew.vteximg.com.br/arquivos/bataLogo.png",
+      "width": "70"
+    }
+  }
+}

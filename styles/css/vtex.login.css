@@ -1,0 +1,18 @@
+.label {
+    font-size: 0;
+    padding: 0;
+}
+.label::before{
+    content: "";
+    background: url(https://batanew.vteximg.com.br/arquivos/usarionewnew.png) no-repeat;
+    background-size: 100%;
+    width: 23px;
+    height: 23px;
+    display: block;
+}
+:global(.vtex-button__label){
+    padding: 0;
+}
+.container {
+    justify-content: center;
+}

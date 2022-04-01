@@ -1,0 +1,59 @@
+/* estilos generales del tabber */
+.listItem :global(.vtex-button__label){
+    color: #2A2A2A;
+    font-size: 13px;
+    transition: 400ms all;
+}
+.listItem :global(.vtex-button){
+    border: 1px solid #D3D3D3;
+    border-radius: 0;
+    transition: 400ms all;
+}
+.listItem :global(.vtex-button):hover :global(.vtex-button__label){
+    color: white ;
+}
+.listItem :global(.vtex-button):hover{
+    border: 0;
+    background: #E60000;
+}
+.listItemActive :global(.vtex-button){
+    background: #E60000;
+    border: 0;
+}
+.listItemActive :global(.vtex-button__label){
+    color: white;
+}
+/* tabbers del home */
+.container--home{
+    background: white;
+}
+.listContainer--tabbersCategory {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.listContainer--tabbersCategory .listItem {
+    width: 20%;
+    margin: 0;
+    padding: 0;
+}
+.listContainer--tabbersCategory .listItem  {
+    padding: 0 5px;
+}
+.listContainer--tabbersCategory .listItem :global(.vtex-button) {
+    width: 100%;
+}
+/* ajsute de las flechas en los tabbers del home */
+.contentItem--tabbersVitrina :global(.vtex-slider-layout-0-x-sliderLeftArrow--shelf){
+    top: -28% !important;
+}
+.contentItem--tabbersVitrina :global(.vtex-slider-layout-0-x-sliderRightArrow--shelf){
+    top: -28% !important;
+}
+/* estilos mobile */
+@media (max-width: 600px) {
+    .listContainer--tabbersCategory .listItem {
+        width: 94%;
+        margin: 0;
+        padding: 0;
+    }
+}
