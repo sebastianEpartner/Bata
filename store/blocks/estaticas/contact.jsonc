@@ -1,0 +1,169 @@
+{
+  "store.custom#contacto": {
+    "children": [
+      "image#bannerTopIzquierda",
+      "flex-layout.row#contact-us"
+    ],
+    "props":{
+      "blockClass":"contenedor"
+    }
+  },
+  // imagen
+  "image#bannerTopIzquierda": {
+    "props": {
+        "blockClass":["bannerEstaticas"],
+        "src": "https://batadev--batanew.myvtex.com/arquivos/fondoFooter-1.png"
+    }
+  }, 
+  // contenedor del body
+  "flex-layout.row#contact-us": {
+    "props": {
+      "blockClass": "contenedor"
+    },
+    "children": [
+      "flex-layout.col#leftColAccesos",
+      "flex-layout.col#contact-us"
+    ]
+  },
+  // primera columna accesos directos
+  "flex-layout.col#leftColAccesos": {
+    "props":{
+      "blockClass":"primeraCol",
+      "width":"20%"
+    },
+    "children": [
+      "rich-text#Politica-datos",
+      "rich-text#Nuestro-calzado",
+      "rich-text#todo-sobre-pies",
+      "rich-text#empleado-contact",
+      "rich-text#Nuestro-compromiso",
+      "rich-text#aviso-legal",
+      "rich-text#tiendas",
+      "rich-text#contactenos"
+      // "form#contact-us"
+    ]
+  },
+  // accesos de las paginas estaticas
+  "rich-text#Politica-datos": {
+    "props": {
+      "text": "[Politica de datos](/)",
+      "blockClass":"links-paginas-estaticas"
+    }
+  },
+  "rich-text#Nuestro-calzado": {
+    "props": {
+      "text": "[Nuestro calzado](/)",
+      "blockClass":"links-paginas-estaticas"
+    }
+  },
+  "rich-text#todo-sobre-pies": {
+    "props": {
+      "text": "[Todo sobre los pies](/)",
+      "blockClass":"links-paginas-estaticas"
+    }
+  },
+  "rich-text#empleado-contact": {
+    "props": {
+      "text": "[Como ser empleado](/)",
+      "blockClass":"links-paginas-estaticas"
+    }
+  },
+  "rich-text#Nuestro-compromiso": {
+    "props": {
+      "text": "[Nuestro compromiso](/)",
+      "blockClass":"links-paginas-estaticas"
+    }
+  },
+  "rich-text#aviso-legal": {
+    "props": {
+      "text": "[Aviso legal](/)",
+      "blockClass":"links-paginas-estaticas"
+    }
+  },
+  "rich-text#tiendas": {
+    "props": {
+      "text": "[Tiendas](/)",
+      "blockClass":"links-paginas-estaticas"
+    }
+  },
+  "rich-text#contactenos": {
+    "props": {
+      "text": "[Contactenos](/)",
+      "blockClass":["links-paginas-estaticas","selected"]
+    }
+  },
+  // segunda columna
+  "flex-layout.col#contact-us": {
+    "props":{
+      "width":"80%",
+      "blockClass":"segundaCol"
+    },
+    "children": [
+      "rich-text#contact-us"
+      // "form#contact-us"
+    ]
+  },
+  "rich-text#contact-us": {
+    "props": {
+      "text": "## Contactenos",
+      "blockClass":"Contacto"
+    }
+  },
+
+  "form#contact-us": {
+    "props": {
+      "entity": "contact",
+      "schema": "site-contact"
+    },
+    "blocks": [
+      "form-success#contact-us"
+    ],
+    "children": [
+      "form-input.text#title",
+      "form-input.text#name",
+      "form-input.text#email",
+      "form-input.textarea#message",
+      "form-submit#contact"
+    ]
+  },
+
+  "form-success#contact-us": {
+    "children": [
+      "rich-text#success-submit"
+    ]
+  },
+  "rich-text#success-submit": {
+    "props": {
+      "text": "Thanks for reaching out! We will come back shortly.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "form-input.text#title": {
+    "props": {
+      "pointer": "#/properties/title"
+    }
+  },
+  "form-input.text#name": {
+    "props": {
+      "pointer": "#/properties/name"
+    }
+  },
+  "form-input.text#email": {
+    "props": {
+      "pointer": "#/properties/email"
+    }
+  },
+  "form-input.textarea#message": {
+    "props": {
+      "pointer": "#/properties/message"
+    }
+  },
+
+  "form-submit#contact": {
+    "props": {
+      "label": "Submit"
+    }
+  }
+}

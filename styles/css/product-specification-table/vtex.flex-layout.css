@@ -1,9 +1,5 @@
-.flexRow--productSpecificationGroup:not(:first-child) {
-  margin-top: 1.5rem;
-}
 
 .flexRow--productSpecificationGroupName {
-  background-color: #eaeaea;
   padding: 0.5rem 1rem;
 }
 
@@ -14,7 +10,15 @@
 .flexCol--productSpecificationValue {
   padding: 1rem 1rem 1rem 0;
 }
-
-.flexRow--productSpecification:nth-child(even) {
-  background-color: #f9f9f9;
+.flexRow--productSpecificationGroupName{
+  display: none;
+}
+.flexCol--productSpecificationName  {
+  padding: 5PX 0;
+}
+.flexCol--productSpecificationValue  {
+  padding: 5px 0;
+}
+.flexRowContent--InformacionDos .stretchChildrenWidth .flexRow--productSpecificationGroup:last-child .flexColChild:last-child .flexRow--productSpecification:last-child .flexRowContent--productSpecification {
+  display: block;
 }

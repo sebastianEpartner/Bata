@@ -76,7 +76,7 @@
   "image#banner-category": {
     "props": {
         "blockClass":["banner-item-category"],
-        "src": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+        "src": "https://batanew.vteximg.com.br/arquivos/banner-principal-desk-batanew-dev.png",
         "mobileImage": "https://cutis.vteximg.com.br/arquivos/banner-descuento-mobile.png",
         "link":{
             "url":"/"
@@ -219,7 +219,7 @@
   },
 
   "flex-layout.row#notfound": {
-    "children": ["not-found"],
+    "children": ["flex-layout.col#404Container"],
     "props": {
       "fullWidth": true
     }

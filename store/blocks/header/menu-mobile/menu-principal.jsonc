@@ -179,7 +179,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":"menu-destcados",
+            "blockClass":["menu-destcados","tiendas"],
             "itemProps": {
             "type": "internal",
             "href": "/apparel---accessories/eyeglasses/",
@@ -195,7 +195,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":"menu-destcados",
+            "blockClass":["menu-destcados","pedidos"],
             "itemProps": {
             "type": "internal",
             "href": "/apparel---accessories/eyeglasses/",
@@ -238,8 +238,9 @@
             "phone": 2
           },
           "infinite": true,
+          "paginationDots":"never",
           "showNavigationArrows": "always",
-          "blockClass": "carousel"
+          "blockClass": ["carousel","menu-carousel"]
         }
       }
 

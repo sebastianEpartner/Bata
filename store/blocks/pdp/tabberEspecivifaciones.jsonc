@@ -6,7 +6,7 @@
         ],
           "props": {
             "blockClass": "product",
-            "defaultActiveTabId": "product1"
+            "defaultActiveTabId": "product2"
           }
     },
     "tab-list#product":{

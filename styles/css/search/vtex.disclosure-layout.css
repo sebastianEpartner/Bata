@@ -7,10 +7,18 @@
     z-index: 9999;
     height: 100%;
 }
+.trigger--filtrotriggerAll--visible{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+}
 :global(.vtex-flex-layout-0-x-flexCol--filtroContent){
     width: 30%;
     background: white;
     padding: 40px 20px;
+    position: absolute;
+    z-index: 9999;
 }
 .trigger {
     background: transparent;
@@ -44,7 +52,7 @@
 }
 .trigger--fitroTrigger::after{
     content: "";
-    background: url(/arquivos/flechaAbajoFiltros.png)no-repeat;
+    background: url(/arquivos/flechaAbajoFiltros.png) no-repeat;
     background-size: 100%;
     width: 11px;
     height: 8px;

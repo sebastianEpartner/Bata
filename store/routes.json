@@ -5,7 +5,19 @@
   "store.custom#faq": {
     "path": "/faq"
   },
-  "store.custom#contact-us": {
-    "path": "/contact-us"
-  }
+  "store.custom#contacto": {
+    "path": "/contacto"
+  },
+  "store.custom#compromiso": {
+    "path": "/nuestro-compromiso"
+  },
+  "store.custom#empleado": {
+    "path": "/como-ser-empleado"
+  },
+  "store.custom#tyc": {
+    "path": "/terminos-y-condiciones"
+  },
+  "store.custom#calzado": {
+    "path": "/nuestro-calzado"
+  } 
 }

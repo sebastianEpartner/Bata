@@ -4,7 +4,8 @@
       "stack-layout#prodsum",
       "product-summary-sku-selector",
       "flex-layout.row#productInfo",
-      "flex-layout.row#buttonAddcart"
+      "flex-layout.row#buttonAddcart",
+      "add-to-list-btn"
     ]
   },
   "flex-layout.col#productRating": {
@@ -24,8 +25,8 @@
       "blockClass": "productinfo"
     },
     "children": [
-      "product-summary-name",
       "product-summary-brand",
+      "product-summary-name",
       "product-list-price#summary",
       "flex-layout.row#selling-price-savings"
     ]
@@ -39,9 +40,9 @@
   },
   "stack-layout#prodsum": {
     "children": [
-      "product-summary-image#shelf",
+      "product-summary-image#shelf"
       // "vtex.product-highlights@2.x:product-highlights#collection",
-      "modal-trigger#quickview" // Check quickview.jsonc
+      // "modal-trigger#quickview" // Check quickview.jsonc
     ]
   },
   "sku-selector#vitrina":{

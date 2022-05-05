@@ -128,7 +128,7 @@
     // Columna 2 ****************----------------------------------------
     "flex-layout.col#columna-2-ninos": {
         "props": {
-            "width":"16%",
+            "width":"13%",
             "blockClass":["columna-category","columna-2"]
         },
         "children":[
@@ -240,7 +240,7 @@
     // Columna 3 ****************----------------------------------------
     "flex-layout.col#columna-3-ninos": {
         "props": {
-            "width":"16%",
+            "width":"13%",
             "blockClass":["columna-category","columna-3"]
         },
         "children":[
@@ -352,7 +352,7 @@
     // Columna 4  ****************----------------------------------------
     "flex-layout.col#columna-4-ninos": {
         "props": {
-            "width":"16%",
+            "width":"13%",
             "blockClass":["columna-category","columna-3"]
         },
         "children":[
@@ -464,7 +464,7 @@
     // Columna 5 ****************----------------------------------------
     "flex-layout.col#columna-5-ninos": {
         "props": {
-            "width":"16%",
+            "width":"13%",
             "blockClass":["columna-category","columna-5"]
         },
         "children":[
@@ -610,8 +610,8 @@
     // Imagenes menu ninos
     "flex-layout.col#columna-6-ninos": {
         "props": {
-            "width":"14%",
-            "blockClass":["columna-category","columna-6"]
+            "width":"24%",
+            "blockClass":["imagenesColuma","columna-6"]
         },
         "children":[
             "image#imagen-menu-ninos-2"

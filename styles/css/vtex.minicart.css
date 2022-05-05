@@ -6,14 +6,17 @@
 }
 .minicartIconContainer::before {
     content: "";
-    background: url(https://batanew.vtexassets.com/arquivos/carritonew.png) no-repeat;
+    background: url(https://batanew.vtexassets.com/arquivos/carritoRedBataDev.png) no-repeat;
     background-size: 100%;
     display: block;
-    width: 20px;
-    height: 20px;
+    width: 23px;
+    height: 23px;
 }
 .minicartWrapperContainer {
     justify-content: center;
+}
+.minicartWrapperContainer :global(.vtex-button):hover{
+    background: transparent;
 }
 .minicartQuantityBadgeDefault {
     top: -7px;

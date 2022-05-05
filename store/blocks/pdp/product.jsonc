@@ -16,7 +16,10 @@
       "condition-layout.product#availability",
       "product-reviews",
       "product-questions-and-answers",
-      "shelf.relatedProducts"
+      "rich-text#relacionados1",
+      "shelf.relatedProducts#1",
+      "rich-text#relacionados2",
+      "shelf.relatedProducts#2"
     ],
     "props": {
       "blockClass":"contendorProduct"
@@ -97,21 +100,25 @@
   // info del producto
   "flex-layout.col#right-col": {
     "props": {
+      "blockClass":"coolumanDerecha",
       "preventVerticalStretch": true,
       "rowGap": 0
     },
     "children": [
       "flex-layout.row#product-breadcrumb",
-      "product-identifier.product",
       "vtex.store-components:product-brand",
+      "product-identifier.product",
       "flex-layout.row#product-name",
       "product-rating-summary",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
       "product-separator",
+      "product-availability",
       "sku-selector",
       "flex-layout.row#buy-button",
-      "shipping-simulator"
+      "shipping-simulator",
+      "image#desceuntoTop",
+      "image#compraSegura"
     ]
   },
   "flex-layout.row#product-name": {
@@ -120,17 +127,35 @@
     },
     "children": ["vtex.store-components:product-name"]
   },
-
+  "product-availability": {
+    "props": {
+      "threshold": "10001",
+      "lowStockMessage": "Tallas disponibles: {quantity}",
+      "highStockMessage": "Tallas disponibles: {quantity}"
+    }
+  },
   "sku-selector": {
     "props": {
       "variationsSpacing": 3,
       "showValueNameForImageVariation": true
     }
   },
-
+  "image#desceuntoTop": {
+    "props": {
+      "blockClass":"descuentoTop",
+      "src": "https://batanew.vteximg.com.br/arquivos/banner-desk-new-batadev.png"
+    }
+  },
+  "image#compraSegura": {
+    "props": {
+      "blockClass":"compraSegura",
+      "src": "https://batanew.vteximg.com.br/arquivos/compraSeguraNewBannerbatadev.png"
+    }
+  },
   // contenedor de los botones de añadir al carrito
   "flex-layout.row#buy-button": {
     "props": {
+      "blockClass":"buy-buttonContainer",
       "marginTop": 4,
       "marginBottom": 7
     },
@@ -167,5 +192,39 @@
       "blockClass": "message-availability"
     },
     "children": ["availability-subscriber"]
+  },
+  "rich-text#relacionados1": {
+    "props": {
+      "text": "## Tambien compraron",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "shelf.relatedProducts#1": {
+    "props": {
+        "recommendation": "view",
+        "productList": {
+            "titleText": "Nuestras Marcas",
+            "itemsPerPage": 4
+        },
+        "blockClass": "shelf"
+    },
+    "blocks": ["product-summary.shelf"]
+  },
+  "rich-text#relacionados2": {
+    "props": {
+      "text": "## completa tu look",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "shelf.relatedProducts#2": {
+    "props": {
+        "recommendation": "view",
+        "productList": {
+            "titleText": "Nuestras Marcas",
+            "itemsPerPage": 4
+        },
+        "blockClass": "shelf"
+    },
+    "blocks": ["product-summary.shelf"]
   }
 }

@@ -1,3 +1,4 @@
+/* menu pricipal */
 .styledLinkContent {
     font-family: 'Mulish';
     font-weight: 700;    
@@ -8,8 +9,24 @@
 .styledLinkContent--Ofertas {
     color: red;
 }
+.styledLinkContainer--item-pricipal {
+    transition: 400ms all;
+}
+.styledLinkContent--Titulos-Menu  {
+    font-size: 13px;
+    font-size: 600;
+    color: #2A2A2A;
+    margin-bottom: 13px;
+}
+.styledLinkContainer--item-pricipal:hover .styledLinkContent--item-pricipal{
+    color: red;
+    font-weight: bold;
+}
 .styledLinkContent--item-pricipal {
     letter-spacing: 0.05em;
+}
+.submenuWrapper--subMenu-marcas {
+    padding-bottom: 50px;
 }
 .styledLinkContent--menu-items {
     font-weight: 400;
@@ -17,7 +34,7 @@
 }
 .submenu--menu-submenu .menuContainerNav{
     width: 100%;
-    padding: 0 170px;
+    padding: 0 121px;
 }
 .menuContainerNav--MenuDesk .styledLinkContainer {
     margin: 0 27px;
@@ -26,7 +43,34 @@
     justify-content: flex-end;
     margin-right: 30px;
 }
+.styledLinkContent--menu-items-destacado {
+    color: red;
+    text-transform: initial;
+}
+.styledLinkContent--menu-items {
+    transition: 400ms all;
+}
+.styledLinkContent--menu-items:hover {
+    color: red;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.styledLinkContent--menu-items:hover::before {
+    content: "";
+    width: 4px;
+    height: 4px;
+    background: red;
+    display: block;
+    margin-right: 4px;
+    border-radius: 50%;
+}
+/* estilos del footer */
 .styledLinkContent--tittle-footer {
+    margin-left: 0;
+    margin-right: 0;
     font-weight: 700;
     text-transform: initial;
     margin-bottom: 20px;
@@ -36,7 +80,42 @@
     margin-bottom: 20px;
     font-weight: 400;
     text-transform: initial;
+    transition: 400ms all;
+    justify-content: flex-start;
+    align-items: center;
 }
+.styledLinkContainer--footer-item {
+    margin-left: 0;
+    margin-right: 0;
+}
+.styledLinkContainer--tittle-footer {
+    margin-left: 0;
+    margin-right: 0;
+}
+.menuContainerNav--footerMenu{
+    padding: 0 30px;
+    border-left: 1px solid #F1F1F1;
+}
+.styledLinkContent--footer-item:hover {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.styledLinkContent--footer-item::before{
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: red;
+    border-radius: 50%;
+    margin-right: 3px;
+    display: none;
+    transition: 400ms all;
+}
+.styledLinkContent--footer-item:hover::before{
+    display: block;
+}
+/*  */
+
 @media (max-width: 600px) {
     .styledLinkContent--tittle-footer {
         justify-content: center;
@@ -51,5 +130,42 @@
     .styledLinkContainer--tittle-footer {
         padding: 15px 0;
     }
-    
+    .menuItem--menu-destcados {
+        height: 40px;
+    }
+    .styledLinkContent--ofertas {
+        color: red;
+    }
+    .styledLinkContent--cuenta {
+        text-transform: initial;
+        font-weight: 400;
+    }
+    .styledLinkContent--tiendas {
+        text-transform: initial;
+        font-weight: 400;
+    }
+    .styledLinkContent--pedidos {
+        text-transform: initial;
+        font-weight: 400;
+    }
+    .menuContainer--menuPrin {
+        margin-top: 20px;
+    }
+    :global(.vtex-disclosure-layout-1-x-trigger--subMneusMTrigger) .menuItem {
+        position: relative;
+    }
+    :global(.vtex-disclosure-layout-1-x-trigger--subMneusMTrigger) .menuItem::after {
+        content: "";
+        background: url(/arquivos/flechaMenuBata.png) no-repeat;
+        background-size: 100%;
+        width: 7px;
+        height: 15px;
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 5px;
+    }
+    .menuContainerNav--menuPrin{
+        width: 100%;
+    }
 }

@@ -28,7 +28,7 @@
     background: white;
 }
 .listContainer--tabbersCategory {
-    padding: 0 20px;
+    padding: 0 10px;
     margin-bottom: 20px;
 }
 .listContainer--tabbersCategory .listItem {
@@ -48,6 +48,32 @@
 }
 .contentItem--tabbersVitrina :global(.vtex-slider-layout-0-x-sliderRightArrow--shelf){
     top: -28% !important;
+}
+/* estilos del tabber producto */
+.container--product{
+    border: 1px solid #D3D3D3;
+}
+.container--product .listItem {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+.container--product .listItem :global(.vtex-button){
+    background: white;
+    width: 100%;
+    transition: 400ms all;
+}
+.container--product .listItemActive :global(.vtex-button){
+    background: #2A2A2A;
+    width: 100%;
+}
+.container--product .listItem :global(.vtex-button):hover{
+    background: #2A2A2A;
+    width: 100%;
+}
+.container--product .contentContainer {
+    padding: 15px 20px;
+    background-color: white;
 }
 /* estilos mobile */
 @media (max-width: 600px) {

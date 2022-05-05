@@ -32,7 +32,9 @@
 .listPrice--summary .currencyContainer--summary{
   font-size: 11px;
 }
-
+.currencyContainer{
+  color: red;
+}
 .savings--summary {
   background: #8BC34A;
   border-radius: 1000px;

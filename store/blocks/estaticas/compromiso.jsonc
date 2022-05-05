@@ -1,0 +1,264 @@
+{
+    "store.custom#compromiso": {
+      "children": [
+        "image#bannerTopIzquierda-compromiso",
+        "flex-layout.row#compromiso"
+      ],
+      "props":{
+        "blockClass":"contenedor"
+      }
+    },
+    // imagen
+    "image#bannerTopIzquierda-compromiso": {
+      "props": {
+          "blockClass":["bannerEstaticas"],
+          "src": "https://batadev--batanew.myvtex.com/arquivos/fondoFooter-1.png"
+      }
+    }, 
+    // contenedor del body
+    "flex-layout.row#compromiso": {
+      "props": {
+        "blockClass": "contenedor"
+      },
+      "children": [
+        "flex-layout.col#leftColAccesos",
+        "flex-layout.col#compromiso"
+      ]
+    },
+    // primera columna accesos directos
+    "flex-layout.col#leftColAccesos-compromiso": {
+      "props":{
+        "blockClass":"primeraCol",
+        "width":"20%"
+      },
+      "children": [
+        "rich-text#Politica-datos-compromiso",
+        "rich-text#Nuestro-calzado-compromiso",
+        "rich-text#todo-sobre-pies-compromiso",
+        "rich-text#empleado-compromiso",
+        "rich-text#Nuestro-compromiso-compromiso",
+        "rich-text#aviso-legal-compromiso",
+        "rich-text#tiendas-compromiso",
+        "rich-text#contactenos-compromiso"
+        // "form#compromiso"
+      ]
+    },
+    // accesos de las paginas estaticas
+    "rich-text#Politica-datos-compromiso": {
+      "props": {
+        "text": "[Politica de datos](/)",
+        "blockClass":"links-paginas-estaticas"
+      }
+    },
+    "rich-text#Nuestro-calzado-compromiso": {
+      "props": {
+        "text": "[Nuestro calzado](/)",
+        "blockClass":"links-paginas-estaticas"
+      }
+    },
+    "rich-text#todo-sobre-pies-compromiso": {
+      "props": {
+        "text": "[Todo sobre los pies](/)",
+        "blockClass":"links-paginas-estaticas"
+      }
+    },
+    "rich-text#empleado-compromiso": {
+      "props": {
+        "text": "[Como ser empleado](/)",
+        "blockClass":"links-paginas-estaticas"
+      }
+    },
+    "rich-text#Nuestro-compromiso-compromiso": {
+      "props": {
+        "text": "[Nuestro compromiso](/)",
+        "blockClass":["links-paginas-estaticas","selected"]
+      }
+    },
+    "rich-text#aviso-legal-compromiso": {
+      "props": {
+        "text": "[Aviso legal](/)",
+        "blockClass":"links-paginas-estaticas"
+      }
+    },
+    "rich-text#tiendas-compromiso": {
+      "props": {
+        "text": "[Tiendas](/)",
+        "blockClass":"links-paginas-estaticas"
+      }
+    },
+    "rich-text#contactenos-compromiso": {
+      "props": {
+        "text": "[Contactenos](/)",
+        "blockClass":["links-paginas-estaticas"]
+      }
+    },
+    // segunda columna
+    "flex-layout.col#compromiso": {
+      "props":{
+        "width":"80%",
+        "blockClass":"segundaCol"
+      },
+      "children": [
+        "rich-text#compromiso",
+        "flex-layout.col#compromiso1",
+        "flex-layout.col#compromiso2",
+        "flex-layout.col#compromiso3",
+        "flex-layout.col#compromiso4",
+        "flex-layout.col#compromiso5",
+        "flex-layout.col#compromiso6"
+      ]
+    },
+    "rich-text#compromiso": {
+      "props": {
+        "text": "## Nuestro compromiso",
+        "blockClass":"Contacto"
+      }
+    },
+    // contenido 1
+    "flex-layout.col#compromiso1": {
+        "props":{
+          "blockClass":"contentCompromiso"
+        },
+        "children": [
+            "rich-text#compromiso1",
+            "rich-text#compromiso2"
+        ]
+    },
+    "rich-text#compromiso1": {
+        "props": {
+          "text": "Garantia de compra",
+          "blockClass":"tittle-TYC"
+        }
+    },
+    "rich-text#compromiso2": {
+        "props": {
+          "text": "En caso de cualquier problema, puedes devolver el par de zapatos dentro de los 60 días siguientes de la fecha de la compra, de acuerdo a las condiciones puede ser sustituido por otro par.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    // contenido 2
+    "flex-layout.col#compromiso2": {
+        "props":{
+          "blockClass":"contentCompromiso"
+        },
+        "children": [
+            "rich-text#compromiso3",
+            "rich-text#compromiso4"
+        ]
+    },
+    "rich-text#compromiso3": {
+        "props": {
+          "text": "BATA Y TÚ",
+          "blockClass":"tittle-TYC"
+        }
+    },
+    "rich-text#compromiso4": {
+        "props": {
+          "text": "Somos una organización orientada a nuestros clientes, manteniendo siempre vivo el legado de nuestro fundador Tomas Bata, “el cliente es nuestro maestro” buscamos darte siempre el mejor servicio, la mejor calidad y los mejores diseños, creemos en la generación de relaciones basadas en la confianza que nos permitan hacer parte de tu vida a través de nuestros productos. ",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    // contenido 3
+    "flex-layout.col#compromiso3": {
+        "props":{
+          "blockClass":"contentCompromiso"
+        },
+        "children": [
+            "rich-text#compromiso5",
+            "rich-text#compromiso6",
+            "rich-text#compromiso7"
+        ]
+    },
+    "rich-text#compromiso5": {
+        "props": {
+          "text": "UNA GRAN COLECCIÓN",
+          "blockClass":"tittle-TYC"
+        }
+    },
+    "rich-text#compromiso6": {
+        "props": {
+          "text": "En Bata Contamos con uno de los catálogos de diseño en calzado más grandes y variados del país, con el fin de ofrecerte una selección de zapatos, bolsos y accesorios donde tú puedas elegir lo que quieres usar entre más de 1.000 diseños diferentes",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#compromiso7": {
+        "props": {
+          "text": "[EXPLORAR PRODUCTOS](/)",
+          "blockClass":"boton-tyc"
+        }
+    },
+    // contenido 4
+    "flex-layout.col#compromiso4": {
+        "props":{
+          "blockClass":"contentCompromiso"
+        },
+        "children": [
+            "rich-text#compromiso8",
+            "rich-text#compromiso9"
+        ]
+    },
+    "rich-text#compromiso8": {
+        "props": {
+          "text": "CALIDAD ASEGURADA",
+          "blockClass":"tittle-TYC"
+        }
+    },
+    "rich-text#compromiso9": {
+        "props": {
+          "text": "Manejamos minuciosamente nuestros estándares de calidad, tomando medidas estrictas que nos permitan llevar a nuestros clientes los mejores productos.\nRealizamos un detallado seguimiento antes, durante y después de la producción de todos nuestros productos. Contamos con nuestras propias fábricas y bodegas, que están en constante supervisión por parte de personal altamente capacitado.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    // contenido 5
+    "flex-layout.col#compromiso5": {
+        "props":{
+          "blockClass":"contentCompromiso"
+        },
+        "children": [
+            "rich-text#compromiso10",
+            "rich-text#compromiso11",
+            "rich-text#compromiso12"
+        ]
+    },
+    "rich-text#compromiso10": {
+        "props": {
+          "text": "ATENCIÓN PERSONALIZADA",
+          "blockClass":"tittle-TYC"
+        }
+    },
+    "rich-text#compromiso11": {
+        "props": {
+          "text": "Contamos con colaboradores en todas nuestras tiendas, que están altamente capacitados en ventas y atención al cliente, prestos siempre a darte la mejor atención y a responder cualquier duda o inquietud acerca de nuestros productos.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#compromiso12": {
+        "props": {
+          "text": "[contáctenos](/)",
+          "blockClass":"boton-tyc"
+        }
+    },
+    // contenido 6
+    "flex-layout.col#compromiso6": {
+        "props":{
+          "blockClass":"contentCompromiso"
+        },
+        "children": [
+            "rich-text#compromiso13",
+            "rich-text#compromiso14"
+        ]
+    },
+    "rich-text#compromiso13": {
+        "props": {
+          "text": "DETALLES DE PRODUCTO",
+          "blockClass":"tittle-TYC"
+        }
+    },
+    "rich-text#compromiso14": {
+        "props": {
+          "text": "Contamos con colaboradores en todas nuestras tiendas, que están altamente capacitados en ventas y atención al cliente, prestos siempre a darte la mejor atención y a responder cualquier duda o inquietud acerca de nuestros productos.\nLa diferencia está en los detalles, en Bata nos aseguramos siempre de darle un toque personal a todos nuestros productos.\nCada artículo lleva etiquetas que claramente mencionan el tipo, el precio, el tamaño u otra información necesaria, con el fin de que para ti, no sea tan difícil la elección de tu cazado, al tener en cuenta cada detalle, sabrás exactamente que estas comprando.\n  ¡Te esperamos en nuestras Tiendas Bata!",
+          "blockClass":"contenido-TYC"
+        }
+    }
+}
+  

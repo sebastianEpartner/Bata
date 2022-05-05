@@ -15,13 +15,31 @@
     },
     // disparador para cerrar el filtro 
     "disclosure-trigger#filtros1": {
-        "children": ["rich-text#filtroTitulo"],
+        "children": ["rich-text#filtroTitulo-1"],
             "props": {
             "blockClass": ["fitroTrigger2"]
         }
     },
+    "disclosure-trigger#filtrosall": {
+        "children": ["rich-text#filtroTitulo-2"],
+            "props": {
+            "blockClass": ["filtrotriggerAll"]
+        }
+    },
     // titulo filtros
     "rich-text#filtroTitulo": {
+        "props": {
+            "text": "Filtros",
+            "blockClass": ["tituloFiltro"]
+        }
+    },
+    "rich-text#filtroTitulo-1": {
+        "props": {
+            "text": "Filtros",
+            "blockClass": ["tituloFiltro","tituloFiltro2"]
+        }
+    },
+    "rich-text#filtroTitulo-2": {
         "props": {
             "text": "Filtros",
             "blockClass": ["tituloFiltro","tituloFiltro2"]
@@ -29,7 +47,7 @@
     },
     // contenido
     "disclosure-content#filtros": {
-        "children": ["flex-layout.col#contenedorFiltros"],
+        "children": ["disclosure-trigger#filtrosall","flex-layout.col#contenedorFiltros"],
         "props": {
             "blockClass": "filtroContent"
         }

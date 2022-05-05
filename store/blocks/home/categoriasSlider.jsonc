@@ -42,20 +42,20 @@
             "blockClass":["img-category-salider-item"],
             "src": "https://batanew.vteximg.com.br/arquivos/gombres.png",
             "link":{
-                "url":"/"
+                "url":"/tiendabata/hombres"
             }
         }
     },
     "rich-text#hombre-tittle": {
         "props": {
-          "text": "[Hombre](/)",
+          "text": "[Hombre](/tiendabata/hombres)",
           "blockClass": "categoria-titulo"
         }
     },
     // Imagen para el hover
     "rich-text#hombre-tittle-hover": {
         "props": {
-            "text": "[Hombre](/)",
+            "text": "[Hombre](/tiendabata/hombres)",
           "blockClass": ["categoria-titulo","hover-tittle"]
         }
     },
@@ -73,22 +73,22 @@
     "image#mujer": {
         "props": {
             "blockClass":["img-category-salider-item"],
-            "src": "https://batanew.vteximg.com.br/arquivos/gombres.png",
+            "src": "https://batanew.vteximg.com.br/arquivos/cat-mujer-batadev.png",
             "link":{
-                "url":"/"
+                "url":"/tiendabata/mujer"
             }
         }
     },
     "rich-text#mujer-tittle": {
         "props": {
-          "text": "[Mujeres](/)",
+          "text": "[Mujeres](/tiendabata/mujer)",
           "blockClass": "categoria-titulo"
         }
     },
     // Imagen para el hover
     "rich-text#mujer-tittle-hover": {
         "props": {
-            "text": "[Mujeres](/)",
+            "text": "[Mujeres](/tiendabata/mujer)",
             "blockClass": ["categoria-titulo","hover-tittle"]
         }
     },
@@ -172,7 +172,7 @@
     "image#bata": {
         "props": {
             "blockClass":["img-category-salider-item"],
-            "src": "https://batanew.vteximg.com.br/arquivos/calzado.png",
+            "src": "https://batanew.vteximg.com.br/arquivos/cat-bata-batadev.png",
             "link":{
                 "url":"/"
             }

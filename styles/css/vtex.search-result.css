@@ -61,6 +61,7 @@
   height: 10px;
   border: 1px solid;
   position: absolute;
+  margin-top: 5px;
 }
 .filter__container .filterContent :global(.vtex-checkbox__container){
   position: absolute;
@@ -90,6 +91,37 @@
 .filterTitleSpan{
   font-size: 13px;
   font-weight: bold;
+}
+.caretIcon{
+  color: black;
+  font-weight: 500;
+  width: 8px;
+}
+.buttonShowMore--layout :global(.vtex-button ){
+  background: red;
+  border-radius: 0;
+  border: 0;
+  transition: 400ms all;
+}
+.buttonShowMore--layout :global(.vtex-button ):hover{
+  background: white;
+  border: 1px solid red;
+}
+.buttonShowMore--layout :global(.vtex-button ):hover :global(.vtex-button__label){
+  color: red;
+}
+.buttonShowMore--layout :global(.vtex-button__label){
+ padding: 15px 50px;
+}
+:global(.vtex-checkbox__label){
+  font-size: 12px;
+  text-transform: initial;
+}
+.filterItem {
+  margin-bottom: 17px;
+}
+.orderByButton {
+  padding: 7px;
 }
 @media (max-width: 600px) {
   .galleryItem--normal {

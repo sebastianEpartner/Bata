@@ -1,0 +1,111 @@
+{
+  "store.custom#faq": {
+    "children": [
+      "image#bannerTopIzquierda-faq",
+      "flex-layout.row#faq"
+    ],
+    "props":{
+      "blockClass":"contenedor"
+    }
+  },
+ // imagen
+ "image#bannerTopIzquierda-faq": {
+    "props": {
+        "blockClass":["bannerEstaticas"],
+        "src": "https://batadev--batanew.myvtex.com/arquivos/fondoFooter-1.png"
+    }
+  }, 
+  // contenedor del body
+  "flex-layout.row#faq": {
+    "props": {
+      "blockClass": "contenedor"
+    },
+    "children": [
+      "flex-layout.col#leftColAccesos",
+      "flex-layout.col#faq"
+    ]
+  },
+  // primera columna accesos directos
+  "flex-layout.col#leftColAccesos-faq": {
+    "props":{
+      "blockClass":"primeraCol",
+      "width":"20%"
+    },
+    "children": [
+      "rich-text#Politica-datos-faq",
+      "rich-text#Nuestro-calzado-faq",
+      "rich-text#todo-sobre-pies-faq",
+      "rich-text#empleado-faq",
+      "rich-text#Nuestro-compromiso-faq",
+      "rich-text#aviso-legal-faq",
+      "rich-text#tiendas-faq",
+      "rich-text#contactenos-faq"
+      // "form#faq"
+    ]
+  },
+  // accesos de las paginas estaticas
+  "rich-text#Politica-datos-faq": {
+    "props": {
+      "text": "[Politica de datos](/)",
+      "blockClass":"links-paginas-estaticas"
+    }
+  },
+  "rich-text#Nuestro-calzado-faq": {
+    "props": {
+      "text": "[Nuestro calzado](/)",
+      "blockClass":"links-paginas-estaticas"
+    }
+  },
+  "rich-text#todo-sobre-pies-faq": {
+    "props": {
+      "text": "[Todo sobre los pies](/)",
+      "blockClass":"links-paginas-estaticas"
+    }
+  },
+  "rich-text#empleado-faq": {
+    "props": {
+      "text": "[Como ser Empleado](/)",
+      "blockClass":"links-paginas-estaticas"
+    }
+  },
+  "rich-text#Nuestro-compromiso-faq": {
+    "props": {
+      "text": "[Nuestro compromiso](/)",
+      "blockClass":["links-paginas-estaticas","selected"]
+    }
+  },
+  "rich-text#aviso-legal-faq": {
+    "props": {
+      "text": "[Aviso legal](/)",
+      "blockClass":"links-paginas-estaticas"
+    }
+  },
+  "rich-text#tiendas-faq": {
+    "props": {
+      "text": "[Tiendas](/)",
+      "blockClass":"links-paginas-estaticas"
+    }
+  },
+  "rich-text#contactenos-faq": {
+    "props": {
+      "text": "[Contactenos](/)",
+      "blockClass":["links-paginas-estaticas"]
+    }
+  },
+  // segunda columna
+  "flex-layout.col#faq": {
+    "props":{
+      "width":"80%",
+      "blockClass":"segundaCol"
+    },
+    "children": [
+      "rich-text#faq"
+    ]
+  },
+  "rich-text#faq": {
+    "props": {
+      "text": "## Comos ser faq",
+      "blockClass":"Contacto"
+    }
+  }
+}

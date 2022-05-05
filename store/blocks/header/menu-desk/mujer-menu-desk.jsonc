@@ -128,7 +128,7 @@
     // Columna 2 ****************----------------------------------------
     "flex-layout.col#columna-2-mujer": {
         "props": {
-            "width":"16%",
+            "width":"13%",
             "blockClass":["columna-category","columna-2"]
         },
         "children":[
@@ -291,7 +291,7 @@
     // Columna 3 ****************----------------------------------------
     "flex-layout.col#columna-3-mujer": {
         "props": {
-            "width":"16%",
+            "width":"13%",
             "blockClass":["columna-category","columna-3"]
         },
         "children":[
@@ -420,7 +420,7 @@
     // Columna 4 ****************----------------------------------------
     "flex-layout.col#columna-4-mujer": {
         "props": {
-            "width":"16%",
+            "width":"13%",
             "blockClass":["columna-category","columna-4"]
         },
         "children":[
@@ -598,8 +598,8 @@
     // Imagenes menu mujer
     "flex-layout.col#columna-5-mujer": {
         "props": {
-            "width":"14%",
-            "blockClass":["columna-category","columna-5"]
+            "width":"18%",
+            "blockClass":["imagenesColuma","columna-5"]
         },
         "children":[
             "image#imagen-menu-mujer-1"
@@ -608,13 +608,13 @@
     "image#imagen-menu-mujer-1": {
         "props": {
             "blockClass":"imagen-Menu-1",
-            "src": "https://bataco.vteximg.com.br/arquivos/250x250mujer-1709.jpg"
+            "src": "https://bataco.vteximg.com.br/arquivos/BANNER%20MENU%201%20DESK%20170X260.jpg"
         }
     },
     "flex-layout.col#columna-6-mujer": {
         "props": {
-            "width":"14%",
-            "blockClass":["columna-category","columna-6"]
+            "width":"18%",
+            "blockClass":["imagenesColuma","columna-6"]
         },
         "children":[
             "image#imagen-menu-mujer-2"
@@ -623,7 +623,7 @@
     "image#imagen-menu-mujer-2": {
         "props": {
             "blockClass":"imagen-Menu-1",
-            "src": "https://bataco.vteximg.com.br/arquivos/250x250mujer-1709.jpg"
+            "src": "https://bataco.vteximg.com.br/arquivos/BANNER%20MENU%201%20DESK-%202-%20170X260_.jpg"
         }
     }
 }

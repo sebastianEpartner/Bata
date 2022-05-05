@@ -9,3 +9,20 @@
 .menuIcon{
     display: none;
 }
+.menuIcon {
+    display: none;
+}
+.closeIconButton {
+    top: -68px;
+    z-index: 99999999;
+    position: absolute;
+    width: 51px;
+    height: 47px;
+    background: white;
+}
+.drawer {
+    width: 100% !important;
+    background: white;
+    height: 100%;
+    top: 69px;
+}

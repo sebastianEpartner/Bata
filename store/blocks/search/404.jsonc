@@ -1,0 +1,241 @@
+{
+    // contenedor del 404
+    "flex-layout.col#404Container": {
+        "children": [
+            "info-card#404",
+            "rich-text#404-categoria",
+            "slider-layout#text-test",
+            "rich-text#vitrine-404",
+            "list-context.product-list#404-vitrine",
+            "rich-text#aprende-404",
+            "slider-layout#sliderInfo"
+        ],
+        "props": {
+            "blockClass":"404-container"
+        }
+    },
+    // banner principal
+    "info-card#404": {
+        "props": {
+          "id": "info-card-404",
+          "isFullModeStyle": true,
+          "textPosition": "left",
+          "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+          "headline": "UPS PÁGINA NO ENCONTRADA",
+          "subhead": "Parece que no se pudo encontrar la página solicitada \n\n Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500",
+          "callToActionUrl": "/sale/d",
+          "blockClass": "info-card-404",
+          "textAlignment": "center"
+        }
+    },
+    // titulo categorias mas buscadas
+    "rich-text#404-categoria": {
+        "props": {
+          "text": "## CATEGORIAS MÁS BUSCADAS",
+          "blockClass": ["shelfTitle","categoriasTittle"]
+        }
+    },
+    // slider categorias
+    "slider-layout#text-test": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 5,
+            "tablet": 4,
+            "phone": 3
+          },
+          "infinite": true,
+          "showNavigationArrows": "mobileOnly",
+          "blockClass": "categoryCarousel"
+        },
+        "children": ["rich-text#categoria-1", "rich-text#categoria-2", "rich-text#categoria-3","rich-text#categoria-4", "rich-text#categoria-5"]
+    },
+    
+    "rich-text#categoria-1": {
+        "props": {
+            "blockClass":"category-404-item",
+            "text": "[Categoria 1](/)"
+        }
+    },
+    "rich-text#categoria-2": {
+        "props": {
+            "blockClass":"category-404-item",
+            "text": "[Categoria 2](/)"
+        }
+    },
+    "rich-text#categoria-3": {
+        "props": {
+            "blockClass":"category-404-item",
+            "text": "[Categoria 3](/)"
+        }
+    },
+    "rich-text#categoria-4": {
+        "props": {
+            "blockClass":"category-404-item",
+            "text": "[Categoria 4](/)"
+        }
+    },
+    "rich-text#categoria-5": {
+        "props": {
+            "blockClass":"category-404-item",
+            "text": "[Categoria 5](/)"
+        }
+    },
+    // titulo de la vitrina
+    "rich-text#vitrine-404": {
+        "props": {
+          "text": "## PRODUCTOS MÁS BUSCADOS",
+          "blockClass": "shelfTitle"
+        }
+    },
+    // vitrina del 404
+    "list-context.product-list#404-vitrine": {
+        "blocks": ["product-summary.shelf"],
+        "children": ["slider-layout#404-vitrine"]
+    },
+    "slider-layout#404-vitrine": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf",
+          "showPaginationDots":"false",
+          "showNavigationArrows": "desktopOnly"
+        }
+    },
+    // final seccion
+    "rich-text#aprende-404": {
+        "props": {
+          "text": "## APRENDE CON COEXITO",
+          "blockClass": "shelfTitle"
+        }
+    },
+    "slider-layout#sliderInfo": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "blockClass": ["slider-info"],
+          "showPaginationDots":"always"
+        },
+        "children": ["flex-layout.col#cards-1","flex-layout.col#cards-2","flex-layout.col#cards-3","flex-layout.col#cards-4"]
+    },
+    // Tarjetas 
+    "flex-layout.col#cards-1": {
+        "children": [
+          "image#cards-1",
+          "rich-text#cards-1",
+          "rich-text#cards-content-1"
+        ]
+    },
+    "image#cards-1": {
+        "props": {
+          "src": "https://cutis.vteximg.com.br/arquivos/cards-1.png",
+          "maxHeight": "",
+          "maxWidth": "",
+          "blockClass": "imagenCard"
+        }
+    },
+    "rich-text#cards-1": {
+        "props": {
+          "text": "Protección solar",
+          "blockClass": "titulosCards"
+        }
+    },
+    "rich-text#cards-content-1": {
+        "props": {
+          "text": "Encuentra el bloqueador ideal para tu tipo de piel.",
+          "blockClass": "contenidoInfocards"
+        }
+    },
+    // card 2
+    "flex-layout.col#cards-2": {
+        "children": [
+          "image#cards-2",
+          "rich-text#cards-2",
+          "rich-text#cards-content-2"
+        ]
+    },
+    "image#cards-2": {
+        "props": {
+          "src": "https://cutis.vteximg.com.br/arquivos/cards2.png",
+          "maxHeight": "",
+          "maxWidth": "",
+          "blockClass": "imagenCard"
+        }
+    },
+    "rich-text#cards-2": {
+        "props": {
+          "text": "Cuidado de la piel",
+          "blockClass": "titulosCards"
+        }
+    },
+    "rich-text#cards-content-2": {
+        "props": {
+          "text": "Manejamos toda la linea de cuidado de tu piel al mejor precio.",
+          "blockClass": "contenidoInfocards"
+        }
+      },
+    // card 3
+    "flex-layout.col#cards-3": {
+        "children": [
+          "image#cards-3",
+          "rich-text#cards-3",
+          "rich-text#cards-content-3"
+        ]
+    },
+    "image#cards-3": {
+        "props": {
+          "src": "https://cutis.vteximg.com.br/arquivos/cards-3.png",
+          "maxHeight": "",
+          "maxWidth": "",
+          "blockClass": "imagenCard"
+        }
+    },
+    "rich-text#cards-3": {
+        "props": {
+          "text": "Medicamentos",
+          "blockClass": "titulosCards"
+        }
+    },
+    "rich-text#cards-content-3": {
+        "props": {
+          "text": "Los mejores medicamentos para mantener tu piel saludable.",
+          "blockClass": "contenidoInfocards"
+        }
+    },
+    // card 4
+    "flex-layout.col#cards-4": {
+        "children": [
+          "image#cards-4",
+          "rich-text#cards-4",
+          "rich-text#cards-content-4"
+        ]
+    },
+    "image#cards-4": {
+        "props": {
+          "src": "https://cutis.vteximg.com.br/arquivos/cards-4.png",
+          "maxHeight": "",
+          "maxWidth": "",
+          "blockClass": "imagenCard"
+        }
+    },
+    "rich-text#cards-4": {
+        "props": {
+          "text": "Maquillaje",
+          "blockClass": "titulosCards"
+        }
+    },
+    "rich-text#cards-content-4": {
+        "props": {
+          "text": "Mantente radiante con nuestra linea de maquillaje.",
+          "blockClass": "contenidoInfocards"
+        }
+    }
+}

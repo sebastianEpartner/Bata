@@ -1,3 +1,17 @@
 .product-identifier--productReference {
   margin-bottom: 1rem;
 }
+.product-identifier__label{
+  font-size: 0;
+}
+.product-identifier__label::before{
+  content: "Ref";
+  font-size: 11px;
+}
+.product-identifier__value{
+  font-size: 11px;
+}
+.product-identifier--productReference  {
+  margin: 10px 0 2px 0;
+  display: block;
+}

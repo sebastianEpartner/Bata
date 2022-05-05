@@ -1,0 +1,267 @@
+{
+  "store.custom#empleado": {
+    "children": [
+      "image#bannerTopIzquierda-empleado",
+      "flex-layout.row#empleado"
+    ],
+    "props":{
+      "blockClass":"contenedor"
+    }
+  },
+  // imagen
+  "image#bannerTopIzquierda-empleado": {
+    "props": {
+        "blockClass":["bannerEstaticas"],
+        "src": "https://batadev--batanew.myvtex.com/arquivos/fondoFooter-1.png"
+    }
+  }, 
+  // contenedor del body
+  "flex-layout.row#empleado": {
+    "props": {
+      "blockClass": "contenedor"
+    },
+    "children": [
+      "flex-layout.col#leftColAccesos",
+      "flex-layout.col#empleado"
+    ]
+  },
+  // primera columna accesos directos
+  "flex-layout.col#leftColAccesos-empleado": {
+    "props":{
+      "blockClass":"primeraCol",
+      "width":"20%"
+    },
+    "children": [
+      "rich-text#Politica-datos-empleado",
+      "rich-text#Nuestro-calzado-empleado",
+      "rich-text#todo-sobre-pies-empleado",
+      "rich-text#empleado-empleado",
+      "rich-text#Nuestro-compromiso-empleado",
+      "rich-text#aviso-legal-empleado",
+      "rich-text#tiendas-empleado",
+      "rich-text#contactenos-empleado"
+      // "form#empleado"
+    ]
+  },
+  // accesos de las paginas estaticas
+  "rich-text#Politica-datos-empleado": {
+    "props": {
+      "text": "[Politica de datos](/)",
+      "blockClass":"links-paginas-estaticas"
+    }
+  },
+  "rich-text#Nuestro-calzado-empleado": {
+    "props": {
+      "text": "[Nuestro calzado](/)",
+      "blockClass":"links-paginas-estaticas"
+    }
+  },
+  "rich-text#todo-sobre-pies-empleado": {
+    "props": {
+      "text": "[Todo sobre los pies](/)",
+      "blockClass":"links-paginas-estaticas"
+    }
+  },
+  "rich-text#empleado-empleado": {
+    "props": {
+      "text": "[Como ser empleado](/)",
+      "blockClass":"links-paginas-estaticas"
+    }
+  },
+  "rich-text#Nuestro-compromiso-empleado": {
+    "props": {
+      "text": "[Nuestro compromiso](/)",
+      "blockClass":["links-paginas-estaticas","selected"]
+    }
+  },
+  "rich-text#aviso-legal-empleado": {
+    "props": {
+      "text": "[Aviso legal](/)",
+      "blockClass":"links-paginas-estaticas"
+    }
+  },
+  "rich-text#tiendas-empleado": {
+    "props": {
+      "text": "[Tiendas](/)",
+      "blockClass":"links-paginas-estaticas"
+    }
+  },
+  "rich-text#contactenos-empleado": {
+    "props": {
+      "text": "[Contactenos](/)",
+      "blockClass":["links-paginas-estaticas"]
+    }
+  },
+  // segunda columna
+  "flex-layout.col#empleado": {
+    "props":{
+      "width":"80%",
+      "blockClass":"segundaCol"
+    },
+    "children": [
+      "rich-text#empleado",
+      "flex-layout.col#compromiso1",
+      "flex-layout.col#compromiso2",
+      "flex-layout.col#compromiso3",
+      "flex-layout.col#compromiso4",
+      "flex-layout.col#compromiso5",
+      "flex-layout.col#compromiso6"
+    ]
+  },
+  "rich-text#empleado": {
+    "props": {
+      "text": "## Comos ser empleado",
+      "blockClass":"Contacto"
+    }
+  },
+  // contenido 1
+  "flex-layout.col#empleado-1": {
+      "props":{
+        "blockClass":"contentCompromiso"
+      },
+      "children": [
+          "rich-text#empleado-1",
+          "rich-text#empleado-2"
+      ]
+  },
+  "rich-text#empleado-1": {
+      "props": {
+        "text": "¿Por qué trabajar en Bata?",
+        "blockClass":"tittle-TYC"
+      }
+  },
+  "rich-text#empleado-2": {
+      "props": {
+        "text": "Porque creemos en el potencial humano y lo valoramos, buscando siempre fortalecer la relación empresa-empleado a través de la formación de líderes comerciales que estén convencidos que el futuro pertenece a aquellos que son capaces de crearlo. Valoramos ante todo la integridad, creatividad, pasión, actitud y voluntad de hacer las cosas siempre lo mejor posible para alcanzar el éxito. Seleccionamos personas, que más que convertirse en nuestros empleados sean seres humanos comprometidos con la sociedad y busquen siempre estar al servicio de los demás, que fijan sus propias metas y buscan triunfos tanto personales como laborales. Apoyamos a aquellos que desean aprender y experimentar de forma continua, creemos en las buenas ideas y fortalecemos el talento de cada una de las personas que nos apoyan en el día a día, con el fin de crear relaciones duraderas que animen el buen desarrollo de la actividad laboral.",
+        "blockClass":"contenido-TYC"
+      }
+  },
+  // contenido 2
+  "flex-layout.col#empleado-2": {
+      "props":{
+        "blockClass":"contentCompromiso"
+      },
+      "children": [
+        "flex-layout.row#mosaico-tyc"
+      ]
+  },
+  "flex-layout.row#mosaico-tyc": {
+    "props":{
+      "blockClass":"contentCompromiso"
+    },
+    "children": [
+      "flex-layout.col#mosaico-lateral-izq",
+      "flex-layout.col#-lateral-mosaicoDerecho"
+    ]
+  },
+  "flex-layout.col#mosaico-lateral-izq": {
+    "props":{
+      "width":"60%",
+      "blockClass":"contentCompromiso"
+    },
+    "children": [
+      "image#bannerIzquierdoMosaico"
+    ]
+  },
+  "image#bannerIzquierdoMosaico": {
+    "props": {
+        "blockClass":["bannerIzquierdoLateral","banner-item"],
+        "src": "https://batanew.vteximg.com.br/arquivos/GRID-BANNER1-DESK%20430X510@0,75x.jpg",
+        "link":{
+            "url":"/"
+        }
+    }
+  }, 
+  // Columna derechas
+  "flex-layout.col#-lateral-mosaicoDerecho":{
+      "props":{
+          "width":"40%",
+          "blockClass":[""]
+      },
+      "children":[
+          "flex-layout.row#Mosaicofila1-tyc",
+          "flex-layout.row#Mosaicofila2-tyc"
+      ]
+  },
+  // fila 1 -----------------------------------------
+  "flex-layout.row#Mosaicofila1-tyc": {
+      "props": {
+          "blockClass": "mosaicoHome-fila"
+      },
+      "children": [
+          "image#bannerFila1-mosaico-lateral-1",
+          "image#bannerFila1-mosaico-lateral-2"
+      ]
+  },
+  "image#bannerFila1-mosaico-lateral-1": {
+      "props": {
+          "blockClass":"banner-item",
+          "src": "https://batanew.vteximg.com.br/arquivos/GRID-BANNER2-DESK%20225X250.jpg",
+          "link":{
+              "url":"/"
+          }
+      }
+  }, 
+  "image#bannerFila1-mosaico-lateral-2": {
+      "props": {
+          "blockClass":"banner-item",
+          "src": "https://batanew.vteximg.com.br/arquivos/GRID-BANNER3-DESK%20225X250%20@0,5x.jpg",
+          "link":{
+              "url":"/"
+          }
+      }
+  },
+  // fila 2 -------------------------------------------
+  "flex-layout.row#Mosaicofila2-tyc": {
+      "props": {
+          "blockClass": "mosaicoHome-fila"
+      },
+      "children": [
+          "image#bannerFila1-mosaico-lateral-3",
+          "image#bannerFila1-mosaico-lateral-4"
+      ]
+  },
+  "image#bannerFila1-mosaico-lateral-3": {
+      "props": {
+          "blockClass":"banner-item",
+          "src": "https://batanew.vteximg.com.br/arquivos/GRID-BANNER4-DESK.jpg",
+          "link":{
+              "url":"/"
+          }
+      }
+  }, 
+  "image#bannerFila1-mosaico-lateral-4": {
+      "props": {
+          "blockClass":"banner-item",
+          "src": "https://batanew.vteximg.com.br/arquivos/GRID-BANNER5-DESK%20225X250_.jpg",
+          "link":{
+              "url":"/"
+          }
+      }
+  },
+  // contenido 3
+  "flex-layout.col#empleado-3": {
+      "props":{
+        "blockClass":"contentCompromiso"
+      },
+      "children": [
+        "info-card#como-ser-empleado"
+      ]
+  },
+  // info de producto --------------------------------------
+  "info-card#como-ser-empleado": {
+    "props": {
+      "id": "info-card-empleado",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://batanew.vteximg.com.br/arquivos/BANNER%20PRODUCTO%20DESTACADO%20DESK%20860X300.jpg",
+      "subhead":"Nos esforzamos por ofrecer a nuestros clientes el mejor calzado, estilo y calidad a un precio justo con la mejor asistencia profesional en ventas. Para esto, invertimos mucho tiempo en la selección de nuestro personal, por medio de nuestros colaboradores del equipo de Recursos Humanos quienes se encuentran especialmente capacitados y organizados para focalizar y reconocer todas las características profesionales y personales que deben estar intrínsecas en cualquier persona que desee apoyarnos a nivel laboral. - Preparación técnica. - Trabajo en equipo. - Manejo constante de resultados. - Capacidad de organización y directiva. - Son algunas de las características que se tienen en cuenta para permitir la entrada a nuevos colaboradores que entrarán a formar parte de la gran Familia Bata Colombia. Bata - Departamento de Relaciones Industriales. - Recursos Humanos. - Línea de servicio 8982498 Ext. 1960 - Calle 9 No. 4-61 Chipre. - Manizales - Colombia. Correo: co.atencionalcliente@bata.com",
+      "mobileImageUrl":"https://batanew.vteximg.com.br/arquivos/BANNER%20PRODUCTO%20DESTACADO%20MOVIL%20620X250@0,75x.jpg",
+      "headline": "Apóyanos",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "right"
+    }
+  }
+}
+  

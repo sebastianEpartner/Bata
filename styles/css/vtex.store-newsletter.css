@@ -1,5 +1,5 @@
 .newsletterForm{
-    width: 536px;
+    width: 607px;
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -8,6 +8,10 @@
     width: 100%;
     border: 1px solid white;
 }
+.formSubmitContainer{
+    width: 309px;
+}
+
 .emailInputContainer :global(.vtex-input-prefix__group ){
     border: 0;
     border-radius: 0;
@@ -15,6 +19,19 @@
 .emailInputContainer :global(.vtex-styleguide-9-x-input){
     border-radius: 0;
     background: transparent;
+}
+.formSubmitContainer :global(.vtex-button){
+    background: white;
+    border: 0;
+    border: 2px solid white;
+    border-radius: 0;
+    height: 100%;
+    padding: 0 10px;
+}
+.formSubmitContainer :global(.vtex-button__label){
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
 }
 @media (max-width: 600px) {
     .newsletterForm{

@@ -128,7 +128,7 @@
     // Columna 2 ****************----------------------------------------
     "flex-layout.col#columna-2-hombre": {
         "props": {
-            "width":"16%",
+            "width":"13%",
             "blockClass":["columna-category","columna-2"]
         },
         "children":[
@@ -274,7 +274,7 @@
     // Columna 3 ****************----------------------------------------
     "flex-layout.col#columna-3-hombre": {
         "props": {
-            "width":"16%",
+            "width":"13%",
             "blockClass":["columna-category","columna-3"]
         },
         "children":[
@@ -403,7 +403,7 @@
     // Columna 4 ****************----------------------------------------
     "flex-layout.col#columna-4-hombre": {
         "props": {
-            "width":"16%",
+            "width":"13%",
             "blockClass":["columna-category","columna-4"]
         },
         "children":[
@@ -583,8 +583,8 @@
     // Imagenes menu hombre
     "flex-layout.col#columna-5-hombre": {
         "props": {
-            "width":"14%",
-            "blockClass":["columna-category","columna-5"]
+            "width":"19%",
+            "blockClass":["imagenesColuma","columna-5"]
         },
         "children":[
             "image#imagen-menu-hombre-1"
@@ -593,13 +593,13 @@
     "image#imagen-menu-hombre-1": {
         "props": {
             "blockClass":"imagen-Menu-1",
-            "src": "https://bataco.vteximg.com.br/arquivos/250x250hombre-1709.jpg"
+            "src": "https://batanew.vteximg.com.br/arquivos/menu-hombre-new-1.png"
         }
     },
     "flex-layout.col#columna-6-hombre": {
         "props": {
-            "width":"14%",
-            "blockClass":["columna-category","columna-6"]
+            "width":"19%",
+            "blockClass":["imagenesColuma","columna-6"]
         },
         "children":[
             "image#imagen-menu-hombre-2"
@@ -608,7 +608,7 @@
     "image#imagen-menu-hombre-2": {
         "props": {
             "blockClass":"imagen-Menu-1",
-            "src": "https://bataco.vteximg.com.br/arquivos/250x250hombre-1709.jpg"
+            "src": "https://batanew.vteximg.com.br/arquivos/menu-hombre-new-2.png"
         }
     }
 }

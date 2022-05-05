@@ -125,6 +125,61 @@
   opacity: 1;
   visibility: visible;
 }
+.clearLink:hover{
+  box-shadow: 10px 5px 5px black;;
+}
+.imageContainer{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--productCartButton){
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--productinfo){
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.element:hover :global(.vtex-flex-layout-0-x-flexCol--productinfo){
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.element{
+  position: relative;
+}
+.element :global(.vtex-wish-list-1-x-wishlistIconContainer){
+  right: 10px;
+  top: 10px;
+  position: absolute;
+  left: 132px;
+  display: flex;
+  justify-content: flex-end;
+}
+.element :global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button){
+  border: 0;
+}
+.element :global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button):hover{
+  background: transparent;
+}
+.element :global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button)::before{
+  content: "";
+  background: url(/arquivos/favoritos-nohover-batadev.png) no-repeat;
+  background-size: 100%;
+  width: 21px;
+  height: 21px;
+  display: block;
+}
+.element :global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button):hover::before{
+  content: "";
+  background: url(/arquivos/favoritos-hover-batadev}.png) no-repeat;
+  background-size: 100%;
+  width: 21px;
+  height: 21px;
+  display: block;
+}
+.element :global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button__label){
+  display: none;
+}
 @media (max-width: 600px) {
   .nameContainer {
     overflow: hidden;
@@ -141,6 +196,7 @@
     transition: 400ms all;
     opacity: 1;
     visibility: visible;
+    background-color: white;
   }
   .image {
     max-height: 194px !important;
@@ -160,5 +216,12 @@
   .productBrandName{
     color: #808080;
     font-size: 12px;
+  }
+  .productBrandName{
+    text-align: center;
+  }
+  .productBrandContainer{
+    display: flex;
+    justify-content: center;
   }
 }

@@ -1,0 +1,156 @@
+{
+    "store.custom#calzado": {
+        "children": [
+            "image#bannerTopIzquierda-nuestro-calzado",
+            "flex-layout.row#nuestro-calzado"
+        ],
+        "props":{
+          "blockClass":"contenedor"
+        }
+    },
+    // imagen
+ "image#bannerTopIzquierda-nuestro-calzado": {
+    "props": {
+        "blockClass":["bannerEstaticas"],
+        "src": "https://batadev--batanew.myvtex.com/arquivos/fondoFooter-1.png"
+    }
+  }, 
+  // contenedor del body
+  "flex-layout.row#nuestro-calzado": {
+    "props": {
+      "blockClass": "contenedor"
+    },
+    "children": [
+      "flex-layout.col#leftColAccesos",
+      "flex-layout.col#nuestro-calzado"
+    ]
+  },
+  // primera columna accesos directos
+  "flex-layout.col#leftColAccesos-nuestro-calzado": {
+    "props":{
+      "blockClass":"primeraCol",
+      "width":"20%"
+    },
+    "children": [
+      "rich-text#Politica-datos-nuestro-calzado",
+      "rich-text#Nuestro-calzado-nuestro-calzado",
+      "rich-text#todo-sobre-pies-nuestro-calzado",
+      "rich-text#empleado-nuestro-calzado",
+      "rich-text#Nuestro-compromiso-nuestro-calzado",
+      "rich-text#aviso-legal-nuestro-calzado",
+      "rich-text#tiendas-nuestro-calzado",
+      "rich-text#contactenos-nuestro-calzado"
+      // "form#nuestro-calzado"
+    ]
+  },
+  // accesos de las paginas estaticas
+  "rich-text#Politica-datos-nuestro-calzado": {
+    "props": {
+      "text": "[Politica de datos](/)",
+      "blockClass":"links-paginas-estaticas"
+    }
+  },
+  "rich-text#Nuestro-calzado-nuestro-calzado": {
+    "props": {
+      "text": "[Nuestro calzado](/)",
+      "blockClass":"links-paginas-estaticas"
+    }
+  },
+  "rich-text#todo-sobre-pies-nuestro-calzado": {
+    "props": {
+      "text": "[Todo sobre los pies](/)",
+      "blockClass":"links-paginas-estaticas"
+    }
+  },
+  "rich-text#empleado-nuestro-calzado": {
+    "props": {
+      "text": "[Como ser Empleado](/)",
+      "blockClass":"links-paginas-estaticas"
+    }
+  },
+  "rich-text#Nuestro-compromiso-nuestro-calzado": {
+    "props": {
+      "text": "[Nuestro compromiso](/)",
+      "blockClass":["links-paginas-estaticas","selected"]
+    }
+  },
+  "rich-text#aviso-legal-nuestro-calzado": {
+    "props": {
+      "text": "[Aviso legal](/)",
+      "blockClass":"links-paginas-estaticas"
+    }
+  },
+  "rich-text#tiendas-nuestro-calzado": {
+    "props": {
+      "text": "[Tiendas](/)",
+      "blockClass":"links-paginas-estaticas"
+    }
+  },
+  "rich-text#contactenos-nuestro-calzado": {
+    "props": {
+      "text": "[Contactenos](/)",
+      "blockClass":["links-paginas-estaticas"]
+    }
+  },
+  // segunda columna
+  "flex-layout.col#nuestro-calzado": {
+    "props":{
+      "width":"80%",
+      "blockClass":"segundaCol"
+    },
+    "children": [
+        "rich-text#calzado",
+        "info-card#calzado-1",
+        "info-card#calzado-2",
+        "info-card#calzado-3"
+    ]
+  },
+  "rich-text#calzado": {
+    "props": {
+      "text": "## Nuestro calzado",
+      "blockClass":"Contacto"
+    }
+  },
+  "info-card#calzado-1": {
+    "props": {
+      "id": "info-card-calzado1",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://batanew.vteximg.com.br/arquivos/BANNER%20PRODUCTO%20DESTACADO%20DESK%20860X300.jpg",
+      "subhead":"Pensando siempre en la diversidad cultural de nuestros clientes y en sus diferentes necesidades los diseños de nuestras colecciones buscan satisfacer siempre sus diferentes gustos y preferencias, con amplias parrillas de diseños para hombres, mujeres y niños, además de colecciones especiales de deportes, descanso y aire libre.\n Los modelos exclusivos de Bata junto con marcas nacionales e internacionales son cuidadosamente seleccionados y actualizados en respuesta a la demanda del mercado.",
+      "mobileImageUrl":"https://batanew.vteximg.com.br/arquivos/BANNER%20PRODUCTO%20DESTACADO%20MOVIL%20620X250@0,75x.jpg",
+      "headline": "Amplio surtido de producto",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-calzado1",
+      "textAlignment": "right"
+    }
+  },
+  "info-card#calzado-2": {
+    "props": {
+      "id": "info-card-calzado2",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://batanew.vteximg.com.br/arquivos/BANNER%20PRODUCTO%20DESTACADO%20DESK%20860X300.jpg",
+      "subhead":"Tratamos de llevar el servicio al cliente fuera y dentro de las tiendas, sabemos que el éxito en las ventas está en el lugar donde se realiza la compra, sin embargo buscamos ofrecer soluciones 360°, donde tu cuentas con diferentes canales de comunicación como ventas por catálogo, Call Center, página web, correo electrónico y redes sociales.",
+      "mobileImageUrl":"https://batanew.vteximg.com.br/arquivos/BANNER%20PRODUCTO%20DESTACADO%20MOVIL%20620X250@0,75x.jpg",
+      "headline": "Servicio personalizado",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-calzado1",
+      "textAlignment": "right"
+    }
+  },
+  "info-card#calzado-3": {
+    "props": {
+      "id": "info-card-calzado3",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://batanew.vteximg.com.br/arquivos/BANNER%20PRODUCTO%20DESTACADO%20DESK%20860X300.jpg",
+      "subhead":"Contamos con vitrinas y exhibiciones que te facilitan tomar una decisión de compra al momento de llegar a la Tienda, pensando siempre en las tendencias que están a la vanguardia de la industria del calzado, para que las conozcas y te enamores de ellas. Satisfacción de cliente garantizada En Bata estamos comprometidos con darte siempre lo mejor y para esto, en cualquiera de nuestras tiendas: reparamos y/o cambiamos cualquier producto con defectos. Aplican condiciones.",
+      "mobileImageUrl":"https://batanew.vteximg.com.br/arquivos/BANNER%20PRODUCTO%20DESTACADO%20MOVIL%20620X250@0,75x.jpg",
+      "headline": "Comercialización del producto",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-calzado1",
+      "textAlignment": "right"
+    }
+  }
+}

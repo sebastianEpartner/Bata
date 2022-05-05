@@ -21,7 +21,7 @@
     "image#bannerIzquierdo": {
         "props": {
             "blockClass":["bannerIzquierdoLateral","banner-item"],
-            "src": "https://batanew.vteximg.com.br/arquivos/MossaicolateralIzquierdo.png",
+            "src": "https://batanew.vteximg.com.br/arquivos/GRID-BANNER1-DESK%20430X510@0,75x.jpg",
             "link":{
                 "url":"/"
             }
@@ -51,7 +51,7 @@
     "image#bannerFila1-1": {
         "props": {
             "blockClass":"banner-item",
-            "src": "https://batanew.vteximg.com.br/arquivos/mosaicofila-1-1.png",
+            "src": "https://batanew.vteximg.com.br/arquivos/GRID-BANNER2-DESK%20225X250.jpg",
             "link":{
                 "url":"/"
             }
@@ -60,7 +60,7 @@
     "image#bannerFila1-2": {
         "props": {
             "blockClass":"banner-item",
-            "src": "https://batanew.vteximg.com.br/arquivos/mosaicofila-1-2.png",
+            "src": "https://batanew.vteximg.com.br/arquivos/GRID-BANNER3-DESK%20225X250%20@0,5x.jpg",
             "link":{
                 "url":"/"
             }
@@ -79,7 +79,7 @@
     "image#bannerFila1-3": {
         "props": {
             "blockClass":"banner-item",
-            "src": "https://batanew.vteximg.com.br/arquivos/mosaicofila-2-1.png",
+            "src": "https://batanew.vteximg.com.br/arquivos/GRID-BANNER4-DESK.jpg",
             "link":{
                 "url":"/"
             }
@@ -88,7 +88,7 @@
     "image#bannerFila1-4": {
         "props": {
             "blockClass":"banner-item",
-            "src": "https://batanew.vteximg.com.br/arquivos/mosaicofila-2-2.png",
+            "src": "https://batanew.vteximg.com.br/arquivos/GRID-BANNER5-DESK%20225X250_.jpg",
             "link":{
                 "url":"/"
             }

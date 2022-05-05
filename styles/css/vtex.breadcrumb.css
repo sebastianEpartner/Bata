@@ -3,12 +3,49 @@
 }
 .homeLink::before{
     content: "Home";
-    font-size: 12px;
+    font-size: 11px;
     text-decoration: underline;
+    color: #808080;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .link {
     font-size: 12px !important;
     text-decoration: underline;
+}
+.link {
+    color: #808080;
+    text-decoration: none;
+    font-size: 11px;
+    text-decoration: underline;
+}
+.link:hover {
+    color: black;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--coolumanDerecha) .term{
+    color: red;
+    font-weight: bold;
+    font-size: 11px;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--coolumanDerecha) .arrow{
+    display: flex;
+    padding: 0;
+    align-items: center;
+    margin: 0 1px;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--coolumanDerecha) .arrow::before {
+    content: "";
+    background: red;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: inline-block;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--coolumanDerecha) .caretIcon{
+    display: none;
 }
 @media (max-width: 600px) {
     .container {

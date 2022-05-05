@@ -1,0 +1,485 @@
+{
+    "store.custom#tyc": {
+      "children": [
+        "image#bannerTopIzquierda-tyc",
+        "flex-layout.row#tyc"
+      ],
+      "props":{
+        "blockClass":"contenedor"
+      }
+    },
+   // imagen
+   "image#bannerTopIzquierda-tyc": {
+      "props": {
+          "blockClass":["bannerEstaticas"],
+          "src": "https://batadev--batanew.myvtex.com/arquivos/fondoFooter-1.png"
+      }
+    }, 
+    // contenedor del body
+    "flex-layout.row#tyc": {
+      "props": {
+        "blockClass": "contenedor"
+      },
+      "children": [
+        "flex-layout.col#leftColAccesos",
+        "flex-layout.col#tyc"
+      ]
+    },
+    // primera columna accesos directos
+    "flex-layout.col#leftColAccesos-tyc": {
+      "props":{
+        "blockClass":"primeraCol",
+        "width":"20%"
+      },
+      "children": [
+        "rich-text#Politica-datos-tyc",
+        "rich-text#Nuestro-calzado-tyc",
+        "rich-text#todo-sobre-pies-tyc",
+        "rich-text#empleado-tyc",
+        "rich-text#Nuestro-compromiso-tyc",
+        "rich-text#aviso-legal-tyc",
+        "rich-text#tiendas-tyc",
+        "rich-text#contactenos-tyc"
+        // "form#tyc"
+      ]
+    },
+    // accesos de las paginas estaticas
+    "rich-text#Politica-datos-tyc": {
+      "props": {
+        "text": "[Politica de datos](/)",
+        "blockClass":"links-paginas-estaticas"
+      }
+    },
+    "rich-text#Nuestro-calzado-tyc": {
+      "props": {
+        "text": "[Nuestro calzado](/)",
+        "blockClass":"links-paginas-estaticas"
+      }
+    },
+    "rich-text#todo-sobre-pies-tyc": {
+      "props": {
+        "text": "[Todo sobre los pies](/)",
+        "blockClass":"links-paginas-estaticas"
+      }
+    },
+    "rich-text#empleado-tyc": {
+      "props": {
+        "text": "[Como ser Empleado](/)",
+        "blockClass":"links-paginas-estaticas"
+      }
+    },
+    "rich-text#Nuestro-compromiso-tyc": {
+      "props": {
+        "text": "[Nuestro compromiso](/)",
+        "blockClass":["links-paginas-estaticas","selected"]
+      }
+    },
+    "rich-text#aviso-legal-tyc": {
+      "props": {
+        "text": "[Aviso legal](/)",
+        "blockClass":"links-paginas-estaticas"
+      }
+    },
+    "rich-text#tiendas-tyc": {
+      "props": {
+        "text": "[Tiendas](/)",
+        "blockClass":"links-paginas-estaticas"
+      }
+    },
+    "rich-text#contactenos-tyc": {
+      "props": {
+        "text": "[Contactenos](/)",
+        "blockClass":["links-paginas-estaticas"]
+      }
+    },
+    // segunda columna
+    "flex-layout.col#tyc": {
+      "props":{
+        "width":"80%",
+        "blockClass":"segundaCol"
+      },
+      "children": [
+        "rich-text#tyc",
+        "rich-text#tyc-1",
+        "rich-text#tyc-2",
+        "rich-text#tyc-3",
+        "rich-text#tyc-4",
+        "rich-text#tyc-5",
+        "rich-text#tyc-6",
+        "rich-text#tyc-7",
+        "rich-text#tyc-8",
+        "rich-text#tyc-9",
+        "rich-text#tyc-10",
+        "rich-text#tyc-11",
+        "rich-text#tyc-12",
+        "rich-text#tyc-13",
+        "rich-text#tyc-14",
+        "rich-text#tyc-15",
+        "rich-text#tyc-16",
+        "rich-text#tyc-17",
+        "rich-text#tyc-18",
+        "rich-text#tyc-19",
+        "rich-text#tyc-20",
+        "rich-text#tyc-21",
+        "rich-text#tyc-22",
+        "rich-text#tyc-23",
+        "rich-text#tyc-24",
+        "rich-text#tyc-25",
+        "rich-text#tyc-26",
+        "rich-text#tyc-27",
+        "rich-text#tyc-28",
+        "rich-text#tyc-29",
+        "rich-text#tyc-30",
+        "rich-text#tyc-31",
+        "rich-text#tyc-32",
+        "rich-text#tyc-33",
+        "rich-text#tyc-34",
+        "rich-text#tyc-35",
+        "rich-text#tyc-36",
+        "rich-text#tyc-37",
+        "rich-text#tyc-38",
+        "rich-text#tyc-39",
+        "rich-text#tyc-40",
+        "rich-text#tyc-41",
+        "rich-text#tyc-42",
+        "rich-text#tyc-43",
+        "rich-text#tyc-44",
+        "rich-text#tyc-45",
+        "rich-text#tyc-46",
+        "rich-text#tyc-47",
+        "rich-text#tyc-48", 
+        "rich-text#tyc-49",
+        "rich-text#tyc-50",
+        "rich-text#tyc-51",
+        "rich-text#tyc-52",
+        "rich-text#tyc-53"
+      ]
+    },
+    "rich-text#tyc": {
+      "props": {
+        "text": "## BIENVENIDO A NUESTRA TIENDA VIRTUAL BATA",
+        "blockClass":"Contacto"
+      }
+    },
+    "rich-text#tyc-1": {
+        "props": {
+          "text": "Términos y Condiciones Tienda Virtual Bata",
+          "blockClass":"tittle-TYC"
+        }
+    },
+    "rich-text#tyc-2": {
+        "props": {
+          "text": "BATA dispone de este sitio web para que sus clientes puedan adquirir fácilmente sus productos. Por favor, lea los siguientes términos y condiciones del uso de nuestra tienda virtual www.bata.com.co, los cuales acepta al acceder a él. Si no está de acuerdo, abstenerse de su uso para sus compras por internet.\n Tenga en cuenta que nos reservamos el derecho de actualizar o cambiar los Términos y Condiciones en cualquier momento sin previo aviso, es por esto que le recomendamos leer esta sección cada vez que vaya a usar este sitio web.\n Para realizar una compra deberá crear una cuenta, en la cual proporcionará sus datos personales y dirección a donde serán enviados sus pedidos. Debe ser mayor de edad; pero si es menor de edad un adulto responsable deberá registrarse y, a través de esa cuenta, realizar la compra.\n Al completar el registro, debe aceptar la política de tratamiento de datos y condiciones de nuestro programa de fidelización de clientes Bata Club.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-3": {
+        "props": {
+          "text": "1- POLÍTICA DE PRECIOS, DESCUENTOS Y PROMOCIONES",
+          "blockClass":"tittle-TYC"
+        }
+    },
+    "rich-text#tyc-4": {
+        "props": {
+          "text": "- BATA se reserva el derecho a modificar los precios, descuentos y promociones de los productos en cualquier momento. Ello sin necesidad de avisar de dicho cambio, correspondiendo siempre el valor facturado contra el valor de su pedido.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-5": {
+        "props": {
+          "text": "- En www.bata.com.co ofrecemos descuentos por un tiempo limitado. Puede consultar las promociones vigentes en la opción Términos y Condiciones Campañas Tienda Virtual. \n - Los precios ofrecidos en nuestra Tienda Virtual suelen ser iguales a los ofrecidos en nuestras tiendas físicas BATA, aunque, en algunos casos podrían existir diferencias y tener cambios sin previo aviso.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-6": {
+        "props": {
+          "text": "- Los precios ofrecidos en nuestra Tienda Virtual suelen ser iguales a los ofrecidos en nuestras tiendas físicas BATA, aunque, en algunos casos podrían existir diferencias y tener cambios sin previo aviso.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-7": {
+        "props": {
+          "text": "2- POLÍTICA DE COOKIES",
+          "blockClass":"tittle-TYC"
+        }
+    },
+    "rich-text#tyc-8": {
+        "props": {
+          "text": "En nuestra tienda virtual recopilamos información mediante cookies, para darte la mejor experiencia posible. Al navegar en ella, estás aceptando nuestra política de cookies.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-9": {
+        "props": {
+          "text": "3- MEDIOS DE PAGO",
+          "blockClass":"tittle-TYC"
+        }
+    },
+    "rich-text#tyc-10": {
+        "props": {
+          "text": "- Tarjeta de Crédito y Débito\n La acreditación del pago a través de tarjetas de crédito y débito, en la mayoría de los casos es inmediata, en el caso en que dicha transacción quede pendiente y no se reciba la confirmación entre las siguientes 6 horas a 12 horas, será cancelada la orden.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-11": {
+        "props": {
+          "text": "- Efectivo\n Si selecciona medios de pago en efectivo a través de cualquier red de recaudo de dinero, tiene 24 horas para realizar el pago, sino se realiza en este tiempo, el pedido será cancelado. La disponibilidad del producto estará sujeta al momento en que se confirme el respectivo pago. En caso de no tener el producto en inventario disponible se le informará.\n Si compra durante una campaña con descuento y la orden es cancelada por falta de pago, la continuidad del precio en oferta estará sujeta a la fecha de terminación de la campaña.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-12": {
+        "props": {
+          "text": "- Cupón/Tarjeta Regalo\n Una tarjeta regalo se genera cuando no se atiende un pedido de forma total o parcial y el cliente acepta recibir el valor cancelado en este medio de pago para una nueva compra.\n El cupón solo es válido en compras a través de la tienda virtual www.bata.com.co y tiene una vigencia de seis meses. De no ser usado en este tiempo se le enviará una notificación para proceder con la devolución de dinero.\n Todos los cupones incluyen flete (valor del envío) gratis, que tiene una duración de seis meses.\n Si la compra es menor al valor del cupón este se descontará del mismo y el excedente puede ser usado en una nueva compra. Si la compra es por mayor valor el sistema le permitirá elegir el medio de pago para que cancele el excedente, en cuyo caso no aplica pago contra entrega para el saldo. El cupón se descuenta automáticamente del valor a pagar, cuando ingrese el número de cupón en el proceso de pago.\n Si ha realizado un intento de compra y la transacción es rechazada, el cupón se reactivará inmediatamente.\n Si no se desea el cupón, el cliente se puede comunicar con el equipo de servicio al cliente el cual le indicará el proceso a seguir para la devolución de dinero.\n contacto:co.atencionalcliente@bata.com",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-13": {
+        "props": {
+          "text": "- Pago Contra entrega\n Queremos cuidar de todos. Compre en línea y pague cuando reciba su pedido en casa o lugar de trabajo. Pague en efectivo y tenga la cantidad de dinero exacta para nuestro transportador, es importante evitar al máximo el contacto cuando le entreguen sus productos.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-14": {
+        "props": {
+          "text": "Recuerde que:",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-15": {
+        "props": {
+          "text": "- Debe tener el monto exacto en efectivo del valor de su compra.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-16": {
+        "props": {
+          "text": "- Su pedido puede llegar por separado, cada paquete relaciona el valor a cobrar de su contenido.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-17": {
+        "props": {
+          "text": "- No se realizan entregas los domingos y días festivos.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-18": {
+        "props": {
+          "text": "- El monto de su compra debe ser mínimo de $50.000 y máximo de $2.000.000.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-19": {
+        "props": {
+          "text": "- Consulte la cobertura del Pago Contra entrega aquí",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-20": {
+        "props": {
+          "text": "- Diligencie correctamente sus datos de contacto, la empresa transportadora se contactará máximo haciendo 3 intentos, si no se logra el contacto, se devolverá el paquete a nuestro Centro de Distribución.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-21": {
+        "props": {
+          "text": "- Para seleccionar este medio de pago correctamente debe seleccionar el método de envío y medio pago Contra entrega.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-22": {
+        "props": {
+          "text": "- No aplican promociones de flete para este método de envió y medio de pago.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-23": {
+        "props": {
+          "text": "- Crédito con ADDI\n Se otorga la opción de pago a crédito a través de la empresa ADDI con las siguientes condiciones:\n Compra mínima de $50.000 COP.\n  Comprador mayor de edad que ha declarado su número de identificación, como un número de cédula válido en el territorio colombiano.\n Una dirección de correo electrónico válido\n Un número de celular con acceso a la aplicación WhatsApp\n  Para las cancelaciones de pedidos comunicarse con servicio al cliente de Bata.\n Si el envío se realiza de forma parcial, se le asignará un cupón. Si no desea el cupón por envío de pedido parcial tendrá que devolver los artículos enviados en perfectas condiciones sin uso.\n Si no llegase a recibir su pedido, debe solicitar la cancelación total de su crédito a través de nuestro canal de servicio al cliente.\n Adicionalmente la aplicación de la empresa ADDI dispondrá de condiciones adicionales para otorgar los créditos. Puede consultarlos aquí: https://co.addi.com/terminos-y-condiciones ",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-24": {
+        "props": {
+          "text": "- Crédito a través de Sistecrédito.\n El cliente puede solicitar como medio de pago un crédito de consumo a través de la empresa Sistecredito S.A.S, teniendo en cuenta las siguientes consideraciones:\n Sistecrédito SAS le ofrece un crédito de consumo a una tasa de interés fija por debajo de la máxima legal establecida para cada período por la Superintendencia Financiera de Colombia, y que se calcula a partir de la certificación que mensualmente expide dicha Superintendencia.\n Para adquirir el crédito, el cliente deberá suscribir un pagaré donde se encuentra toda la información relativa al monto financiado y las condiciones del crédito otorgado. Usted puede diferir el pago de su crédito en las diferentes cuotas ofrecidas, a su escogencia, dicho crédito puede ser solicitado a través de los puntos físicos o la página web www.sistecredito.com.\n Sistecrédito, determinará el plazo máximo por el cual podrá ser expedido el crédito para el cliente consumidor, actualmente se maneja cuotas mensuales y el sistema habilitará un rango de 1 a 8 meses de acuerdo con el monto a retirar.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-25": {
+        "props": {
+          "text": "FÓRMULAS PARA EL CÁLCULO DE LAS CUOTAS Y TASAS DE INTERÉS",
+          "blockClass":"tittle-TYC"
+        }
+    },
+    "rich-text#tyc-26": {
+        "props": {
+          "text": "Se toma la tasa Usura Consumo y Comercio expedida por la superintendencia financiera Concepto 2007042063-001 del 7 de septiembre de 2007.\n De este valor rebajamos un porcentaje para garantizar que por ningún motivo se supere el valor.\n El valor es convertido de la tasa efectiva anual, a las tasas equivalentes mensuales o quincenales usadas por Sistecrédito.\n Con esta tasa se crea la tabla de amortización usando la fórmula para cuota fija, usada por la superintendencia financiera, según Concepto 2007042063-001 del 7 de septiembre de 2007.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-27": {
+        "props": {
+          "text": "EL AVAL",
+          "blockClass":"tittle-TYC"
+        }
+    },
+    "rich-text#tyc-28": {
+        "props": {
+          "text": "Al precio de compra de la mercancía se adiciona un valor por concepto de Aval, el cual respalda el pago del pagaré por el suscrito y que es calculado dependiendo del estudio de riesgo que se realiza.\n El Artículo. 633 del Código de Comercio define que mediante un aval se garantiza, en todo o en parte, el pago de un título-valor, que para el caso de los créditos adquiridos por los clientes de Sistecrédito, garantiza el pago del pagaré que suscriben. Este cobro es aceptado por el cliente (consumidor) con la firma o suscripción del pagaré.\n El cálculo del AVAL se realiza de acuerdo con la criticidad o riesgo del pago en la cartera del almacén. Se recurre a una empresa avaladora, la cual cobra un porcentaje según el riesgo. Este porcentaje se aplica al capital y se divide en forma uniforme entre las cuotas diferidas.\n El AVAL es un producto que lleva IVA, el cual se calcula para cada una de las cuotas. De acuerdo con las normas tributarias, los bienes y servicios que no estén contemplados en los art 476 (Excluidos) y 477 (Exentos) del Estatuto Tributario, estarán gravados a la tarifa general (19%)",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-29": {
+        "props": {
+          "text": "CLÁUSULA ACELERATORIA",
+          "blockClass":"tittle-TYC"
+        }
+    },
+    "rich-text#tyc-30": {
+        "props": {
+          "text": "El crédito otorgado está condicionado a una cláusula aceleratoria, en virtud de la cual, ante el incumplimiento por parte del deudor del pago de uno o varios de los instalamentos o cuotas debidos, se hace exigible la totalidad de la obligación por parte del acreedor, de acuerdo con lo establecido en el artículo 69 de la Ley 45 de 1990.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-31": {
+        "props": {
+          "text": "GASTOS DE COBRANZA",
+          "blockClass":"tittle-TYC"
+        }
+    },
+    "rich-text#tyc-32": {
+        "props": {
+          "text": "En caso de que el cliente incurra en mora se realizará una etapa de cobro prejuridico donde los gastos de cobranza equivaldrán a $5.000 y en el cobro jurídico a $10.000. Los honorarios serán del 15 % calculados sobre el capital adeudado.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-33": {
+        "props": {
+          "text": "PAGO ANTICIPADO",
+          "blockClass":"tittle-TYC"
+        }
+    },
+    "rich-text#tyc-34": {
+        "props": {
+          "text": "El cliente puede realizar pagos anticipados de las cuotas o saldos de forma parcial o total, lo cual no generará ningún tipo de penalidad. Si cancela LA TOTALIDAD DEL CRÉDITO antes de la fecha de vencimiento de la primera cuota en un solo pago, el sistema no cobrará intereses, ni aval, de lo contrario si realiza PAGOS PARCIALES se cobrará el total del aval y el Iva del aval y los intereses corrientes serán liquidados a la fecha del pago efectivo.\n La información pertinente sobre los términos relativos a los créditos puede ser consultada en la página web www.sistecredito.com, ingresando al enlace “Información para el Consumidor”.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-35": {
+        "props": {
+          "text": "RECLAMACIONES:",
+          "blockClass":"tittle-TYC"
+        }
+    },
+    "rich-text#tyc-36": {
+        "props": {
+          "text": "En caso de no presentar conformidad con los artículos entregados o entregas parciales de sus pedidos realizados a través de sistecredito deberá comunicarse con la línea de servicio al cliente de Bata para realizar el proceso de cancelación parcial o total del crédito. Debe tener presente que deberá devolver el producto a Bata por los mismos medios y en las mismas condiciones en que lo recibió. Los costos de transporte y los demás que conlleve la devolución del bien serán cubiertos por el consumidor. ",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-37": {
+        "props": {
+          "text": "PAGOS:",
+          "blockClass":"tittle-TYC"
+        }
+    },
+    "rich-text#tyc-38": {
+        "props": {
+          "text": "En cuanto al recaudo de los créditos otorgados, el cliente cuenta con los siguientes medios especializados de pago: Efecty convenio numero 111579 (a nivel nacional); SuperGiros convenio número 5188 (a nivel nacional),\n Adicional a esto, el pago se podrá realizar por medio de la página web www.sistecredito.com opción personas/pago rápido Online.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-39": {
+        "props": {
+          "text": "4- MÉTODOS, TIEMPOS Y COSTOS DE ENVÍO Y DISPONIBILIDAD DEL PRODUCTO",
+          "blockClass":"tittle-TYC"
+        }
+    },
+    "rich-text#tyc-40": {
+        "props": {
+          "text": "- Métodos de Entrega",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-41": {
+        "props": {
+          "text": "- Delivery (Despacho)",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-42": {
+        "props": {
+          "text": "1-Cuando un cliente realiza una compra a través del sitio web de Bata www.bata.com.co, y selecciona el método de Envío Trayecto Normal, o Trayecto Especial, de acuerdo a la ciudad de destino del paquete, completando el pedido y pago en línea, para que su paquete llegue hasta una dirección en el territorio colombiano.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-43": {
+        "props": {
+          "text": "2-El producto puede salir desde nuestra bodega principal o desde alguna de nuestras tiendas.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-44": {
+        "props": {
+          "text": "- Recogida en Tienda",
+          "blockClass":"contenido-TYC"
+        }
+    }
+    ,
+    "rich-text#tyc-45": {
+        "props": {
+          "text": "1-Solo aplica en la tienda seleccionada por el usuario al momento de finalizar la compra",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-46": {
+        "props": {
+          "text": "2-Los horarios de recogida dependerá de la disponibilidad de apertura de cada una de las tiendas",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-47": {
+        "props": {
+          "text": "3-Este servicio no aplica para compras realizadas con pago contra entrega.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-48": {
+        "props": {
+          "text": "4-El pedido será gestionado en un tiempo de 48 horas.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-49": {
+        "props": {
+          "text": "5-Recibirá un correo al momento en que se facture el pedido y esté listo para ser recogido.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-50": {
+        "props": {
+          "text": "- Pago Contra Entrega",
+          "blockClass":"contenido-TYC"
+        }
+    }
+    ,
+    "rich-text#tyc-51": {
+        "props": {
+          "text": "Cuando el cliente selecciona esta opción para que su pedido sea pagado cuando llegue a la dirección entregada. La empresa de transporte se encargará entonces de hacer la recolección del dinero.",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-52": {
+        "props": {
+          "text": "- Tiempos de Entrega",
+          "blockClass":"contenido-TYC"
+        }
+    },
+    "rich-text#tyc-53": {
+        "props": {
+          "text": "La entrega de su pedido a la transportadora se realizará en un rango de 24 a 48 horas hábiles, en BATA, nuestro compromiso es cumplir con los tiempos de entrega fijados. Al confirmarse el pago del pedido, lo podrá recibir entre 2 y 14 días hábiles de acuerdo al trayecto.\nEn BATA queremos garantizar que su pedido sea entregado en el tiempo acordado. Si al momento de la entrega no se encuentra una persona responsable de recibir el paquete, la transportadora estará autorizada para devolverlo a su centro de distribución y custodiarlo por un tiempo máximo de 48 horas.\nSi la transportadora nos reporta una novedad, porque los datos de la dirección registrada en el pedido están errados o incompletos, realizaremos tres intentos de comunicación en un mismo día. Si no obtenemos respuesta y se supera el tiempo de custodia de la transportadora, el pedido se marcará como ‘no entregable’ y retornará a nuestra bodega, volviendo a estar disponible para la venta en nuestro sitio web. Para ser enviado nuevamente deberá cancelar el costo de envío.\n Cuando el producto no se encuentre disponible en nuestro inventario para ser enviado nuevamente, le crearemos un saldo a favor para ser utilizado en una nueva compra en nuestra Tienda Virtual o puede solicitar la devolución del dinero comunicándose al correo co.atencionalcliente@bata.com.\n A fin de evitar las novedades que pueda generar la transportadora, recomendamos precisar cuando el pedido debe ser recibido por otra persona, ser dejado en portería u otro tipo de observación, diligenciando los campos NOMBRE, APELLIDO e INFORMACIÓN ADICIONAL en la creación de sus direcciones. \n El tiempo de entrega no excederá el plazo de 30 días, término máximo que otorga el Estatuto del Consumidor para la entrega de su compra. ",
+          "blockClass":"contenido-TYC"
+        }
+    }
+}
+  

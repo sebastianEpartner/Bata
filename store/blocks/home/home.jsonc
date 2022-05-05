@@ -11,7 +11,8 @@
       "info-card#home",
       "rich-text#titulo-tabbers",
       "tab-layout#tabsCatego",
-      "flex-layout.row#tresBanners",
+      "responsive-layout.desktop#bannerTres",
+      "responsive-layout.phone#bannerTres",
       "rich-text#NUESTRAS-MARCAS",
       "flex-layout.row#marcasHome",
       "rich-text#shelf-title-vitrina2",
@@ -26,12 +27,12 @@
       "height": 720,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "https://batanew.vteximg.com.br/arquivos/BANNER-P%20DESK%201360X500.jpg",
+          "mobileImage": "https://batanew.vteximg.com.br/arquivos/BANNER-P%20MOBILE%20660X1000@0,75x.jpg"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "https://batanew.vteximg.com.br/arquivos/BANNER-P%20DESK%201360X500.jpg",
+          "mobileImage": "https://batanew.vteximg.com.br/arquivos/BANNER-P%20MOBILE%20660X1000@0,75x.jpg"
         }
       ]
     }
@@ -56,7 +57,10 @@
     }
   },
   "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
+    "children": ["list-context.product-list#demo1"],
+    "props":{
+      "blockClass":"shelf"
+    }
   },
   "list-context.product-list#demo1": {
     "blocks": ["product-summary.shelf"],
@@ -70,7 +74,7 @@
       "itemsPerPage": {
         "desktop": 4,
         "tablet": 3,
-        "phone": 1
+        "phone": 2
       },
       "infinite": true,
       "fullWidth": false,
@@ -84,9 +88,9 @@
       "id": "info-card-home",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://batanew.vteximg.com.br/arquivos/infocard.png",
+      "imageUrl": "https://batanew.vteximg.com.br/arquivos/BANNER%20PRODUCTO%20DESTACADO%20DESK%20860X300.jpg",
       "subhead":"Conoce lo nuevo que Bata trae para ti en este mes.",
-      "mobileImageUrl":"https://batanew.vteximg.com.br/arquivos/infocard-mobile.png",
+      "mobileImageUrl":"https://batanew.vteximg.com.br/arquivos/BANNER%20PRODUCTO%20DESTACADO%20MOVIL%20620X250@0,75x.jpg",
       "headline": "PUMA RS-2K",
       "callToActionText": "AGREGAR PRODUCTO",
       "callToActionUrl": "/sale/d",
@@ -97,7 +101,7 @@
   // vitrina numero 2
   "rich-text#shelf-title-vitrina2": {
     "props": {
-      "text": "## Titulo de seccion de vitrinas importante",
+      "text": "## NUESTROS RECOMENDADOS",
       "blockClass": "shelfTitle"
     }
   },
@@ -113,7 +117,7 @@
       "itemsPerPage": {
         "desktop": 4,
         "tablet": 3,
-        "phone": 1
+        "phone": 2
       },
       "infinite": true,
       "fullWidth": false,

@@ -20,6 +20,13 @@
   font-size: 10px;
   color: #808080;
 }
+.link--pre-header-items{
+  text-decoration: none;
+  color: #808080;
+}
+.link--pre-header-items:hover{
+  color: red;
+}
 .strong--question{
   font-family: src();
 }
@@ -101,6 +108,7 @@
   justify-content: center;
   background-color: white;
 }
+/* footer estilos */
 .container--tittle-newsletter {
   justify-content: center;
 }
@@ -117,7 +125,17 @@
   margin: 0;
   font-weight: bold;
 }
-
+.wrapper--logo-explain .paragraph--info-logo{
+  font-size: 12px;
+  color: #808080;
+  font-weight: 400;
+}
+.container--footer {
+  justify-content: center;
+}
+.paragraph--footer{
+  font-size: 12px;
+}
 /* estilos del rich text en el slider 
 de categias en el home */
 .link--categoria-titulo{
@@ -135,7 +153,7 @@ de categias en el home */
   justify-content: center;
 }
 .container--hover-tittle .link--categoria-titulo{
-  color: white;
+  color: white !important;
   font-size: 15px;
   padding: 5px 20px;
   border: 2px solid white;
@@ -149,6 +167,10 @@ de categias en el home */
   padding: 46px;
   text-align: center;
 }
+.paragraph--tituloFooter{
+  font-weight: bold;
+  font-size: 15px;
+}
 /* estilos tabbers de categorias home */
 .container--tabbersTitulo {
   background: white;
@@ -157,6 +179,49 @@ de categias en el home */
 /* estilos de los tabbers */
 .wrapper--tabbersTitulo{
   margin: 30px 0;
+}
+.paragraph--tituloFiltro2{
+  color: red;
+}
+.paragraph--tituloFiltro{
+  margin: 0;
+}
+/* estilos para las paginas estaticas */
+.wrapper--links-paginas-estaticas .link{
+  color: #808080;
+  font-size: 13px;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  transition: 400ms all;
+}
+.container--links-paginas-estaticas {
+  display: block;
+  width: 100%;
+}
+.paragraph--links-paginas-estaticas {
+  padding: 10px 0 10px 20px;
+  border-bottom: 1px solid #F1F1F1;  
+  margin: 0;
+  transition: 400ms all;
+}
+.paragraph--selected{
+  border: 2px solid black;
+}
+.paragraph--selected .link--selected{
+  color: black;
+  font-weight: 600;
+}
+.wrapper--Contacto .heading {
+  margin: 0;
+  margin-bottom: 30px;
+}
+.paragraph--links-paginas-estaticas:hover{
+  border: 2px solid black;
+}
+.paragraph--links-paginas-estaticas:hover .link--links-paginas-estaticas{
+  color: black;
+  font-weight: bold;
 }
 @media only screen and (min-width: 640px) {
   .container--question .strong {
@@ -196,5 +261,26 @@ de categias en el home */
     text-align: left;
     width: 165px;
   }
-
+  /* estilos del footeer */
+  .container--info-logo {
+    justify-content: center;
+  }
+  .paragraph--info-logo{
+    font-weight: bold;
+    color: black;
+    margin: 0;
+  }
+  .container--tituloFooter {
+    justify-content: center;
+  }
+  .paragraph--tituloFooter{
+    font-weight: bold;
+    color: black;
+  }
+  .container--shelfTitle {
+    padding: 0 10px;
+  }
+  .headingLevel2--marcas-tittle {
+    font-size: 20px;
+  }
 }

@@ -7,6 +7,7 @@
     "children": [
       "flex-layout.row#footer-0-desktop",
       "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#contenedormediosEpartner",
       "flex-layout.row#footer-2-desktop"
     ]
   },
@@ -20,7 +21,7 @@
       "flex-layout.col#redesSociales"
     ],
     "props": {
-      "blockClass": "menu-row",
+      "blockClass": ["menu-row","footer-Menu"],
       "paddingTop": 6,
       "paddingBottom": 3
     }
@@ -29,14 +30,14 @@
   "flex-layout.col#footer-column1": {
     "children": ["image#logo","rich-text#tittle-logoInfo"],
     "props": {
-      "width":"25%",
+      "width":"20%",
       "blockClass": "column1Footer"
     }
   },
   "image#logo": {
     "props": {
         "blockClass":["logo-footer"],
-        "src": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+        "src": "https://batanew.vteximg.com.br/arquivos/bataLogo.png",
         "link":{
             "url":"/"
         }
@@ -44,8 +45,37 @@
   },
   "rich-text#tittle-logoInfo": {
     "props": {
-      "text": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.",
-      "blockClass": "info-logo"
+      "text": "Bata es una empresa global con actividades en los cinco continentes controlada por cuatro Unidades Regionales de Negocios Comerciales (CBUs).",
+      "blockClass": ["info-logo","logo-explain"]
+    }
+  },
+  // columna 2
+  "flex-layout.col#footer-column2": {
+    "children": ["vtex.menu@2.x:menu#contact"],
+    "props": {
+      "width":"18%",
+      "blockClass": "column1Footer"
+    }
+  },
+  "flex-layout.col#footer-column3": {
+    "children": ["vtex.menu@2.x:menu#footer-info"],
+    "props": {
+      "width":"18%",
+      "blockClass": "column1Footer"
+    }
+  },
+  "flex-layout.col#footer-column4": {
+    "children": ["vtex.menu@2.x:menu#footer-bags"],
+    "props": {
+      "width":"18%",
+      "blockClass": "column1Footer"
+    }
+  },
+  "flex-layout.col#footer-column5": {
+    "children": ["vtex.menu@2.x:menu#footer-bags"],
+    "props": {
+      "width":"18%",
+      "blockClass": "column1Footer"
     }
   },
   // redes solciales
@@ -89,7 +119,7 @@
         ]
     },
     "children":[
-      "rich-text#tittle-newsletter",
+      "image#texto-footer-1",
       "newsletter-form"
     ]
   },
@@ -98,6 +128,12 @@
     "props": {
       "text": "## Disfruta de 10% DCTO hoy",
       "blockClass": "tittle-newsletter"
+    }
+  },
+  "image#texto-footer-1": {
+    "props": {
+        "blockClass":["banner-item-footer"],
+        "src": "https://batanew.vteximg.com.br/arquivos/Disfruta-texto-footer-ew.png"
     }
   },
   // newsletter form
@@ -120,18 +156,89 @@
   },
   "rich-text#footer": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
+      "text": "Todos los derechos reservados. COPYRIGHT ©",
       "blockClass": "footer"
     }
   },
-
+  "flex-layout.row#contenedormediosEpartner": {
+    "children": ["flex-layout.col#contedorMediosPago","flex-layout.col#logoEpartner"],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  // medios de pago
+  "flex-layout.col#contedorMediosPago": {
+    "children": [
+      "rich-text#tituloMediosPago",
+      "image#Mediospago"
+    ],
+    "props": {
+        "width":"36%",
+        "blockClass": "itemRow2Footer"
+    }
+  },
+  "rich-text#tituloMediosPago": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Medios de pago",
+      "blockClass": ["tituloFooter"]
+    }
+  },
+  "image#Mediospago": {
+    "props": {
+      "src": "https://batanew.vteximg.com.br/arquivos/pagos.png",
+      "blockClass": "logosMediosPago"
+    }
+  },
+  // LOGO EPARTNER EN EL FOOTER
+  "flex-layout.col#logoEpartner": {
+    "children": [
+      "rich-text#LOGOEPARTNER",
+      "flex-layout.row#logosDesarrolladores"
+    ],
+    "props": {
+        "width":"41%",
+        "blockClass": "itemRow2Footer"
+    }
+  },
+  "rich-text#LOGOEPARTNER": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Desarrollado por",
+      "blockClass": ["tituloFooter"]
+    }
+  },
+  "flex-layout.row#logosDesarrolladores": {
+    "children": [
+      "image#logoEpartner",
+      "image#logoVtex"
+    ],
+    "props": {
+        "blockClass": "logos"
+    }
+  },
+  "image#logoEpartner": {
+    "props": {
+      "src": "https://batanew.vteximg.com.br/arquivos/epartnerLogo.png",
+      "blockClass": "logosMediosPago"
+    }
+  },
+  "image#logoVtex": {
+    "props": {
+      "src": "https://batanew.vteximg.com.br/arquivos/vtexLogo.png",
+      "blockClass": "logosMediosPago"
+    }
+  },
   // declaracion del footer mobile
 
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#footer-0-desktop",
       "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#2-footer-mobile"
+      "flex-layout.row#2-footer-mobile",
+      "flex-layout.row#contenedormediosEpartner"
     ]
   },
   "flex-layout.row#2-footer-mobile": {
@@ -144,9 +251,8 @@
   },
   "flex-layout.col#footer-1-mobile": {
     "children": [
-      "accepted-payment-methods",
-      "social-networks",
-      "rich-text#footer-mobile"
+      "rich-text#tittle-redesociale",
+      "social-networks"
     ],
     "props": {
       "blockClass": "payment-methods",
@@ -161,11 +267,5 @@
       "paddingBottom": 4
     },
     "children": ["vtex.menu@2.x:menu#footer-mobile"]
-  },
-  "rich-text#footer-mobile": {
-    "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
-      "blockClass": "footer"
-    }
   }
 }

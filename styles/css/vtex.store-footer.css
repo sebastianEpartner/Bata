@@ -11,4 +11,39 @@
 }
 .footerLayout{
   margin-top: 30px;
+  background: white;
+}
+/* ajuestes para los iconos de redes sociales */
+.socialNetworkImage {
+  display: none;
+}
+.socialNetworkLink--facebook::before {
+  content: "";
+  background: url(https://batanew.vteximg.com.br/arquivos/fb.png) no-repeat;
+  background-size: 100%;
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+.socialNetworkLink--facebook:hover::before {
+  background: url(https://batanew.vteximg.com.br/arquivos/fb-hover.png) no-repeat;
+  background-size: 100%;
+}
+.socialNetworkLink--instagram::before {
+  content: "";
+  background: url(https://batanew.vteximg.com.br/arquivos/ant-design_instagram-filled.png) no-repeat;
+  background-size: 100%;
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+.socialNetworkLink--instagram:hover::before {
+  background: url(https://batanew.vteximg.com.br/arquivos/ig-hover.png) no-repeat;
+  background-size: 100%;
+}
+/* estilos footer */
+@media (max-width: 600px) {
+  .socialNetworksContainer {
+    justify-content: center;
+  }
 }

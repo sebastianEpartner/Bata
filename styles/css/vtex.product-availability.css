@@ -1,0 +1,14 @@
+.container {
+    margin-bottom: 10px;
+    align-items: center;
+}
+.lowStockText{
+    color: black;
+    font-weight: bold;
+}
+.lowStockHighlight {
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 3px;
+}

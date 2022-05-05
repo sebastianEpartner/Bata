@@ -1,7 +1,7 @@
 {
     "vtex.menu@2.x:submenu#category-marcas": {
         "props": {
-            "blockClass":"menu-submenu",
+            "blockClass":["menu-submenu","subMenu-marcas"],
             "width": "100%"
         },
         "children": [
@@ -28,17 +28,17 @@
             "flex-layout.col#columna-4-marcas",
             "flex-layout.col#columna-5-marcas",
             "flex-layout.col#columna-6-marcas",
-            "flex-layout.col#columna-7-marcas",
-            "flex-layout.col#columna-8-marcas"
+            "flex-layout.col#columna-7-marcas"
         ]
     },
     // Columna 1
     "flex-layout.col#columna-1-marcas": {
         "props": {
             "width":"13%",
-            "blockClass":["columna-category","columna-1"]
+            "blockClass":["columna-marcas"]
         },
         "children":[
+            "menu-item#category-marcas-Bata",
             "image#imagen-menu-marcas-bata",
             "menu-item#category-marcas-calzado",
             "menu-item#category-marcas-accesorios",
@@ -47,10 +47,26 @@
         ]
     },
     // items Columna 1 marcas
+    "menu-item#category-marcas-Bata": {
+        "props": {
+            "id": "menu-item-category-marcas-bata",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"Titulos-Menu",
+            "itemProps": {
+            "type": "internal",
+            "href": "/marcas---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Bata",
+            "text": "Bata"
+            }
+        }
+    },
     "image#imagen-menu-marcas-bata": {
         "props": {
             "blockClass":"imagen-Menu-marcas",
-            "src": "https://bataco.vteximg.com.br/arquivos/250x250hombre-1709.jpg"
+            "src": "https://bataco.vteximg.com.br/arquivos/BANNER%20MARCAS%205%20DESK%20140X60_.jpg"
         }
     },
     "menu-item#category-marcas-calzado": {
@@ -121,9 +137,10 @@
     "flex-layout.col#columna-2-marcas": {
         "props": {
             "width":"13%",
-            "blockClass":["columna-category","columna-2"]
+            "blockClass":["columna-marcas"]
         },
         "children":[
+            "menu-item#category-marcas-Bg",
             "image#imagen-menu-marcas-bg",
             "menu-item#category-marcas-calzado-bg",
             "menu-item#category-nino-accesorios-bg",
@@ -132,10 +149,26 @@
         ]
     },
     // items Columna 2 marcas
+    "menu-item#category-marcas-Bg": {
+        "props": {
+            "id": "menu-item-category-marcas-bg",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"Titulos-Menu",
+            "itemProps": {
+            "type": "internal",
+            "href": "/marcas---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Bubblegummers",
+            "text": "Bublegummers"
+            }
+        }
+    },
     "image#imagen-menu-marcas-bg": {
         "props": {
             "blockClass":"imagen-Menu-marcas",
-            "src": "https://bataco.vteximg.com.br/arquivos/250x250hombre-1709.jpg"
+            "src": "https://bataco.vteximg.com.br/arquivos/BANNER%20MARCAS%201%20DESK%20140X60.jpg"
         }
     },
     "menu-item#category-marcas-calzado-bg": {
@@ -206,9 +239,10 @@
     "flex-layout.col#columna-3-marcas": {
         "props": {
             "width":"13%",
-            "blockClass":["columna-category","columna-3"]
+            "blockClass":["columna-marcas"]
         },
         "children":[
+            "menu-item#category-marcas-disney",
             "image#imagen-menu-marcas-disney",
             "menu-item#category-marcas-calzado-disney",
             "menu-item#category-nino-accesorios-disney",
@@ -217,10 +251,26 @@
         ]
     },
     // items Columna 3 marcas
+    "menu-item#category-marcas-disney": {
+        "props": {
+            "id": "menu-item-category-marcas-disney",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"Titulos-Menu",
+            "itemProps": {
+            "type": "internal",
+            "href": "/marcas---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Disney",
+            "text": "Disney"
+            }
+        }
+    },
     "image#imagen-menu-marcas-disney": {
         "props": {
             "blockClass":"imagen-Menu-marcas",
-            "src": "https://bataco.vteximg.com.br/arquivos/250x250hombre-1709.jpg"
+            "src": "https://bataco.vteximg.com.br/arquivos/BANNER%20MARCAS%206%20DESK%20140X60_.jpg"
         }
     },
     "menu-item#category-marcas-calzado-disney": {
@@ -291,9 +341,10 @@
     "flex-layout.col#columna-4-marcas": {
         "props": {
             "width":"13%",
-            "blockClass":["columna-category","columna-3"]
+            "blockClass":["columna-marcas","columna-3"]
         },
         "children":[
+            "menu-item#category-marcas-marvel",
             "image#imagen-menu-marcas-marvel",
             "menu-item#category-marcas-calzado-marvel",
             "menu-item#category-nino-accesorios-marvel",
@@ -302,10 +353,26 @@
         ]
     },
     // items Columna 4 marcas
+    "menu-item#category-marcas-marvel": {
+        "props": {
+            "id": "menu-item-category-marcas-marvel",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"Titulos-Menu",
+            "itemProps": {
+            "type": "internal",
+            "href": "/marcas---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Marvel",
+            "text": "Marvel"
+            }
+        }
+    },
     "image#imagen-menu-marcas-marvel": {
         "props": {
             "blockClass":"imagen-Menu-marcas",
-            "src": "https://bataco.vteximg.com.br/arquivos/250x250hombre-1709.jpg"
+            "src": "https://bataco.vteximg.com.br/arquivos/BANNER%20MARCAS%207%20DESK%20140X60_.jpg"
         }
     },
     "menu-item#category-marcas-calzado-marvel": {
@@ -376,9 +443,10 @@
     "flex-layout.col#columna-5-marcas": {
         "props": {
             "width":"13%",
-            "blockClass":["columna-category","columna-5"]
+            "blockClass":["columna-marcas"]
         },
         "children":[
+            "menu-item#category-marcas-NH",
             "image#imagen-menu-marcas-ns",
             "menu-item#category-marcas-calzado-ns",
             "menu-item#category-nino-accesorios-ns",
@@ -387,10 +455,26 @@
         ]
     },
     // items Columna 5 marcas
+    "menu-item#category-marcas-NH": {
+        "props": {
+            "id": "menu-item-category-marcas-nh",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"Titulos-Menu",
+            "itemProps": {
+            "type": "internal",
+            "href": "/marcas---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "North Star",
+            "text": "Nosrth Star"
+            }
+        }
+    },
     "image#imagen-menu-marcas-ns": {
         "props": {
             "blockClass":"imagen-Menu-marcas",
-            "src": "https://bataco.vteximg.com.br/arquivos/250x250hombre-1709.jpg"
+            "src": "https://bataco.vteximg.com.br/arquivos/BANNER%20MARCAS%202%20DESK%20140X60_.jpg"
         }
     },
     "menu-item#category-marcas-calzado-ns": {
@@ -461,9 +545,10 @@
      "flex-layout.col#columna-6-marcas": {
         "props": {
             "width":"13%",
-            "blockClass":["columna-category","columna-6"]
+            "blockClass":["columna-marcas"]
         },
         "children":[
+            "menu-item#category-marcas-puma",
             "image#imagen-menu-marcas-puma",
             "menu-item#category-marcas-calzado-puma",
             "menu-item#category-nino-accesorios-puma",
@@ -472,10 +557,26 @@
         ]
     },
     // items Columna 6 marcas
+    "menu-item#category-marcas-puma": {
+        "props": {
+            "id": "menu-item-category-marcas-puma",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"Titulos-Menu",
+            "itemProps": {
+            "type": "internal",
+            "href": "/marcas---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Puma",
+            "text": "Puma"
+            }
+        }
+    },
     "image#imagen-menu-marcas-puma": {
         "props": {
             "blockClass":"imagen-Menu-marcas",
-            "src": "https://bataco.vteximg.com.br/arquivos/250x250hombre-1709.jpg"
+            "src": "https://bataco.vteximg.com.br/arquivos/BANNER%20MARCAS%204%20DESK%20140X60_.jpg"
         }
     },
     "menu-item#category-marcas-calzado-puma": {
@@ -546,9 +647,10 @@
       "flex-layout.col#columna-7-marcas": {
         "props": {
             "width":"13%",
-            "blockClass":["columna-category","columna-7"]
+            "blockClass":["columna-marcas"]
         },
         "children":[
+            "menu-item#category-marcas-power",
             "image#imagen-menu-marcas-power",
             "menu-item#category-marcas-calzado-power",
             "menu-item#category-nino-accesorios-power",
@@ -557,10 +659,26 @@
         ]
     },
     // items Columna 7 marcas
+    "menu-item#category-marcas-power": {
+        "props": {
+            "id": "menu-item-category-marcas-power",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"Titulos-Menu",
+            "itemProps": {
+            "type": "internal",
+            "href": "/marcas---accessories/clothing/",
+            "noFollow": false,
+            "tagTitle": "Power",
+            "text": "Power"
+            }
+        }
+    },
     "image#imagen-menu-marcas-power": {
         "props": {
             "blockClass":"imagen-Menu-marcas",
-            "src": "https://bataco.vteximg.com.br/arquivos/250x250hombre-1709.jpg"
+            "src": "https://bataco.vteximg.com.br/arquivos/BANNER%20MARCAS%203%20DESK%20140X60_.jpg"
         }
     },
     "menu-item#category-marcas-calzado-power": {
@@ -612,91 +730,6 @@
         }
     },
     "menu-item#category-marcas-bonos-power": {
-        "props": {
-            "id": "menu-item-category-marcas-bonos-marvel",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "blockClass":"menu-items",
-            "itemProps": {
-            "type": "internal",
-            "href": "/marcas---accessories/eyeglasses/",
-            "noFollow": false,
-            "tagTitle": "Bonos",
-            "text": "Bonos"
-            }
-        }
-    },
-    // Columna 8 ****************----------------------------------------
-    "flex-layout.col#columna-8-marcas": {
-        "props": {
-            "width":"13%",
-            "blockClass":["columna-category","columna-8"]
-        },
-        "children":[
-            "image#imagen-menu-marcas-varMas",
-            "menu-item#category-marcas-calzado-varMas",
-            "menu-item#category-nino-accesorios-varMas",
-            "menu-item#category-marcas-primeros-ropa-varMas",
-            "menu-item#category-marcas-bonos-varMas"
-        ]
-    },
-    // items Columna 7 marcas
-    "image#imagen-menu-marcas-varMas": {
-        "props": {
-            "blockClass":"imagen-Menu-marcas",
-            "src": "https://bataco.vteximg.com.br/arquivos/250x250hombre-1709.jpg"
-        }
-    },
-    "menu-item#category-marcas-calzado-varMas": {
-        "props": {
-            "id": "menu-item-category-marcas-calzado-marvel",
-            "type": "custom",
-            "iconId": null,
-            "blockClass":"menu-items",
-            "highlight": false,
-            "itemProps": {
-            "type": "internal",
-            "href": "/marcas---accessories/clothing/",
-            "noFollow": false,
-            "tagTitle": "Calzado",
-            "text": "Calzado"
-            }
-        }
-    },
-    "menu-item#category-nino-accesorios-varMas": {
-        "props": {
-            "id": "menu-item-category-marcas-acesorios-marvel",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "blockClass":"menu-items",
-            "itemProps": {
-            "type": "internal",
-            "href": "/marcas---accessories/clothing/",
-            "noFollow": false,
-            "tagTitle": "Accesorios",
-            "text": "Accesorios"
-            }
-        }
-    },
-    "menu-item#category-marcas-primeros-ropa-varMas": {
-        "props": {
-            "id": "menu-item-category-marcas-ropa",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "blockClass":"menu-items",
-            "itemProps": {
-            "type": "internal",
-            "href": "/marcas---accessories/accessories/",
-            "noFollow": false,
-            "tagTitle": "Ropa",
-            "text": "Ropa"
-            }
-        }
-    },
-    "menu-item#category-marcas-bonos-varMas": {
         "props": {
             "id": "menu-item-category-marcas-bonos-marvel",
             "type": "custom",

@@ -1,7 +1,8 @@
 {
   "vtex.menu@2.x:menu#contact": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass":"footerMenu"
     },
     "children": [
       "menu-item#contact",
@@ -111,7 +112,8 @@
   // segunda columna
   "vtex.menu@2.x:menu#footer-info": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass":"footerMenu"
     },
     "children": [
       "menu-item#info",
@@ -206,7 +208,8 @@
   // COLUMNA TRES
   "vtex.menu@2.x:menu#footer-bags": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass":"footerMenu"
     },
     "children": [
       "menu-item#Categorias",
@@ -319,7 +322,8 @@
   // COLUMNA cuatro
   "vtex.menu@2.x:menu#footer-service": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass":"footerMenu"
     },
     "children": [
       "menu-item#service",

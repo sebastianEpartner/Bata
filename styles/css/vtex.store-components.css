@@ -2,6 +2,9 @@
 :global(.vtex-store__template) {
   background: #F6F6F6;
 }
+.container{
+  max-width: 100%;
+}
 .notificationBarContainer {
   background-color: #F3F3F3;
   color: #03034e;
@@ -28,7 +31,12 @@
   border-radius: 0;
 }
 .infoCardCallActionContainer--info-card-home :global(.vtex-button):hover{
-  background: #E60000;
+  background: white;
+  border: 1px solid red;
+  color: red;
+}
+.infoCardCallActionContainer--info-card-home :global(.vtex-button):hover :global(.vtex-button__label){
+  color: red;
 }
 .infoCardCallActionContainer--info-card-home :global(.vtex-button__label){
   font-size: 13px;
@@ -36,13 +44,30 @@
 .infoCardSubhead--info-card-home {
   padding: 0 40px;
 }
+/* estilos del buscador */
+.searchBarContainer :global(.vtex-styleguide-9-x-input){
+  background: rgb(247 247 247);
+  color: #A3A3A3;
+}
+.searchBarContainer :global(.vtex-input__suffix){
+  background: rgb(247 247 247);
+  padding: 0 10px;
+}
+.searchBarIcon--search {
+  padding: 0;
+}
+.searchBarContainer .searchIcon{
+  color: #2A2A2A;
+}
+/* neswletter */
 .newsletter {
   background-color: #03054e;
   max-width: 1528px;
   margin: 0 auto;
 }
 .discountInsideContainer {
-  left: 0;
+  top: 10px;
+  left: 10px;
   width: 50px;
   background: white;
   color: red;
@@ -52,9 +77,14 @@
 .discountContainer {
   width: 100%;
 }
-
+.productNameContainer{
+  color: black;
+}
 .newsletter .container {
   padding: 60px 10px;
+}
+.imageElement--logosMediosPago {
+  max-width: 370px;
 }
 
 .label {
@@ -67,7 +97,12 @@
   display: flex;
   color: #fff;
 }
-
+.imageElement--banner-item-footer {
+  width: 311px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
   background-color: transparent;
   color: #fff;
@@ -93,6 +128,12 @@
 .imageElement--storePrint {
   max-height: 300px;
   margin-bottom: 20px;
+}
+/* estilos imagens del menu */
+.imageElement--imagen-Menu-1 {
+  width: 90%;
+  margin: 0 10px;
+  height: 100%;
 }
 @media only screen and (min-width: 640px) {
   .newsletter .container {
@@ -136,11 +177,54 @@
 }
 
 .productNameContainer {
-  color: #3f3f40;
   font-weight: bold;
   font-size: 30px;
 }
-
+:global(.vtex-flex-layout-0-x-flexColChild--coolumanDerecha) .skuSelectorOptionsList {
+  justify-content: flex-start;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--coolumanDerecha) .skuSelectorTextContainer {
+  display: none;
+}
+.skuSelectorOptionsList .frameAround{
+  border: 0;
+}
+.skuSelectorItem--selected {
+  background: #2A2A2A;
+  border: 0;
+}
+.skuSelectorItem {
+  margin: 0;
+}
+.skuSelectorInternalBox {
+  border: 1px solid #D3D3D3;
+}
+.skuSelectorInternalBox {
+  border-radius: 0;
+}
+.skuSelectorItem--selected .skuSelectorItemTextValue {
+  color: white;
+}
+.skuSelectorItemTextValue {
+  font-size: 12px;
+  padding: 10px 25px;
+}
+.skuSelectorItemTextValue:hover{
+  font-weight: bold;
+}
+.skuSelectorInternalBox:hover {
+  border: 1px solid #D3D3D3;
+}
+.skuSelectorOptionsList {
+  margin: 0;
+}
+.productImage{
+  background: white;
+  padding: 0 10px;
+}
+.productImagesGallerySwiperContainer .swiperPaginationClickable {
+  display: none;
+}
 .imageElementLink--banner-item{
   display: flex;
   justify-content: center;
@@ -159,6 +243,7 @@
 .sizeDesktop {
   padding: 0;
 }
+/* estilos de iconos del header */
 .imageElementLink--favoritos{
   display: flex;
   align-items: center;
@@ -167,6 +252,19 @@
 .imageElement--favoritos{
   width: 20px;
   height: 20px;
+}
+.imageElementLink--extrella{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imageElement--extrella {
+  width: 16px;
+}
+.imageElementLink--tiendas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .imageElementLink--logo-footer{
   width: 50%;
@@ -179,20 +277,88 @@
   height: 200px;
   width: 100%;
 }
+.imageElement--banner-item{
+  height: 100%;
+}
+.searchBarIcon--search .searchIcon {
+  display: none;
+}
+.searchBarIcon--search::before {
+  content: "";
+  background: url(/arquivos/buscador.png) no-repeat;
+  background-size: 100%;
+  width: 21px;
+  height: 21px;
+  display: block;
+}
+.searchBarIcon--search:hover::before {
+  content: "";
+  background: url(/arquivos/buscador-hover.png) no-repeat;
+  background-size: 100%;
+  width: 21px;
+  height: 21px;
+  display: block;
+}
+.searchBarContainer :global(.vtex-input-prefix__group){
+  border: 1px solid #D3D3D3;
+}
+.imageElementLink--extrella .imageElement--extrella {
+  display: none;
+}
+.imageElementLink--extrella::before {
+  content: "";
+  background: url(/arquivos/favoritos-nohover-batadev.png) no-repeat;
+  background-size: 100%;
+  width: 21px;
+  height: 21px;
+  display: block;
+}
+.imageElementLink--extrella:hover::before {
+  content: "";
+  background: url(/arquivos/favoritos-hover-batadev}.png) no-repeat;
+  background-size: 100%;
+  width: 21px;
+  height: 21px;
+  display: block;
+}
+.imageElementLink--tiendas .imageElement--tiendas {
+  display: none;
+}
+.imageElementLink--tiendas::before {
+  content: "";
+  background: url(/arquivos/ubicacion-nohoverbatadev.png) no-repeat;
+  background-size: 100%;
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+.imageElementLink--tiendas:hover::before {
+  content: "";
+  background: url(/arquivos/ubicacion-hover-batadev.png) no-repeat;
+  background-size: 100%;
+  width: 22px;
+  height: 22px;
+  display: block;
+}
 /* Estilos hover imagenes slider categorias */
 .imageElement--img-category-salider-item{
   transition: 400ms all;
   width: 100%;
   height: 100%;
 }
-.imageElementLink--extrella{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.imageElement--extrella {
-  width: 14px;
+.imageElementLink--img-category-salider-item{
+  display: block;
+  overflow: hidden;
+  height: 100%;
 }
 :global(.vtex-flex-layout-0-x-flexCol--imagenesCategorias):hover .imageElement--img-category-salider-item{
   filter: brightness(0.5);
+  transform: scale(1.1);
+}
+.imageElement--descuentoTop{
+  width: 100%;
+  margin-top: 30px;
+}
+.imageElement--bannerEstaticas{
+  margin-bottom: 30px;
 }

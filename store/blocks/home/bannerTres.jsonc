@@ -1,4 +1,11 @@
 {
+    // responsive
+    "responsive-layout.desktop#bannerTres": {
+        "children": ["flex-layout.row#tresBanners"]
+    },
+    "responsive-layout.phone#bannerTres": {
+        "children": ["list-context.image-list#mobile"]
+    },
     // contenedor de los tres banners
     "flex-layout.row#tresBanners": {
         "props": {
@@ -36,5 +43,48 @@
                 "url":"/"
             }
         }
-    }  
+    } ,
+    // slider imagenes
+    "list-context.image-list#mobile": {
+        "children": ["slider-layout#demo-mobile"],
+        "props": {
+          "height": 720,
+          "images": [
+            {
+              "image": "https://batanew.vteximg.com.br/arquivos/banner1.png",
+              "mobileImage": "https://batanew.vteximg.com.br/arquivos/banner1.png",
+              "link":{
+                  "url":"/"
+              }
+            },
+            {
+                "image": "https://batanew.vteximg.com.br/arquivos/banner2.png",
+                "mobileImage": "https://batanew.vteximg.com.br/arquivos/banner2.png",
+                "link":{
+                    "url":"/"
+                }
+            },
+            {
+                "image": "https://batanew.vteximg.com.br/arquivos/banner3.png",
+                "mobileImage": "https://batanew.vteximg.com.br/arquivos/banner3.png",
+                "link":{
+                    "url":"/"
+                }
+            }
+          ]
+        }
+    },
+    "slider-layout#demo-mobile": {
+        "props": {
+            "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "never",
+            "blockClass": "carousel",
+            "showPaginationDots":"mobileOnly"
+        }
+    }
 }

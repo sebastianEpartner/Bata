@@ -27,31 +27,31 @@
   },
   "rich-text#pre-header": {
     "props": {
-      "text": "Pago contra entrega",
+      "text": "[Pago contra entrega](/)",
       "blockClass": "pre-header-items"
     }
   },
   "rich-text#pre-header-1": {
     "props": {
-      "text": "Envios a toda Colombia",
+      "text": "[Envios a toda Colombia](/)",
       "blockClass": "pre-header-items"
     }
   },
   "rich-text#pre-header-2": {
     "props": {
-      "text": "Solicita tu cambio en linea",
+      "text": "[Solicita tu cambio en linea](/)",
       "blockClass": "pre-header-items"
     }
   },
   "rich-text#pre-header-3": {
     "props": {
-      "text": "60 días de garantia",
+      "text": "[60 días de garantia](/)",
       "blockClass": "pre-header-items"
     }
   },
   "rich-text#pre-header-4": {
     "props": {
-      "text": "Envío gratis por compras superiores a $100.000",
+      "text": "[Envío gratis por compras superiores a $100.000](/)",
       "blockClass": "pre-header-items"
     }
   },
@@ -84,6 +84,11 @@
       "image#tiendasBata",
       "minicart.v2"
     ]
+  },
+  "login":{
+    "props":{
+      "termsAndConditions":"Deseo recibir correos electrónicos de marketing y/o promocionales de la marca. Al enviar, confirmo que he leído y acepto los  los Términos y condiciones y Declaración de privacidad"
+    }
   },
   // Logo Header
   "flex-layout.col#logo-desktop": {
@@ -118,7 +123,7 @@
   "image#favvoritos": {
     "props": {
         "blockClass":["extrella"],
-        "src": "https://batanew.vteximg.com.br/arquivos/newestrella.png",
+        "src": "https://batanew.vteximg.com.br/arquivos/favoritos-nohover-batadev.png",
         "link":{
             "url":"/"
         }
@@ -126,8 +131,8 @@
   },
   "image#tiendasBata": {
     "props": {
-        "blockClass":["favoritos"],
-        "src": "https://batanew.vteximg.com.br/arquivos/tiendasnewnew.png",
+        "blockClass":["tiendas"],
+        "src": "https://batanew.vteximg.com.br/arquivos/TiendasIconNewBatadev.png",
         "link":{
             "url":"/"
         }
@@ -174,6 +179,7 @@
       "list-context.image-list#menuSlider"
     ],
     "props": {
+      "blockClass":"menuPrin",
       "orientation": "vertical"
     }
   },
