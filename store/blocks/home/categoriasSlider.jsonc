@@ -22,11 +22,11 @@
     },
     "rich-text#verAll": {
         "props": {
-          "text": "## Ver todas las categorias",
+          "text": "## [Ver todas las categorias](/tiendabata)",
           "blockClass": "categoriasTittle"
         }
     },
-    // imagenes de cateogiras por columna imagen-texto 
+    // imagenes de cateogiras por columna imagen-texto
     "flex-layout.col#categoriaHombre":{
         "props":{
             "blockClass":["imagenesCategorias"]
@@ -42,20 +42,20 @@
             "blockClass":["img-category-salider-item"],
             "src": "https://batanew.vteximg.com.br/arquivos/gombres.png",
             "link":{
-                "url":"/tiendabata/hombres"
+                "url":"/tiendabata/hombre"
             }
         }
     },
     "rich-text#hombre-tittle": {
         "props": {
-          "text": "[Hombre](/tiendabata/hombres)",
+          "text": "[Hombre](/tiendabata/hombre)",
           "blockClass": "categoria-titulo"
         }
     },
     // Imagen para el hover
     "rich-text#hombre-tittle-hover": {
         "props": {
-            "text": "[Hombre](/tiendabata/hombres)",
+            "text": "[Hombre](/tiendabata/hombre)",
           "blockClass": ["categoria-titulo","hover-tittle"]
         }
     },
@@ -108,20 +108,20 @@
             "blockClass":["img-category-salider-item"],
             "src": "https://batanew.vteximg.com.br/arquivos/Ninos.png",
             "link":{
-                "url":"/"
+                "url":"/tiendabata/ninos"
             }
         }
     },
     "rich-text#ninos-tittle": {
         "props": {
-          "text": "[Niños](/)",
+          "text": "[Niños](/tiendabata/ninos)",
           "blockClass": "categoria-titulo"
         }
     },
     // Imagen para el hover
     "rich-text#ninos-tittle-hover": {
         "props": {
-            "text": "[Niños](/)",
+            "text": "[Niños](/tiendabata/ninos)",
             "blockClass": ["categoria-titulo","hover-tittle"]
         }
     },
@@ -141,20 +141,20 @@
             "blockClass":["img-category-salider-item"],
             "src": "https://batanew.vteximg.com.br/arquivos/calzado.png",
             "link":{
-                "url":"/"
+                "url":"/zapatos?_q=zapatos&map=ft"
             }
         }
     },
     "rich-text#calzado-tittle": {
         "props": {
-          "text": "[Calzado](/)",
-          "blockClass": ["categoria-titulo"]  
+          "text": "[Calzado](/zapatos?_q=zapatos&map=ft)",
+          "blockClass": ["categoria-titulo"]
         }
     },
     // Imagen para el hover
     "rich-text#calzado-tittle-hover": {
         "props": {
-            "text": "[Calzado](/)",
+            "text": "[Calzado](/zapatos?_q=zapatos&map=ft)",
             "blockClass": ["categoria-titulo","hover-tittle"]
         }
     },
@@ -174,20 +174,20 @@
             "blockClass":["img-category-salider-item"],
             "src": "https://batanew.vteximg.com.br/arquivos/cat-bata-batadev.png",
             "link":{
-                "url":"/"
+                "url":"/bata"
             }
         }
     },
     "rich-text#bata-tittle": {
         "props": {
-          "text": "[Bata](/)",
+          "text": "[Bata](/bata)",
           "blockClass": "categoria-titulo"
         }
     },
     // Imagen para el hover
     "rich-text#bata-tittle-hover": {
         "props": {
-            "text": "[Bata](/)",
+            "text": "[Bata](/bata)",
             "blockClass": ["categoria-titulo","hover-tittle"]
         }
     },
@@ -207,20 +207,20 @@
             "blockClass":["img-category-salider-item"],
             "src": "https://batanew.vteximg.com.br/arquivos/calzado.png",
             "link":{
-                "url":"/"
+                "url":"/calzado/bata/bata?initialMap=b&initialQuery=bata&map=category-3,brand,marca"
             }
         }
     },
     "rich-text#batared-tittle": {
         "props": {
-          "text": "[Bata](/)",
+          "text": "[Bata](/calzado/bata/bata?initialMap=b&initialQuery=bata&map=category-3,brand,marca)",
           "blockClass": "categoria-titulo"
         }
     },
     // Imagen para el hover
     "rich-text#batared-tittle-hover": {
         "props": {
-            "text": "[Bata](/)",
+            "text": "[Bata](/calzado/bata/bata?initialMap=b&initialQuery=bata&map=category-3,brand,marca)",
             "blockClass": ["categoria-titulo","hover-tittle"]
         }
     },
@@ -240,20 +240,20 @@
             "blockClass":["img-category-salider-item"],
             "src": "https://batanew.vteximg.com.br/arquivos/calzado.png",
             "link":{
-                "url":"/"
+                "url":"/calzado/bata/bata?initialMap=b&initialQuery=bata&map=category-3,brand,marca"
             }
         }
     },
     "rich-text#bataLabel-tittle": {
         "props": {
-          "text": "[Bata](/)",
+          "text": "[Bata](/calzado/bata/bata?initialMap=b&initialQuery=bata&map=category-3,brand,marca)",
           "blockClass": "categoria-titulo"
         }
     },
     // Imagen para el hover
     "rich-text#bataLabel-tittle-hover": {
         "props": {
-            "text": "[Bata](/)",
+            "text": "[Bata](/calzado/bata/bata?initialMap=b&initialQuery=bata&map=category-3,brand,marca)",
             "blockClass": ["categoria-titulo","hover-tittle"]
         }
     }

@@ -1,0 +1,185 @@
+{
+    "store.custom#institucional": {
+        "children":[
+            "image#institucionalM",
+            "rich-text#insitucional",
+            "disclosure-layout#politica-datos",
+            "disclosure-layout#nuestro-calzado",
+            "disclosure-layout#todo-pies",
+            "disclosure-layout#empleado",
+            "disclosure-layout#nuestro-compromiso",
+            "disclosure-layout#tyc",
+            "disclosure-layout#tiendas",
+            "disclosure-layout#contactenos"
+        ],
+        "props":{
+          "blockClass":"contenedor"
+        }
+    },
+    // imagen
+    "image#institucionalM": {
+        "props": {
+            "blockClass":["bannerEstaticas"],
+            "src": "https://batadev--batanew.myvtex.com/arquivos/estaticasNewMobileBanners.png"
+        }
+    }, 
+    "rich-text#insitucional": {
+        "props": {
+          "text": "## Institucional",
+          "blockClass":["Contacto","institucionalTitulo"]
+        }
+    },
+    // D]DISCLOSURE DIFERENTES PAGINAS
+    "disclosure-layout#politica-datos": {
+        "children": ["disclosure-trigger#poltica-datos", "disclosure-content#poltica-datos"]
+    },
+    "disclosure-trigger#poltica-datos": {
+        "children": ["rich-text#politica-datos"],
+        "props":{
+            "blockClass":"tyc"
+        }
+    },
+    "rich-text#politica-datos": {
+        "props": {
+          "text": "Politica de datos",
+          "blockClass": "tycTitulo"
+        }
+    },
+    "disclosure-content#poltica-datos": {
+        "children": ["flex-layout.row#compromiso"]
+    },
+    // D]DISCLOSURE asegunda pagina
+    "disclosure-layout#nuestro-calzado": {
+        "children": ["disclosure-trigger#nuestro-calzado", "disclosure-content#nuestro-calzado"]
+    },
+    "disclosure-trigger#nuestro-calzado": {
+        "children": ["rich-text#nuestro-calzado"],
+        "props":{
+            "blockClass":"tyc"
+        }
+    },
+    "rich-text#nuestro-calzado": {
+        "props": {
+          "text": "Nuestro calzado",
+          "blockClass": "tycTitulo"
+        }
+    },
+    "disclosure-content#nuestro-calzado": {
+        "children": ["flex-layout.row#nuestro-calzado"]
+    },
+    // tercera paginas
+    // D]DISCLOSURE asegunda pagina
+    "disclosure-layout#todo-pies": {
+        "children": ["disclosure-trigger#todo-pies", "disclosure-content#todo-pies"]
+    },
+    "disclosure-trigger#todo-pies": {
+        "children": ["rich-text#todo-pies"],
+        "props":{
+            "blockClass":"tyc"
+        }
+    },
+    "rich-text#todo-pies": {
+        "props": {
+          "text": "Todo sobre pies",
+          "blockClass": "tycTitulo"
+        }
+    },
+    "disclosure-content#todo-pies": {
+        "children": ["flex-layout.row#nuestro-todoPies"]
+    },
+    // D]DISCLOSURE cuarta pagina
+    "disclosure-layout#empleado": {
+        "children": ["disclosure-trigger#empleado", "disclosure-content#empleado"]
+    },
+    "disclosure-trigger#empleado": {
+        "children": ["rich-text#empleadoM"],
+        "props":{
+            "blockClass":"tyc"
+        }
+    },
+    "rich-text#empleadoM": {
+        "props": {
+            "text": "Empleado",
+            "blockClass": "tycTitulo"
+        }
+    },
+    "disclosure-content#empleado": {
+        "children": ["flex-layout.row#empleado"]
+    },
+    // D]DISCLOSURE quinta pagina
+    "disclosure-layout#nuestro-compromiso": {
+        "children": ["disclosure-trigger#nuestro-compromiso", "disclosure-content#nuestro-compromiso"]
+    },
+    "disclosure-trigger#nuestro-compromiso": {
+        "children": ["rich-text#nuestro-compromiso"],
+        "props":{
+            "blockClass":"tyc"
+        }
+    },
+    "rich-text#nuestro-compromiso": {
+        "props": {
+            "text": "Nuestro compromiso",
+            "blockClass": "tycTitulo"
+        }
+    },
+    "disclosure-content#nuestro-compromiso": {
+        "children": ["flex-layout.row#compromiso"]
+    },
+    // D]DISCLOSURE sexta pagina
+    "disclosure-layout#tyc": {
+        "children": ["disclosure-trigger#tyc", "disclosure-content#tyc"]
+    },
+    "disclosure-trigger#tyc": {
+        "children": ["rich-text#tycM"],
+        "props":{
+            "blockClass":"tyc"
+        }
+    },
+    "rich-text#tycM": {
+        "props": {
+            "text": "Aviso legal",
+            "blockClass": "tycTitulo"
+        }
+    },
+    "disclosure-content#tyc": {
+        "children": ["flex-layout.row#tyc"]
+    },
+    // D]DISCLOSURE septima pagina
+    "disclosure-layout#tiendas": {
+        "children": ["disclosure-trigger#tiendas", "disclosure-content#tiendas"]
+    },
+    "disclosure-trigger#tiendas": {
+        "children": ["rich-text#tiendaMs"],
+        "props":{
+            "blockClass":"tyc"
+        }
+    },
+    "rich-text#tiendaMs": {
+        "props": {
+            "text": "Tiendas",
+            "blockClass": "tycTitulo"
+        }
+    },
+    "disclosure-content#tiendas": {
+        "children": ["flex-layout.row#tyc"]
+    },
+    // D]DISCLOSURE octava pagina
+    "disclosure-layout#contactenos": {
+        "children": ["disclosure-trigger#contactenos", "disclosure-content#contactenos"]
+    },
+    "disclosure-trigger#contactenos": {
+        "children": ["rich-text#contactenosM"],
+        "props":{
+            "blockClass":"tyc"
+        }
+    },
+    "rich-text#contactenosM": {
+        "props": {
+            "text": "Contactenos",
+            "blockClass": "tycTitulo"
+        }
+    },
+    "disclosure-content#contactenos": {
+        "children": ["flex-layout.row#contact-us"]
+    }
+}

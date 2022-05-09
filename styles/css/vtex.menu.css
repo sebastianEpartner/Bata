@@ -26,7 +26,7 @@
     letter-spacing: 0.05em;
 }
 .submenuWrapper--subMenu-marcas {
-    padding-bottom: 50px;
+    padding-bottom: 15px;
 }
 .styledLinkContent--menu-items {
     font-weight: 400;
@@ -34,14 +34,13 @@
 }
 .submenu--menu-submenu .menuContainerNav{
     width: 100%;
-    padding: 0 121px;
 }
 .menuContainerNav--MenuDesk .styledLinkContainer {
     margin: 0 27px;
 }
 .menuContainer--MenuDesk {
-    justify-content: flex-end;
-    margin-right: 30px;
+    justify-content: center;
+    margin-right: 0px;
 }
 .styledLinkContent--menu-items-destacado {
     color: red;
@@ -113,6 +112,15 @@
 }
 .styledLinkContent--footer-item:hover::before{
     display: block;
+}
+:global(.vtex-flex-layout-0-x-flexRow--marcas-menu) .styledLinkContainer.styledLinkContainer--generales-Menu {
+    margin: 0 20px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--mujeres-Menu) .styledLinkContainer.styledLinkContainer--generales-Menu{
+    margin: 0 29px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--hombre-menu) .styledLinkContainer.styledLinkContainer--generales-Menu{
+    margin: 0 29px;
 }
 /*  */
 

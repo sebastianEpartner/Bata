@@ -29,9 +29,10 @@
         position: absolute;
         width: 100%;
         left: 0;
-        top: 78%;
+        top: 69px;
         background: white;
-        padding: 7px 10px;
+        z-index: 9;
+        padding: 7px 10px;    
     }
     .trigger--lupaTrigger {
         height: 31px;

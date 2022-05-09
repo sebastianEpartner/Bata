@@ -13,7 +13,8 @@
             "orientation": "vertical"
         },
         "children": [
-            "flex-layout.row#rowCategory-mujer"
+            "flex-layout.row#rowCategory-mujer",
+            "flex-layout.row#generales1-mujer"
         ]
     },
     // fila menu mujer 
@@ -133,6 +134,7 @@
         },
         "children":[
             "menu-item#category-mujer-zapatos",
+            "menu-item#category-mujer-tacones",
             "menu-item#category-mujer-tenis",
             "menu-item#category-mujer-botas",
             "menu-item#category-mujer-botines",
@@ -153,10 +155,26 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/mujer---accessories/clothing/",
+            "href": "/Tiendabata/mujer/calzado/",
             "noFollow": false,
             "tagTitle": "Zapatos",
             "text": "Zapatos"
+            }
+        }
+    },
+    "menu-item#category-mujer-tacones": {
+        "props": {
+            "id": "menu-item-category-mujer-tacones",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/Tiendabata/mujer/calzado/tacones",
+            "noFollow": false,
+            "tagTitle": "Tacones",
+            "text": "Tacones"
             }
         }
     },
@@ -169,7 +187,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/mujer---accessories/clothing/",
+            "href": "/Tiendabata/mujer/calzado/tenis",
             "noFollow": false,
             "tagTitle": "Tenis moda",
             "text": "Tenis moda"
@@ -185,7 +203,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/mujer---accessories/accessories/",
+            "href": "/Tiendabata/mujer/calzado/botas",
             "noFollow": false,
             "tagTitle": "Botas",
             "text": "Botas"
@@ -201,7 +219,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/mujer---accessories/eyeglasses/",
+            "href": "/Tiendabata/mujer/calzado/botines",
             "noFollow": false,
             "tagTitle": "Botines",
             "text": "Botines"
@@ -217,7 +235,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/mujer---accessories/eyeglasses/",
+            "href": "/Tiendabata/mujer/calzado/baletas",
             "noFollow": false,
             "tagTitle": "Baletas",
             "text": "Baletas"
@@ -233,7 +251,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/mujer---accessories/eyeglasses/",
+            "href": "/Tiendabata/mujer/calzado/zapatillas-deportivas",
             "noFollow": false,
             "tagTitle": "Tenis deportivos",
             "text": "Tenis deportivos"
@@ -249,7 +267,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/mujer---accessories/eyeglasses/",
+            "href": "/Tiendabata/mujer/calzado/sandalias",
             "noFollow": false,
             "tagTitle": "Sandalias",
             "text": "Sandalias"
@@ -265,7 +283,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/mujer---accessories/eyeglasses/",
+            "href": "/Tiendabata/mujer/calzado/chanclas",
             "noFollow": false,
             "tagTitle": "Chanclas",
             "text": "Chanclas"
@@ -281,7 +299,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/mujer---accessories/eyeglasses/",
+            "href": "/Tiendabata/mujer/calzado/mocasines",
             "noFollow": false,
             "tagTitle": "Mocasines",
             "text": "Mocasines"
@@ -298,6 +316,7 @@
             "menu-item#category-mujer-acce",
             "menu-item#category-mujer-billeteras",
             "menu-item#category-mujer-bolsos",
+            "menu-item#category-mujer-carterar",
             "menu-item#category-mujer-cintu",
             "menu-item#category-mujer-medias",
             "menu-item#category-mujer-morrales",
@@ -314,7 +333,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/mujer---accessories/clothing/",
+            "href": "/Tiendabata/mujer/accesorios/",
             "noFollow": false,
             "tagTitle": "Accesorios",
             "text": "Accesorios"
@@ -330,7 +349,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/mujer---accessories/clothing/",
+            "href": "/Tiendabata/mujer/accesorios/Billeteras",
             "noFollow": false,
             "tagTitle": "Billeteras",
             "text": "Billeteras"
@@ -346,10 +365,26 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/mujer---accessories/accessories/",
+            "href": "/Tiendabata/mujer/accesorios/bolsos",
             "noFollow": false,
             "tagTitle": "Bolsos",
             "text": "Bolsos"
+            }
+        }
+    },
+    "menu-item#category-mujer-carterar": {
+        "props": {
+            "id": "menu-item-category-mujer-cartera",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":"menu-items",
+            "itemProps": {
+            "type": "internal",
+            "href": "/Tiendabata/mujer/accesorios/carteras",
+            "noFollow": false,
+            "tagTitle": "Cartera",
+            "text": "Cartera"
             }
         }
     },
@@ -362,7 +397,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/mujer---accessories/eyeglasses/",
+            "href": "/Tiendabata/mujer/accesorios/Cinturones",
             "noFollow": false,
             "tagTitle": "Cinturones",
             "text": "Cinturones"
@@ -378,7 +413,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/mujer---accessories/eyeglasses/",
+            "href": "/Tiendabata/mujer/accesorios/medias",
             "noFollow": false,
             "tagTitle": "Medias",
             "text": "Medias"
@@ -394,7 +429,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/mujer---accessories/eyeglasses/",
+            "href": "/Tiendabata/mujer/accesorios/morrales-y-mochilas",
             "noFollow": false,
             "tagTitle": "Morrales",
             "text": "Morrales"
@@ -410,7 +445,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/mujer---accessories/eyeglasses/",
+            "href": "/Tiendabata/mujer/accesorios/protectives",
             "noFollow": false,
             "tagTitle": "Protectives",
             "text": "Protectives"
@@ -444,7 +479,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/mujer---accessories/clothing/",
+            "href": "/bata",
             "noFollow": false,
             "tagTitle": "Marcas",
             "text": "Marcas"
@@ -460,7 +495,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/mujer---accessories/accessories/",
+            "href": "/aquarella",
             "noFollow": false,
             "tagTitle": "Aquarella",
             "text": "Aquarella"
@@ -476,7 +511,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/mujer---accessories/clothing/",
+            "href": "/bata",
             "noFollow": false,
             "tagTitle": "Bata",
             "text": "Bata"
@@ -492,7 +527,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/mujer---accessories/eyeglasses/",
+            "href": "/bata-comfit",
             "noFollow": false,
             "tagTitle": "Bata comfit",
             "text": "Bata comfit"
@@ -508,7 +543,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/mujer---accessories/eyeglasses/",
+            "href": "/bata-red-label",
             "noFollow": false,
             "tagTitle": "Bata red label",
             "text": "Bata red label"
@@ -524,7 +559,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/mujer---accessories/eyeglasses/",
+            "href": "/weinbrenner",
             "noFollow": false,
             "tagTitle": "Weinbrenner",
             "text": "Weinbrenner"
@@ -540,7 +575,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/mujer---accessories/eyeglasses/",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "XTI",
             "text": "XTI"
@@ -556,7 +591,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/mujer---accessories/eyeglasses/",
+            "href": "/power",
             "noFollow": false,
             "tagTitle": "Power",
             "text": "Power"
@@ -572,7 +607,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/mujer---accessories/eyeglasses/",
+            "href": "/sandak",
             "noFollow": false,
             "tagTitle": "Sandak",
             "text": "Sandak"
@@ -588,7 +623,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/mujer---accessories/eyeglasses/",
+            "href": "/north-star",
             "noFollow": false,
             "tagTitle": "North Start",
             "text": "North Start"
@@ -625,5 +660,135 @@
             "blockClass":"imagen-Menu-1",
             "src": "https://bataco.vteximg.com.br/arquivos/BANNER%20MENU%201%20DESK-%202-%20170X260_.jpg"
         }
+    },
+    // llamados generales 
+    "flex-layout.row#generales1-mujer": {
+        "props":{
+            "blockClass":["row-principal","llamados-generales","mujeres-Menu"]
+        },
+        "children": [
+            "flex-layout.col#columna-1-mujer-generales",
+            "flex-layout.col#columna-1-zapatos-generales-mujer",
+            "flex-layout.col#columna-1-acce-generales-mujer",
+            "flex-layout.col#columna-1-marcas-generales-mujer",
+            "flex-layout.col#spacion-menu-mujer"
+        ]
+    },
+    // primer llamado
+    "flex-layout.col#columna-1-mujer-generales": {
+        "props": {
+            "width":"21%",
+            "blockClass":["columna-category","columna-1"]
+        },
+        "children":[
+            "menu-item#category-ver-todo-mujer"
+        ]
+    },
+    // items Columna 1 mujer
+    "menu-item#category-ver-todo-mujer": {
+        "props": {
+            "id": "menu-item-category-apparel-hombre",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"generales-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/tiendabata/mujer",
+            "noFollow": false,
+            "tagTitle": "Ver todo mujer",
+            "text": "Ver todo mujer"
+            }
+        }
+    },
+    // segundo llamado
+    "flex-layout.col#columna-1-zapatos-generales-mujer": {
+        "props": {
+            "width":"12%",
+            "blockClass":["columna-category","columna-2"]
+        },
+        "children":[
+            "menu-item#category-ver-todo-mujer-zapatos"
+        ]
+    },
+    // items Columna 1 zapatos
+    "menu-item#category-ver-todo-mujer-zapatos": {
+        "props": {
+            "id": "menu-item-category-apparel-hombre",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"generales-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/tiendabata/mujer/calzado",
+            "noFollow": false,
+            "tagTitle": "Ver todos los tenis",
+            "text": "Ver todo los tenis"
+            }
+        }
+    },
+    // tercer llamado
+    "flex-layout.col#columna-1-acce-generales-mujer": {
+        "props": {
+            "width":"14%",
+            "blockClass":["columna-category","columna-3"]
+        },
+        "children":[
+            "menu-item#category-ver-todo-hombre-acce"
+        ]
+    },
+    // items Columna 1 accesorios
+    "menu-item#category-ver-todo-mujer-acce": {
+        "props": {
+            "id": "menu-item-category-apparel-hombre",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"generales-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/tiendabata/mujer/accesorios",
+            "noFollow": false,
+            "tagTitle": "Ver todos los accesorios",
+            "text": "Ver todo los accesosrios"
+            }
+        }
+    },
+    // cuarto llamado
+    "flex-layout.col#columna-1-marcas-generales-mujer": {
+        "props": {
+            "width":"14%",
+            "blockClass":["columna-category","columna-4"]
+        },
+        "children":[
+            "menu-item#category-ver-todo-mujer-marcas"
+        ]
+    },
+    // items Columna 1 accesorios
+    "menu-item#category-ver-todo-mujer-marcas": {
+        "props": {
+            "id": "menu-item-category-apparel-hombre",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"generales-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/bata",
+            "noFollow": false,
+            "tagTitle": "Ver todas las marcas",
+            "text": "Ver todas las marcas"
+            }
+        }
+    },
+    "flex-layout.col#spacion-menu-mujer": {
+        "props": {
+            "width":"36%",
+            "blockClass":["imagenesColuma","columna-5"]
+        },
+        "children":[
+            
+        ]
     }
 }

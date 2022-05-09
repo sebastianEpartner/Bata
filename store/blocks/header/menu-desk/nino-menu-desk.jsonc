@@ -13,7 +13,8 @@
             "orientation": "vertical"
         },
         "children": [
-            "flex-layout.row#rowCategory-ninos"
+            "flex-layout.row#rowCategory-ninos",
+            "flex-layout.row#generales1-ninos"
         ]
     },
     // fila menu ninos 
@@ -150,7 +151,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/ninos---accessories/clothing/",
+            "href": "/Tiendabata/ninos/nina/",
             "noFollow": false,
             "tagTitle": "Niña",
             "text": "Niña"
@@ -166,7 +167,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/ninos---accessories/clothing/",
+            "href": "/Tiendabata/ninos/nina/precaminadoras",
             "noFollow": false,
             "tagTitle": "Precaminadora",
             "text": "Precaminadora"
@@ -182,7 +183,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/ninos---accessories/accessories/",
+            "href": "/Tiendabata/ninos/nina/Primeros-pasos",
             "noFollow": false,
             "tagTitle": "Primeros Pasos",
             "text": "Primeros Pasos"
@@ -198,7 +199,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/ninos---accessories/eyeglasses/",
+            "href": "/Tiendabata/ninos/nina/Caminadoras",
             "noFollow": false,
             "tagTitle": "Caminadores",
             "text": "Caminadores"
@@ -214,7 +215,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/ninos---accessories/eyeglasses/",
+            "href": "/Tiendabata/ninos/nina/junior",
             "noFollow": false,
             "tagTitle": "Junior",
             "text": "Junior"
@@ -230,7 +231,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/ninos---accessories/eyeglasses/",
+            "href": "/Tiendabata/ninos/ropa-nina",
             "noFollow": false,
             "tagTitle": "Ropa Niña",
             "text": "Ropa Niña"
@@ -262,7 +263,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/ninos---accessories/clothing/",
+            "href": "/Tiendabata/ninos/nino/",
             "noFollow": false,
             "tagTitle": "Niño",
             "text": "Niño"
@@ -278,7 +279,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/ninos---accessories/clothing/",
+            "href": "/Tiendabata/ninos/nino/precaminadores",
             "noFollow": false,
             "tagTitle": "Precaminadores",
             "text": "Precaminadore"
@@ -294,7 +295,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/ninos---accessories/accessories/",
+            "href": "/Tiendabata/ninos/nino/Primeros-pasos",
             "noFollow": false,
             "tagTitle": "Primeros Pasos",
             "text": "Primeros pasos"
@@ -310,7 +311,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/ninos---accessories/eyeglasses/",
+            "href": "/Tiendabata/ninos/nino/Caminadores",
             "noFollow": false,
             "tagTitle": "Caminadores",
             "text": "Caminadores"
@@ -326,7 +327,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/ninos---accessories/eyeglasses/",
+            "href": "/Tiendabata/ninos/nino/junior",
             "noFollow": false,
             "tagTitle": "Junior",
             "text": "Junior"
@@ -342,7 +343,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/ninos---accessories/eyeglasses/",
+            "href": "/Tiendabata/ninos/ropa-nino",
             "noFollow": false,
             "tagTitle": "Ropa Niño",
             "text": "Ropa Niño"
@@ -374,7 +375,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/ninos---accessories/clothing/",
+            "href": "/Tiendabata/ninos/accesorios/",
             "noFollow": false,
             "tagTitle": "Accesorios",
             "text": "Accesorios"
@@ -390,7 +391,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/ninos---accessories/clothing/",
+            "href": "/Tiendabata/ninos/accesorios/básicos",
             "noFollow": false,
             "tagTitle": "Basicos",
             "text": "Basicos"
@@ -406,7 +407,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/ninos---accessories/accessories/",
+            "href": "/Tiendabata/ninos/accesorios/carteras",
             "noFollow": false,
             "tagTitle": "Carteras",
             "text": "Carteras"
@@ -422,7 +423,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/ninos---accessories/eyeglasses/",
+            "href": "/Tiendabata/ninos/accesorios/medias",
             "noFollow": false,
             "tagTitle": "Medias",
             "text": "Medias"
@@ -438,7 +439,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/ninos---accessories/eyeglasses/",
+            "href": "/Tiendabata/ninos/accesorios/morrales",
             "noFollow": false,
             "tagTitle": "Morrales",
             "text": "Morrales"
@@ -454,7 +455,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/ninos---accessories/eyeglasses/",
+            "href": "/Tiendabata/ninos/accesorios/protectives",
             "noFollow": false,
             "tagTitle": "Protectives",
             "text": "Protectives"
@@ -488,7 +489,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/ninos---accessories/clothing/",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "Marcas",
             "text": "Marcas"
@@ -504,7 +505,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/ninos---accessories/accessories/",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "Baby bubbles",
             "text": "Baby bubbles"
@@ -520,7 +521,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/ninos---accessories/clothing/",
+            "href": "/bata",
             "noFollow": false,
             "tagTitle": "Bata",
             "text": "Bata"
@@ -536,7 +537,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/ninos---accessories/eyeglasses/",
+            "href": "/bubblegummers",
             "noFollow": false,
             "tagTitle": "Bubblegummers",
             "text": "Bubblegummers"
@@ -552,7 +553,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/ninos---accessories/eyeglasses/",
+            "href": "/disney",
             "noFollow": false,
             "tagTitle": "Disney",
             "text": "Disney"
@@ -568,7 +569,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/ninos---accessories/eyeglasses/",
+            "href": "/marvel",
             "noFollow": false,
             "tagTitle": "Marvel",
             "text": "Marvel"
@@ -584,7 +585,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/ninos---accessories/eyeglasses/",
+            "href": "/sandak",
             "noFollow": false,
             "tagTitle": "Sandak",
             "text": "Sandak"
@@ -600,7 +601,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/ninos---accessories/eyeglasses/",
+            "href": "/verlon",
             "noFollow": false,
             "tagTitle": "Verlon",
             "text": "Verlon"
@@ -622,5 +623,164 @@
             "blockClass":"imagen-Menu-1",
             "src": "https://bataco.vteximg.com.br/arquivos/250x250nino-1709.jpg"
         }
+    },
+    // llamados generales 
+    "flex-layout.row#generales1-ninos": {
+        "props":{
+            "blockClass":["row-principal","llamados-generales","ninos-Menu"]
+        },
+        "children": [
+            "flex-layout.col#columna-1-ninos-generales",
+            "flex-layout.col#columna-1-nina-generales-ninos",
+            "flex-layout.col#columna-1-generales-ninos",
+            "flex-layout.col#columna-1-accesorios-generales-ninos",
+            "menu-item#category-ver-todo-ninos-marcas",
+            "flex-layout.col#spacion-menu-ninos"
+        ]
+    },
+    // primer llamado
+    "flex-layout.col#columna-1-ninos-generales": {
+        "props": {
+            "width":"23%",
+            "blockClass":["columna-category","columna-1"]
+        },
+        "children":[
+            "menu-item#category-ver-todo-ninos"
+        ]
+    },
+    // items Columna 1 ninos
+    "menu-item#category-ver-todo-ninos": {
+        "props": {
+            "id": "menu-item-category-apparel-hombre",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"generales-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/tiendabata/ninos",
+            "noFollow": false,
+            "tagTitle": "Ver todo ninos",
+            "text": "Ver todo ninos"
+            }
+        }
+    },
+    // segundo llamado
+    "flex-layout.col#columna-1-nina-generales-ninos": {
+        "props": {
+            "width":"14%",
+            "blockClass":["columna-category","columna-2"]
+        },
+        "children":[
+            "menu-item#category-ver-todo-ninos-nina"
+        ]
+    },
+    // items Columna 1 niña
+    "menu-item#category-ver-todo-ninos-nina": {
+        "props": {
+            "id": "menu-item-category-apparel-hombre",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"generales-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/tiendabata/ninos/nina",
+            "noFollow": false,
+            "tagTitle": "Ver niña",
+            "text": "Ver niña"
+            }
+        }
+    },
+    // tercer llamado
+    "flex-layout.col#columna-1-generales-ninos": {
+        "props": {
+            "width":"12%",
+            "blockClass":["columna-category","columna-3"]
+        },
+        "children":[
+            "menu-item#category-ver-todo-ninos-2"
+        ]
+    },
+    // items Columna 1 accesorios
+    "menu-item#category-ver-todo-ninos-2": {
+        "props": {
+            "id": "menu-item-category-apparel-hombre",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"generales-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/tiendabata/ninos/nino",
+            "noFollow": false,
+            "tagTitle": "Ver niños",
+            "text": "Ver niño"
+            }
+        }
+    },
+    // cuarto llamado
+    "flex-layout.col#columna-1-accesorios-generales-ninos": {
+        "props": {
+            "width":"14%",
+            "blockClass":["columna-category","columna-4"]
+        },
+        "children":[
+            "menu-item#category-ver-todo-ninos-accesorios"
+        ]
+    },
+    // items Columna 1 accesorios
+    "menu-item#category-ver-todo-ninos-accesorios": {
+        "props": {
+            "id": "menu-item-category-apparel-hombre",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"generales-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/tiendabata/ninos/accesorios",
+            "noFollow": false,
+            "tagTitle": "Ver todos los accesorios",
+            "text": "Ver todos los accesorios"
+            }
+        }
+    },
+    // quinto llamado
+    "flex-layout.col#columna-1-marcas-generales-ninos": {
+        "props": {
+            "width":"5%",
+            "blockClass":["columna-category","columna-4"]
+        },
+        "children":[
+            "menu-item#category-ver-todo-ninos-marcas"
+        ]
+    },
+    // items Columna 1 accesorios
+    "menu-item#category-ver-todo-ninos-marcas": {
+        "props": {
+            "id": "menu-item-category-apparel-hombre",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"generales-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/bata",
+            "noFollow": false,
+            "tagTitle": "Ver todas las marcas",
+            "text": "Ver todas las marcas"
+            }
+        }
+    },
+    // sexto llamado
+    "flex-layout.col#spacion-menu-ninos": {
+        "props": {
+            "width":"32%",
+            "blockClass":["imagenesColuma","columna-5"]
+        },
+        "children":[
+            
+        ]
     }
 }

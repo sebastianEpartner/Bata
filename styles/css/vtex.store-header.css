@@ -43,12 +43,12 @@
 
 /* if supported add some translucency to the desktop/mobile header background */
 @supports (backdrop-filter: blur(5px)) {
-  :global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  /* :global(.vtex-sticky-layout-0-x-wrapper--stuck)
     :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
   :global(.vtex-sticky-layout-0-x-wrapper--stuck)
     :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
     backdrop-filter: blur(8px);
-  }
+  } */
 
   /* header background when stuck and not hovered */
   :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover)

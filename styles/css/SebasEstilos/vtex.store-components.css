@@ -1,0 +1,98 @@
+/* estilos para el slider de marcas */
+.imageElement--imagenesModalUneteYa {
+    width: 20px;
+}
+.imageElement.imageElement--cerrarFixed {
+    width: 12px;
+}
+@media (max-width: 700px) {
+    .imageElement--menu-carousel {
+        width: 95% !important;
+    }
+    /* estilos del header */
+    .logoLink{
+        display: flex !important;
+        justify-content: flex-end;
+    }
+    .imageElementLink--extrella::before {
+        content: "";
+        background: url(https://batanew.vteximg.com.br/arquivos/favoritos-75x75.png) no-repeat;
+        background-size: 100%;
+        width: 33px;
+        height: 33px;
+        display: block;
+    }
+    .imageElementLink--extrella:hover::before {
+        content: "";
+        background: url(https://batanew.vteximg.com.br/arquivos/favoritos-75x75.png) no-repeat;
+        background-size: 100%;
+        width: 32px;
+        height: 33px;
+        display: block;
+    }
+    .logoContainer.sizeDesktop  {
+        max-width: 104px;
+        margin-right: 20px;
+    }
+    :global(.vtex-sticky-layout-0-x-wrapper--stuck) .logoLink{
+        transform: scale(1);
+    }
+    .imageElement--LupaImagen {
+        margin-top: 4px;
+        margin-left: 6px;
+    }
+    :global(.vtex-disclosure-layout-1-x-trigger--cierreBuscador--visible){
+        position: absolute;
+        right: 27px;
+        height: 61px;
+    }
+    .autoCompleteOuterContainer :global(.vtex-input__suffix){
+        display: none;
+    }
+    .imageElementLink--banner-menu-mobile{
+        display: block;
+    }
+    /* estilos para las flechas en producto */
+    .swiperCaret .caretIcon{
+        display: none;
+    }
+    .swiperCaret.swiperCaretNext::before{
+        content: "";
+        background:url(/arquivos/derecha-flechaProducto.png);
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+        display: block;
+    }
+    .swiperCaret.swiperCaretPrev::before{
+        content: "";
+        background:url(/arquivos/derecha-flechaProducto.png);
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+        display: block;
+    }
+    .productBrand--quickview {
+        font-size: 22px;
+    }
+    .productNameContainer {
+        font-size: 22px;
+        width: 78%!important;
+    }
+    .logoLink .sizeMobile{
+        margin-right: 10px;
+        max-width: 94px;
+    }
+    .resultsList{
+        margin-top: 17px;
+    }
+    /* .skuSelectorItem .valueWrapper--unavailable {
+        display: none;
+    } */
+    .productImagesGallerySlide--zoomImages {
+        width: 100% !important;
+    }
+    .productImagesGallerySlide--zoomImages .productImageTag--zoomImages {
+        transform: scale(1.1);
+    }
+}

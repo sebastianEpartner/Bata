@@ -1,0 +1,8 @@
+.productNameContainer.nameWrapper {min-height: 37px;background: transparent;}
+
+.productBrandContainer {display: none;}
+
+.container.containerNormal:hover .productBrandContainer {display: block;}
+
+.element {background: transparent;padding-bottom: 0;}
+

@@ -12,7 +12,7 @@
   "image#bannerTopIzquierda": {
     "props": {
         "blockClass":["bannerEstaticas"],
-        "src": "https://batadev--batanew.myvtex.com/arquivos/fondoFooter-1.png"
+        "src": "https://batadev--batanew.myvtex.com/arquivos/imagenEstaticas.png"
     }
   }, 
   // contenedor del body
@@ -46,49 +46,49 @@
   // accesos de las paginas estaticas
   "rich-text#Politica-datos": {
     "props": {
-      "text": "[Politica de datos](/)",
+      "text": "[Politica de datos](/faq)",
       "blockClass":"links-paginas-estaticas"
     }
   },
   "rich-text#Nuestro-calzado": {
     "props": {
-      "text": "[Nuestro calzado](/)",
+      "text": "[Nuestro calzado](/nuestro-calzado)",
       "blockClass":"links-paginas-estaticas"
     }
   },
   "rich-text#todo-sobre-pies": {
     "props": {
-      "text": "[Todo sobre los pies](/)",
+      "text": "[Todo sobre los pies](/todo-sobre-pies)",
       "blockClass":"links-paginas-estaticas"
     }
   },
   "rich-text#empleado-contact": {
     "props": {
-      "text": "[Como ser empleado](/)",
+      "text": "[Como ser empleado](/como-ser-empleado)",
       "blockClass":"links-paginas-estaticas"
     }
   },
   "rich-text#Nuestro-compromiso": {
     "props": {
-      "text": "[Nuestro compromiso](/)",
+      "text": "[Nuestro compromiso](/nuestro-compromiso)",
       "blockClass":"links-paginas-estaticas"
     }
   },
   "rich-text#aviso-legal": {
     "props": {
-      "text": "[Aviso legal](/)",
+      "text": "[Aviso legal](/terminos-y-condiciones)",
       "blockClass":"links-paginas-estaticas"
     }
   },
   "rich-text#tiendas": {
     "props": {
-      "text": "[Tiendas](/)",
+      "text": "[Tiendas](/stores)",
       "blockClass":"links-paginas-estaticas"
     }
   },
   "rich-text#contactenos": {
     "props": {
-      "text": "[Contactenos](/)",
+      "text": "[Contactenos](/contacto)",
       "blockClass":["links-paginas-estaticas","selected"]
     }
   },
@@ -99,7 +99,8 @@
       "blockClass":"segundaCol"
     },
     "children": [
-      "rich-text#contact-us"
+      "rich-text#contact-us",
+      "iframe#contactForm"
       // "form#contact-us"
     ]
   },
@@ -109,7 +110,15 @@
       "blockClass":"Contacto"
     }
   },
-
+  "iframe#contactForm": {
+    "props": {
+      "src": "https://bataco.vtexcommercestable.com.br/contacto&output=embed",
+      "width": "1920",
+      "height": "1000",
+      "title": "exampleStaticPageName iframe wrapper for {account}",
+      "allow": "geolocation"
+    }
+  },
   "form#contact-us": {
     "props": {
       "entity": "contact",

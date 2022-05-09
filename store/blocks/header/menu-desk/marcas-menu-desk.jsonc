@@ -13,7 +13,8 @@
             "orientation": "vertical"
         },
         "children": [
-            "flex-layout.row#rowCategory-marcas"
+            "flex-layout.row#rowCategory-marcas",
+            "flex-layout.row#generales1-marcas"
         ]
     },
     // fila menu marcas 
@@ -78,7 +79,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/clothing/",
+            "href": "/calzado/bata/bata?initialMap=b&initialQuery=bata&map=category-3,brand,marca",
             "noFollow": false,
             "tagTitle": "Calzado",
             "text": "Calzado"
@@ -94,7 +95,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/accessories/",
+            "href": "/accesorios/bata/bata?initialMap=b&initialQuery=bata&map=category-3,brand,marca",
             "noFollow": false,
             "tagTitle": "Accesorios",
             "text": "Accesorios"
@@ -110,7 +111,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/eyeglasses/",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "Ropa",
             "text": "Ropa"
@@ -126,7 +127,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/eyeglasses/",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "Bonos",
             "text": "Bonos"
@@ -158,7 +159,7 @@
             "blockClass":"Titulos-Menu",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/clothing/",
+            "href": "/bublegummers",
             "noFollow": false,
             "tagTitle": "Bubblegummers",
             "text": "Bublegummers"
@@ -180,7 +181,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/clothing/",
+            "href": "/calzado/bubblegummers/bubblegummers?initialMap=b&initialQuery=bubblegummers&map=category-3,brand,marca",
             "noFollow": false,
             "tagTitle": "Calzado",
             "text": "Calzado"
@@ -196,7 +197,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/clothing/",
+            "href": "/accesorios/bubblegummers/bubblegummers?initialMap=b&initialQuery=bubblegummers&map=category-3,brand,marca",
             "noFollow": false,
             "tagTitle": "Accesorios",
             "text": "Accesorios"
@@ -212,7 +213,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/accessories/",
+            "href": "/ropa-nina/ropa-nino/bubblegummers/bubblegummers?initialMap=b&initialQuery=bubblegummers&map=category-3,category-3,brand,marca",
             "noFollow": false,
             "tagTitle": "Ropa",
             "text": "Ropa"
@@ -228,7 +229,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/eyeglasses/",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "Bonos",
             "text": "Bonos"
@@ -260,7 +261,7 @@
             "blockClass":"Titulos-Menu",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/clothing/",
+            "href": "/disney",
             "noFollow": false,
             "tagTitle": "Disney",
             "text": "Disney"
@@ -282,7 +283,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/clothing/",
+            "href": "/nina/disney?initialMap=b&initialQuery=disney&map=category-3,brand",
             "noFollow": false,
             "tagTitle": "Calzado",
             "text": "Calzado"
@@ -298,7 +299,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/clothing/",
+            "href": "/accesorios/disney?initialMap=b&initialQuery=disney&map=category-3,brand",
             "noFollow": false,
             "tagTitle": "Accesorios",
             "text": "Accesorios"
@@ -314,7 +315,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/accessories/",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "Ropa",
             "text": "Ropa"
@@ -330,7 +331,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/eyeglasses/",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "Bonos",
             "text": "Bonos"
@@ -362,7 +363,7 @@
             "blockClass":"Titulos-Menu",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/clothing/",
+            "href": "/marvel",
             "noFollow": false,
             "tagTitle": "Marvel",
             "text": "Marvel"
@@ -384,7 +385,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/clothing/",
+            "href": "/nino/marvel?initialMap=b&initialQuery=marvel&map=category-3,brand",
             "noFollow": false,
             "tagTitle": "Calzado",
             "text": "Calzado"
@@ -400,7 +401,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/clothing/",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "Accesorios",
             "text": "Accesorios"
@@ -416,7 +417,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/accessories/",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "Ropa",
             "text": "Ropa"
@@ -432,7 +433,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/eyeglasses/",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "Bonos",
             "text": "Bonos"
@@ -464,7 +465,7 @@
             "blockClass":"Titulos-Menu",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/clothing/",
+            "href": "/north-star",
             "noFollow": false,
             "tagTitle": "North Star",
             "text": "Nosrth Star"
@@ -486,7 +487,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/clothing/",
+            "href": "/calzado/north-star/north-star?initialMap=b&initialQuery=north-star&map=category-3,brand,marca",
             "noFollow": false,
             "tagTitle": "Calzado",
             "text": "Calzado"
@@ -502,7 +503,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/clothing/",
+            "href": "/accesorios-escolares/north-star/north-star?initialMap=b&initialQuery=north-star&map=category-3,brand,marca",
             "noFollow": false,
             "tagTitle": "Accesorios",
             "text": "Accesorios"
@@ -518,7 +519,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/accessories/",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "Ropa",
             "text": "Ropa"
@@ -534,7 +535,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/eyeglasses/",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "Bonos",
             "text": "Bonos"
@@ -566,7 +567,7 @@
             "blockClass":"Titulos-Menu",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/clothing/",
+            "href": "/puma",
             "noFollow": false,
             "tagTitle": "Puma",
             "text": "Puma"
@@ -588,7 +589,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/clothing/",
+            "href": "/calzado/puma/puma?initialMap=b&initialQuery=puma&map=category-3,brand,marca",
             "noFollow": false,
             "tagTitle": "Calzado",
             "text": "Calzado"
@@ -604,7 +605,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/clothing/",
+            "href": "/puma",
             "noFollow": false,
             "tagTitle": "Accesorios",
             "text": "Accesorios"
@@ -620,7 +621,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/accessories/",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "Ropa",
             "text": "Ropa"
@@ -636,7 +637,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/eyeglasses/",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "Bonos",
             "text": "Bonos"
@@ -668,7 +669,7 @@
             "blockClass":"Titulos-Menu",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/clothing/",
+            "href": "/power",
             "noFollow": false,
             "tagTitle": "Power",
             "text": "Power"
@@ -690,7 +691,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/clothing/",
+            "href": "/calzado/power/power?initialMap=b&initialQuery=power&map=category-3,brand,marca",
             "noFollow": false,
             "tagTitle": "Calzado",
             "text": "Calzado"
@@ -706,7 +707,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/clothing/",
+            "href": "/accesorios/power/power?initialMap=b&initialQuery=power&map=category-3,brand,marca",
             "noFollow": false,
             "tagTitle": "Accesorios",
             "text": "Accesorios"
@@ -722,7 +723,7 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/accessories/",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "Ropa",
             "text": "Ropa"
@@ -738,10 +739,214 @@
             "blockClass":"menu-items",
             "itemProps": {
             "type": "internal",
-            "href": "/marcas---accessories/eyeglasses/",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "Bonos",
             "text": "Bonos"
+            }
+        }
+    },
+    // llamados generales 
+    "flex-layout.row#generales1-marcas": {
+        "props":{
+            "blockClass":["row-principal","llamados-generales","marcas-menu"]
+        },
+        "children": [
+            "flex-layout.col#columna-1-marcas-bata",
+            "flex-layout.col#columna-1-marcas-bubblegammers",
+            "flex-layout.col#columna-1-marcas-disney",
+            "flex-layout.col#columna-1-marcas-marvel",
+            "flex-layout.col#columna-1-marcas-ns",
+            "flex-layout.col#columna-1-marcas-puma",
+            "flex-layout.col#columna-1-marcas-power"
+        ]
+    },
+    // primer llamado
+    "flex-layout.col#columna-1-marcas-bata": {
+        "props": {
+            "width":"13%",
+            "blockClass":["columna-category","columna-1"]
+        },
+        "children":[
+            "menu-item#category-ver-todo-bata"
+        ]
+    },
+    // items Columna 1 marcas
+    "menu-item#category-ver-todo-bata": {
+        "props": {
+            "id": "menu-item-category-apparel-hombre",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"generales-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/bata",
+            "noFollow": false,
+            "tagTitle": "Ver bata",
+            "text": "Ver bata"
+            }
+        }
+    },
+    // segundo llamado
+    "flex-layout.col#columna-1-marcas-bubblegammers": {
+        "props": {
+            "width":"13%",
+            "blockClass":["columna-category","columna-2"]
+        },
+        "children":[
+            "menu-item#category-ver-todo-bubblegammers"
+        ]
+    },
+    // items Columna 1 zapatos
+    "menu-item#category-ver-todo-bubblegammers": {
+        "props": {
+            "id": "menu-item-category-apparel-hombre",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"generales-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/bubblegummers",
+            "noFollow": false,
+            "tagTitle": "Ver bubblegammers",
+            "text": "Ver bubblegammers"
+            }
+        }
+    },
+    // tercer llamado
+    "flex-layout.col#columna-1-marcas-disney": {
+        "props": {
+            "width":"13%",
+            "blockClass":["columna-category","columna-3"]
+        },
+        "children":[
+            "menu-item#category-ver-todo-disney"
+        ]
+    },
+    // items Columna 1 accesorios
+    "menu-item#category-ver-todo-disney": {
+        "props": {
+            "id": "menu-item-category-apparel-hombre",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"generales-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/disney",
+            "noFollow": false,
+            "tagTitle": "Ver disney",
+            "text": "Ver disney"
+            }
+        }
+    },
+    // cuarto llamado
+    "flex-layout.col#columna-1-marcas-marvel": {
+        "props": {
+            "width":"13%",
+            "blockClass":["columna-category","columna-4"]
+        },
+        "children":[
+            "menu-item#category-ver-todo-marcas-marvel"
+        ]
+    },
+    // items Columna 1 accesorios
+    "menu-item#category-ver-todo-marcas-marvel": {
+        "props": {
+            "id": "menu-item-category-apparel-hombre",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"generales-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/marvel",
+            "noFollow": false,
+            "tagTitle": "Ver marvel",
+            "text": "Ver marvel"
+            }
+        }
+    },
+    // quinto llamado
+    "flex-layout.col#columna-1-marcas-ns": {
+        "props": {
+            "width":"13%",
+            "blockClass":["columna-category","columna-5"]
+        },
+        "children":[
+            "menu-item#category-ver-todo-marcas-ns"
+        ]
+    },
+    // items Columna 1 ns
+    "menu-item#category-ver-todo-marcas-ns": {
+        "props": {
+            "id": "menu-item-category-apparel-hombre",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"generales-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/north-star",
+            "noFollow": false,
+            "tagTitle": "Ver North star",
+            "text": "Ver North star"
+            }
+        }
+    },
+    // secto llamado
+    "flex-layout.col#columna-1-marcas-puma": {
+        "props": {
+            "width":"13%",
+            "blockClass":["columna-category","columna-6"]
+        },
+        "children":[
+            "menu-item#category-ver-todo-marcas-puma"
+        ]
+    },
+    // items Columna 1 ns
+    "menu-item#category-ver-todo-marcas-puma": {
+        "props": {
+            "id": "menu-item-category-apparel-hombre",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"generales-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/puma",
+            "noFollow": false,
+            "tagTitle": "Ver puma",
+            "text": "Ver puma"
+            }
+        }
+    },
+    // septimo llamado
+    "flex-layout.col#columna-1-marcas-power": {
+        "props": {
+            "width":"13%",
+            "blockClass":["columna-category","columna-6"]
+        },
+        "children":[
+            "menu-item#category-ver-todo-marcas-power"
+        ]
+    },
+    // items Columna 1 power
+    "menu-item#category-ver-todo-marcas-power": {
+        "props": {
+            "id": "menu-item-category-apparel-hombre",
+            "type": "custom",
+            "iconId": null,
+            "blockClass":"generales-Menu",
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/power",
+            "noFollow": false,
+            "tagTitle": "Ver power",
+            "text": "Ver powers"
             }
         }
     }

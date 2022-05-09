@@ -29,8 +29,18 @@
             "menu-item#category-ninos-lanzamientoss",
             "menu-item#category-ninos-vendidos",
             "menu-item#category-ninos-precios",
-            "menu-item#category-ninos-tarjetas"
+            "menu-item#category-ninos-tarjetas",
+            "image#ninos-menu-mobile"
         ]
+    },
+    "image#ninos-menu-mobile": {
+        "props": {
+            "blockClass":"banner-menu-mobile",
+            "src": "https://batanew.vteximg.com.br/arquivos/subMenuMobilebatadev.png",
+            "link":{
+                "url":"/"
+            }
+        }
     },
     // Sub menu niña -----------------------------------------------
     "disclosure-layout#ninos-nina-lvl2": {
@@ -45,8 +55,14 @@
           "blockClass": "subMneusMTrigger"
         }
     },
+    "disclosure-trigger#ninos-nina-lvl2-2": {
+        "children": ["menu-item#category-pricipal-ninos-nina-m-2"],
+        "props": {
+          "blockClass": "subMneusMTrigger"
+        }
+    },
     "disclosure-content#ninos-nina-lvl2": {
-        "children": ["disclosure-trigger#ninos-nina-lvl2","flex-layout.col#ninos-lvl2"],
+        "children": ["disclosure-trigger#ninos-nina-lvl2-2","flex-layout.col#ninos-lvl2"],
         "props": {
           "blockClass": "subMneusMContent"
         }
@@ -68,6 +84,21 @@
             }
         }
     },
+    "menu-item#category-pricipal-ninos-nina-m-2": {
+        "props": {
+            "id": "menu-item-category--pricipal-nina",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv3","accesorios","cerrarLvl3"],
+            "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Niña",
+            "text": "Niña"
+            }
+        }
+    },
     // sub menu niña ----------------
     "flex-layout.col#ninos-lvl2":{
         "props":{
@@ -78,19 +109,50 @@
             "menu-item#category-pricipal-ninos-nina-primeros-m",
             "menu-item#category-pricipal-ninos-nina-caminadores-m",
             "menu-item#category-pricipal-ninos-nina-junior-m",
-            "menu-item#category-pricipal-ninos-nina-ropa-m"
+            "menu-item#category-pricipal-ninos-nina-ropa-m",
+            "list-context.image-list#banner-ninos-nina"
         ]
     },
+    // banners levl 3 ---------------------
+    "list-context.image-list#banner-ninos-nina": {
+        "children": ["slider-layout#ninos-nina"],
+        "props": {
+            "height": 720,
+            "images": [
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-1.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-1.png"
+                },
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-2.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-2.png"
+                }
+            ]
+        }
+    },
+    "slider-layout#ninos-nina": {
+        "props": {
+        "itemsPerPage": {
+            "desktop": 2,
+            "tablet": 2,
+            "phone": 2
+        },
+        "infinite": true,
+        "showNavigationArrows": "never",
+        "blockClass": ["carousel","banners-menuLvl3"]
+        }
+    },
+    //   fin de los banner
     "menu-item#category-pricipal-ninos-nina-precami-m": {
         "props": {
             "id": "menu-item-category--pricipal-precamina",
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/ninos/nina/precaminadoras",
             "noFollow": false,
             "tagTitle": "Precaminadores",
             "text": "Precaminadores"
@@ -103,10 +165,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/ninos/nina/Primeros-pasos",
             "noFollow": false,
             "tagTitle": "Primeros pasos",
             "text": "Primeros pasos"
@@ -119,10 +181,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/ninos/nina/Caminadoras",
             "noFollow": false,
             "tagTitle": "Caminadores",
             "text": "Caminadores"
@@ -135,10 +197,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/ninos/nina/junior",
             "noFollow": false,
             "tagTitle": "Junior",
             "text": "Junior"
@@ -151,10 +213,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/ninos/ropa-nina",
             "noFollow": false,
             "tagTitle": "Ropa",
             "text": "Ropa"
@@ -174,8 +236,14 @@
           "blockClass": "subMneusMTrigger"
         }
     },
+    "disclosure-trigger#ninos-nino-lvl2-2": {
+        "children": ["menu-item#category-pricipal-ninos-nino-m-2"],
+        "props": {
+          "blockClass": "subMneusMTrigger"
+        }
+    },
     "disclosure-content#ninos-nino-lvl2": {
-        "children": ["disclosure-trigger#ninos-nino-lvl2","flex-layout.col#ninos-nino-lvl2"],
+        "children": ["disclosure-trigger#ninos-nino-lvl2-2","flex-layout.col#ninos-nino-lvl2"],
         "props": {
           "blockClass": "subMneusMContent"
         }
@@ -197,6 +265,21 @@
             }
         }
     },
+    "menu-item#category-pricipal-ninos-nino-m-2": {
+        "props": {
+            "id": "menu-item-category--pricipal-nina",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv3","accesorios","cerrarLvl3"],
+            "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Niño",
+            "text": "Niño"
+            }
+        }
+    },
     // sub menu niño ----------------
     "flex-layout.col#ninos-nino-lvl2":{
         "props":{
@@ -207,8 +290,38 @@
             "menu-item#category-pricipal-ninos-nino-primeros-m",
             "menu-item#category-pricipal-ninos-nino-caminadores-m",
             "menu-item#category-pricipal-ninos-nino-junior-m",
-            "menu-item#category-pricipal-ninos-nino-ropa-m"
+            "menu-item#category-pricipal-ninos-nino-ropa-m",
+            "list-context.image-list#banner-ninos-nino"
         ]
+    },
+    // banners levl 3 ---------------------
+    "list-context.image-list#banner-ninos-nino": {
+        "children": ["slider-layout#ninos-nina"],
+        "props": {
+            "height": 720,
+            "images": [
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-1.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-1.png"
+                },
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-2.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-2.png"
+                }
+            ]
+        }
+    },
+    "slider-layout#ninos-nino": {
+        "props": {
+        "itemsPerPage": {
+            "desktop": 2,
+            "tablet": 2,
+            "phone": 2
+        },
+        "infinite": true,
+        "showNavigationArrows": "never",
+        "blockClass": ["carousel","banners-menuLvl3"]
+        }
     },
     "menu-item#category-pricipal-ninos-nino-precami-m": {
         "props": {
@@ -216,10 +329,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/ninos/nino/precaminadores",
             "noFollow": false,
             "tagTitle": "Precaminadores",
             "text": "Precaminadores"
@@ -232,10 +345,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/ninos/nino/primeros-pasos",
             "noFollow": false,
             "tagTitle": "Primeros pasos",
             "text": "Primeros pasos"
@@ -248,10 +361,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/ninos/nino/caminadores",
             "noFollow": false,
             "tagTitle": "Caminadores",
             "text": "Caminadores"
@@ -264,10 +377,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/ninos/nino/junior",
             "noFollow": false,
             "tagTitle": "Junior",
             "text": "Junior"
@@ -280,10 +393,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/ninos/ropa-nino",
             "noFollow": false,
             "tagTitle": "Ropa",
             "text": "Ropa"
@@ -303,8 +416,14 @@
           "blockClass": "subMneusMTrigger"
         }
     },
+    "disclosure-trigger#ninos-acce-lvl2-2": {
+        "children": ["menu-item#category-pricipal-nino-acce-m-2"],
+        "props": {
+          "blockClass": "subMneusMTrigger"
+        }
+    },
     "disclosure-content#ninos-acce-lvl2": {
-        "children": ["disclosure-trigger#ninos-acce-lvl2","flex-layout.col#ninos-acce-lvl2"],
+        "children": ["disclosure-trigger#ninos-acce-lvl2-2","flex-layout.col#ninos-acce-lvl2"],
         "props": {
           "blockClass": "subMneusMContent"
         }
@@ -317,7 +436,22 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2"],
+            "blockClass":["menu-lv2","accesorios"],
+            "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Accesorios",
+            "text": "Accesorios"
+            }
+        }
+    },
+    "menu-item#category-pricipal-nino-acce-m-2": {
+        "props": {
+            "id": "menu-item-category--pricipal-acce",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv3","accesorios","cerrarLvl3"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -336,8 +470,38 @@
             "menu-item#category-pricipal-ninos-carteros-m",
             "menu-item#category-pricipal-ninos-medias-m",
             "menu-item#category-pricipal-ninos-morrales-m",
-            "menu-item#category-pricipal-ninos-protective-m"
+            "menu-item#category-pricipal-ninos-protective-m",
+            "list-context.image-list#banner-ninos-acce"
         ]
+    },
+    // banner para accesorios
+    "list-context.image-list#banner-ninos-acce": {
+        "children": ["slider-layout#ninos-nina"],
+        "props": {
+            "height": 720,
+            "images": [
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-1.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-1.png"
+                },
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-2.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-2.png"
+                }
+            ]
+        }
+    },
+    "slider-layout#ninos-acce": {
+        "props": {
+        "itemsPerPage": {
+            "desktop": 2,
+            "tablet": 2,
+            "phone": 2
+        },
+        "infinite": true,
+        "showNavigationArrows": "never",
+        "blockClass": ["carousel","banners-menuLvl3"]
+        }
     },
     "menu-item#category-pricipal-ninos-basico-m": {
         "props": {
@@ -345,10 +509,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/ninos/accesorios/básicos",
             "noFollow": false,
             "tagTitle": "Basicos",
             "text": "Basicos"
@@ -361,10 +525,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/ninos/accesorios/carteras",
             "noFollow": false,
             "tagTitle": "Carteras",
             "text": "Carteras"
@@ -377,10 +541,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/ninos/accesorios/medias",
             "noFollow": false,
             "tagTitle": "Medias",
             "text": "Medias"
@@ -393,10 +557,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/ninos/accesorios/morrales",
             "noFollow": false,
             "tagTitle": "Morrales",
             "text": "Morrales"
@@ -409,10 +573,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/ninos/accesorios/protectives",
             "noFollow": false,
             "tagTitle": "Protectives",
             "text": "Protectives"
@@ -432,8 +596,14 @@
           "blockClass": "subMneusMTrigger"
         }
     },
+    "disclosure-trigger#ninos-marcas-lvl2-2": {
+        "children": ["menu-item#category-pricipal-nino-marcas-m-2"],
+        "props": {
+          "blockClass": "subMneusMTrigger"
+        }
+    },
     "disclosure-content#ninos-marcas-lvl2": {
-        "children": ["disclosure-trigger#ninos-marcas-lvl2","flex-layout.col#ninos-marcas-lvl2"],
+        "children": ["disclosure-trigger#ninos-marcas-lvl2-2","flex-layout.col#ninos-marcas-lvl2"],
         "props": {
           "blockClass": "subMneusMContent"
         }
@@ -446,7 +616,22 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2"],
+            "blockClass":["menu-lv2","marcas"],
+            "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Marcas",
+            "text": "Marcas"
+            }
+        }
+    },
+    "menu-item#category-pricipal-nino-marcas-m-2": {
+        "props": {
+            "id": "menu-item-category--pricipal-marcas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv3","hombre","cerrarLvl3"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -467,8 +652,38 @@
             "menu-item#category-pricipal-ninos-disney-m",
             "menu-item#category-pricipal-ninos-marvel-m",
             "menu-item#category-pricipal-ninos-sandak-m",
-            "menu-item#category-pricipal-ninos-verlon-m"
+            "menu-item#category-pricipal-ninos-verlon-m",
+            "list-context.image-list#banner-ninos-marcas"
         ]
+    },
+    // banner para accesorios
+    "list-context.image-list#banner-ninos-marcas": {
+        "children": ["slider-layout#ninos-nina"],
+        "props": {
+            "height": 720,
+            "images": [
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-1.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-1.png"
+                },
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-2.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-2.png"
+                }
+            ]
+        }
+    },
+    "slider-layout#ninos-marcas": {
+        "props": {
+        "itemsPerPage": {
+            "desktop": 2,
+            "tablet": 2,
+            "phone": 2
+        },
+        "infinite": true,
+        "showNavigationArrows": "never",
+        "blockClass": ["carousel","banners-menuLvl3"]
+        }
     },
     "menu-item#category-pricipal-ninos-bb-m": {
         "props": {
@@ -476,10 +691,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "Baby Bubbles",
             "text": "Baby Bubbles"
@@ -492,10 +707,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/bata",
             "noFollow": false,
             "tagTitle": "Bata",
             "text": "Bata"
@@ -508,10 +723,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/bubblegummers",
             "noFollow": false,
             "tagTitle": "BubbleGummers",
             "text": "BubbleGummers"
@@ -524,10 +739,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/disney",
             "noFollow": false,
             "tagTitle": "Disney",
             "text": "Disney"
@@ -540,10 +755,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/marvel",
             "noFollow": false,
             "tagTitle": "Marvel",
             "text": "Marvel"
@@ -556,10 +771,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/sandak",
             "noFollow": false,
             "tagTitle": "Sandak",
             "text": "Sandak"
@@ -572,10 +787,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/verlon",
             "noFollow": false,
             "tagTitle": "Verlon",
             "text": "Verlon"

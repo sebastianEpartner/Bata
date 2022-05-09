@@ -1,0 +1,21 @@
+/* .overlay{
+    height: 90%;
+    bottom: 0!important;
+    top: 76px;
+} */
+@media (max-width: 700px) {
+    .minicartIconContainer::before {
+        content: "";
+        background: url(https://batanew.vtexassets.com/arquivos/carritoRedBataDev.png) no-repeat;
+        background-size: 100%;
+        display: block;
+        width: 32px;
+        height: 33px;
+    }
+    .imageElement--LupaImagen {
+        margin-top: 5px;
+    }
+    .opened  {
+        width: 90% !important;
+    }
+}

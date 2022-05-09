@@ -1,0 +1,118 @@
+.skuSelectorNameContainer{
+  background: #ffffffab;
+}
+@media (max-width: 800px) {
+.skuSelectorSubcontainer {
+  margin-bottom: 5px;
+}
+}
+
+.carouselGaleryThumbs {
+  width: 30%;
+}
+
+.carouselGaleryThumbs {margin: -96px auto 58px auto;background: white;}
+
+.productImagesThumbActive {border: 1px solid red;margin: 0 0 0 2px;padding: 0 !important;opacity: 1 !important;}
+
+.productImagesThumb {opacity: 0.4;padding: 7px 7px 0 7px;}
+
+.productImagesThumbCaret .caretIcon {
+  color: black;
+  font-weight: 100;
+  width: 14px;
+  margin-top: -22px;
+}
+.caretIcon {
+  color: black;
+  width: 20px;
+}
+/*Animacion banners*/
+.imageElement--banner-item {
+  transition: all 400ms ease 0s;
+}
+.imageElementLink--banner-item:hover .imageElement--banner-item {
+  filter: brightness(0.5);
+  transform: scale(1.1);
+}
+
+.imageElementLink--banner-item-tres:hover .imageElement--banner-item-tres{
+  filter: brightness(0.5);
+  transform: scale(1.1);
+  transition: 400ms all;
+}
+.imageElementLink--banner-item-tres {
+  transition: all 400ms ease 0s;
+  display: block;
+  overflow: hidden;
+}
+/*Flechas*/
+.swiperCaretNext::before{
+  content: "";
+  background: url(https://batanew.vteximg.com.br/arquivos/flecha-derecha.png);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+.swiperCaretNext:hover::before{
+  content: "";
+  background: url(/arquivos/derecha-flechaProducto.png);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+.swiperCaretNext .caretIcon{
+    display: none;
+}
+.swiperCaretPrev::before{
+  content: "";
+  background: url(https://batanew.vteximg.com.br/arquivos/flecha-derecha.png);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  display: block;
+  transform: rotate(180deg);display: block;
+}
+.swiperCaretPrev:hover::before{
+  content: "";
+  background: url(/arquivos/derecha-flechaProducto.png);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  display: block;
+  transform: rotate(180deg);display: block;
+}
+.swiperCaretPrev .caretIcon{
+    display: none;
+}
+/*Ocultar tallas*/
+.valueWrapper.valueWrapper--unavailable.skuSelectorItemTextValue {display: none;}
+
+.skuSelectorItem.skuSelectorItem--37 {border: 0;}
+
+.skuSelectorInternalBox {border: none;}
+
+.valueWrapper.skuSelectorItemTextValue {border: 1px solid #dad7d7;}
+
+.shippingContainer {border: 1px solid #d2d1d1;padding: 14px;}
+
+.shippingContainer :global(.vtex-dropdown__label)::before {content: "";width: 15px;height: 15px;border-radius: 50%;display: block;margin: 2px 35px 0 0px;border: 1px solid black;background: red;}
+
+.shippingContainer :global(.vtex-dropdown__label) {display: flex;position: relative;font-size: 17px;}
+
+.shippingContainer :global(.vtex-dropdown__label)::after {content: "";width: 20px;display: block;height: 20px;position: absolute;background: url(https://batanew.vteximg.com.br/arquivos/icono-ciudadc.png);background-size: 100%;left: 5%;}
+
+.shippingContainer :global(.vtex-button) {background: red;border: 0;color: white;}
+
+.shippingContainer :global(.vtex-button__label) {font-weight: 700;}
+
+.shippingContainer :global(.vtex-button):hover {background: white;border: 1px solid;color: black;}
+
+.skuSelectorItem{
+  height: 40px;
+}
+
+.skuSelectorOptionsList :global(.vtex-product-summary-2-x-containerNormal){display: none;}
+

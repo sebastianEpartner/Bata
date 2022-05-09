@@ -150,7 +150,7 @@
             "blockClass":["menu-destcados","ofertas"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "Oferta",
             "text": "ofertas"
@@ -166,7 +166,7 @@
             "blockClass":["menu-destcados","cuenta"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Account#/profile",
             "noFollow": false,
             "tagTitle": "Mi cuenta",
             "text": "Mi cuenta"
@@ -182,7 +182,7 @@
             "blockClass":["menu-destcados","tiendas"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "Buscar Tiendas",
             "text": "Buscar Tiendas"
@@ -198,7 +198,7 @@
             "blockClass":["menu-destcados","pedidos"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Account#/orders",
             "noFollow": false,
             "tagTitle": "Seguimiento de pedidos",
             "text": "Seguimiento de pedidos"
@@ -212,20 +212,20 @@
           "height": 320,
           "images": [
             {
-              "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-              "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+              "image": "https://batanew.vteximg.com.br/arquivos/menu1mobile-dev.png",
+              "mobileImage": "https://batanew.vteximg.com.br/arquivos/menu1mobile-dev.png"
             },
             {
-              "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-              "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+              "image": "https://batanew.vteximg.com.br/arquivos/menu2mobile-dev.png",
+              "mobileImage": "https://batanew.vteximg.com.br/arquivos/menu2mobile-dev.png"
             },
             {
-              "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-              "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+              "image": "https://batanew.vteximg.com.br/arquivos/menu1mobile-dev.png",
+              "mobileImage": "https://batanew.vteximg.com.br/arquivos/menu1mobile-dev.png"
             },
             {
-              "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-              "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+              "image": "https://batanew.vteximg.com.br/arquivos/menu2mobile-dev.png",
+              "mobileImage": "https://batanew.vteximg.com.br/arquivos/menu2mobile-dev.png"
             }
           ]
         }

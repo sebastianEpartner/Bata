@@ -2,6 +2,9 @@
     font-size: 0;
     padding: 0;
 }
+.content {
+    margin: 50px auto;
+}
 .label::before{
     content: "";
     background: url(https://batanew.vteximg.com.br/arquivos/cuenta-nohover-new.png) no-repeat;
@@ -25,10 +28,14 @@
     justify-content: center;
 }
 .container :global(.vtex-button):hover{
-    background: transparent;
+    background: transparent !important;
+}
+.container :global(.vtex-button__label):hover{
+    background: transparent !important;
 }
 .content--loginOptions {
-    width: 410px;
+    width: 416px;
+    padding: 17px !important;
 }
 .contentForm {
     width: 100%;
@@ -91,11 +98,28 @@
     content: "INICIAR SESIÓN";
     font-size: 13px;
 }
+.portalWrapper .box {
+    right: -33px !important;
+}
+.portalWrapper .arrowUp {
+    box-shadow: 0 0 0 0;
+}
+/* .portalWrapper .contentContainer{
+    box-shadow: 0 0 0 0;
+}  */
+.portalWrapper .termsAndConditions {
+    display: none;
+}
+.contentContainer .content {
+    margin: 0px auto;
+}
 @media (max-width: 600px) {
     .content--loginOptions {
         width: 93%;
         margin: 30px auto;
         box-shadow: 1px 3px 6px #d3d3d3;
     }
-    
+    .content {
+        margin: 50px auto;
+    }
 }

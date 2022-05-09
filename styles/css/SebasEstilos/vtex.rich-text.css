@@ -1,0 +1,162 @@
+.paragraph--tituloUneteYa{
+    color: white;
+    margin: 5px 0;
+    font-size: 12px;
+    font-weight: 100;
+}
+.paragraph.paragraph--linkUneteYa{
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* sebas estilso */
+.heading--Contacto {
+    color: red;
+}
+.link--contenido-TYC{
+    color: black;
+    font-weight: bold;
+}
+.link--boton-tyc{
+    background-color: red;
+    color: white;
+    transition: 400ms all;
+    border: 1px solid red;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.link--boton-tyc:hover{
+    background-color: white;
+    color: red;
+    transition: 400ms all;
+    border: 1px solid red;
+}
+.paragraph--tittle-TYC{
+    margin: 5px 0;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+}
+/* quienes somos */
+.headingLevel2.headingLevel2--quienes-somos {
+    margin-bottom: 10px !important;
+    font-size: 30px;
+}
+.paragraph--contentQuienesSomos{
+    font-size: 14px;
+    color: #808080;
+    line-height: 22px;
+}
+.link--contentQuienesSomos{
+    text-decoration: none;
+    color: #808080;
+}
+.container--tituloquienes-somos{
+    justify-content: center;
+
+} 
+.paragraph--tituloquienes-somos{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+.container--Valores {
+    justify-content: center;
+    height: auto !important;
+}
+.wrapper--Valores{
+    display: flex;
+    width: 95%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    transition: 400ms all;
+}
+.paragraph--Valores{
+    color: red;
+}
+/* .wrapper--Valores:hover{
+    background: red;
+}
+.wrapper--Valores:hover .paragraph--Valores{
+    color: white;
+} */
+.paragraph--quienes-somos{
+    color: red;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-weight: bold;
+}
+.container--tituloquienes {
+    justify-content: center;
+    margin-top: 50px;
+}
+.container--tituloquienes .headingLevel2--tituloquienes {
+    margin-bottom: 10px;
+}
+.container--subBattaTitulo {
+    justify-content: center;
+}
+.paragraph--subBattaTitulo{
+    color: #808080;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.headingLevel2--productos {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+    background: red;
+    padding: 15px 50px;
+    font-size: 14px;
+}
+.container--productos {
+    justify-content: center;
+    margin-bottom: 50px;
+}
+@media (max-width: 600px) {
+    .container--Contacto {
+        justify-content: center;
+    }
+    .paragraph--contentQuienesSomos{
+        text-align: center;
+    }
+    .wrapper--contentQuienesSomos{
+        margin-bottom: 30px;
+    }
+    .paragraph--quienes-somos{
+        font-size: 25px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .headingLevel2--tituloquienes{
+        font-size: 25px;
+    }
+    .container--tituloquienes {
+        margin-top: 10px;
+    }
+    .headingLevel2--productos {
+        color: white;
+        text-transform: uppercase;
+        font-weight: 100;
+        background: red;
+        padding: 15px 23px;
+        font-size: 11px;
+    }
+    :global(.vtex-disclosure-layout-1-x-trigger--tyc--visible) .paragraph--tycTitulo{
+        color: red;
+        font-weight: bold;
+    }
+    :global(.vtex-flex-layout-0-x-flexCol--segundaCol) .heading--Contacto {
+        display: none;
+    }
+    .paragraph--contenido-TYC{
+        font-size: 13px;
+    }
+    .paragraph--tittle-TYC{
+        font-size: 15px;
+    }
+}

@@ -66,7 +66,7 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#header-desktop"]
+    "children": ["flex-layout.row#header-desktop","disclosure-layout#unereYa"]
   },
   "flex-layout.row#header-desktop": {
     "props": {
@@ -88,6 +88,73 @@
   "login":{
     "props":{
       "termsAndConditions":"Deseo recibir correos electrónicos de marketing y/o promocionales de la marca. Al enviar, confirmo que he leído y acepto los  los Términos y condiciones y Declaración de privacidad"
+    }
+  },
+  /*PopUp en el unete ya*/
+  "disclosure-layout#unereYa": {
+    "children": ["disclosure-trigger#unereYa", "disclosure-content#unereYa"],
+    "props":{
+      "initialVisibility":"visible"
+    }
+  },
+  "disclosure-trigger#unereYa": {
+    "children": [],
+    "props":{
+      "blockClass":"uneteYa"
+    }
+  },
+  "disclosure-trigger#unereYa-cerrar": {
+    "children": ["image#cerrarFixed"],
+    "props":{
+      "blockClass":"cerrarFixed"
+    }
+  },
+  "disclosure-content#unereYa": {
+    "children": ["flex-layout.row#uneteYa"]
+  },
+  // contenedor unete ya
+  "flex-layout.row#uneteYa": {
+    "props": {
+      "blockClass":"uneteYacontainer",
+      "marginTop": 4,
+      "marginBottom": 7
+    },
+    "children": [ 
+      "image#correoIcon",
+      "rich-text#uneteYa1",
+      "image#cerraricon",
+      "rich-text#uneteYa2",
+      "disclosure-trigger#unereYa-cerrar"
+    ]
+  },
+  "image#correoIcon": {
+    "props": {
+      "src": "https://batanew.vteximg.com.br/arquivos/correoBatadev.png",
+      "blockClass": ["imagenesModalUneteYa"]
+    }
+  },
+  "rich-text#uneteYa1": {
+    "props": {
+      "text": "Suscribite y obtén 10",
+      "blockClass": "tituloUneteYa"
+    }
+  },
+  "image#cerraricon": {
+    "props": {
+      "src": "https://batanew.vteximg.com.br/arquivos/descuentoBatadev.png",
+      "blockClass": ["imagenesModalUneteYa"]
+    }
+  },
+  "rich-text#uneteYa2": {
+    "props": {
+      "text": "Únete ya",
+      "blockClass": ["tituloUneteYa","linkUneteYa"]
+    }
+  },
+  "image#cerrarFixed": {
+    "props": {
+      "src": "https://batanew.vteximg.com.br/arquivos/closeFIxed.png",
+      "blockClass": ["imagenesModalUneteYa","cerrarFixed"]
     }
   },
   // Logo Header
@@ -123,9 +190,9 @@
   "image#favvoritos": {
     "props": {
         "blockClass":["extrella"],
-        "src": "https://batanew.vteximg.com.br/arquivos/favoritos-nohover-batadev.png",
+        "src": "https://batanew.vteximg.com.br/arquivos/favorfavoritos-75x75.png",
         "link":{
-            "url":"/"
+            "url":"/Account#/wishlist"
         }
     }
   },
@@ -144,27 +211,116 @@
     "children": ["sticky-layout#1-mobile"]
   },
   "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#1-mobile"]
+    "children": ["flex-layout.row#1-mobile","disclosure-layout#unereYa"]
   },
   "flex-layout.row#1-mobile": {
     "children": [
-      "drawer",
-      "logo#mobile",
-      "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
+      "flex-layout.col#1-mobile",
+      "flex-layout.col#2-mobile",
+      "flex-layout.col#3-mobile",
+      "flex-layout.col#4-mobile",
+      "flex-layout.col#6-mobile"
     ],
     "props": {
       "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "fullWidth": true,
+      "preserveLayoutOnMobile":true,
+      "preventVerticalStretch":true
     }
   },
   "drawer": {
     "children": ["menu#drawer"]
   },
+  // columnas del header
+  "flex-layout.col#1-mobile": {
+    "props": {
+      "width":"13%"
+    },
+    "children": [
+      "drawer"
+    ]
+  },
+  "flex-layout.col#2-mobile": {
+    "children": [
+      "logo#mobile"
+    ],
+    "props": {
+      "width":"57%"
+    }
+  },
+  "flex-layout.col#3-mobile": {
+    "children": [
+      "disclosure-layout#lupa"
+    ],
+    "props": {
+      "width":"10%"
+    }
+  },
+  "flex-layout.col#4-mobile": {
+    "children": [
+      "image#favvoritos"
+    ],
+    "props": {
+      "width":"10%"
+    }
+  },
+  "flex-layout.col#6-mobile": {
+    "children": [
+      "minicart.v2"
+    ],
+    "props": {
+      "width":"10%"
+    }
+  },
+  // buscador mobile
+  "disclosure-layout#lupa": {
+    "children": ["disclosure-trigger#lupa","disclosure-content#lupa"],
+    "props": {
+      "blockClass": "subMneusM"
+    }
+  },
+  "disclosure-trigger#lupa": {
+    "children": ["link.product#lupa"],
+    "props": {
+      "blockClass": "lupaTrigger"
+    }
+  },
+  // cierre del buscador
+  "disclosure-trigger#cierreBuscador": {
+    "children": ["rich-text#cierreBuscardor"],
+    "props": {
+      "blockClass": "cierreBuscador"
+    }
+  },
+  "rich-text#cierreBuscardor": {
+    "props": {
+      "text": "X",
+      "blockClass": ["cierreBuscador"]
+    }
+  },
+  // contenido 
+  "disclosure-content#lupa": {
+    "children": ["disclosure-trigger#cierreBuscador","search-bar"],
+    "props": {
+      "blockClass": "lupaContent"
+    }
+  },
 
+  "link.product#lupa": {
+    "props": {
+      "blockClass": "Lupa"
+    },
+    "children":["image#lupa"]
+  },
+  "image#lupa": {
+    "props": {
+      "src": "https://batanew.vteximg.com.br/arquivos/busqeudaMobile-newbatadev.png",
+      "maxHeight": 24,
+      "blockClass":"LupaImagen"
+    }
+  },
   // Menu principal mobile
   "menu#drawer": {
     "children": [
@@ -188,8 +344,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://batanew.vteximg.com.br/arquivos/bataLogo.png",
-      "width": "70"
+      "url": "https://batanew.vteximg.com.br/arquivos/logo.png",
+      "width": "190"
     }
   }
 }

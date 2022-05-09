@@ -6,7 +6,7 @@
 }
 .minicartIconContainer::before {
     content: "";
-    background: url(https://batanew.vtexassets.com/arquivos/carritoRedBataDev.png) no-repeat;
+    background: url(https://batanew.vteximg.com.br/arquivos/carrito-100x100.png) no-repeat;
     background-size: 100%;
     display: block;
     width: 23px;
@@ -27,5 +27,69 @@
     width: 7px;
 }
 .minicartProductListContainer--rowProduct {
-    min-height: 227px !important;
+    min-height: 300px !important;
+}
+.minicartCheckoutButton--verCarrito :global(.vtex-button__label)::before{
+  content: "Ver Carrito";text-transform: uppercase;font-size: 13px;font-weight: 700;
+}
+.minicartCheckoutButton--verCarrito :global(.vtex-button__label){
+  font-size: 0;
+}
+.minicartCheckoutButton--verCarrito :global(.vtex-button){
+  background: white;border: 1px solid black;
+  color: black;
+  border-radius: 0;
+}
+.minicartCheckoutButton--verCarrito :global(.vtex-button):hover{
+  background: #E60000;border:1px solid red;
+  color: white;
+
+}
+.minicartCheckoutButton--finalizarPedido :global(.vtex-button__label)::before{
+  content: "Finalizar compra";text-transform: uppercase;font-size: 13px;font-weight: 700;
+}
+.minicartCheckoutButton--finalizarPedido :global(.vtex-button__label){
+  font-size: 0;
+}
+.minicartCheckoutButton--finalizarPedido :global(.vtex-button){
+  background: white;border: 1px solid black;
+  color: black;
+  border-radius: 0;
+}
+.minicartCheckoutButton--finalizarPedido :global(.vtex-button):hover{
+  background: #E60000;border: 1px solid red;
+  color: white;
+}
+
+.minicartCheckoutButton.minicartCheckoutButton--finalizarPedido {padding: 0;margin-right: 5px;}
+
+.minicartCheckoutButton.minicartCheckoutButton--verCarrito {padding: 0;margin-left: 5px;}
+
+.closeIconContainer {
+    justify-content: end;
+}
+.closeIconContainer {justify-content: end;}
+.minicartTitle{color: red;position: relative;}
+.minicartTitle::after {
+    content: "Producto";
+    font-size: 14px;
+    position: absolute;
+    bottom: -14px;
+    left: 1.8rem;
+}
+.closeIconContainer {
+    justify-content: end;
+    position: absolute;
+    right: 1%;
+    z-index: 999;
+}
+@media (max-width: 600px) {
+    .minicartQuantityBadgeDefault {
+        top: -2px;
+        right: 8px;
+        font-size: 7px;
+        height: 7px;
+        background: #2A2A2A;
+        width: 7px;
+    }
 }

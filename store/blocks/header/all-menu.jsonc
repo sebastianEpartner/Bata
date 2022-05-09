@@ -39,7 +39,7 @@
       "blockClass":"item-pricipal",
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/Tiendabata/mujer",
         "noFollow": false,
         "tagTitle": "Mujer",
         "text": "Mujer"
@@ -59,7 +59,7 @@
       "blockClass":"item-pricipal",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/Tiendabata/hombre",
         "noFollow": true,
         "tagTitle": "hombre",
         "text": "hombre"
@@ -79,7 +79,7 @@
       "blockClass":"item-pricipal",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/Tiendabata/ninos",
         "noFollow": true,
         "tagTitle": "Niños",
         "text": "Niños"
@@ -98,7 +98,7 @@
       "blockClass":"item-pricipal",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/",
         "noFollow": true,
         "tagTitle": "Marcas",
         "text": "Marcas"

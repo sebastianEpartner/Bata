@@ -28,6 +28,19 @@
     height: 100%;
     padding: 0 10px;
 }
+.formSubmitContainer:hover :global(.vtex-button){
+  background: red;
+  border: 0;
+  border: 2px solid white;
+  border-radius: 0;
+  height: 100%;
+  padding: 0 10px;
+}
+.formSubmitContainer:hover :global(.vtex-button__label){
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
 .formSubmitContainer :global(.vtex-button__label){
     color: red;
     font-weight: bold;
@@ -44,5 +57,9 @@
     }
     .formSubmitContainer :global(.vtex-button){
         width: 100%;
+    }
+    /* sebas ajuste */
+    .formSubmitContainer {
+        width: 300px;
     }
 }

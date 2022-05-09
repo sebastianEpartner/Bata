@@ -7,7 +7,7 @@
  * The store/blocks.json file is intended for backwards compatibility, for miscellaneous
  * blocks, or if the app is simple enough that it doesn't warrant splitting the file.
  */
-{
+ {
   "store.orderplaced": {
     "blocks": ["order-placed"]
   },
@@ -36,11 +36,11 @@
   },
 
   "store.not-found#product": {
-    "blocks": ["flex-layout.col#404Container"]
+    "blocks": ["search-not-found-layout"]
   },
 
   "store.not-found#search": {
-    "blocks": ["flex-layout.col#404Container"]
+    "blocks": ["search-not-found-layout"]
   },
 
   "rich-text#not-found": {

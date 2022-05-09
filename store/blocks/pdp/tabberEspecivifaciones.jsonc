@@ -1,4 +1,14 @@
 {
+    // rsponsive taps productos
+    "responsive-layout.desktop#tabbersProducto": {
+        "children": ["tab-layout#product"]
+    },
+    "responsive-layout.tablet#tabbersProducto": {
+    "children": ["tab-layout#product"]
+    },
+    "responsive-layout.mobile#tabbersProducto": {
+        "children": ["tab-layout#product"]
+    },
     "tab-layout#product": {
         "children": [
           "tab-list#product",

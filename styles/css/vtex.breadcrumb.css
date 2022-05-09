@@ -25,18 +25,18 @@
 .link:hover {
     color: black;
 }
-:global(.vtex-flex-layout-0-x-flexColChild--coolumanDerecha) .term{
+:global(.vtex-flex-layout-0-x-flexRow--contendorProduct) .term{
     color: red;
     font-weight: bold;
     font-size: 11px;
 }
-:global(.vtex-flex-layout-0-x-flexColChild--coolumanDerecha) .arrow{
+:global(.vtex-flex-layout-0-x-flexRow--contendorProduct) .arrow{
     display: flex;
     padding: 0;
     align-items: center;
     margin: 0 1px;
 }
-:global(.vtex-flex-layout-0-x-flexColChild--coolumanDerecha) .arrow::before {
+:global(.vtex-flex-layout-0-x-flexRow--contendorProduct) .arrow::before {
     content: "";
     background: red;
     width: 5px;
@@ -44,13 +44,21 @@
     border-radius: 50%;
     display: inline-block;
 }
-:global(.vtex-flex-layout-0-x-flexColChild--coolumanDerecha) .caretIcon{
+:global(.vtex-flex-layout-0-x-flexRow--contendorProduct) .caretIcon{
     display: none;
 }
-@media (max-width: 600px) {
+:global(.vtex-flex-layout-0-x-flexRow--contendorProduct) .link.homeLink{
+    padding-left: 0;
+}
+:global(.vtex-flex-layout-0-x-flexRow--contendorProduct) .term {
+    padding: 0;
+}
+@media (max-width: 700px) {
     .container {
-        margin-top: 20px;
-        padding: 0 10px;
+        margin-top: 10px;
+        padding: 0px;
     }
-
+    :global(.vtex-flex-layout-0-x-flexRow--contendorProduct) .arrow::before {
+        background: #2A2A2A;
+    }
 }

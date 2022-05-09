@@ -28,8 +28,18 @@
             "menu-item#category-mujer-lanzamientoss",
             "menu-item#category-mujer-vendidos",
             "menu-item#category-mujer-precios",
-            "menu-item#category-mujer-tarjetas"
+            "menu-item#category-mujer-tarjetas",
+            "image#mujer-menu-mobile"
         ]
+    },
+    "image#mujer-menu-mobile": {
+        "props": {
+            "blockClass":"banner-menu-mobile",
+            "src": "https://batanew.vteximg.com.br/arquivos/subMenuMobilebatadev.png",
+            "link":{
+                "url":"/"
+            }
+        }
     },
     // Sub menu zapatos -----------------------------------------------
     "disclosure-layout#mujer-zapatos-lvl2": {
@@ -44,8 +54,14 @@
           "blockClass": "subMneusMTrigger"
         }
     },
+    "disclosure-trigger#mujer-zapatos-lvl2-2": {
+        "children": ["menu-item#category-pricipal-mujer-zapatos-m-2"],
+        "props": {
+          "blockClass": "subMneusMTrigger"
+        }
+    },
     "disclosure-content#mujer-zapatos-lvl2": {
-        "children": ["disclosure-trigger#mujer-zapatos-lvl2","flex-layout.col#mujer-lvl2"],
+        "children": ["disclosure-trigger#mujer-zapatos-lvl2-2","flex-layout.col#mujer-lvl2"],
         "props": {
           "blockClass": "subMneusMContent"
         }
@@ -58,7 +74,22 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2"],
+            "blockClass":["menu-lv2","zapatos"],
+            "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Zapatos",
+            "text": "Zapatos"
+            }
+        }
+    },
+    "menu-item#category-pricipal-mujer-zapatos-m-2": {
+        "props": {
+            "id": "menu-item-category--pricipal-zapatos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv3","hombre","cerrarLvl3"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -81,8 +112,38 @@
             "menu-item#category-pricipal-mujer-tenisDepo-m",
             "menu-item#category-pricipal-mujer-sandalias-m",
             "menu-item#category-pricipal-mujer-chanclas-m",
-            "menu-item#category-pricipal-mujer-mocasine-m"
+            "menu-item#category-pricipal-mujer-mocasine-m",
+            "list-context.image-list#banner-mujer-categorias"
         ]
+    },
+    // banner para categorias
+    "list-context.image-list#banner-mujer-categorias": {
+        "children": ["slider-layout#ninos-nina"],
+        "props": {
+            "height": 720,
+            "images": [
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-1.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-1.png"
+                },
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-2.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-2.png"
+                }
+            ]
+        }
+    },
+    "slider-layout#mujer-categorias": {
+        "props": {
+        "itemsPerPage": {
+            "desktop": 2,
+            "tablet": 2,
+            "phone": 2
+        },
+        "infinite": true,
+        "showNavigationArrows": "never",
+        "blockClass": ["carousel","banners-menuLvl3"]
+        }
     },
     "menu-item#category-pricipal-mujer-tacones-m": {
         "props": {
@@ -90,10 +151,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/mujer/calzado/tacones",
             "noFollow": false,
             "tagTitle": "Tacones",
             "text": "Tacones"
@@ -106,10 +167,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/mujer/calzado/tenis",
             "noFollow": false,
             "tagTitle": "Tenis Moda",
             "text": "Tenis Moda"
@@ -122,10 +183,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/mujer/calzado/botas",
             "noFollow": false,
             "tagTitle": "Botas",
             "text": "Botas"
@@ -138,10 +199,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/mujer/calzado/botines",
             "noFollow": false,
             "tagTitle": "Botines",
             "text": "Botines"
@@ -154,10 +215,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/mujer/calzado/baletas",
             "noFollow": false,
             "tagTitle": "Baletas",
             "text": "Baletas"
@@ -170,10 +231,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/mujer/calzado/tenis-deportivos",
             "noFollow": false,
             "tagTitle": "Tenis deportivos",
             "text": "Tenis deportivos"
@@ -186,10 +247,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/mujer/calzado/sandalias",
             "noFollow": false,
             "tagTitle": "Sandalias",
             "text": "Sandalias"
@@ -202,10 +263,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/mujer/calzado/chanclas",
             "noFollow": false,
             "tagTitle": "Chanclas",
             "text": "Chanclas"
@@ -218,10 +279,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/mujer/calzado/mocasines",
             "noFollow": false,
             "tagTitle": "Mocasines",
             "text": "Mocasines"
@@ -241,8 +302,14 @@
           "blockClass": "subMneusMTrigger"
         }
     },
+    "disclosure-trigger#mujer-acce-lvl2-2": {
+        "children": ["menu-item#category-pricipal-mujer-acce-m-2"],
+        "props": {
+          "blockClass": "subMneusMTrigger"
+        }
+    },
     "disclosure-content#mujer-acce-lvl2": {
-        "children": ["disclosure-trigger#mujer-acce-lvl2","flex-layout.col#mujer-acce-lvl2"],
+        "children": ["disclosure-trigger#mujer-acce-lvl2-2","flex-layout.col#mujer-acce-lvl2"],
         "props": {
           "blockClass": "subMneusMContent"
         }
@@ -255,7 +322,22 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2"],
+            "blockClass":["menu-lv2","accesorios"],
+            "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Accesorios",
+            "text": "Accesorios"
+            }
+        }
+    },
+    "menu-item#category-pricipal-mujer-acce-m-2": {
+        "props": {
+            "id": "menu-item-category--pricipal-acce",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv3","hombre","cerrarLvl3"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -276,8 +358,38 @@
             "menu-item#category-pricipal-mujer-cinturones-m",
             "menu-item#category-pricipal-mujer-medias-m",
             "menu-item#category-pricipal-mujer-morralesMochilas-m",
-            "menu-item#category-pricipal-mujer-proctectives-m"
+            "menu-item#category-pricipal-mujer-proctectives-m",
+            "list-context.image-list#banner-mujer-acce"
         ]
+    },
+    // banner para accesorios
+    "list-context.image-list#banner-mujer-acce": {
+        "children": ["slider-layout#ninos-nina"],
+        "props": {
+            "height": 720,
+            "images": [
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-1.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-1.png"
+                },
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-2.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-2.png"
+                }
+            ]
+        }
+    },
+    "slider-layout#mujer-acce": {
+        "props": {
+        "itemsPerPage": {
+            "desktop": 2,
+            "tablet": 2,
+            "phone": 2
+        },
+        "infinite": true,
+        "showNavigationArrows": "never",
+        "blockClass": ["carousel","banners-menuLvl3"]
+        }
     },
     "menu-item#category-pricipal-mujer-billeteras-m": {
         "props": {
@@ -285,10 +397,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/tiendabata/mujer/accesorios/billeteras",
             "noFollow": false,
             "tagTitle": "Billeteras",
             "text": "Billeteras"
@@ -301,10 +413,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/tiendabata/mujer/accesorios/bolsos",
             "noFollow": false,
             "tagTitle": "Bolsos",
             "text": "Bolsos"
@@ -317,10 +429,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/tiendabata/mujer/accesorios/carteras",
             "noFollow": false,
             "tagTitle": "Carteras",
             "text": "Carteras"
@@ -333,10 +445,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/tiendabata/mujer/accesorios/cinturones",
             "noFollow": false,
             "tagTitle": "Cinturones",
             "text": "Cinturones"
@@ -349,10 +461,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/tiendabata/mujer/accesorios/medias",
             "noFollow": false,
             "tagTitle": "Medias",
             "text": "Medias"
@@ -365,10 +477,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/mujer/accesorios/morrales-y-mochilas",
             "noFollow": false,
             "tagTitle": "Morrales y mochilas",
             "text": "Morrales y mochilas"
@@ -381,10 +493,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/mujer/accesorios/protectives",
             "noFollow": false,
             "tagTitle": "Protectives",
             "text": "Protectives"
@@ -404,8 +516,14 @@
           "blockClass": "subMneusMTrigger"
         }
     },
+    "disclosure-trigger#mujer-marcas-lvl2-2": {
+        "children": ["menu-item#category-pricipal-mujer-marcas-m-2"],
+        "props": {
+          "blockClass": "subMneusMTrigger"
+        }
+    },
     "disclosure-content#mujer-marcas-lvl2": {
-        "children": ["disclosure-trigger#mujer-marcas-lvl2","flex-layout.col#mujer-marcas-lvl2"],
+        "children": ["disclosure-trigger#mujer-marcas-lvl2-2","flex-layout.col#mujer-marcas-lvl2"],
         "props": {
           "blockClass": "subMneusMContent"
         }
@@ -418,7 +536,22 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2"],
+            "blockClass":["menu-lv2","marcas"],
+            "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Marcas",
+            "text": "Marcas"
+            }
+        }
+    },
+    "menu-item#category-pricipal-mujer-marcas-m-2": {
+        "props": {
+            "id": "menu-item-category--pricipal-marcas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv3","hombre","cerrarLvl3"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -439,8 +572,38 @@
             "menu-item#category-pricipal-mujer-redLabel-m",
             "menu-item#category-pricipal-mujer-power-m",
             "menu-item#category-pricipal-mujer-xti-m",
-            "menu-item#category-pricipal-mujer-sandak-m"
+            "menu-item#category-pricipal-mujer-sandak-m",
+            "list-context.image-list#banner-mujer-marcas"
         ]
+    },
+    // banner para marcas
+    "list-context.image-list#banner-mujer-marcas": {
+        "children": ["slider-layout#ninos-nina"],
+        "props": {
+            "height": 720,
+            "images": [
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-1.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-1.png"
+                },
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-2.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-2.png"
+                }
+            ]
+        }
+    },
+    "slider-layout#mujer-marcas": {
+        "props": {
+        "itemsPerPage": {
+            "desktop": 2,
+            "tablet": 2,
+            "phone": 2
+        },
+        "infinite": true,
+        "showNavigationArrows": "never",
+        "blockClass": ["carousel","banners-menuLvl3"]
+        }
     },
     "menu-item#category-pricipal-mujer-aquarella-m": {
         "props": {
@@ -448,10 +611,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/aquarella",
             "noFollow": false,
             "tagTitle": "Aquarella",
             "text": "Aquarella"
@@ -464,10 +627,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/bata",
             "noFollow": false,
             "tagTitle": "Bata",
             "text": "Bata"
@@ -480,10 +643,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/bata-comfit",
             "noFollow": false,
             "tagTitle": "Comfit",
             "text": "Comfit"
@@ -496,10 +659,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/bata-red-label",
             "noFollow": false,
             "tagTitle": "Bata Red label",
             "text": "Bata Red label"
@@ -512,10 +675,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/power",
             "noFollow": false,
             "tagTitle": "Power",
             "text": "Power"
@@ -528,10 +691,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "XTI",
             "text": "XTI"
@@ -544,10 +707,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/sandak",
             "noFollow": false,
             "tagTitle": "Sandak",
             "text": "Sandak"

@@ -20,27 +20,27 @@
     "image#banner-1": {
         "props": {
             "blockClass":["banner-item-tres"],
-            "src": "https://batanew.vteximg.com.br/arquivos/banner1.png",
+            "src": "https://batanew.vteximg.com.br/arquivos/banner-terciario1-desk.png",
             "link":{
-                "url":"/"
+                "url":"/tiendabata/hombre"
             }
         }
     },
     "image#banner-2": {
         "props": {
             "blockClass":["banner-item-tres"],
-            "src": "https://batanew.vteximg.com.br/arquivos/banner2.png",
+            "src": "https://batanew.vteximg.com.br/arquivos/banner-terciario2-desk.png",
             "link":{
-                "url":"/"
+                "url":"/tiendabata/mujer"
             }
         }
     },
     "image#banner-3": {
         "props": {
             "blockClass":["banner-item-tres"],
-            "src": "https://batanew.vteximg.com.br/arquivos/banner3.png",
+            "src": "https://batanew.vteximg.com.br/arquivos/banner-terciario3-desk.png",
             "link":{
-                "url":"/"
+                "url":"/tiendabata/ninos"
             }
         }
     } ,
@@ -51,24 +51,24 @@
           "height": 720,
           "images": [
             {
-              "image": "https://batanew.vteximg.com.br/arquivos/banner1.png",
-              "mobileImage": "https://batanew.vteximg.com.br/arquivos/banner1.png",
+              "image": "https://batanew.vteximg.com.br/arquivos/banner-terciario1--mobile.png",
+              "mobileImage": "https://batanew.vteximg.com.br/arquivos/banner-terciario1--mobile.png",
               "link":{
-                  "url":"/"
+                  "url":"/tiendabata/hombre"
               }
             },
             {
-                "image": "https://batanew.vteximg.com.br/arquivos/banner2.png",
-                "mobileImage": "https://batanew.vteximg.com.br/arquivos/banner2.png",
+                "image": "https://batanew.vteximg.com.br/arquivos/banner-terciario2-mobile.png",
+                "mobileImage": "https://batanew.vteximg.com.br/arquivos/banner-terciario2-mobile.png",
                 "link":{
-                    "url":"/"
+                    "url":"/tiendabata/mujer/calzado"
                 }
             },
             {
-                "image": "https://batanew.vteximg.com.br/arquivos/banner3.png",
-                "mobileImage": "https://batanew.vteximg.com.br/arquivos/banner3.png",
+                "image": "https://batanew.vteximg.com.br/arquivos/banner-terciario3-mobile.png",
+                "mobileImage": "https://batanew.vteximg.com.br/arquivos/banner-terciario3-mobile.png",
                 "link":{
-                    "url":"/"
+                    "url":"/Tiendabata/ninos"
                 }
             }
           ]

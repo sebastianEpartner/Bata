@@ -2,23 +2,39 @@
 .flexRow--productSpecificationGroupName {
   padding: 0.5rem 1rem;
 }
-
+/*Mod Cami*/
+/*
 .flexCol--productSpecificationName {
   padding: 1rem;
-}
-
+}*/
+/*Mod Cami*/
+/*Mod Cami*/
+/*
 .flexCol--productSpecificationValue {
   padding: 1rem 1rem 1rem 0;
-}
+}*/
+/*Mod Cami*/
 .flexRow--productSpecificationGroupName{
   display: none;
 }
-.flexCol--productSpecificationName  {
+/*Mod Cami*/
+/*.flexCol--productSpecificationName  {
   padding: 5PX 0;
 }
+
 .flexCol--productSpecificationValue  {
   padding: 5px 0;
 }
+*/
+/*Mod Cami*/
 .flexRowContent--InformacionDos .stretchChildrenWidth .flexRow--productSpecificationGroup:last-child .flexColChild:last-child .flexRow--productSpecification:last-child .flexRowContent--productSpecification {
   display: block;
 }
+/*Mod Cami*/
+.flexColChild--contendorProduct .flexRowContent.flexRowContent--productSpecification {padding: 0;}
+.flexColChild--contendorProduct .flexRowContent.flexRowContent--productSpecificationGroup {padding: 0;}
+
+.flexColChild--contendorProduct  .flexRow.flexRow--productSpecificationGroup:last-child .flexRow--productSpecification:last-child {border-top: 1px solid #dedcdc;margin-top: 15px;padding-top: 15px;}
+.flexColChild--contendorProduct  .flexRow.flexRow--productSpecificationGroup:last-child :global(.vtex-product-specifications-1-x-specificationName):last-child {padding-bottom: 10px;}
+
+/*Mod Cami*/

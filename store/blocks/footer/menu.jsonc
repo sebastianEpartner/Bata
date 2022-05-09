@@ -38,7 +38,7 @@
       "blockClass":"footer-item",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/quienes-somos",
         "noFollow": false,
         "tagTitle": "Quiénes somos",
         "text": "Quiénes somos"
@@ -54,7 +54,7 @@
       "blockClass":"footer-item",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/nuestra-calzado",
         "noFollow": false,
         "tagTitle": "Nuestro calzado",
         "text": "Nuestro calzado"
@@ -86,7 +86,7 @@
       "blockClass":"footer-item",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/terminos-y-condiciones",
         "noFollow": false,
         "tagTitle": "Aviso legal",
         "text": "Aviso legal"
@@ -102,7 +102,7 @@
       "blockClass":"footer-item",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/faq",
         "noFollow": false,
         "tagTitle": "Política de tratamiento de datos",
         "text": "Política de tratamiento de datos"
@@ -247,10 +247,10 @@
       "blockClass":"footer-item",
       "itemProps": {
         "type": "internal",
-        "href": "/bags/backpacks",
+        "href": "/tiendabata/mujer",
         "noFollow": true,
         "tagTitle": "Categoría 1",
-        "text": "Categoría 1"
+        "text": "Mujer"
       }
     }
   },
@@ -264,10 +264,10 @@
       "blockClass":"footer-item",
       "itemProps": {
         "type": "internal",
-        "href": "/bags/backpacks",
+        "href": "/tiendabata/hombre",
         "noFollow": true,
         "tagTitle": "Categoría 2",
-        "text": "Categoría 2"
+        "text": "Hombre"
       }
     }
   },
@@ -280,10 +280,10 @@
       "blockClass":"footer-item",
       "itemProps": {
         "type": "internal",
-        "href": "/bags/backpacks",
+        "href": "/tiendabata/niños",
         "noFollow": true,
         "tagTitle": "Categoría 3",
-        "text": "Categoría 3"
+        "text": "Niños"
       }
     }
   },
@@ -296,10 +296,10 @@
       "blockClass":"footer-item",
       "itemProps": {
         "type": "internal",
-        "href": "/bags/backpacks",
+        "href": "/morral?_q=morral&map=ft",
         "noFollow": true,
         "tagTitle": "Categoría 4",
-        "text": "Categoría 4"
+        "text": "Morral"
       }
     }
   },
@@ -312,10 +312,10 @@
       "blockClass":"footer-item",
       "itemProps": {
         "type": "internal",
-        "href": "/bags/backpacks",
+        "href": "/cartera?_q=cartera&map=ft",
         "noFollow": true,
         "tagTitle": "Categoría 5",
-        "text": "Categoría 5"
+        "text": "Cartera Mujer"
       }
     }
   },
@@ -360,7 +360,7 @@
       "blockClass":"footer-item",
       "itemProps": {
         "type": "internal",
-        "href": "/bags/backpacks",
+        "href": "/account",
         "noFollow": true,
         "tagTitle": "Seguimiento de pedidos",
         "text": "Seguimiento de pedidos"
@@ -377,7 +377,7 @@
       "blockClass":"footer-item",
       "itemProps": {
         "type": "internal",
-        "href": "/bags/backpacks",
+        "href": "/contacto",
         "noFollow": true,
         "tagTitle": "Contáctenos",
         "text": "Contáctenos"
@@ -393,7 +393,7 @@
       "blockClass":"footer-item",
       "itemProps": {
         "type": "internal",
-        "href": "/bags/backpacks",
+        "href": "/nuestro-compromiso",
         "noFollow": true,
         "tagTitle": "Nuestro compromiso",
         "text": "Nuestro compromiso"
@@ -563,7 +563,7 @@
       "blockClass":"footer-item",
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "/terminos-y-condiciones",
         "noFollow": true,
         "tagTitle": "Terminos y condiciones",
         "text": "Terminos y condiciones"

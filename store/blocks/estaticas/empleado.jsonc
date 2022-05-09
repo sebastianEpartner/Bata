@@ -3,16 +3,13 @@
     "children": [
       "image#bannerTopIzquierda-empleado",
       "flex-layout.row#empleado"
-    ],
-    "props":{
-      "blockClass":"contenedor"
-    }
+    ]
   },
   // imagen
   "image#bannerTopIzquierda-empleado": {
     "props": {
         "blockClass":["bannerEstaticas"],
-        "src": "https://batadev--batanew.myvtex.com/arquivos/fondoFooter-1.png"
+        "src": "https://batadev--batanew.myvtex.com/arquivos/imagenEstaticas.png"
     }
   }, 
   // contenedor del body
@@ -21,7 +18,7 @@
       "blockClass": "contenedor"
     },
     "children": [
-      "flex-layout.col#leftColAccesos",
+      "flex-layout.col#leftColAccesos-empleado",
       "flex-layout.col#empleado"
     ]
   },
@@ -46,49 +43,49 @@
   // accesos de las paginas estaticas
   "rich-text#Politica-datos-empleado": {
     "props": {
-      "text": "[Politica de datos](/)",
+      "text": "[Politica de datos](/faq)",
       "blockClass":"links-paginas-estaticas"
     }
   },
   "rich-text#Nuestro-calzado-empleado": {
     "props": {
-      "text": "[Nuestro calzado](/)",
+      "text": "[Nuestro calzado](/nuestro-calzado)",
       "blockClass":"links-paginas-estaticas"
     }
   },
   "rich-text#todo-sobre-pies-empleado": {
     "props": {
-      "text": "[Todo sobre los pies](/)",
+      "text": "[Todo sobre los pies](/todo-sobre-pies)",
       "blockClass":"links-paginas-estaticas"
     }
   },
   "rich-text#empleado-empleado": {
     "props": {
-      "text": "[Como ser empleado](/)",
+      "text": "[Como ser empleado](/como-ser-empleado)",
       "blockClass":"links-paginas-estaticas"
     }
   },
   "rich-text#Nuestro-compromiso-empleado": {
     "props": {
-      "text": "[Nuestro compromiso](/)",
+      "text": "[Nuestro compromiso](/nuestro-compromiso)",
       "blockClass":["links-paginas-estaticas","selected"]
     }
   },
   "rich-text#aviso-legal-empleado": {
     "props": {
-      "text": "[Aviso legal](/)",
+      "text": "[Aviso legal](/terminos-y-condiciones)",
       "blockClass":"links-paginas-estaticas"
     }
   },
   "rich-text#tiendas-empleado": {
     "props": {
-      "text": "[Tiendas](/)",
+      "text": "[Tiendas](/stores)",
       "blockClass":"links-paginas-estaticas"
     }
   },
   "rich-text#contactenos-empleado": {
     "props": {
-      "text": "[Contactenos](/)",
+      "text": "[Contactenos](/contacto)",
       "blockClass":["links-paginas-estaticas"]
     }
   },
@@ -100,12 +97,9 @@
     },
     "children": [
       "rich-text#empleado",
-      "flex-layout.col#compromiso1",
-      "flex-layout.col#compromiso2",
-      "flex-layout.col#compromiso3",
-      "flex-layout.col#compromiso4",
-      "flex-layout.col#compromiso5",
-      "flex-layout.col#compromiso6"
+      "flex-layout.col#empleado-1",
+      "flex-layout.col#empleado-2",
+      "flex-layout.col#empleado-3"
     ]
   },
   "rich-text#empleado": {

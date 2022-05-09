@@ -46,4 +46,7 @@
   .socialNetworksContainer {
     justify-content: center;
   }
+  .footerLayout {
+    overflow: hidden;
+  }
 }

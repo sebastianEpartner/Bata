@@ -4,4 +4,7 @@
 
 .specificationName {
   font-weight: bold;
+  font-size: 13px;
 }
+
+.specificationValue.specificationValue--first.specificationValue--last {font-size: 12px;}

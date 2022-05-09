@@ -32,9 +32,11 @@
 .listPrice--summary .currencyContainer--summary{
   font-size: 11px;
 }
+/*Mod Cami*/
 .currencyContainer{
-  color: red;
+  color: black;
 }
+/*Mod Cami*/
 .savings--summary {
   background: #8BC34A;
   border-radius: 1000px;
@@ -82,3 +84,6 @@
   color: #FFFFFF;
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
 }
+
+/*Mod Cami*/
+.listPrice.listPrice--summary {margin: 0;padding: 0;}

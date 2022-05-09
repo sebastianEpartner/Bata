@@ -1,0 +1,280 @@
+/* color del header */
+.flexRowContent--main-header-mobile {
+    background: white !important;
+}
+.flexRowContent--main-header {
+    background: white !important;
+    filter: blur(0) !important;
+}
+/* estilos para el wishList */
+.flexColChild--coolumanDerecha :global(.vtex-wish-list-1-x-wishlistIconContainer){
+    display: flex;
+    justify-content: center;
+}
+:global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button)::before{
+    content: "Agregar a mi lista de deseos";
+    font-size: 13px;
+    color: #808080;
+    text-decoration: underline;
+    text-transform: initial;
+}
+:global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button):hover{
+    background: transparent !important;
+}
+:global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button__label ){
+    display: none;
+}
+.flexRowContent--buy-buttonContainer {
+    margin-bottom: 0px;
+}
+.flexRowContent--uneteYacontainer {
+    margin: 0;
+    background: url(/arquivos/uneteYaFondobatadev.png) no-repeat;
+    background-size: 100%;  
+    height: 42px;
+    justify-content: center;
+}
+.flexRowContent--uneteYacontainer .stretchChildrenWidth{
+    width: auto !important;
+    margin: 0 5px;
+    align-items: center;
+}
+.flexRowContent--contenedor {
+    margin-bottom: 40px;
+}
+.flexRowContent--contenedor .stretchChildrenWidth:last-child{
+    height: 654px;
+    overflow-y: auto;
+}
+.flexRowContent--contenedor .flexCol--primeraCol {
+    max-height: 333px;
+}
+.flexRowContent--contenedor .stretchChildrenWidth:last-child::-webkit-scrollbar{
+    background: #C4C4C4;
+    width: 5px;
+    border-radius: 5px; 
+}
+.flexRowContent--contenedor .stretchChildrenWidth:last-child::-webkit-scrollbar-thumb{
+    background: #2A2A2A;
+    border-radius: 5px;
+}
+.flexRow--uneteYacontainer :global(.vtex-store-components-3-x-container){
+    padding: 0;
+}
+.flexRow--row-principal{
+    padding: 0 121px;
+}
+.flexRow--row-principal.flexRow--llamados-generales{
+    border-top: 1px solid #F1F1F1;
+    margin-top: 15px;
+    padding-top: 10px;
+    height: 28px;
+}
+.flexRow--llamados-generales .flexCol--columna-1{
+    border: 0;
+}
+/* estqaticas estilos */
+.flexCol--contentCompromiso  {
+    background: white;
+    padding: 10px;
+    margin: 11px 0;
+    height: auto;
+}
+/* quienes sommos estilso */
+.flexRowContent--quienesSomos-1 {
+    margin: 50px 0 30px 0;
+    padding: 0 100px;
+}
+.flexRowContent--quienesSomos-1 .stretchChildrenWidth:first-child{
+    padding-right: 40px;
+}
+.flexRowContent--quienesSomos-1 .flexColChild {
+    height: auto !important;
+}
+.flexRowContent--quienesSomos-1 .flexCol{
+    justify-content: center;
+}  
+.flexRowContent--llamadoValores {
+    padding: 0 130px;
+    margin-bottom: 50px;
+}
+.flexRow--corporativo{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 30px 100px;
+    background: white;
+}
+.flexRowContent--corporativo .stretchChildrenWidth{
+    padding: 0 30px ;
+}
+.flexRowContent--corporativo .stretchChildrenWidth:last-child{
+    border-left: 1px solid #D3D3D3;
+}
+.flexRowContent--corporativo :global(.vtex-rich-text-0-x-paragraph--contentQuienesSomos){
+    font-size: 15px;
+}
+.flexColChild--corporativoCol1 {
+    height: auto !important;
+}
+.flexRow--row-vitrine-category{
+    padding: 0 30px;
+    margin: 0 0 0px 0;
+}
+.flexRowContent--rowTittle .stretchChildrenWidth{
+    align-items: center;
+}
+.flexCol--vitrineBlockMinicart  {
+    display: none;
+}
+.flexCol--descuentoPrecio{
+    min-height: 21px;
+}
+.flexRowContent--contenedor1-pies .stretchChildrenWidth:last-child{
+    height: 100%;
+    overflow: auto;
+}
+.flexRowContent--contenedor1-pies .stretchChildrenWidth:last-child{
+    padding-left: 30px;
+}
+.flexRowContent--contenedor1-pies{
+    margin-bottom: 30px;
+}
+@media (max-width: 600px) {
+    /* esitlos del header */
+    .flexRowContent--main-header-mobile{
+        width: 100%;
+        display: flex;
+    }
+    .flexCol--columna-1 {
+        height: 41%;
+    }
+    .flexColChild--subMenu-container {
+        height: auto !important;
+        margin-bottom: 10px;
+    }
+    .flexRow--contendorProduct{
+        padding: 0;
+    }
+    .flexRowContent--buy-buttonContainer {
+        display: flex;
+        margin-bottom: 0px;
+    }
+    .flexColChild--coolumanDerecha :global(.vtex-add-to-cart-button-0-x-buttonText)::before{
+        display: none;
+    }
+    .flexColChild--contendorProduct .flexRowContent{
+        padding: 0;
+    }
+    .flexRowContent--uneteYacontainer {
+        display: flex;
+    }
+    /* estilos del breadcrumb */    
+    /* estilos de los precios del producto */
+    .flexColChild--coolumanDerecha :global(.vtex-product-price-1-x-listPriceValue) :global(.vtex-product-price-1-x-currencyContainer){
+        color: #808080;
+        font-size: 16px;
+    }
+    .flexColChild--coolumanDerecha :global(.vtex-product-price-1-x-currencyContainer){
+        font-size: 28px;
+    }
+    .flexColChild--coolumanDerecha .flexRowContent--precio-Des {
+        margin: 5px 0 0 0;
+    }
+    .flexColChild--coolumanDerecha :global(.vtex-product-price-1-x-sellingPriceValue){
+        font-size: 1.25rem;
+    }
+    .flexRowContent--precio-final {
+        margin: 2px 0 5px 0;
+    }
+    /* nombre del producto */
+    .flexRowContent--Producto-nombre .stretchChildrenWidth{
+        justify-content: flex-start;
+    }
+    /* cantidad y boton de comprar */
+    .flexRowContent--buy-buttonContainer .stretchChildrenWidth:last-child{
+        padding-left: 17px;
+    }
+    .flexRow--buy-buttonContainer :global(.vtex-numeric-stepper__input){
+        height: 100%;
+    }
+    .flexRow--buy-buttonContainer :global(.vtex-numeric-stepper__minus-button-container){
+        height: 100%;
+        background: white;
+    }
+    .flexRow--buy-buttonContainer :global(.vtex-numeric-stepper__plus-button){
+        background: white;
+    }
+    .flexRow--buy-buttonContainer :global(.vtex-numeric-stepper__minus-button-container ){
+        height: 40px;
+        min-height: 100%;
+    }
+    /* estilos del zoom */
+    /* .flexRowContent--images-Container .stretchChildrenWidth:last-child{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 999;
+        width: 26px !important;
+    } */
+    .flexCol--imagenes-contenedor  {
+        position: relative;
+    }
+    .flexCol--imagenes-contenedor  .flexColChild--imagenes-contenedor:last-child {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 999;
+        width: 26px!important;
+        height: 26px !important;
+    }
+    .flexRowContent--uneteYacontainer {
+        background: url(/arquivos/backgroundFixedMobileBtadev.png) no-repeat;
+        background-size: 100%;  
+    }
+    /* estilos quienes somos */
+    .flexRowContent--quienesSomos-1 {
+        padding: 0 10px;
+    }
+    .flexRowContent--quienesSomos-1 .stretchChildrenWidth:first-child{
+        padding: 0;
+    }
+    .flexRow--corporativo{
+        padding: 10px;
+    }
+    .flexRow--corporativo .stretchChildrenWidth{
+        padding: 0px;
+    }
+    .flexRow--corporativo .stretchChildrenWidth:last-child{
+        border-left: 0;
+        border-top: 1px solid #D3D3D3;
+    }
+    .flexRowContent--corporativo :global(.vtex-rich-text-0-x-wrapper--contentQuienesSomos){
+        margin-bottom: 10px;
+    }
+    .sliderLayoutContainer--iconosquienes{
+        padding: 0 10px;
+    }
+    .flexRowContent--row-vitrine-category {
+        display: flex;
+        padding: 0 10px;
+    }
+    .flexRowContent--row-vitrine-category .stretchChildrenWidth{
+        width: 50% !important;
+    }
+    :global(.vtex-disclosure-layout-1-x-content--visible) .flexRowContent--contenedor .stretchChildrenWidth:first-child{
+        display: none;
+    }
+    :global(.vtex-disclosure-layout-1-x-content--visible) .flexRowContent--contenedor .stretchChildrenWidth:last-child{
+        margin-top: 20px;
+    }
+    .flexRowContent--cantidad-precio .stretchChildrenWidth:first-child{
+        width: 100% !important;
+    }
+    .flexRowContent.flexRowContent--productSpecification.stretchChildrenWidth:last-child {width: 100% !important;}
+}
+@media (max-width: 390px) {
+    .flexCol--columna-1 {
+        bottom: 41px;
+        height: 45%;
+    }
+}

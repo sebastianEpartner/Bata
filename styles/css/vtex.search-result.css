@@ -1,31 +1,48 @@
+/*Mod Cami*/
 .galleryLayoutOptionButton {
-  background-color: #F0F0F0;
-  color: #3F3F40;
+  background-color: white;
+  color: black;
   padding: 0.375rem 0.75rem 0.375rem 0.75rem;
 }
-
 .galleryLayoutOptionButton--selected {
-  background-color: #3F3F40;
+  background-color: black;
   color: #FFFFFF;
 }
-
 .galleryLayoutSwitcher {
-  border-radius: 4px 4px 4px 4px;
   justify-content: center;
   overflow: hidden;
   width: auto !important;
   align-self: center
 }
-
+.gallery {
+  padding: 0;
+}
+/*Mod Cami*/
 .galleryItem--list {
   border-bottom: 1px #E7E9EE solid;
 }
 .gallery--grid {
   padding: 0;
 }
-.galleryItem--normal {
-  max-width: 25% !important;
+.buttonShowMore--layout {
+  margin: 45px 0 0 0;
 }
+
+.galleryLayoutSwitcher::before {content: "Visualización: ";display: flex;align-items: center;margin: 0 10px 0 0;}
+.filterAccordionItemBox{
+  margin: 0px;
+}
+
+.filterApplyButtonWrapper :global(.vtex-button) {background: black;color: white;font-size: 13px;}
+.filterClearButtonWrapper :global(.vtex-button) {color: black; border: 1px solid; font-size: 13px;}
+.accordionFilterItemTitle {font-size: 15px;}
+
+.accordionFilterContent {padding: 0;margin: 0;}
+
+.filterAccordionItemBox{
+  min-height: 40px;
+}
+/*Mod Cami*/
 .searchResultContainer {
   padding: 30px;
 }
@@ -68,6 +85,7 @@
   right: 0;
   width: 20px;
   height: 20px;
+  z-index: -1;
 }
 .filter__container--talla .filterContent :global(.vtex-checkbox__container ){
   display: none;
@@ -125,8 +143,9 @@
 }
 @media (max-width: 600px) {
   .galleryItem--normal {
-    max-width: 50% !important;
-    padding: 0 3px;
+    max-width: 50%!important;
+    padding: 0 6px;
+    margin-bottom: 15px;
   }
   .searchResultContainer{
     padding: 20px 0;

@@ -1,0 +1,232 @@
+{
+    "store.custom#piestodo": {
+        "children": [
+            "image#bannerTopIzquierda-nuestro-todoPies",
+            "flex-layout.row#nuestro-todoPies"
+        ],
+        "props":{
+          "blockClass":"contenedor"
+        }
+    },
+    // imagen
+    "image#bannerTopIzquierda-nuestro-todoPies": {
+        "props": {
+            "blockClass":["bannerEstaticas"],
+            "src": "https://batadev--batanew.myvtex.com/arquivos/imagenEstaticas.png"
+        }
+    }, 
+    // contenedor del body
+    "flex-layout.row#nuestro-todoPies": {
+        "props": {
+        "blockClass": "contenedor"
+        },
+        "children": [
+        "flex-layout.col#leftColAccesos-nuestro-todoPies",
+        "flex-layout.col#nuestro-todoPies"
+        ]
+    },
+    // primera columna accesos directos
+    "flex-layout.col#leftColAccesos-nuestro-todoPies": {
+        "props":{
+        "blockClass":"primeraCol",
+        "width":"20%"
+        },
+        "children": [
+        "rich-text#Politica-datos-nuestro-todoPies",
+        "rich-text#Nuestro-todoPies-nuestro-todoPies",
+        "rich-text#todo-sobre-pies-nuestro-todoPies",
+        "rich-text#empleado-nuestro-todoPies",
+        "rich-text#Nuestro-compromiso-nuestro-todoPies",
+        "rich-text#aviso-legal-nuestro-todoPies",
+        "rich-text#tiendas-nuestro-todoPies",
+        "rich-text#contactenos-nuestro-todoPies"
+        // "form#nuestro-todoPies"
+        ]
+    },
+    // accesos de las paginas estaticas
+    "rich-text#Politica-datos-nuestro-todoPies": {
+        "props": {
+        "text": "[Politica de datos](/faq)",
+        "blockClass":"links-paginas-estaticas"
+        }
+    },
+    "rich-text#Nuestro-todoPies-nuestro-todoPies": {
+        "props": {
+        "text": "[Nuestro calzado](/nuestro-calzado)",
+        "blockClass":"links-paginas-estaticas"
+        }
+    },
+    "rich-text#todo-sobre-pies-nuestro-todoPies": {
+        "props": {
+        "text": "[Todo sobre los pies](/todo-sobre-pies)",
+        "blockClass":["links-paginas-estaticas","selected"]
+        }
+    },
+    "rich-text#empleado-nuestro-todoPies": {
+        "props": {
+        "text": "[Como ser Empleado](/como-ser-empleado)",
+        "blockClass":"links-paginas-estaticas"
+        }
+    },
+    "rich-text#Nuestro-compromiso-nuestro-todoPies": {
+        "props": {
+        "text": "[Nuestro compromiso](/nuestro-compromiso)",
+        "blockClass":["links-paginas-estaticas"]
+        }
+    },
+    "rich-text#aviso-legal-nuestro-todoPies": {
+        "props": {
+        "text": "[Aviso legal](/terminos-y-condiciones)",
+        "blockClass":"links-paginas-estaticas"
+        }
+    },
+    "rich-text#tiendas-nuestro-todoPies": {
+        "props": {
+        "text": "[Tiendas](/stores)",
+        "blockClass":"links-paginas-estaticas"
+        }
+    },
+    "rich-text#contactenos-nuestro-todoPies": {
+        "props": {
+        "text": "[Contactenos](/contacto)",
+        "blockClass":["links-paginas-estaticas"]
+        }
+    },
+    // segunda columna
+    "flex-layout.col#nuestro-todoPies": {
+        "props":{
+        "width":"80%",
+        "blockClass":"segundaCol"
+        },
+        "children": [
+            "rich-text#todoPies",
+            "flex-layout.row#nuestro-pies1",
+            "info-card#historiaPies"
+        ]
+    },
+    "rich-text#todoPies": {
+        "props": {
+          "text": "## Todo sobre pies",
+          "blockClass":"Contacto"
+        }
+    },
+    "flex-layout.row#nuestro-pies1": {
+        "props": {
+          "blockClass": "contenedor1-pies"
+        },
+        "children": [
+            "flex-layout.col#PIEScol1",
+            "flex-layout.col#PIEScol2"
+        ]
+    },
+    "flex-layout.col#PIEScol1": {
+        "props":{
+          "blockClass":"espacio2",
+          "width":"20%"
+        },
+        "children":[
+            "image#lateral-banner-pies"
+        ]
+    },
+    "image#lateral-banner-pies": {
+        "props": {
+            "blockClass":["bannerEstaticas"],
+            "src": "https://batadev--batanew.myvtex.com/arquivos/piesInfo.png"
+        }
+    } ,
+    // columna 2
+    "flex-layout.col#PIEScol2": {
+        "props":{
+          "blockClass":"espacio1",
+          "width":"80%"
+        },
+        "children":[
+            "rich-text#todoPies1",
+            "rich-text#todoPies2",
+            "rich-text#todoPies3",
+            "rich-text#todoPies4",
+            "rich-text#todoPies5",
+            "rich-text#todoPies6",
+            "rich-text#todoPies7",
+            "rich-text#todoPies8",
+            "rich-text#todoPies9",
+            "rich-text#todoPies10"
+        ]
+    },
+    "rich-text#todoPies1": {
+        "props": {
+          "text": "Lo que debes saber sobre los pies. (Todo sobre los pies) ¿Sabías qué?",
+          "blockClass":"titulotyc"
+        }
+    },
+    "rich-text#todoPies2": {
+        "props": {
+          "text": "- El peso de tus zapatos aumenta el doble mientras caminas, seis veces mientras estás corriendo.",
+          "blockClass":"contenttyc"
+        }
+    },
+    "rich-text#todoPies3": {
+        "props": {
+          "text": "- Los pies de las personas delgadas se hacen más largos durante el día y los pies de las personas demasiado pesadas se hacen más amplios.",
+          "blockClass":"contenttyc"
+        }
+    },
+    "rich-text#todoPies4": {
+        "props": {
+          "text": "- A medida que avanza el día el tamaño del pie cambia hasta un 10%, lo que equivale aun número de calzado.",
+          "blockClass":"contenttyc"
+        }
+    },
+    "rich-text#todoPies5": {
+        "props": {
+          "text": "- Los pies de las mujeres jóvenes crecen hasta los 14 años de edad, mientras que los pies de los hombres jóvenes hasta los 16 años de edad.",
+          "blockClass":"contenttyc"
+        }
+    },
+    "rich-text#todoPies6": {
+        "props": {
+          "text": "- Existen tres tipos de pies - distinguidos por la forma y tamaño de los dedos: \n - Pie egipcio - el 2° dedo del pie es más corto que el dedo del grande pie – lo posee el 70% de la población \n - Pie griego - el 2° dedo del pie es más largo que el dedo grande del pie–lo 10% de población.",
+          "blockClass":"contenttyc"
+        }
+    },
+    "rich-text#todoPies7": {
+        "props": {
+          "text": "- Durante el período de vida de una persona, la planta de los pies se dobla, se extiende y se contrate 300 millones de veces, y aún permanece totalmente funcional.",
+          "blockClass":"contenttyc"
+        }
+    },
+    "rich-text#todoPies8": {
+        "props": {
+          "text": "- Una persona da aproximadamente 10.000 pasos por día, se pasea 3,200 kilómetros por año y recorre una distancia correspondiente a recorrer el mundo cuatro veces durante su vida.",
+          "blockClass":"contenttyc"
+        }
+    },
+    "rich-text#todoPies9": {
+        "props": {
+          "text": "- La suela de tus zapatos debe aguantar una presión de aproximada a las 500 toneladas diariamente.",
+          "blockClass":"contenttyc"
+        }
+    }
+    ,
+    "rich-text#todoPies10": {
+        "props": {
+          "text": "- Al igual que las huellas digitales, dos personas no pueden tener los mismos pies, ni el pie opuesto de una persona es simétrico con el otro. Algo de historia sobre los zapatos.",
+          "blockClass":"contenttyc"
+        }
+    },
+    // info card final
+    "info-card#historiaPies": {
+        "props": {
+          "id": "info-card-calzado2",
+          "isFullModeStyle": false,
+          "textPosition": "left",
+          "imageUrl": "https://batanew.vteximg.com.br/arquivos/infocard-zapatos.png",
+          "subhead":"La historia del zapato es tan antigua como la de las primeras prendas de vestir, y al igual que estas se creó con fines estéticos y para suplir una necesidad básica de protección.\n\n Los primero zapatos eran simplemente bolsas para pies hechas a mano a partir de cuero puro, y fue solo a partir del siglo XX que los zapatos reamente comenzaron a evolucionar de forma vertiginosa hasta convertirse en una prenda esencial el vestir diario de las personas, tomando así la propiedad de ser sinónimo de clase, distinción, posición social, etc. Hoy por hoy los zapatos se diseñan partiendo de la necesidad no de protección, sino más bien de confort y estilo, pasando así de ser una prenda básica a volverse un accesorio que juega con las aspiraciones de quien lo usa. Datos curiosos.\n\n Fueron, en realidad los hombres en usar los primeros tacones.\n\n El diseño Hawaiano de las sandalias, está en realidad inspirado en estilos japoneses.\n\nEl diseño Hawaiano de las sandalias, está en realidad inspirado en estilos japoneses.",
+          "mobileImageUrl":"https://batanew.vteximg.com.br/arquivos/infocard-zapatos.png",
+          "headline": "Historia del Zapato",
+          "callToActionUrl": "/sale/d",
+          "blockClass": "info-card-calzado1",
+          "textAlignment": "right"
+        }
+    }
+}

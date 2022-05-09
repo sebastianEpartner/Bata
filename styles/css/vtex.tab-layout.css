@@ -28,9 +28,10 @@
     background: white;
 }
 .listContainer--tabbersCategory {
-    padding: 0 10px;
+    padding: 0 30px;
     margin-bottom: 20px;
 }
+/*Mod Cami*/
 .listContainer--tabbersCategory .listItem {
     width: 20%;
     margin: 0;
@@ -44,10 +45,10 @@
 }
 /* ajsute de las flechas en los tabbers del home */
 .contentItem--tabbersVitrina :global(.vtex-slider-layout-0-x-sliderLeftArrow--shelf){
-    top: -28% !important;
+    top: -130px !important;
 }
 .contentItem--tabbersVitrina :global(.vtex-slider-layout-0-x-sliderRightArrow--shelf){
-    top: -28% !important;
+    top: -130px !important;
 }
 /* estilos del tabber producto */
 .container--product{

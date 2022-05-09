@@ -4,21 +4,125 @@
             "blockClass":"subMenu-Items"
         },
         "children":[
-            "menu-item#category-pricipal-marcas-m-1"
+            "menu-item#category-pricipal-marcas-bata",
+            "menu-item#category-pricipal-marcas-bubblegummers",
+            "menu-item#category-pricipal-marcas-disney",
+            "menu-item#category-pricipal-marcas-marvel",
+            "menu-item#category-pricipal-marcas-ns-m",
+            "menu-item#category-pricipal-marcas-puma-m",
+            "menu-item#category-pricipal-marcas-power-m",
+            "list-context.image-list#banner-hombre-category"
         ]
     },
-    "menu-item#category-pricipal-marcas-m-1": {
+    "menu-item#category-pricipal-marcas-bata": {
         "props": {
-            "id": "menu-item-category--pricipal-hombre",
+            "id": "menu-item-category--pricipal-bata",
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-principal"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
+            "href": "/bata",
             "noFollow": false,
-            "tagTitle": "Hombre",
-            "text": "Hombre"
+            "tagTitle": "Bata",
+            "text": "Bata"
+            }
+        }
+    },
+    "menu-item#category-pricipal-marcas-bubblegummers": {
+        "props": {
+            "id": "menu-item-category--pricipal-bata",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv3"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/bubblegummers",
+            "noFollow": false,
+            "tagTitle": "Bubblegummers",
+            "text": "Bubblegummers"
+            }
+        }
+    },
+    "menu-item#category-pricipal-marcas-disney": {
+        "props": {
+            "id": "menu-item-category--pricipal-bata",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv3"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/disney",
+            "noFollow": false,
+            "tagTitle": "Disney",
+            "text": "Disney"
+            }
+        }
+    },
+    "menu-item#category-pricipal-marcas-marvel": {
+        "props": {
+            "id": "menu-item-category--pricipal-bata",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv3"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/marvel",
+            "noFollow": false,
+            "tagTitle": "Marvel",
+            "text": "Marvel"
+            }
+        }
+    },
+    "menu-item#category-pricipal-marcas-ns-m": {
+        "props": {
+            "id": "menu-item-category--pricipal-bata",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv3"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/north-star",
+            "noFollow": false,
+            "tagTitle": "North star",
+            "text": "North star"
+            }
+        }
+    },
+    "menu-item#category-pricipal-marcas-puma-m": {
+        "props": {
+            "id": "menu-item-category--pricipal-bata",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv3"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/puma",
+            "noFollow": false,
+            "tagTitle": "puma",
+            "text": "puma"
+            }
+        }
+    },
+    "menu-item#category-pricipal-marcas-power-m": {
+        "props": {
+            "id": "menu-item-category--pricipal-bata",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv3"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/power",
+            "noFollow": false,
+            "tagTitle": "power",
+            "text": "power"
             }
         }
     }

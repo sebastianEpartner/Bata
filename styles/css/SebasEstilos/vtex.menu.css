@@ -1,0 +1,152 @@
+.styledLinkContent--generales-Menu {
+    color: #2A2A2A;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: initial;
+}
+.styledLinkContent--generales-Menu:hover {
+    text-decoration: underline;
+    color: red;
+}
+/* estilos items menu mobile */
+@media (max-width: 700px) {
+    .styledLinkContent--cuenta{
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .styledLinkContent--cuenta::before  {
+        content: "";
+        background: url(/arquivos/userMobile-batadev.png);
+        background-size: cover;
+        width: 18px;
+        height: 18px;
+        display: block;
+        margin-right: 10px;
+    }
+    .styledLinkContent--tiendas {
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .styledLinkContent--tiendas::before {
+        content: "";
+        background: url(/arquivos/tiendaMobile-batadev.png);
+        background-size: cover;
+        width: 16px;
+        height: 22px;
+        display: block;
+        margin-right: 10px;
+    }
+    /* estilos para el regraso */
+    :global(.vtex-disclosure-layout-1-x-content--subMneusMContent--visible) .styledLinkContent--menu-principal{
+        color: red;
+    }
+    :global(.vtex-disclosure-layout-1-x-content--subMneusMContent--visible) .menuItem--menu-principal::after{
+        display: none;
+    }
+    :global(.vtex-disclosure-layout-1-x-content--subMneusMContent--visible) .menuItem--menu-principal::before{
+        content: "";
+        background: url(/arquivos/flecha-regresoPrincipal.png) no-repeat;
+        background-size: 100%;
+        width: 7px;
+        height: 15px;
+        display: block;
+        right: 20px;
+        top: 5px;
+    }
+    :global(.vtex-disclosure-layout-1-x-content--subMneusMContent--visible) .menuItem {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    :global(.vtex-disclosure-layout-1-x-content--subMneusMContent--visible){
+        height: 96% !important;
+    }
+    /* iconos del segundo nivel del menu */
+    .styledLinkContainer--menu-lv2 {
+        margin: 0;
+    }
+    .styledLinkContent--zapatos{
+        display: flex;
+        align-items:center ;
+    }
+    .styledLinkContent--accesorios{
+        display: flex;
+        align-items:center ;
+    }
+    .styledLinkContent--marcas{
+        display: flex;
+        align-items:center ;
+    }
+    .styledLinkContent--zapatos::before{
+        content: "";
+        background: url(/arquivos/zapatos-newBatadev.png) no-repeat;
+        background-size: 100%;
+        width: 20px;
+        height: 20px;
+        display: block;
+        margin-right: 10px;
+        right: 20px;
+        top: 5px;
+    }
+    .styledLinkContent--accesorios::before{
+        content: "";
+        background: url(/arquivos/accesorios-newBatadev.png) no-repeat;
+        background-size: 100%;
+        width: 20px;
+        height: 20px;
+        display: block;
+        margin-right: 10px;
+        right: 20px;
+        top: 5px;
+    }
+    .styledLinkContent--marcas::before{
+        content: "";
+        background: url(/arquivos/marcas-newBatadev.png) no-repeat;
+        background-size: 100%;
+        width: 20px;
+        height: 20px;
+        display: block;
+        margin-right: 10px;
+        right: 20px;
+        top: 5px;
+    }
+    .styledLinkContainer--Titulos-Menu {
+        margin: 0;
+    }
+    .styledLinkContainer--menu-items {
+        margin: 0;
+    }
+    .styledLinkContainer--menu-items-destacado {
+        margin: 0;
+    }
+    /* estilños del nievel 3 */
+    .menuItem--cerrarLvl3::after {
+       display: none !important;
+    }
+    .styledLinkContent--cerrarLvl3::before {
+        content: "";
+        background: url(/arquivos/flecha-regresoPrincipal.png) no-repeat;
+        background-size: 100%;
+        width: 7px;
+        height: 15px;
+        display: block;
+        right: 20px;
+        top: 5px;
+        margin-right: 20px;
+    }
+    .styledLinkContainer--menu-lv3 {
+        margin: 0;
+    }
+    .styledLinkContent.styledLinkContent--menu-lv3 {
+        text-transform: initial;
+        font-size: 14px;
+        font-weight: 100;
+    }
+    .styledLinkContent.styledLinkContent--cerrarLvl3 {
+        display: flex;
+        align-items: center;
+        color: red;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}

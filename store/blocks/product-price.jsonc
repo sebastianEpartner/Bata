@@ -4,7 +4,8 @@
       "colGap": 2,
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
-      "marginBottom": 4
+      "marginBottom": 4,
+      "blockClass":"precio-final"
     },
     "children": [
       "product-selling-price"
@@ -17,7 +18,8 @@
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
       "marginBottom": 2,
-      "marginTop": 5
+      "marginTop": 5,
+      "blockClass":"precio-Des"
     },
     "children": [
       "product-list-price"

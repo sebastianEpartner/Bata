@@ -1,0 +1,62 @@
+.flexRowContent.flexRowContent--productInfo {display: block;width: 100%;}
+
+.flexRow.flexRow--productpriceC {min-height: 16px;}
+
+.flexRowContent.flexRowContent--cheackoutButtons {padding-left: 1.5rem;
+    padding-right: 1.5rem;}
+
+.flexRowContent.flexRowContent--rowProduct {margin: 0;padding: 0;}
+
+.flexRow.flexRow--precioBox {
+  display: flex;
+  align-items: end;
+}
+.flexRow--buy-buttonContainer :global(.vtex-button):hover{
+  background: white;
+  color: black;
+  border: 1px solid;
+
+}
+.flexRow--buy-buttonContainer :global(.vtex-button){
+  color: white;
+  font-weight: 700;
+}
+.flexRow--productCartButton :global(.vtex-button){
+  color: black;
+}
+@media (max-width: 800px) {
+  .flexRow--productCartButton{
+    position: relative;
+  }
+  .flexRowContent.flexRowContent--credits {
+    margin: 17px 0 0 0;
+  }
+}
+.flexRow.flexRow--informacionTabDos .flexRow.flexRow--productSpecification:last-child {display: none;}
+
+.flexRow.flexRow--filtrosM {
+  margin-top: 35px;
+}
+.flexRowContent--producto-image-and-zoom .stretchChildrenWidth:last-child {
+  position: absolute;
+  right: 0%;
+  top: 3%;
+  z-index: 9;
+  width: 82px!important;
+}
+.flexRowContent--producto-image-and-zoom .stretchChildrenWidth:first-child {
+  width: 100%!important;
+  padding: 0;
+}
+.flexRowContent--breadProduct {
+  margin-top: 0;
+}
+.flexRowContent.flexRowContent--precio {margin: 0;}
+.flexRowContent.flexRowContent--mosaicoHome-fila {height: 100%;}
+.flexRow--mosaicoHome-fila {height: 100%;margin: 0;padding: 0;}
+.flexRow.flexRow--precio {min-height: 23px;}
+
+.flexCol.flexCol--filtroContent {
+  overflow: scroll;
+  overflow-x: hidden;
+}

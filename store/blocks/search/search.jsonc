@@ -4,7 +4,8 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 16
       }
     }
   },
@@ -27,7 +28,8 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 16
       }
     }
   },
@@ -37,7 +39,8 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 16
       }
     }
   },
@@ -47,7 +50,8 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 16
       }
     }
   },
@@ -70,7 +74,8 @@
     "props": {
       "pagination": "show-more",
       "preventRouteChange": false,
-      "defaultGalleryLayout": "grid"
+      "defaultGalleryLayout": "grid",
+      "maxItemsPerPage": 15
     }
   },
   "image#banner-category": {
@@ -119,15 +124,25 @@
       "preventVerticalStretch": true
     }
   },
-  // control ordenar por 
+  /*Mod Cami*/
+  "flex-layout.col#gallery":{
+    "children": ["gallery-layout-switcher"],
+    "props":{
+      "blockClass": "galeriaC",
+      "width": "10%"
+    }
+  },
+
+  /*Mod Cami*/
+  // control ordenar por
   "flex-layout.row#searchinfo": {
     "props":{
       "blockClass":"rowTittle"
     },
-    "children": ["disclosure-layout#filtros", "flex-layout.row#orderByAndSwitcher"]
+    "children": ["disclosure-layout#filtros", "filter-navigator.v3#category2" ,"flex-layout.row#orderByAndSwitcher"]
   },
   "flex-layout.row#orderByAndSwitcher": {
-    "children": ["order-by.v2"],
+    "children": ["flex-layout.col#gallery","order-by.v2"],
     "props": {
       "horizontalAlign": "right",
       "preventHorizontalStretch": true,
@@ -179,7 +194,13 @@
         "mode1": "small",
         "mode2": "normal"
       },
-      "defaultGalleryLayout": "grid"
+      "defaultGalleryLayout": "grid",
+      "maxItemsPerPage": 16
+    }
+  },
+  "sidebar-close-button":{
+    "props":{
+      "size": 30
     }
   },
   "flex-layout.row#contentmobile": {
@@ -191,13 +212,15 @@
 
   "flex-layout.row#searchinfomobile": {
     "children": [
-      "flex-layout.col#orderByMobile",
-      "flex-layout.col#filterMobile"
+      "flex-layout.col#filterMobile",
+      "flex-layout.col#orderByMobile"
+
     ],
     "props": {
       "preserveLayoutOnMobile": true,
       "colSizing": "auto",
-      "colJustify": "around"
+      "colJustify": "around",
+      "blockClass": "filtrosM"
     }
   },
 
@@ -235,22 +258,21 @@
     "props": {
       "layouts": [
         {
-          "name": "grid",
+          "name": "x 4",
           "component": "GridSummary",
           "itemsPerRow": {
-            "(min-width:1300px)": 4,
-            "desktop": 3,
+            "desktop": 4,
             "tablet": 3,
             "phone": 2
           }
         },
         {
-          "name": "list",
+          "name": "x 5",
           "component": "ListSummary",
-          "itemsPerRow": 1
+          "itemsPerRow": 5
         }
       ],
-      "ListSummary": "product-summary.shelf#listLayout",
+      "ListSummary": "product-summary.shelf",
       "GridSummary": "product-summary.shelf"
     }
   },
@@ -266,7 +288,7 @@
   },
   "gallery-layout-option#grid": {
     "props": {
-      "name": "grid"
+      "name": "x 4"
     },
     "children": [
       "icon-grid",
@@ -275,7 +297,7 @@
   },
   "gallery-layout-option#list": {
     "props": {
-      "name": "list"
+      "name": "x 5"
     },
     "children": [
       "icon-inline-grid",
@@ -294,14 +316,14 @@
   },
   "rich-text#option-grid": {
     "props": {
-      "text": "Grid",
+      "text": "x 4",
       "textColor": "c-auto",
       "blockClass": "layout-option"
     }
   },
   "rich-text#option-list": {
     "props": {
-      "text": "List",
+      "text": "x 5",
       "textColor": "c-auto",
       "blockClass": "layout-option"
     }

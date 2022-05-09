@@ -1,0 +1,332 @@
+{
+    "store.custom#quines-somos": {
+        "children":[
+            "flex-layout.row#quienes-somos",
+            "rich-text#categorias",
+            "slider-layout#sliderValores",
+            "flex-layout.row#corporativo",
+            "rich-text#bataHoy",
+            "rich-text#subtituloBataHoy",
+            "list-context.image-list#sliderIconografia",
+            "list-context.image-list#redes",
+            "rich-text#botonExloraproductos",
+            "rich-text#lo-mas",
+            "flex-layout.row#vitrineCategory"
+        ],
+        "props":{
+          "blockClass":"contenedor"
+        }
+    },
+    // primer contendeor
+    "flex-layout.row#quienes-somos": {
+        "props": {
+          "blockClass": "quienesSomos-1"
+        },
+        "children": [
+            "flex-layout.col#quienes-somos-texto",
+            "flex-layout.col#quienes-somos-banner"
+        ]
+    },
+    // texto quienes somos
+    "flex-layout.col#quienes-somos-texto": {
+        "props":{
+          "blockClass":"",
+          "width":"40%"
+        },
+        "children": [
+            "rich-text#titulosQuines",
+            "rich-text#contentQuines"
+        ]
+    },
+    "rich-text#titulosQuines": {
+        "props": {
+          "text": "## Quienes somos",
+          "blockClass":["Contacto","quienes-somos"]
+        }
+    },
+    "rich-text#contentQuines": {
+        "props": {
+          "text": "Bata es una empresa global con actividades en los cinco continentes controlada por cuatro Unidades Regionales de Negocios Comerciales (CBUs). Cada una de estas unidades se especializa en la región de tareas específicas, tales como el desarrollo de productos, compras, o el apoyo de marketing.\n\n Cada MBU es una entidad de negocio independiente, capaz de adoptar rápidamente los cambios del mercado y / o aprovechar las oportunidades de crecimiento.\n\n La fuerza de Bata se encuentra en su presencia global (www.bata.com). Todas las empresas locales tienen su propia gestión, pero cada uno de ellos se beneficia de su relación con la organización multinacional y de sus sistemas de información, la innovación de productos, o de compra.",
+          "blockClass":["contentQuienesSomos"]
+        }
+    },
+    // banner quienes somos
+    "flex-layout.col#quienes-somos-banner": {
+        "props":{
+          "blockClass":"",
+          "width":"60%"
+        },
+        "children": [
+            "image#bannerprincipalquienes"
+        ]
+    },
+    "image#bannerprincipalquienes": {
+        "props": {
+            "blockClass":["bannerIzquierdoLateral","banner-item"],
+            "src": "https://batanew.vteximg.com.br/arquivos/quienesSomosBannerfinal.png"
+        }
+    },
+    // segundo contendeor
+    "rich-text#categorias": {
+        "props": {
+          "text": "Valores de la empresa",
+          "blockClass":["tituloquienes-somos"]
+        }
+    },
+    "slider-layout#sliderValores": {
+        "props": {
+          "height": 720,
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 4,
+            "phone": 3
+          },
+          "infinite": true,
+          "blockClass": "slideValores",
+          "showPaginationDots":"mobleOnly",
+          "showNavigationArrows": "never"
+        },
+        "children": [
+            "rich-text#transparencia",
+            "rich-text#puntualidad",
+            "rich-text#excelencia",
+            "rich-text#libertasd"
+        ]
+    },
+    "flex-layout.row#llamadados": {
+        "props": {
+            "blockClass": "llamadoValores"
+        },
+        "children": [
+            "rich-text#transparencia",
+            "rich-text#puntualidad",
+            "rich-text#excelencia",
+            "rich-text#libertasd"
+        ]
+    },
+    // links
+    "rich-text#transparencia": {
+        "props": {
+          "text": "Transparencia",
+          "blockClass":["Valores"]
+        }
+    },
+    "rich-text#puntualidad": {
+        "props": {
+          "text": "Puntualidad",
+          "blockClass":["Valores"]
+        }
+    },
+    "rich-text#excelencia": {
+        "props": {
+          "text": "Excelencia",
+          "blockClass":["Valores"]
+        }
+    },
+    "rich-text#libertasd": {
+        "props": {
+          "text": "Libertad",
+          "blockClass":["Valores"]
+        }
+    },
+    // tercer contenedor
+    "flex-layout.row#corporativo": {
+        "props": {
+            "blockClass": "corporativo"
+        },
+        "children": [
+            "image#imagenBataquienes",
+            "flex-layout.col#infocol1",
+            "flex-layout.col#infocol2"
+        ]
+    },
+    "image#imagenBataquienes": {
+        "props": {
+            "blockClass":["banner-quienes"],
+            "src": "https://batanew.vteximg.com.br/arquivos/bataquienes.png"
+        }
+    },
+    "flex-layout.col#infocol1": {
+        "props": {
+            "blockClass": "corporativoCol1"
+        },
+        "children": [
+            "rich-text#tituloCorporativo",
+            "rich-text#contentcorporativo1"
+        ]
+    },
+    // content
+    "rich-text#tituloCorporativo": {
+        "props": {
+          "text": "Corporativo BATA Colombia",
+          "blockClass":["Contacto","quienes-somos"]
+        }
+    },
+    "rich-text#contentcorporativo1": {
+        "props": {
+          "text": "Nos sentimos orgullosos de decir que con nuestra marca BATA somos el vendedor principal de calzado al por menor en Colombia, con más de 200 tiendas a lo largo y ancho del territorio nacional, de las cuales 31 corresponden a nuestra línea Bata City, 166 a Bata New Family y 3 liquidadoras.\n Muchas de nuestras tiendas han sido ampliamente reformadas con el fin de ofrecer confort, distinción y una sensación de exclusividad en nuestros clientes, de igual manera nos esforzamos día a día por llevar el mejor servicio a nuestros consumidores brindando una atención acorde a sus necesidades.",
+          "blockClass":["contentQuienesSomos"]
+        }
+    },
+    // columna 2
+    "flex-layout.col#infocol2": {
+        "props": {
+            "blockClass": "corporativoCol1"
+        },
+        "children": [
+            "rich-text#contentcorporativo2"
+        ]
+    },
+    // content
+    "rich-text#contentcorporativo2": {
+        "props": {
+          "text": "Nuestras tiendas en su interior se encuentran equipadas con muebles que están diseñados siguiendo las últimas tendencias de equipamiento mobiliario y que están a la vanguardia en estilo y comodidad, además de una amplia exhibición de toda nuestra gama de productos, dentro de la cadena minorista Bata también incluye calzado deportivo, casual, ejecutivo, vestir con secciones especializadas en mujer, hombre y niños buscando llegar a todos con estilos por medio de los cuales se sientan identificados.\n Estamos llegando a nuevas ciudades a nivel nacional con el propósito de abarcar todo tipo de deseos que nuestras marcas pueden complacer, ofreciendo precios competitivos en el mercado manteniendo siempre nuestras políticas de calidad. Visita nuestras tiendas",
+          "blockClass":["contentQuienesSomos"]
+        }
+    },
+    // cuarto contenedor
+    "rich-text#bataHoy": {
+        "props": {
+          "text": "## Bata hoy",
+          "blockClass":["Contacto","tituloquienes"]
+        }
+    },
+    "rich-text#subtituloBataHoy": {
+        "props": {
+          "text": "Conoce mas sobre BATA",
+          "blockClass":["subBattaTitulo"]
+        }
+    },
+     // slider iconografico ---------------------
+    "list-context.image-list#sliderIconografia": {
+        "children": ["slider-layout#sliderIconografia"],
+        "props": {
+            "height": 720,
+            "images": [
+                {
+                "image": "https://batanew.vteximg.com.br/arquivos/icon1.png",
+                "mobileImage": "https://batanew.vteximg.com.br/arquivos/icon1.png"
+                },
+                {
+                "image": "https://batanew.vteximg.com.br/arquivos/icon2.png",
+                "mobileImage": "https://batanew.vteximg.com.br/arquivos/icon2.png"
+                },
+                {
+                "image": "https://batanew.vteximg.com.br/arquivos/icon3.png",
+                "mobileImage": "https://batanew.vteximg.com.br/arquivos/icon3.png"
+                },
+                {
+                "image": "https://batanew.vteximg.com.br/arquivos/icon4.png",
+                "mobileImage": "https://batanew.vteximg.com.br/arquivos/icon4.png"
+                }
+            ]
+        }
+    },
+    "slider-layout#sliderIconografia": {
+        "props": {
+        "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 4,
+            "phone": 3
+        },
+            "infinite": true,
+            "showNavigationArrows": "never",
+            "blockClass": ["carousel","iconosquienes"],
+            "showPaginationDots":"mobileOnly"
+        }
+    },
+    // slider iconografico ---------------------
+    "list-context.image-list#redes": {
+        "children": ["slider-layout#redes"],
+        "props": {
+            "height": 720,
+            "images": [
+                {
+                "image": "https://batanew.vteximg.com.br/arquivos/fb.png",
+                "mobileImage": "https://batanew.vteximg.com.br/arquivos/fb.png"
+                },
+                {
+                "image": "https://batanew.vteximg.com.br/arquivos/ant-design_instagram-filled.png",
+                "mobileImage": "https://batanew.vteximg.com.br/arquivos/ant-design_instagram-filled.png"
+                }
+            ]
+        }
+    },
+    "slider-layout#redes": {
+        "props": {
+        "itemsPerPage": {
+            "desktop": 2,
+            "tablet": 2,
+            "phone": 2
+        },
+            "infinite": true,
+            "showNavigationArrows": "never",
+            "blockClass": ["carousel","redes"],
+            "showPaginationDots":"never"
+        }
+    },
+    "rich-text#botonExloraproductos": {
+        "props": {
+          "text": "## Explorar mas productos",
+          "blockClass":["productos"]
+        }
+    },
+    // quinto contenedor
+    "rich-text#lo-mas": {
+        "props": {
+          "text": "## Lo mas buscado",
+          "blockClass": "shelfTitle"
+        }
+    },
+    "flex-layout.row#vitrineCategory":{
+        "children": [
+            "flex-layout.col#col-vitrine-category",
+            "flex-layout.col#col-vitrine-category-1"
+        ],
+        "props":{
+            "blockClass": "row-vitrine-category"
+        }
+    },
+    "flex-layout.col#col-vitrine-category":{
+        "children": [
+            "image#imagenCategory"
+        ],
+        "props":{
+            "width":"20%",
+            "blockClass": "imagenColumnCategory"
+        }
+    },
+    "image#imagenCategory": {
+        "props": {
+          "src": "https://batanew.vteximg.com.br/arquivos/bannerquienesVitrine.png",
+          "blockClass": "imgCategoriaSlider"
+        }
+    },
+    "flex-layout.col#col-vitrine-category-1":{
+        "children": [
+            "list-context.product-list#category-2"
+        ],
+        "props":{
+            "width":"80%",
+            "blockClass": "sliderVitrine"
+        }
+    },
+    "list-context.product-list#category-2": {
+        "blocks": ["product-summary.shelf"],
+        "children": ["slider-layout#demo-category-2"]
+    },
+    "slider-layout#demo-category-2": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 1
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": ["shelf","category"],
+          "showPaginationDots":"mobileOnly",
+          "showNavigationArrows": "always"
+        }
+    }
+}

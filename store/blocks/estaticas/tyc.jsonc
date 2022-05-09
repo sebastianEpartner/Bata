@@ -12,7 +12,7 @@
    "image#bannerTopIzquierda-tyc": {
       "props": {
           "blockClass":["bannerEstaticas"],
-          "src": "https://batadev--batanew.myvtex.com/arquivos/fondoFooter-1.png"
+          "src": "https://batadev--batanew.myvtex.com/arquivos/imagenEstaticas.png"
       }
     }, 
     // contenedor del body
@@ -21,7 +21,7 @@
         "blockClass": "contenedor"
       },
       "children": [
-        "flex-layout.col#leftColAccesos",
+        "flex-layout.col#leftColAccesos-tyc",
         "flex-layout.col#tyc"
       ]
     },
@@ -46,49 +46,49 @@
     // accesos de las paginas estaticas
     "rich-text#Politica-datos-tyc": {
       "props": {
-        "text": "[Politica de datos](/)",
+        "text": "[Politica de datos](/faq)",
         "blockClass":"links-paginas-estaticas"
       }
     },
     "rich-text#Nuestro-calzado-tyc": {
       "props": {
-        "text": "[Nuestro calzado](/)",
+        "text": "[Nuestro calzado](/nuestro-calzado)",
         "blockClass":"links-paginas-estaticas"
       }
     },
     "rich-text#todo-sobre-pies-tyc": {
       "props": {
-        "text": "[Todo sobre los pies](/)",
+        "text": "[Todo sobre los pies](/todo-sobre-pies)",
         "blockClass":"links-paginas-estaticas"
       }
     },
     "rich-text#empleado-tyc": {
       "props": {
-        "text": "[Como ser Empleado](/)",
+        "text": "[Como ser Empleado](/como-ser-empleado)",
         "blockClass":"links-paginas-estaticas"
       }
     },
     "rich-text#Nuestro-compromiso-tyc": {
       "props": {
-        "text": "[Nuestro compromiso](/)",
+        "text": "[Nuestro compromiso](/nuestro-compromiso)",
         "blockClass":["links-paginas-estaticas","selected"]
       }
     },
     "rich-text#aviso-legal-tyc": {
       "props": {
-        "text": "[Aviso legal](/)",
+        "text": "[Aviso legal](/terminos-y-condiciones)",
         "blockClass":"links-paginas-estaticas"
       }
     },
     "rich-text#tiendas-tyc": {
       "props": {
-        "text": "[Tiendas](/)",
+        "text": "[Tiendas](/stores)",
         "blockClass":"links-paginas-estaticas"
       }
     },
     "rich-text#contactenos-tyc": {
       "props": {
-        "text": "[Contactenos](/)",
+        "text": "[Contactenos](/contacto)",
         "blockClass":["links-paginas-estaticas"]
       }
     },

@@ -32,35 +32,35 @@
                     "image": "https://batanew.vteximg.com.br/arquivos/bata.png",
                     "mobileImage": "https://batanew.vteximg.com.br/arquivos/bata.png",
                     "link":{
-                        "url":"/"
+                        "url":"/bata"
                     }
                 },
                 {
                     "image": "https://batanew.vteximg.com.br/arquivos/bataComfit.png",
                     "mobileImage": "https://batanew.vteximg.com.br/arquivos/bataComfit.png",
                     "link":{
-                        "url":"/"
+                        "url":"/bata-comfit"
                     }
                 },
                 {
                     "image": "https://batanew.vteximg.com.br/arquivos/verlonIO.png",
                     "mobileImage": "https://batanew.vteximg.com.br/arquivos/verlonIO.png",
                     "link":{
-                        "url":"/"
+                        "url":"/verlon"
                     }
                 },
                 {
                     "image": "https://batanew.vteximg.com.br/arquivos/diney.png",
                     "mobileImage": "https://batanew.vteximg.com.br/arquivos/diney.png",
                     "link":{
-                        "url":"/"
+                        "url":"/disney"
                     }
                 },
                 {
                     "image": "https://batanew.vteximg.com.br/arquivos/weinnbrenner.png",
                     "mobileImage": "https://batanew.vteximg.com.br/arquivos/weinnbrenner.png",
                     "link":{
-                        "url":"/"
+                        "url":"/weinnbrenner"
                     }
                 }
             ]

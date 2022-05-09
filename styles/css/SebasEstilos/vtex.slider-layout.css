@@ -1,0 +1,48 @@
+
+.sliderLayoutContainer--iconosquienes{
+    padding: 0 160px;
+    background: transparent;
+}
+.sliderLayoutContainer--redes{
+    padding: 0 48%;
+    margin: 30px 0;
+    background: transparent;
+}
+.slide--slideValores {
+    border: 1px solid #D3D3D3;
+    margin: 5px;
+}
+.sliderLayoutContainer--slideValores{
+    padding: 0 150px;
+}
+/* slider marcas menu principal */
+@media (max-width: 700px) {
+    .sliderLayoutContainer--slideValores{
+        padding: 0 0px;
+    }
+    .sliderLayoutContainer--menu-carousel {
+        padding: 0 15px;
+        background: white;
+    }
+    .sliderLayoutContainer--banners-menuLvl3{
+        position: absolute;
+        bottom: 60px;
+        width: 90%;
+        background: white;
+    }
+    .imageElement--banners-menuLvl3 {
+        width: 90% !important;
+    }
+    .sliderLayoutContainer--redes{
+        margin: 10px 0;
+        padding: 0 44%;
+    }
+    .sliderLayoutContainer--iconosquienes{
+        padding: 0 10px;
+        margin-bottom: 55px;
+    }
+    .paginationDotsContainer--iconosquienes {
+        bottom: -34px;
+    }
+    .sliderLayoutContainer--menu-carousel {margin-bottom: 18px;}
+}

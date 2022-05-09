@@ -1,0 +1,6 @@
+.slideChildrenContainer.slideChildrenContainer--shelf:hover {box-shadow: 0 0 11px 0px #dcdcdc;}
+@media (max-width: 800px) {
+  .imageElementLink.imageElementLink--carousel.imageElementLink.imageElementLink--carousel {
+    margin-top: 20px;
+}
+}

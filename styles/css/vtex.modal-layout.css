@@ -87,3 +87,7 @@
 .paper--product-gifts {
   padding: 1.5rem;
 }
+
+.headerContainer.headerContainer.headerContainer--cerradoPopProducto {position: absolute;border: 1px solid;color: red;right: 0;}
+
+.closeButton.closeButton--cerradoPopProducto {padding: 15px 15px;}

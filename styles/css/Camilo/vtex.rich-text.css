@@ -1,0 +1,14 @@
+.container.container--shelfTitle.container--categoriasTittleC {background: white;justify-content: center;}
+
+@media (max-width: 800px) {
+  .container.container--marcas-tittle {
+    margin-top: 35px;
+  }
+  .container.container--shelfTitle {
+    margin-top: 20px;
+  }
+
+}
+.link.link--categoriasTittle {color: white;text-decoration: none;font-weight: 700;font-size: 19px;}
+
+.link.link--categoriasTittle:hover {text-decoration: underline;}

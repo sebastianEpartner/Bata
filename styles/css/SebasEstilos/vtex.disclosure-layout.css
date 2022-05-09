@@ -1,0 +1,33 @@
+.trigger--uneteYa {
+    display: none;
+}
+.trigger--cerrarFixed--visible{
+    position: absolute;
+    right: 10px;
+    width: 30px !important;
+    margin-top: 0;
+    cursor: pointer;
+}
+.trigger--fitroTrigger {
+    display: flex;
+    height: 36px;
+    align-items: center;
+}
+@media (max-width: 600px) {
+    .triggerContainer--zoom {
+        display: none;
+    }
+    .triggerContainer--Trigger-Zoom-list {
+        width: 40px;
+    }
+    .trigger--tyc {
+        margin: 0 20px;
+        width: 89%;
+        background: white!important;
+        padding: 0 10px!important;
+        border-bottom: 1px solid #d3d3d3!important;
+    }
+    .trigger--tyc--visible{
+        border: 1px solid red !important;
+    }
+}

@@ -1,6 +1,6 @@
 /* estillos del backgorund del template */
 :global(.vtex-store__template) {
-  background: #F6F6F6;
+  background: #FAFAFA;
 }
 .container{
   max-width: 100%;
@@ -12,6 +12,7 @@
   font-size: 12px;
   text-decoration: underline;
 }
+
 /* info card home */
 .infoCardContainer--info-card-home {
   max-width: 100%;
@@ -189,7 +190,7 @@
 .skuSelectorOptionsList .frameAround{
   border: 0;
 }
-.skuSelectorItem--selected {
+.skuSelectorItem--selected .valueWrapper {
   background: #2A2A2A;
   border: 0;
 }
@@ -230,15 +231,19 @@
   justify-content: center;
 }
 .imageElement--bannerIzquierdoLateral{
-  height: 100% !important;
+  height: 103% !important;
 }
+/*Mod cami*/
 .imageElementLink--banner-item{
-  height: 96% !important;
+  display: block;
+  overflow: hidden;
+  margin: 0 5px 10px 5px;
 }
+/*Mod cami*/
 .imageElement--banner-item {
   padding: 0;
   height: 96%;
-  width: 98%;
+  width: 100%;
 }
 .sizeDesktop {
   padding: 0;
@@ -270,13 +275,10 @@
   width: 50%;
   display: block;
 }
-.productImagesThumb {
-  width: 120px !important;
-}
 .imageElement--banner-item-category{
-  height: 200px;
   width: 100%;
 }
+/*Mod Cami*/
 .imageElement--banner-item{
   height: 100%;
 }
@@ -307,7 +309,7 @@
 }
 .imageElementLink--extrella::before {
   content: "";
-  background: url(/arquivos/favoritos-nohover-batadev.png) no-repeat;
+  background: url(https://batanew.vteximg.com.br/arquivos/favoritos-75x75.png) no-repeat;
   background-size: 100%;
   width: 21px;
   height: 21px;
@@ -315,7 +317,7 @@
 }
 .imageElementLink--extrella:hover::before {
   content: "";
-  background: url(/arquivos/favoritos-hover-batadev}.png) no-repeat;
+  background: url(/arquivos/favoritos-hover-75x75.png) no-repeat;
   background-size: 100%;
   width: 21px;
   height: 21px;
@@ -361,4 +363,29 @@
 }
 .imageElement--bannerEstaticas{
   margin-bottom: 30px;
+}
+.infoCardCallActionContainer--info-card-calzado1 {
+  display: none;
+}
+.infoCardImageContainer--info-card-calzado1  {
+  width: 30%;
+}
+.infoCardTextContainer--info-card-calzado1 {
+  width: 70%;
+  padding-right: 60px;
+}
+.infoCardSubhead--info-card-calzado1 {
+  line-height: 22px;
+  color: #808080;
+  font-size: 15px;
+  
+}
+.infoCardHeadline--info-card-calzado1 {
+  font-size: 20px;
+  color: #2A2A2A;
+  margin: 0;
+}
+.infoCardContainer--info-card-calzado1 {
+  background-color: transparent;
+  margin-top: 48px;
 }

@@ -13,7 +13,7 @@
             "blockClass": "fitroTrigger"
         }
     },
-    // disparador para cerrar el filtro 
+    // disparador para cerrar el filtro
     "disclosure-trigger#filtros1": {
         "children": ["rich-text#filtroTitulo-1"],
             "props": {
@@ -64,7 +64,20 @@
     // propiedades de los filtros
     "filter-navigator.v3":{
         "props":{
-          "initiallyCollapsed":"true"
-        }
-    }
+          "initiallyCollapsed":"true",
+          "showClearByFilter": true,
+          "fullWidthOnMobile": true
+        },
+        "blocks":[
+          "sidebar-close-button"
+        ]
+    },
+    /*Mod Cami*/
+    "filter-navigator.v3#category2":{
+      "props":{
+          "initiallyCollapsed": "false",
+          "blockClass":"filtros2",
+          "showClearByFilter":true
+      }
+  }
 }

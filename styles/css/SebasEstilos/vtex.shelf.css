@@ -1,0 +1,39 @@
+/* estilos de las flechas */
+.caretIcon--shelf{
+    display: none;
+}
+.arrowLeft--shelf::before {
+    content: "";
+    background: url(https://batanew.vteximg.com.br/arquivos/derecha-flechaProducto.png) no-repeat;
+    background-size: 100% !important;
+    display: block;
+    width: 50px;
+    height: 50px;
+    transition: all 40ms;
+    transition: 400ms all;
+}
+.arrowRight--shelf::before {
+    content: "";
+    background: url(https://batanew.vteximg.com.br/arquivos/derecha-flechaProducto.png) no-repeat;
+    background-size: 100% !important;
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-top: 0;
+    transition: all 40ms;
+    margin-right: 5px;
+    transition: 400ms all;
+}
+@media (max-width: 600px) {
+    .relatedProducts .arrowLeft--shelf{
+        top: -43px !important;
+        left: 69% !important;
+    }
+    .relatedProducts .arrowRight--shelf{
+        top: -43px !important;
+        right: 0% !important;
+    }
+    .relatedProducts .slide--shelf{
+        padding:  0 5px;
+    }
+}

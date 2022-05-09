@@ -28,8 +28,18 @@
             "menu-item#category-apparel-lanzamientoss",
             "menu-item#category-apparel-vendidos",
             "menu-item#category-apparel-precios",
-            "menu-item#category-apparel-tarjetas"
+            "menu-item#category-apparel-tarjetas",
+            "image#hombre-menu-mobile"
         ]
+    },
+    "image#hombre-menu-mobile": {
+        "props": {
+            "blockClass":"banner-menu-mobile",
+            "src": "https://batanew.vteximg.com.br/arquivos/subMenuMobilebatadev.png",
+            "link":{
+                "url":"/"
+            }
+        }
     },
     // Sub menu zapatos -----------------------------------------------
     "disclosure-layout#hombre-zapatos-lvl2": {
@@ -44,8 +54,14 @@
           "blockClass": "subMneusMTrigger"
         }
     },
+    "disclosure-trigger#hombre-zapatos-lvl2-2": {
+        "children": ["menu-item#category-pricipal-hombre-zapatos-m-2"],
+        "props": {
+          "blockClass": "subMneusMTrigger"
+        }
+    },
     "disclosure-content#hombre-zapatos-lvl2": {
-        "children": ["disclosure-trigger#hombre-zapatos-lvl2","flex-layout.col#hombre-lvl2"],
+        "children": ["disclosure-trigger#hombre-zapatos-lvl2-2","flex-layout.col#hombre-lvl2"],
         "props": {
           "blockClass": "subMneusMContent"
         }
@@ -58,7 +74,23 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2"],
+            "blockClass":["menu-lv2","zapatos"],
+            "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Zapatos",
+            "text": "Zapatos"
+            }
+        }
+    },
+    // item de cierre
+    "menu-item#category-pricipal-hombre-zapatos-m-2": {
+        "props": {
+            "id": "menu-item-category--pricipal-zapatos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv3","hombre","cerrarLvl3"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -73,47 +105,43 @@
             "blockClass":"subMenu-container"
         },
         "children":[
-            "menu-item#category-pricipal-hombre-tacones-m",
-            "menu-item#category-pricipal-hombre-tenisModas-m",
             "menu-item#category-pricipal-hombre-botas-m",
-            "menu-item#category-pricipal-hombre-botines-m",
-            "menu-item#category-pricipal-hombre-baletas-m",
-            "menu-item#category-pricipal-hombre-tenisDepo-m",
+            "menu-item#category-pricipal-hombre-botas-ind-m",
+            "menu-item#category-pricipal-hombre-canvas-m",
+            "menu-item#category-pricipal-hombre-tenis-deportivos-m",
             "menu-item#category-pricipal-hombre-sandalias-m",
-            "menu-item#category-pricipal-hombre-chanclas-m",
-            "menu-item#category-pricipal-hombre-mocasine-m"
+            "menu-item#category-pricipal-hombre-mocasine-m",
+            "menu-item#category-pricipal-hombre-zapatos-formales-m",
+            "list-context.image-list#banner-hombre-category"
         ]
     },
-    "menu-item#category-pricipal-hombre-tacones-m": {
+    // banner para categorias
+    "list-context.image-list#banner-hombre-category": {
+        "children": ["slider-layout#ninos-nina"],
         "props": {
-            "id": "menu-item-category--pricipal-tacones",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "blockClass":["menu-item-levl2"],
-            "itemProps": {
-            "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
-            "noFollow": false,
-            "tagTitle": "Tacones",
-            "text": "Tacones"
-            }
+            "height": 720,
+            "images": [
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-1.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-1.png"
+                },
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-2.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-2.png"
+                }
+            ]
         }
     },
-    "menu-item#category-pricipal-hombre-tenisModas-m": {
+    "slider-layout#hombre-category": {
         "props": {
-            "id": "menu-item-category--pricipal-tenis",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "blockClass":["menu-item-levl2"],
-            "itemProps": {
-            "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
-            "noFollow": false,
-            "tagTitle": "Tenis Moda",
-            "text": "Tenis Moda"
-            }
+        "itemsPerPage": {
+            "desktop": 2,
+            "tablet": 2,
+            "phone": 2
+        },
+        "infinite": true,
+        "showNavigationArrows": "never",
+        "blockClass": ["carousel","banners-menuLvl3"]
         }
     },
     "menu-item#category-pricipal-hombre-botas-m": {
@@ -122,58 +150,58 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/tiendabata/hombre/calzado/botas",
             "noFollow": false,
             "tagTitle": "Botas",
             "text": "Botas"
             }
         }
     },
-    "menu-item#category-pricipal-hombre-botines-m": {
+    "menu-item#category-pricipal-hombre-botas-ind-m": {
+        "props": {
+            "id": "menu-item-category--pricipal-tenis",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv3"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/tiendabata/hombre/calzado/tenis-casual",
+            "noFollow": false,
+            "tagTitle": "Botas industriales",
+            "text": "Tenis casual"
+            }
+        }
+    },
+    "menu-item#category-pricipal-hombre-canvas-m": {
+        "props": {
+            "id": "menu-item-category--pricipal-canvas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv3"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/tiendabata/hombre/calzado/canvas",
+            "noFollow": false,
+            "tagTitle": "Canvas",
+            "text": "Canvas"
+            }
+        }
+    },
+    "menu-item#category-pricipal-hombre-tenis-deportivos-m": {
         "props": {
             "id": "menu-item-category--pricipal-botines",
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
-            "noFollow": false,
-            "tagTitle": "Botines",
-            "text": "Botines"
-            }
-        }
-    },
-    "menu-item#category-pricipal-hombre-baletas-m": {
-        "props": {
-            "id": "menu-item-category--pricipal-baletas",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "blockClass":["menu-item-levl2"],
-            "itemProps": {
-            "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
-            "noFollow": false,
-            "tagTitle": "Baletas",
-            "text": "Baletas"
-            }
-        }
-    },
-    "menu-item#category-pricipal-hombre-tenisDepo-m": {
-        "props": {
-            "id": "menu-item-category--pricipal-Tenis",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "blockClass":["menu-item-levl2"],
-            "itemProps": {
-            "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/tiendabata/hombre/calzado/zapatillas-deportivas",
             "noFollow": false,
             "tagTitle": "Tenis deportivos",
             "text": "Tenis deportivos"
@@ -186,29 +214,13 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/tiendabata/hombre/calzado/sandalias",
             "noFollow": false,
             "tagTitle": "Sandalias",
             "text": "Sandalias"
-            }
-        }
-    },
-    "menu-item#category-pricipal-hombre-chanclas-m": {
-        "props": {
-            "id": "menu-item-category--pricipal-sandalias",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "blockClass":["menu-item-levl2"],
-            "itemProps": {
-            "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
-            "noFollow": false,
-            "tagTitle": "Chanclas",
-            "text": "Chanclas"
             }
         }
     },
@@ -218,17 +230,33 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/tiendabata/hombre/calzado/mocasines",
             "noFollow": false,
             "tagTitle": "Mocasines",
             "text": "Mocasines"
             }
         }
     },
-     // menu accesorios -----------------------------------------------
+    "menu-item#category-pricipal-hombre-zapatos-formales-m": {
+        "props": {
+            "id": "menu-item-category--pricipal-formales",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv3"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/tiendabata/hombre/calzado/zapatos-formales",
+            "noFollow": false,
+            "tagTitle": "Zapatos formales",
+            "text": "Zapatos formales"
+            }
+        }
+    },
+    // menu accesorios -----------------------------------------------
      "disclosure-layout#hombre-acce-lvl2": {
         "children": ["disclosure-trigger#hombre-acce-lvl2","disclosure-content#hombre-acce-lvl2"],
         "props": {
@@ -241,8 +269,14 @@
           "blockClass": "subMneusMTrigger"
         }
     },
+    "disclosure-trigger#hombre-acce-lvl2-2": {
+        "children": ["menu-item#category-pricipal-hombre-acce-m-2"],
+        "props": {
+          "blockClass": "subMneusMTrigger"
+        }
+    },
     "disclosure-content#hombre-acce-lvl2": {
-        "children": ["disclosure-trigger#hombre-acce-lvl2","flex-layout.col#hombre-acce-lvl2"],
+        "children": ["disclosure-trigger#hombre-acce-lvl2-2","flex-layout.col#hombre-acce-lvl2"],
         "props": {
           "blockClass": "subMneusMContent"
         }
@@ -255,7 +289,23 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2"],
+            "blockClass":["menu-lv2","accesorios"],
+            "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Accesorios",
+            "text": "Accesorios"
+            }
+        }
+    },
+    // item de cierre
+    "menu-item#category-pricipal-hombre-acce-m-2": {
+        "props": {
+            "id": "menu-item-category--pricipal-acce",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv3","hombre","cerrarLvl3"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -272,12 +322,41 @@
         "children":[
             "menu-item#category-pricipal-hombre-billeteras-m",
             "menu-item#category-pricipal-hombre-bolsos-m",
-            "menu-item#category-pricipal-hombre-carteras-m",
-            "menu-item#category-pricipal-hombre-cinturones-m",
+            "menu-item#category-pricipal-hombre-cinturon-m",
             "menu-item#category-pricipal-hombre-medias-m",
             "menu-item#category-pricipal-hombre-morralesMochilas-m",
-            "menu-item#category-pricipal-hombre-proctectives-m"
+            "menu-item#category-pricipal-hombre-proctectives-m",
+            "list-context.image-list#banner-hombre-accesorios"
         ]
+    },
+    // banner para accesorios
+    "list-context.image-list#banner-hombre-accesorios": {
+        "children": ["slider-layout#ninos-nina"],
+        "props": {
+            "height": 720,
+            "images": [
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-1.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-1.png"
+                },
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-2.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-2.png"
+                }
+            ]
+        }
+    },
+    "slider-layout#hombre-accesorios": {
+        "props": {
+        "itemsPerPage": {
+            "desktop": 2,
+            "tablet": 2,
+            "phone": 2
+        },
+        "infinite": true,
+        "showNavigationArrows": "never",
+        "blockClass": ["carousel","banners-menuLvl3"]
+        }
     },
     "menu-item#category-pricipal-hombre-billeteras-m": {
         "props": {
@@ -285,10 +364,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/tiendabata/hombre/accesorios/billeteras",
             "noFollow": false,
             "tagTitle": "Billeteras",
             "text": "Billeteras"
@@ -301,42 +380,26 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/tiendabata/hombre/accesorios/bolsos",
             "noFollow": false,
             "tagTitle": "Bolsos",
             "text": "Bolsos"
             }
         }
     },
-    "menu-item#category-pricipal-hombre-carteras-m": {
+    "menu-item#category-pricipal-hombre-cinturon-m": {
         "props": {
             "id": "menu-item-category--pricipal-carteras",
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
-            "noFollow": false,
-            "tagTitle": "Carteras",
-            "text": "Carteras"
-            }
-        }
-    },
-    "menu-item#category-pricipal-hombre-cinturones-m": {
-        "props": {
-            "id": "menu-item-category--pricipal-cinturones",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "blockClass":["menu-item-levl2"],
-            "itemProps": {
-            "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/hombre/accesorios/Cinturones",
             "noFollow": false,
             "tagTitle": "Cinturones",
             "text": "Cinturones"
@@ -349,10 +412,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/hombre/accesorios/medias",
             "noFollow": false,
             "tagTitle": "Medias",
             "text": "Medias"
@@ -365,10 +428,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/hombre/accesorios/morrales",
             "noFollow": false,
             "tagTitle": "Morrales y mochilas",
             "text": "Morrales y mochilas"
@@ -381,10 +444,10 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/Tiendabata/hombre/accesorios/protectives",
             "noFollow": false,
             "tagTitle": "Protectives",
             "text": "Protectives"
@@ -404,8 +467,14 @@
           "blockClass": "subMneusMTrigger"
         }
     },
+    "disclosure-trigger#hombre-marcas-lvl2-2": {
+        "children": ["menu-item#category-pricipal-hombre-marcas-m-2"],
+        "props": {
+          "blockClass": "subMneusMTrigger"
+        }
+    },
     "disclosure-content#hombre-marcas-lvl2": {
-        "children": ["disclosure-trigger#hombre-marcas-lvl2","flex-layout.col#hombre-marcas-lvl2"],
+        "children": ["disclosure-trigger#hombre-marcas-lvl2-2","flex-layout.col#hombre-marcas-lvl2"],
         "props": {
           "blockClass": "subMneusMContent"
         }
@@ -418,7 +487,23 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2"],
+            "blockClass":["menu-lv2","marcas"],
+            "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Marcas",
+            "text": "Marcas"
+            }
+        }
+    },
+    // item de cierre
+    "menu-item#category-pricipal-hombre-marcas-m-2": {
+        "props": {
+            "id": "menu-item-category--pricipal-marcas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv3","hombre","cerrarLvl3"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -433,29 +518,45 @@
             "blockClass":"subMenu-container"
         },
         "children":[
-            "menu-item#category-pricipal-hombre-aquarella-m",
             "menu-item#category-pricipal-hombre-bata-m",
-            "menu-item#category-pricipal-hombre-bataConfit-m",
+            "menu-item#category-pricipal-hombre-bataIndus-m",
             "menu-item#category-pricipal-hombre-redLabel-m",
-            "menu-item#category-pricipal-hombre-power-m",
+            "menu-item#category-pricipal-hombre-bg-m",
+            "menu-item#category-pricipal-hombre-weinbrenner-m",
             "menu-item#category-pricipal-hombre-xti-m",
-            "menu-item#category-pricipal-hombre-sandak-m"
+            "menu-item#category-pricipal-hombre-power-m",
+            "menu-item#category-pricipal-hombre-verlon-m",
+            "menu-item#category-pricipal-hombre-ns-m",
+            "list-context.image-list#banner-hombre-marcas"
         ]
     },
-    "menu-item#category-pricipal-hombre-aquarella-m": {
+    // banner para marcas
+    "list-context.image-list#banner-hombre-marcas": {
+        "children": ["slider-layout#ninos-nina"],
         "props": {
-            "id": "menu-item-category--pricipal-aquarella",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "blockClass":["menu-item-levl2"],
-            "itemProps": {
-            "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
-            "noFollow": false,
-            "tagTitle": "Aquarella",
-            "text": "Aquarella"
-            }
+            "height": 720,
+            "images": [
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-1.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-1.png"
+                },
+                {
+                    "image": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-2.png",
+                    "mobileImage": "https://batanew.vteximg.com.br/arquivos/banners-mobile-batadev-2.png"
+                }
+            ]
+        }
+    },
+    "slider-layout#hombre-marcas": {
+        "props": {
+        "itemsPerPage": {
+            "desktop": 2,
+            "tablet": 2,
+            "phone": 2
+        },
+        "infinite": true,
+        "showNavigationArrows": "never",
+        "blockClass": ["carousel","banners-menuLvl3"]
         }
     },
     "menu-item#category-pricipal-hombre-bata-m": {
@@ -464,29 +565,29 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/bata",
             "noFollow": false,
             "tagTitle": "Bata",
             "text": "Bata"
             }
         }
     },
-    "menu-item#category-pricipal-hombre-bataConfit-m": {
+    "menu-item#category-pricipal-hombre-bataIndus-m": {
         "props": {
-            "id": "menu-item-category--pricipal-comfit",
+            "id": "menu-item-category--pricipal-industrials",
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/bata-industrials",
             "noFollow": false,
-            "tagTitle": "Comfit",
-            "text": "Comfit"
+            "tagTitle": "Bata indsutrials",
+            "text": "Bata industrials"
             }
         }
     },
@@ -496,29 +597,45 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/bata-red-label",
             "noFollow": false,
             "tagTitle": "Bata Red label",
             "text": "Bata Red label"
             }
         }
     },
-    "menu-item#category-pricipal-hombre-power-m": {
+    "menu-item#category-pricipal-hombre-bg-m": {
         "props": {
-            "id": "menu-item-category--pricipal-power",
+            "id": "menu-item-category--pricipal-Bubblegummers",
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/bubblegummers",
             "noFollow": false,
-            "tagTitle": "Power",
-            "text": "Power"
+            "tagTitle": "Bubblegummers",
+            "text": "Bubblegummers"
+            }
+        }
+    },
+    "menu-item#category-pricipal-hombre-weinbrenner-m": {
+        "props": {
+            "id": "menu-item-category--pricipal-sandak",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv3"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/weinbrenner",
+            "noFollow": false,
+            "tagTitle": "Weinbrenner",
+            "text": "Weinbrenner"
             }
         }
     },
@@ -528,29 +645,61 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "XTI",
             "text": "XTI"
             }
         }
     },
-    "menu-item#category-pricipal-hombre-sandak-m": {
+    "menu-item#category-pricipal-hombre-power-m": {
         "props": {
-            "id": "menu-item-category--pricipal-sandak",
+            "id": "menu-item-category--pricipal-power",
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-item-levl2"],
+            "blockClass":["menu-lv3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/power",
             "noFollow": false,
-            "tagTitle": "Sandak",
-            "text": "Sandak"
+            "tagTitle": "Power",
+            "text": "Power"
+            }
+        }
+    },
+    "menu-item#category-pricipal-hombre-verlon-m": {
+        "props": {
+            "id": "menu-item-category--pricipal-verlon",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv3"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/verlon",
+            "noFollow": false,
+            "tagTitle": "Verlon",
+            "text": "Verlon"
+            }
+        }
+    },
+    "menu-item#category-pricipal-hombre-ns-m": {
+        "props": {
+            "id": "menu-item-category--pricipal-ns",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv3"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/north-star",
+            "noFollow": false,
+            "tagTitle": "North star",
+            "text": "North star"
             }
         }
     }
